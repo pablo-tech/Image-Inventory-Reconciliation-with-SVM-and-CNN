@@ -1,3 +1,5 @@
+# The Challenge: Amazon Bin Image Dataset(ABID) 
+https://github.com/silverbottlep/abid_challenge?
 # Proposal
 ## Project Title: Amazon Inventory Reconciliation using AI
 ## Project Category: Computer Vision
