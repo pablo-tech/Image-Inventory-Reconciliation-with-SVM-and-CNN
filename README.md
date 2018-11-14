@@ -1,3 +1,4 @@
+# Proposal
 ## Project Title: Amazon Inventory Reconciliation using AI
 ## Project Category: Computer Vision
 ## Team Members: 
@@ -15,6 +16,6 @@ Our hypothesis is that the problem can be treated as a multiclass classification
 To pick the best method, the classification error for each class may be used as a key metric
 
 Time permitting, we will work on the following additional interesting problems:
-Whether a particular item is present in the bin. Given a question of whether an item is present in the bin, the output should be a yes or no
-How many units of a given item are present in the bin
+- Whether a particular item is present in the bin. Given a question of whether an item is present in the bin, the output should be a yes or no
+- How many units of a given item are present in the bin
 
