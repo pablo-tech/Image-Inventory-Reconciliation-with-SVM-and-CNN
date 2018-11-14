@@ -1,5 +1,7 @@
 # The Challenge: Amazon Bin Image Dataset(ABID) 
 https://github.com/silverbottlep/abid_challenge?
+# Guidelines: CS229 Final Project
+http://cs229.stanford.edu/projects.html
 # Proposal
 ## Project Title: Amazon Inventory Reconciliation using AI
 ## Project Category: Computer Vision
