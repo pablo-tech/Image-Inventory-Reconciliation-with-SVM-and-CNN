@@ -1,6 +1,9 @@
 ## Project Title: Amazon Inventory Reconciliation using AI
 ## Project Category: Computer Vision
-## Team Members: Sravan Sripada 06318830, Nutchapol 005976992 , Pablo Bertorello 04530473
+## Team Members: 
+- Sravan Sripada 06318830
+- Nutchapol 005976992
+- Pablo Bertorello 04530473
 
 Amazon Fulfillment Centers are bustling hubs of innovation that allow Amazon to deliver millions of products to over 100 countries worldwide with the help of robotic and computer vision technologies. Occasionally, items are misplaced while being handled, resulting in a mismatch between recorded bin inventory and contents of some bin images. The project consists of using a bin image dataset to count the number of items in each bin, to detect variance from recorded inventory. 
 
