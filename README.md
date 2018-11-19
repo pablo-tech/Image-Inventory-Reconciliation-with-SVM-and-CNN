@@ -23,3 +23,7 @@ Time permitting, we will work on the following additional interesting problems:
 - Whether a particular item is present in the bin. Given a question of whether an item is present in the bin, the output should be a yes or no
 - How many units of a given item are present in the bin
 
+# Milestone
+
+https://docs.google.com/document/d/1xske1KOxGRQHKKHka5QHvT5bANZL9dsex68De2v9elg/edit?ts=5bf21736
+
