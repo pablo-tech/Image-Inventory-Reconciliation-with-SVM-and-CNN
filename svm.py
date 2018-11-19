@@ -65,7 +65,8 @@ with open(file_path) as metadata_file:
 # plt.show()
 
 # CONCATENATED
-X_A = np.vstack((sample_transformed, sample_transformed))
+A = sample_transformed
+X_A = np.concatenate((A, sample_transformed))
 print("X_A=", X_A.shape)
 
 # SVM
