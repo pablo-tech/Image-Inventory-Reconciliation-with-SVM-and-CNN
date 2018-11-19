@@ -52,6 +52,8 @@ sample_transformed = getTransformedMatrix(sample_image)
 
 # META
 X_set = []
+Y_out = []
+bad_count = 0
 train_xId_y_list = env_path+"counting_train.json"
 with open(train_xId_y_list) as metadata_file:
     metadata_json = json.load(metadata_file)
@@ -64,18 +66,22 @@ for xId_y in metadata_json:
         image_transformed = getTransformedMatrix(sample_image)
         if len(X_set)==0:
             X_set = image_transformed
+            Y_out = [expected_quantity]
         else:
             X_set = np.concatenate((X_set, image_transformed))
-        print("X_set=", X_set.shape)
+            Y_out = np.concatenate((Y_out, [expected_quantity]))
+        print("X_set=", X_set.shape, " Y_out=", Y_out.shape)
     except:
-        print("error=", file_name)
+        bad_count = bad_count+1
+        # print("error=", file_name)
+
     # print("EXPECTED_QUANTITY=",expected_quantity)
     # meta_list = metadata_json["BIN_FCSKU_DATA"]
     # for meta_key in meta_list:
     #     meta_data = meta_list[meta_key]
     #     print(meta_data["quantity"])
 
-print("X_set=", X_set.shape)
+print("X_set=", X_set.shape, " Y_out=", Y_out.shape)
 
 # plt.imshow(sample_image)
 # plt.show()
