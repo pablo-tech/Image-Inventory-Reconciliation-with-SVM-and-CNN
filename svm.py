@@ -42,11 +42,24 @@ with open(train_file) as f:
     data_list = json.loads(f.read())
 print("#files_train=", len(data_list))
 
-sample_path = "data/Images/"
-sample_name = "00001.jpg"
-sample_image = imread(sample_path+sample_name)
+sample_images = "data/Images/"
+sample_meta = "data/Metadata/"
+sample_name = "00001"
+sample_image = imread(sample_images+sample_name+".jpg")
 
 printShape(sample_image, sample_name)
+
+# META
+file_path = sample_meta+sample_name+".json"
+with open(file_path) as metadata_file:
+    metadata_json = json.load(metadata_file)
+    expected_quantity = metadata_json["EXPECTED_QUANTITY"]
+    print("EXPECTED_QUANTITY=",expected_quantity)
+    # meta_list = metadata_json["BIN_FCSKU_DATA"]
+    # for meta_key in meta_list:
+    #     meta_data = meta_list[meta_key]
+    #     print(meta_data["quantity"])
+
 
 # plt.imshow(sample_image)
 # plt.show()
