@@ -7,19 +7,19 @@ import skimage.transform
 
 
 # HELPER
-def getResizedMatrix(image):
+def getTransformedMatrix(image):
     num_rows = image.shape[0]
     num_columns = image.shape[1]
     num_colors = image.shape[2]
     num_pixels =  num_rows*num_columns
     # scaled = image.reshape(num_pixels, num_colors)
-    scaled = skimage.transform.resize(image, (224,224,3))
-    # training[idx, :] = img_data_resize.reshape(1, 224 * 224 * 3)
-    return scaled
+    resized = skimage.transform.resize(image, (224,224,3))
+    resizedReshaped = resized.reshape(1, 224 * 224 * 3)
+    return resizedReshaped
 
 def printShape(image, name):
     print("BEFORE: ", name, "= " , image.shape) # (128, 128, 3)
-    rgb_matrix =  getResizedMatrix(image).shape # (16384, 3)
+    rgb_matrix =  getTransformedMatrix(image).shape # (16384, 3)
     print("AFTER: ", name, "= " , rgb_matrix)
 
 # RANDOM
