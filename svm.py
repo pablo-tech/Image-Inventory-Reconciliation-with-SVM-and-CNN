@@ -51,13 +51,20 @@ sample_image = imread(sample_images+sample_name+".jpg")
 sample_transformed = getTransformedMatrix(sample_image)
 
 # META
+X_set = []
 train_xId_y_list = env_path+"counting_train.json"
-# with open(train_xId_y_list) as metadata_file:
-#     metadata_json = json.load(metadata_file)
-# for xId_y in metadata_json:
-#     print("xId_y=",xId_y)
-#     file_name = '%05d.jpg' % (xId_y[0])
-#     expected_quantity = xId_y[1]
+with open(train_xId_y_list) as metadata_file:
+    metadata_json = json.load(metadata_file)
+for xId_y in metadata_json:
+    print("xId_y=",xId_y)
+    file_name = '%05d.jpg' % (xId_y[0])
+    expected_quantity = xId_y[1]
+    this_image = imread(sample_images+file_name)
+    image_transformed = getTransformedMatrix(sample_image)
+    if len(X_set)==0:
+        X_set = image_transformed
+    else:
+        X_set = np.concatenate((X_set, image_transformed))
 
     # print("EXPECTED_QUANTITY=",expected_quantity)
     # meta_list = metadata_json["BIN_FCSKU_DATA"]
@@ -71,16 +78,16 @@ train_xId_y_list = env_path+"counting_train.json"
 
 # CONCATENATED
 # A = sample_transformed
-A = []
-i=0
-while(i<3):
-    if len(A)==0:
-        A = sample_transformed
-    else:
-        A = np.concatenate((A, sample_transformed))
-    i = i + 1
+# A = []
+# i=0
+# while(i<3):
+#     if len(A)==0:
+#         A = sample_transformed
+#     else:
+#         A = np.concatenate((A, sample_transformed))
+#     i = i + 1
 
-print("X_A=", A.shape)
+print("X_A=", X_set.shape)
 
 # SVM
 X = [[0, 0], [1, 1]]
