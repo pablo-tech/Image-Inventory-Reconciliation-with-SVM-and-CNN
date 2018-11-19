@@ -1,10 +1,31 @@
 from sklearn import svm
 import random
 import json
+from matplotlib.image import imread;
+import matplotlib.pyplot as plt;
+import skimage.transform
 
 
+# HELPER
+def getResizedMatrix(image):
+    num_rows = image.shape[0]
+    num_columns = image.shape[1]
+    num_colors = image.shape[2]
+    num_pixels =  num_rows*num_columns
+    # scaled = image.reshape(num_pixels, num_colors)
+    scaled = skimage.transform.resize(image, (224,224,3))
+    # training[idx, :] = img_data_resize.reshape(1, 224 * 224 * 3)
+    return scaled
+
+def printShape(image, name):
+    print("BEFORE: ", name, "= " , image.shape) # (128, 128, 3)
+    rgb_matrix =  getResizedMatrix(image).shape # (16384, 3)
+    print("AFTER: ", name, "= " , rgb_matrix)
+
+# RANDOM
 random.seed(229)
 
+# PATH
 local_path = ''
 sage_path = '/home/ec2-user/SageMaker/efs/amazon-bin/'
 env_path = local_path
@@ -16,17 +37,28 @@ image_path = env_path+'data/Images/'
 # img_path = env_path+'/data/bin-images-resize/'
 
 
+# FILE
 with open(train_file) as f:
     data_list = json.loads(f.read())
 print("#files_train=", len(data_list))
 
+sample_path = "data/Images/"
+sample_name = "00001.jpg"
+sample_image = imread(sample_path+sample_name)
 
+printShape(sample_image, sample_name)
+
+# plt.imshow(sample_image)
+# plt.show()
+
+
+# SVM
 X = [[0, 0], [1, 1]]
 y = [0, 1]
 
 clf = svm.SVC(gamma='scale')
-
-
 clf.fit(X, y)
 
 print("predict=", clf.predict([[2., 2.]]))
+
+

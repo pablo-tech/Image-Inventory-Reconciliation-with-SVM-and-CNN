@@ -8,4 +8,6 @@ dependencies:
   - python=3.6.6
   - scikit-learn
   - scipy
+  - pillow
+  - scikit-image
 
