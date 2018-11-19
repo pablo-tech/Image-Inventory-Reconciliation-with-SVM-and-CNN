@@ -27,3 +27,8 @@ Time permitting, we will work on the following additional interesting problems:
 
 https://docs.google.com/document/d/1xske1KOxGRQHKKHka5QHvT5bANZL9dsex68De2v9elg/edit?ts=5bf21736
 
+# Environment
+
+conda env create -f environment.yml
+source activate ai-inventory
+conda env remove -n ai-inventory
