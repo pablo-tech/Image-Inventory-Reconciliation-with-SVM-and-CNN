@@ -1,3 +1,4 @@
+import numpy as np
 from sklearn import svm
 import random
 import json
@@ -46,8 +47,7 @@ sample_images = "data/Images/"
 sample_meta = "data/Metadata/"
 sample_name = "00001"
 sample_image = imread(sample_images+sample_name+".jpg")
-
-printShape(sample_image, sample_name)
+sample_transformed = getTransformedMatrix(sample_image)
 
 # META
 file_path = sample_meta+sample_name+".json"
@@ -64,6 +64,9 @@ with open(file_path) as metadata_file:
 # plt.imshow(sample_image)
 # plt.show()
 
+# CONCATENATED
+X_A = np.vstack((sample_transformed, sample_transformed))
+print("X_A=", X_A.shape)
 
 # SVM
 X = [[0, 0], [1, 1]]
