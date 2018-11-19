@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000BQ7XQC": {
+            "asin": "B000BQ7XQC",
+            "height": {
+                "unit": "IN",
+                "value": 5.99999999388
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.99999998878
+            },
+            "name": "MSA Safety Works 818068 Hard Hat, Yellow",
+            "normalizedName": "MSA Safety Works 818068 Hard Hat, Yellow",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.8000000000000002
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.99999999082
+            }
+        },
+        "B014AHMN0S": {
+            "asin": "B014AHMN0S",
+            "height": {
+                "unit": "IN",
+                "value": 2.1999999977560005
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.49999998725
+            },
+            "name": "Barbie Fashionistas Doll 27 Sweetheart Stripes - Curvy",
+            "normalizedName": "Barbie Fashionistas Doll 27 Sweetheart Stripes - Curvy",
+            "quantity": 4,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001167587297
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.9999999949
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

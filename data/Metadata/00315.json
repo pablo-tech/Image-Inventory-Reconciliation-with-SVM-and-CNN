@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "1119209595": {
+            "asin": "1119209595",
+            "height": {
+                "unit": "IN",
+                "value": 1.0999999988780003
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.299999991534
+            },
+            "name": "The Ideal Team Player: How to Recognize and Cultivate The Three Essential Virtues",
+            "normalizedName": "The Ideal Team Player: How to Recognize and Cultivate The Three Essential Virtues",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.8499999992871979
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.49999999439
+            }
+        },
+        "143368912X": {
+            "asin": "143368912X",
+            "height": {
+                "unit": "IN",
+                "value": 1.0999999988780003
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.599999991228
+            },
+            "name": "Unashamed",
+            "normalizedName": "Unashamed",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.04999999911948
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.799999994084
+            }
+        },
+        "B00WL13K44": {
+            "asin": "B00WL13K44",
+            "height": {
+                "unit": "IN",
+                "value": 4.199999995716
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.899999991942001
+            },
+            "name": "Funny Guy Mugs 65th Birthday - 23,741 Days Young Travel Tumbler, White, 16-Ounce",
+            "normalizedName": "Funny Guy Mugs 65th Birthday - 23,741 Days Young Travel Tumbler, White, 16-Ounce",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.5999999994968457
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.199999995716
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

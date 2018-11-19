@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00BYXT0R6": {
+            "asin": "B00BYXT0R6",
+            "height": {
+                "unit": "IN",
+                "value": 4.299999995614
+            },
+            "length": {
+                "unit": "IN",
+                "value": 13.799999985924
+            },
+            "name": "GHD Air Professional Performance Hair Dryer",
+            "normalizedName": "GHD Air Professional Performance Hair Dryer",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.4
+            },
+            "width": {
+                "unit": "IN",
+                "value": 11.799999987964
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

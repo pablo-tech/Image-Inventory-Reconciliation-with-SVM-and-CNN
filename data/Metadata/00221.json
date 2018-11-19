@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0041I6BWS": {
+            "asin": "B0041I6BWS",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.99999999184
+            },
+            "name": "Rubie's Costume Co Green Mini Witch Hat Costume",
+            "normalizedName": "Rubie's Costume Co Green Mini Witch Hat Costume",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001186074866
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.299999994594
+            }
+        },
+        "B004XIUT10": {
+            "asin": "B004XIUT10",
+            "height": {
+                "unit": "IN",
+                "value": 0.399999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.299999994594
+            },
+            "name": "Zig 0.45mm Memory System Tip Millennium Marker, Pure Black",
+            "normalizedName": "Zig 0.45mm Memory System Tip Millennium Marker, Pure Black",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.05
+            },
+            "width": {
+                "unit": "IN",
+                "value": 0.399999999592
+            }
+        },
+        "B00BTIWVHC": {
+            "asin": "B00BTIWVHC",
+            "height": {
+                "unit": "IN",
+                "value": 0.6999999992859999
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.199999993676
+            },
+            "name": "Minnesota Twins 2-pack Coaster Air Freshener Auto Car Truck Baseball",
+            "normalizedName": "Minnesota Twins 2-pack Coaster Air Freshener Auto Car Truck Baseball",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001167587297
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.399999997552
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

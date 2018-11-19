@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B001R2RA4E": {
+            "asin": "B001R2RA4E",
+            "height": {
+                "unit": "IN",
+                "value": 7.1653543234
+            },
+            "length": {
+                "unit": "IN",
+                "value": 16.3779527392
+            },
+            "name": "Yamaha KP65 Electronic Drum Kick Tower",
+            "normalizedName": "Yamaha KP65 Electronic Drum Kick Tower",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 7.548550806112034
+            },
+            "width": {
+                "unit": "IN",
+                "value": 10.3937007768
+            }
+        },
+        "B002XJYKAM": {
+            "asin": "B002XJYKAM",
+            "height": {
+                "unit": "IN",
+                "value": 0.399999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.99999998776
+            },
+            "name": "Extra Deep Desk Drawer Director&#153; Tray, Plastic, 11 7/8 x 15 x 2 1/2, Black (RUB11906)",
+            "normalizedName": "Extra Deep Desk Drawer Director&#153; Tray, Plastic, 11 7/8 x 15 x 2 1/2, Black (RUB11906)",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6999999999999998
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.799999991024002
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

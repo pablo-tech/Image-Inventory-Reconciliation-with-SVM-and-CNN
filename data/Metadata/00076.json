@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B01D45EGU2": {
+            "asin": "B01D45EGU2",
+            "height": {
+                "unit": "IN",
+                "value": 1.99999999796
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.99999999286
+            },
+            "name": "Alotpower Women's Capri Legging Yoga Pants(Black)",
+            "normalizedName": "Alotpower Women's Capri Legging Yoga Pants(Black)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3999999996645639
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.199999996736
+            }
+        },
+        "B01G8KCJQS": {
+            "asin": "B01G8KCJQS",
+            "height": {
+                "unit": "IN",
+                "value": 1.299999998674
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.599999992248
+            },
+            "name": "Galaxy S7 Edge Case OCASE Leather Wallet Flip Case For SAMSUNG Galaxy S7 Edge Devices -Light Brown",
+            "normalizedName": "Galaxy S7 Edge Case OCASE Leather Wallet Flip Case For SAMSUNG Galaxy S7 Edge Devices -Light Brown",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.43999999963102016
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.399999995512001
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

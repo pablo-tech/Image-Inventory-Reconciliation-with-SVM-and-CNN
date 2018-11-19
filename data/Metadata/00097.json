@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00WDZ1900": {
+            "asin": "B00WDZ1900",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.599999992248
+            },
+            "name": "MissShorthair Women's New Fashion Light Weight Foil Gold Polka Dots Pattern Infinity Scarf",
+            "normalizedName": "MissShorthair Women's New Fashion Light Weight Foil Gold Polka Dots Pattern Infinity Scarf",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.17636800948859893
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.899999993982
+            }
+        },
+        "B017EA5ST6": {
+            "asin": "B017EA5ST6",
+            "height": {
+                "unit": "IN",
+                "value": 2.1999999977560005
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.699999990105999
+            },
+            "name": "Perfect Pour 10 Foot Clear 3/16\" ID 7/16\" OD FDA Approved Vinyl Tube Multi-Purpose- Beer Line, Wine Making, Aquaponics, Air Hose, Etc.",
+            "normalizedName": "Perfect Pour 10 Foot Clear 3/16\" ID 7/16\" OD FDA Approved Vinyl Tube Multi-Purpose- Beer Line, Wine Making, Aquaponics, Air Hose, Etc.",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6499999994549162
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.49999999133
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

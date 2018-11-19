@@ -1,0 +1,68 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00TSN4FAG": {
+            "asin": "B00TSN4FAG",
+            "height": {
+                "unit": "IN",
+                "value": 2.099999997858
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.299999990514001
+            },
+            "name": "8\" Small Stylish Canvas Waist Bag C85.GRN",
+            "normalizedName": "8\" Small Stylish Canvas Waist Bag C85.GRN",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.45
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.899999992962
+            }
+        },
+        "B00W9SMWM0": {
+            "asin": "B00W9SMWM0",
+            "height": {
+                "unit": "IN",
+                "value": 1.599999998368
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.9999999898
+            },
+            "name": "John Deere JD00021/W Latex Grip Coated Gloves, Women's, Pink (1 pair)",
+            "normalizedName": "John Deere JD00021/W Latex Grip Coated Gloves, Women's, Pink (1 pair)",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.25
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.899999996022
+            }
+        },
+        "B01AGMJGA6": {
+            "asin": "B01AGMJGA6",
+            "height": {
+                "unit": "IN",
+                "value": 4.0
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.0
+            },
+            "name": "Puzzles Set, 3 each, Sesame Street, PuzzleBug, and Alan Giana",
+            "normalizedName": "Puzzles Set, 3 each, Sesame Street, PuzzleBug, and Alan Giana",
+            "quantity": 1,
+            "weight": null,
+            "width": {
+                "unit": "IN",
+                "value": 9.0
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

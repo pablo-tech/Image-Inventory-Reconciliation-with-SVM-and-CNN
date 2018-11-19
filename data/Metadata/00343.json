@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0002AR3PS": {
+            "asin": "B0002AR3PS",
+            "height": {
+                "unit": "IN",
+                "value": 2.5196850368
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.0157480274
+            },
+            "name": "Exo Terra Heat-Glo Infrared Spot Lamp, 50-Watt/120-Volt",
+            "normalizedName": "Exo Terra Heat-Glo Infrared Spot Lamp, 50-Watt/120-Volt",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.04409200237214973
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.6771653516
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

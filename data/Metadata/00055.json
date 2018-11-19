@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00801CRIO": {
+            "asin": "B00801CRIO",
+            "height": {
+                "unit": "IN",
+                "value": 3.299999996634
+            },
+            "length": {
+                "unit": "IN",
+                "value": 13.199999986536
+            },
+            "name": "MonMount Single LCD Monitor VESA Desk Stand - Height Adjustable, Black (LCD-6410B)",
+            "normalizedName": "MonMount Single LCD Monitor VESA Desk Stand - Height Adjustable, Black (LCD-6410B)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 5.5
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.399999991432
+            }
+        },
+        "B009IFIETM": {
+            "asin": "B009IFIETM",
+            "height": {
+                "unit": "IN",
+                "value": 2.299999997654
+            },
+            "length": {
+                "unit": "IN",
+                "value": 13.699999986026
+            },
+            "name": "Fit System 33058 Driver Side (LH) Heated Replacement Mirror Glass with Backing Plate",
+            "normalizedName": "Fit System 33058 Driver Side (LH) Heated Replacement Mirror Glass with Backing Plate",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.85
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.99999999082
+            }
+        },
+        "B00HMDSL68": {
+            "asin": "B00HMDSL68",
+            "height": {
+                "unit": "IN",
+                "value": 3.99999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.99999998674
+            },
+            "name": "Disguise Marvel Guardians of The Galaxy Rocket Raccoon Classic Boys Costume, Medium/7-8",
+            "normalizedName": "Disguise Marvel Guardians of The Galaxy Rocket Raccoon Classic Boys Costume, Medium/7-8",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.75
+            },
+            "width": {
+                "unit": "IN",
+                "value": 11.099999988678
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

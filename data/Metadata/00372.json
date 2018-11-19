@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0154ARWHE": {
+            "asin": "B0154ARWHE",
+            "height": {
+                "unit": "IN",
+                "value": 3.399999996532
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.399999990412
+            },
+            "name": "AmazonBasics Microfiber Sheet Set - Twin, Chocolate",
+            "normalizedName": "AmazonBasics Microfiber Sheet Set - Twin, Chocolate",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.09999999823896
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.199999990616
+            }
+        },
+        "B015QZN4OW": {
+            "asin": "B015QZN4OW",
+            "height": {
+                "unit": "IN",
+                "value": 5.119999994777601
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.2699999915646
+            },
+            "name": "Hot Wheels Monster Jam 1:24 Grave Digger (Grim)",
+            "normalizedName": "Hot Wheels Monster Jam 1:24 Grave Digger (Grim)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.9499999992033387
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.5199999943696
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

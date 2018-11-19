@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B003TS8CS2": {
+            "asin": "B003TS8CS2",
+            "height": {
+                "unit": "IN",
+                "value": 4.699999995206
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.399999991432
+            },
+            "name": "Generac Maintenance Kit, 13kW through 17kW, 990cc Kit (For HSB models prior to 2013)",
+            "normalizedName": "Generac Maintenance Kit, 13kW through 17kW, 990cc Kit (For HSB models prior to 2013)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.6000000000000003
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.299999991534
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

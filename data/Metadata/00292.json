@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B010JRBDRM": {
+            "asin": "B010JRBDRM",
+            "height": {
+                "unit": "IN",
+                "value": 2.299999997654
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.299999992554
+            },
+            "name": "1 New BMW D1s Ballast 63126948180 W3T13271 Xenon HID Headlight Module 06-08 BMW E90 E91 (FREE SHIPPING IN USA)",
+            "normalizedName": "1 New BMW D1s Ballast 63126948180 W3T13271 Xenon HID Headlight Module 06-08 BMW E90 E91 (FREE SHIPPING IN USA)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4499999996226342
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.799999994084
+            }
+        },
+        "B018SVNJ2S": {
+            "asin": "B018SVNJ2S",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.99999999082
+            },
+            "name": "NBA Team Big Logo Cuffed Ball Top Winter Knit Hat (Miami Heat)",
+            "normalizedName": "NBA Team Big Logo Cuffed Ball Top Winter Knit Hat (Miami Heat)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.19999999983228192
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.99999999184
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

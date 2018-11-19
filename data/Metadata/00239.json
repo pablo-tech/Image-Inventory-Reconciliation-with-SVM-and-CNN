@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000BQMWQ8": {
+            "asin": "B000BQMWQ8",
+            "height": {
+                "unit": "IN",
+                "value": 1.3999999985719997
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.299999990514001
+            },
+            "name": "American Flag 2 1/2 x 4 ft. Nylon SolarGuard Nyl-Glo by Annin Flagmakers, 100% Made in USA with Sewn Stripes, Embroidered Stars and Banner-Style Pole Sleeve.\u00a0 Model 21850",
+            "normalizedName": "American Flag 2 1/2 x 4 ft. Nylon SolarGuard Nyl-Glo by Annin Flagmakers, 100% Made in USA with Sewn Stripes, Embroidered Stars and Banner-Style Pole Sleeve.\u00a0 Model 21850",
+            "quantity": 4,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.45
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.599999993268
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

@@ -1,0 +1,115 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B003B5HVIK": {
+            "asin": "B003B5HVIK",
+            "height": {
+                "unit": "IN",
+                "value": 1.99999999796
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.599999990208
+            },
+            "name": "Uview 499109 eBoost Spotgun Cartridge",
+            "normalizedName": "Uview 499109 eBoost Spotgun Cartridge",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.75
+            },
+            "width": {
+                "unit": "IN",
+                "value": 1.99999999796
+            }
+        },
+        "B00EMS3ZSU": {
+            "asin": "B00EMS3ZSU",
+            "height": {
+                "unit": "IN",
+                "value": 3.99999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.699999989085999
+            },
+            "name": "Elegant Comfort 1500 Thread Count Egyptian Quality Super Soft Wrinkle Free 3-Piece Duvet Cover Set, King/California King, Purple",
+            "normalizedName": "Elegant Comfort 1500 Thread Count Egyptian Quality Super Soft Wrinkle Free 3-Piece Duvet Cover Set, King/California King, Purple",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.6
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.799999990004002
+            }
+        },
+        "B00UZCLMQE": {
+            "asin": "B00UZCLMQE",
+            "height": {
+                "unit": "IN",
+                "value": 0.099999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.99999998878
+            },
+            "name": "Months in Motion 706 Monthly Baby Stickers Necktie Tie Baby Boy Months 1-12",
+            "normalizedName": "Months in Motion 706 Monthly Baby Stickers Necktie Tie Baby Boy Months 1-12",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001186074866
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.99999999184
+            }
+        },
+        "B00XHPSBR4": {
+            "asin": "B00XHPSBR4",
+            "height": {
+                "unit": "IN",
+                "value": 5.599999994287999
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.699999988066
+            },
+            "name": "GLW\u00ae 50W Outdoor LED Flood Lights Warm White Security Light, Waterproof Floodlight Lamp 3750lm 370w Halogen Bulb Equivalent",
+            "normalizedName": "GLW\u00ae 50W Outdoor LED Flood Lights Warm White Security Light, Waterproof Floodlight Lamp 3750lm 370w Halogen Bulb Equivalent",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.5273601868139672
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.9999999898
+            }
+        },
+        "B01D8RFMOK": {
+            "asin": "B01D8RFMOK",
+            "height": {
+                "unit": "IN",
+                "value": 0.899999999082
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.199999989596
+            },
+            "name": "2 X Broan 97007696 Nutone Range Hood Filter fabric filter with 5 layers 8-3/4-Inch (10*10mm) 2-packs (BP29, 97006931, 97005687, 97007696)",
+            "normalizedName": "2 X Broan 97007696 Nutone Range Hood Filter fabric filter with 5 layers 8-3/4-Inch (10*10mm) 2-packs (BP29, 97006931, 97005687, 97007696)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.5499999995387752
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.599999991228
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

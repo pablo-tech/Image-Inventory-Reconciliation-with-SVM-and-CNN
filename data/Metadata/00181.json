@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B005Z3Q6R8": {
+            "asin": "B005Z3Q6R8",
+            "height": {
+                "unit": "IN",
+                "value": 1.0999999988780003
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.899999990922
+            },
+            "name": "Plano ProLatch Stowy 5-9 Comp 9.13 In.L 5 In.W 1.25 In.H",
+            "normalizedName": "Plano ProLatch Stowy 5-9 Comp 9.13 In.L 5 In.W 1.25 In.H",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001167587297
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.699999995206
+            }
+        },
+        "B00N1VS5WA": {
+            "asin": "B00N1VS5WA",
+            "height": {
+                "unit": "IN",
+                "value": 1.99999999796
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.099999995818
+            },
+            "name": "Total Youth Under Eye Gel Anti-Aging Eye Cream with Hyaluronic Acid and Cucumber for Dark Circles, Puffiness, and Wrinkles Effective Eye Treatment to Diminish Crows Feet and Eye Bags, 1.7 fl. oz.",
+            "normalizedName": "Total Youth Under Eye Gel Anti-Aging Eye Cream with Hyaluronic Acid and Cucumber for Dark Circles, Puffiness, and Wrinkles Effective Eye Treatment to Diminish Crows Feet and Eye Bags, 1.7 fl. oz.",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.20000000000000004
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.099999997858
+            }
+        },
+        "B00UDMF7TO": {
+            "asin": "B00UDMF7TO",
+            "height": {
+                "unit": "IN",
+                "value": 3.099999996838
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.699999989085999
+            },
+            "name": "Homecrest Luxury Supreme Sheet Set, 6 piece sheet Set, King Size",
+            "normalizedName": "Homecrest Luxury Supreme Sheet Set, 6 piece sheet Set, King Size",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.7999999984905368
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.799999990004002
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

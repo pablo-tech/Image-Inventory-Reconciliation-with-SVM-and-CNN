@@ -1,0 +1,68 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B015SYOJD6": {
+            "asin": "B015SYOJD6",
+            "height": {
+                "unit": "IN",
+                "value": 1.0999999988780003
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.99999999286
+            },
+            "name": "TaoTronics Telescopic Monopod Mini Selfie Stick for Android and iOS Smartphone - Black",
+            "normalizedName": "TaoTronics Telescopic Monopod Mini Selfie Stick for Android and iOS Smartphone - Black",
+            "quantity": 4,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.19999999983228192
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.099999997858
+            }
+        },
+        "B01DFKOGSI": {
+            "asin": "B01DFKOGSI",
+            "height": {
+                "unit": "IN",
+                "value": 0.399999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.9999999898
+            },
+            "name": "12M LC/APC-SC/APC 9/125 Singlemode Duplex (Genuine Plus Corning Glass) Fiber Jumper Zipcord Cables 2.0 Jacket / BIF",
+            "normalizedName": "12M LC/APC-SC/APC 9/125 Singlemode Duplex (Genuine Plus Corning Glass) Fiber Jumper Zipcord Cables 2.0 Jacket / BIF",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.04999999995807048
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.99999999184
+            }
+        },
+        "B01DUJ4VZW": {
+            "asin": "B01DUJ4VZW",
+            "height": {
+                "unit": "IN",
+                "value": 0.5
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.9
+            },
+            "name": "iPhone 6 Case, iPhone 6s Case, iMangoo Premium Shockproof Protective Soft Bumper iPhone 6 Case Durable Kickstand Shell Stylish Ring Drop Resistance Cover Cases for Apple iPhone 6 6s 4.7 Inch Black",
+            "normalizedName": "iPhone 6 Case, iPhone 6s Case, iMangoo Premium Shockproof Protective Soft Bumper iPhone 6 Case Durable Kickstand Shell Stylish Ring Drop Resistance Cover Cases for Apple iPhone 6 6s 4.7 Inch Black",
+            "quantity": 1,
+            "weight": null,
+            "width": {
+                "unit": "IN",
+                "value": 3.1
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

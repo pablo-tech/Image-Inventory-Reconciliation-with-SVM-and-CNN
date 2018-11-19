@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000O7F2DO": {
+            "asin": "B000O7F2DO",
+            "height": {
+                "unit": "IN",
+                "value": 0.49999999949
+            },
+            "length": {
+                "unit": "IN",
+                "value": 2.699999997246
+            },
+            "name": "C2G / Cables To Go 33100 Keystone Punchdown Puck, Black",
+            "normalizedName": "C2G / Cables To Go 33100 Keystone Punchdown Puck, Black",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.10000000000000002
+            },
+            "width": {
+                "unit": "IN",
+                "value": 1.799999998164
+            }
+        },
+        "B0014WB5AW": {
+            "asin": "B0014WB5AW",
+            "height": {
+                "unit": "IN",
+                "value": 0.399999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.399999993472
+            },
+            "name": "C2G / Cables To Go 40407 3.5 mm M/ F Stereo Audio Extension Cable (6 Feet)",
+            "normalizedName": "C2G / Cables To Go 40407 3.5 mm M/ F Stereo Audio Extension Cable (6 Feet)",
+            "quantity": 5,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.05
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.899999996022
+            }
+        },
+        "B005NGGF7I": {
+            "asin": "B005NGGF7I",
+            "height": {
+                "unit": "IN",
+                "value": 1.299999998674
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.99999999286
+            },
+            "name": "Paradise GL22351  Plastic splice wire connector for Low Voltage Landscape Lighting",
+            "normalizedName": "Paradise GL22351  Plastic splice wire connector for Low Voltage Landscape Lighting",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.349999998867903
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.99999999694
+            }
+        },
+        "B00OW2PNEU": {
+            "asin": "B00OW2PNEU",
+            "height": {
+                "unit": "IN",
+                "value": 2.399999997552
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.99999999286
+            },
+            "name": "JLab JK-BLK-BOX JBuddies Kids- folding, Volume Limiting Headphones Guaranteed for Life - Black",
+            "normalizedName": "JLab JK-BLK-BOX JBuddies Kids- folding, Volume Limiting Headphones Guaranteed for Life - Black",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4000000000000001
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.49999999439
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 9
+}

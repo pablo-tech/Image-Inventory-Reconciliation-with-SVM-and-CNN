@@ -1,0 +1,112 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00JPVZ2IA": {
+            "asin": "B00JPVZ2IA",
+            "height": {
+                "unit": "IN",
+                "value": 2.99999999694
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.99999999388
+            },
+            "name": "Women's Black Studded Fashion Fanny or Waist Pack - fits up to 42 inch waist",
+            "normalizedName": "Women's Black Studded Fashion Fanny or Waist Pack - fits up to 42 inch waist",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.8000000000000002
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.699999994186001
+            }
+        },
+        "B00WW4FD3Q": {
+            "asin": "B00WW4FD3Q",
+            "height": {
+                "unit": "IN",
+                "value": 3.3858267682
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.8897637674
+            },
+            "name": "Bandai Hobby HGBF Dom R35 \"Gundam Build Fighters\" Model Kit (1/144 Scale)",
+            "normalizedName": "Bandai Hobby HGBF Dom R35 \"Gundam Build Fighters\" Model Kit (1/144 Scale)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.8377480450708449
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.7165354252
+            }
+        },
+        "B00ZQ9A3L6": {
+            "asin": "B00ZQ9A3L6",
+            "height": {
+                "unit": "IN",
+                "value": 2.49999999745
+            },
+            "length": {
+                "unit": "IN",
+                "value": 13.599999986128001
+            },
+            "name": "BBQ Vegetable Grill Basket - Use as Wok, Skillet, or Smoker - Durable 430 Grade Stainless Steel - Professional Cookware - Barbeque Fish & Diced Meat - by Grillux",
+            "normalizedName": "BBQ Vegetable Grill Basket - Use as Wok, Skillet, or Smoker - Durable 430 Grade Stainless Steel - Professional Cookware - Barbeque Fish & Diced Meat - by Grillux",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.349999998867903
+            },
+            "width": {
+                "unit": "IN",
+                "value": 11.749999988015
+            }
+        },
+        "B0163KOK42": {
+            "asin": "B0163KOK42",
+            "height": {
+                "unit": "IN",
+                "value": 2.0
+            },
+            "length": {
+                "unit": "IN",
+                "value": 13.0
+            },
+            "name": "New - Husmark 32cm Emoji Smiley Emoticon Yellow Round Cushion Pillow Stuffed Plush Soft Toy (Tongue)",
+            "normalizedName": "New - Husmark 32cm Emoji Smiley Emoticon Yellow Round Cushion Pillow Stuffed Plush Soft Toy (Tongue)",
+            "quantity": 1,
+            "weight": null,
+            "width": {
+                "unit": "IN",
+                "value": 13.0
+            }
+        },
+        "B01GMVAN4S": {
+            "asin": "B01GMVAN4S",
+            "height": {
+                "unit": "IN",
+                "value": 2.299999997654
+            },
+            "length": {
+                "unit": "IN",
+                "value": 15.399999984292
+            },
+            "name": "Elikeable Modern 3D Frameless Large Wall Clock Style Watches Hours DIY Room Home Decorations (Black1)",
+            "normalizedName": "Elikeable Modern 3D Frameless Large Wall Clock Style Watches Hours DIY Room Home Decorations (Black1)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.7499999993710571
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.9999999949
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

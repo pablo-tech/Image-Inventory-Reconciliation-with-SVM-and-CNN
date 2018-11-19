@@ -1,0 +1,115 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000BPI4K2": {
+            "asin": "B000BPI4K2",
+            "height": {
+                "unit": "IN",
+                "value": 1.3999999985719997
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.599999994287999
+            },
+            "name": "Stanley Ct106T 3/8 Inch Round Crown Cable Staples, Pack of 1000(Pack of 1000)",
+            "normalizedName": "(Pack of 1000) Stanley Ct106T 3/8 Inch Round Crown Cable Staples, Pack of 1000",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.65
+            },
+            "width": {
+                "unit": "IN",
+                "value": 1.799999998164
+            }
+        },
+        "B002GU5YCG": {
+            "asin": "B002GU5YCG",
+            "height": {
+                "unit": "IN",
+                "value": 1.0999999988780003
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.099999995817999
+            },
+            "name": "Breathe Right Nasal Strips, Extra, 26-Count Box",
+            "normalizedName": "Breathe Right Nasal Strips, Extra, 26-Count Box",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.14999999987421142
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.8999999970420003
+            }
+        },
+        "B007JR532M": {
+            "asin": "B007JR532M",
+            "height": {
+                "unit": "IN",
+                "value": 0.49999999949
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.399999993472
+            },
+            "name": "SanDisk Cruzer CZ36 32GB USB 2.0 Flash Drive, Frustration-Free Packaging- SDCZ36-032G-AFFP",
+            "normalizedName": "SanDisk Cruzer CZ36 32GB USB 2.0 Flash Drive, Frustration-Free Packaging- SDCZ36-032G-AFFP",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001186074866
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.49999999541
+            }
+        },
+        "B00TSUVO3A": {
+            "asin": "B00TSUVO3A",
+            "height": {
+                "unit": "IN",
+                "value": 1.199999998776
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.99999999184
+            },
+            "name": "Speck Products MightyShell Case for iPhone 6 Plus/6S Plus  - Black/Gravel Grey/Slate Grey",
+            "normalizedName": "Speck Products MightyShell Case for iPhone 6 Plus/6S Plus  - Black/Gravel Grey/Slate Grey",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.899999995002001
+            }
+        },
+        "B00ZFO8V2A": {
+            "asin": "B00ZFO8V2A",
+            "height": {
+                "unit": "IN",
+                "value": 0.899999999082
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.699999993166
+            },
+            "name": "S6 Case, [Slim Air Cushion Shockproof] Caselo Premium Slim Soft Silicone Gel Rubber Case Flexible TPU [Anti-slip] Air Cushioned Bumper Case Skin Cover For Samsung Galaxy S6, Bonus with One Stylus Pen and One Screen Protector Flim -[HOT PINK]",
+            "normalizedName": "S6 Case, [Slim Air Cushion Shockproof] Caselo Premium Slim Soft Silicone Gel Rubber Case Flexible TPU [Anti-slip] Air Cushioned Bumper Case Skin Cover For Samsung Galaxy S6, Bonus with One Stylus Pen and One Screen Protector Flim -[HOT PINK]",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.05000000000000001
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.299999995614
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 7
+}

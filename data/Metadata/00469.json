@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0017TZSU0": {
+            "asin": "B0017TZSU0",
+            "height": {
+                "unit": "IN",
+                "value": 6.799999993064
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.299999992554
+            },
+            "name": "White Stoneware Grease Keeper",
+            "normalizedName": "White Stoneware Grease Keeper",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.2000000000000006
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.799999993064
+            }
+        },
+        "B0018A32XS": {
+            "asin": "B0018A32XS",
+            "height": {
+                "unit": "IN",
+                "value": 3.299999996634
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.399999990412
+            },
+            "name": "Panasonic ES2207P Ladies Electric Shaver, 3-Blade Cordless Women's Electric Razor with Pop-Up Trimmer, Use Wet or Dry",
+            "normalizedName": "Panasonic ES2207P Ladies Electric Shaver, 3-Blade Cordless Women's Electric Razor with Pop-Up Trimmer, Use Wet or Dry",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.55
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.099999994798
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B014EUTIXG": {
+            "asin": "B014EUTIXG",
+            "height": {
+                "unit": "IN",
+                "value": 0.399999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.199999992656
+            },
+            "name": "[Lifetime Warranty 3D Touch] iPhone 6S Plus Screen Protector, Kollea Ballistic Nano Tempered Glass Screen Protector Scratch Free Slim Guard for iPhone 6 Plus/6S Plus 5.5\"",
+            "normalizedName": "[Lifetime Warranty 3D Touch] iPhone 6S Plus Screen Protector, Kollea Ballistic Nano Tempered Glass Screen Protector Scratch Free Slim Guard for iPhone 6 Plus/6S Plus 5.5\"",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001167587297
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.199999995716
+            }
+        },
+        "B014QZQXB4": {
+            "asin": "B014QZQXB4",
+            "height": {
+                "unit": "IN",
+                "value": 3.599999996328
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.099999991737999
+            },
+            "name": "ADTL Leatherette Roll Traveler's Watch Storage Organizer for 3 Watch and / or Bracelets (Black)",
+            "normalizedName": "ADTL Leatherette Roll Traveler's Watch Storage Organizer for 3 Watch and / or Bracelets (Black)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4999999995807047
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.799999996124
+            }
+        },
+        "B017NOBU9U": {
+            "asin": "B017NOBU9U",
+            "height": {
+                "unit": "IN",
+                "value": 0.399999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.299999993574
+            },
+            "name": "Nextkin Samsung Galaxy S6 Edge Plus G928 Dual Layer Hard Back Hybrid Protector Cover Anti Shock TPU Silicone Skin - Teal White Mandala/ Black",
+            "normalizedName": "Nextkin Samsung Galaxy S6 Edge Plus G928 Dual Layer Hard Back Hybrid Protector Cover Anti Shock TPU Silicone Skin - Teal White Mandala/ Black",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.08999999992452686
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.199999996736
+            }
+        },
+        "B018FZKOB6": {
+            "asin": "B018FZKOB6",
+            "height": {
+                "unit": "IN",
+                "value": 0.399999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.599999993268
+            },
+            "name": "Huawei Mate 8 Case,Mama Mouth Folio Flip Hard Case [Stand View] Premium PU Leather [Wallet Case] Cover For Huawei Mate 8 Smartphone,Light Blue",
+            "normalizedName": "Huawei Mate 8 Case,Mama Mouth Folio Flip Hard Case [Stand View] Premium PU Leather [Wallet Case] Cover For Huawei Mate 8 Smartphone,Light Blue",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.04999999995807048
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.799999996124
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 7
+}

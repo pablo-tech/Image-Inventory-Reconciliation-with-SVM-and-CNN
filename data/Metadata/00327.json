@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B005D4T9UA": {
+            "asin": "B005D4T9UA",
+            "height": {
+                "unit": "IN",
+                "value": 6.399999993472
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.099999991737999
+            },
+            "name": "Sarah Peyton Cordless Fountain",
+            "normalizedName": "Sarah Peyton Cordless Fountain",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.95
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.399999993472
+            }
+        },
+        "B01A89Y7EC": {
+            "asin": "B01A89Y7EC",
+            "height": {
+                "unit": "IN",
+                "value": 1.6999999982660001
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.199999991635998
+            },
+            "name": "Rechoo Mixed Length Brazilian Virgin Remy Human Hair Extension Weave 3 Bundles 300g - Natural Black,16\"18\"20\",Deep Curly",
+            "normalizedName": "Rechoo Mixed Length Brazilian Virgin Remy Human Hair Extension Weave 3 Bundles 300g - Natural Black,16\"18\"20\",Deep Curly",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3499999997064933
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.699999994186
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

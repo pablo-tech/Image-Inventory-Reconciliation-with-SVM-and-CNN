@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000XABZF6": {
+            "asin": "B000XABZF6",
+            "height": {
+                "unit": "IN",
+                "value": 0.099999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.49999999235
+            },
+            "name": "Me & My Big Ideas Rhinestone Iron-Ons Large, Bridesmaid/Clear",
+            "normalizedName": "Me & My Big Ideas Rhinestone Iron-Ons Large, Bridesmaid/Clear",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.01
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.7999999971439995
+            }
+        },
+        "B00BFX6BFO": {
+            "asin": "B00BFX6BFO",
+            "height": {
+                "unit": "IN",
+                "value": 0.199999999796
+            },
+            "length": {
+                "unit": "IN",
+                "value": 13.49999998623
+            },
+            "name": "Amscan Amazing Detroit Pistons NBA Pennant Banner, 12', Blue",
+            "normalizedName": "Amscan Amazing Detroit Pistons NBA Pennant Banner, 12', Blue",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.05000000000000001
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.9999999898
+            }
+        },
+        "B00MDE182A": {
+            "asin": "B00MDE182A",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.49999999337
+            },
+            "name": "NEWSTYLE 20 Keys Music IR Controller 20key Infrared Remote Sound Sensor For 3528 5050 RGB Flexible LED Strip w/ 3 Channel Output Black",
+            "normalizedName": "NEWSTYLE 20 Keys Music IR Controller 20key Infrared Remote Sound Sensor For 3528 5050 RGB Flexible LED Strip w/ 3 Channel Output Black",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.10000000000000002
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.599999996328
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

@@ -1,0 +1,68 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B005DS5NG0": {
+            "asin": "B005DS5NG0",
+            "height": {
+                "unit": "IN",
+                "value": 1.99999999796
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.299999992554
+            },
+            "name": "Bright Jumbo Easter Eggs (12 Pack) - Easter & Party Favors",
+            "normalizedName": "(12 Pack) Bright Jumbo Easter Eggs - Easter & Party Favors",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.20000000000000004
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.6999999962260004
+            }
+        },
+        "B013LPI2B4": {
+            "asin": "B013LPI2B4",
+            "height": {
+                "unit": "IN",
+                "value": 0.6999999992859999
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.299999995614
+            },
+            "name": "2015 Latest Band Set For Fitbit Flex,Water Transfer Printing Set With Metal Clasps for Fitbit Flex Activity Tracker/ Wireless Activity+Sleep Wristband/ Sport Bracelet/ Sport Armband(Large)",
+            "normalizedName": "2015 Latest Band Set For Fitbit Flex,Water Transfer Printing Set With Metal Clasps for Fitbit Flex Activity Tracker/ Wireless Activity+Sleep Wristband/ Sport Bracelet/ Sport Armband(Large)",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001167587297
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.99999999592
+            }
+        },
+        "B01EUTMZ5E": {
+            "asin": "B01EUTMZ5E",
+            "height": {
+                "unit": "IN",
+                "value": 3.9
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.7
+            },
+            "name": "Humidifier, Hard Crafts Bulb Personal Humidifier - 350 ml Portable Cool Mist Humidifier with LED Lights, Humidifiers for Home Office Bedroom Room (Blue)",
+            "normalizedName": "Humidifier, Hard Crafts Bulb Personal Humidifier - 350 ml Portable Cool Mist Humidifier with LED Lights, Humidifiers for Home Office Bedroom Room (Blue)",
+            "quantity": 1,
+            "weight": null,
+            "width": {
+                "unit": "IN",
+                "value": 3.9
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

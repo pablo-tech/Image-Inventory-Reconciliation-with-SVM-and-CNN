@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "1602554196": {
+            "asin": "1602554196",
+            "height": {
+                "unit": "IN",
+                "value": 1.0999999988780003
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.899999993982
+            },
+            "name": "Jes\u00fas te llama: Encuentra paz en su presencia (Spanish Edition)",
+            "normalizedName": "Jes\u00fas te llama: Encuentra paz en su presencia (Spanish Edition)",
+            "quantity": 13,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.55
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.99999999592
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 13
+}

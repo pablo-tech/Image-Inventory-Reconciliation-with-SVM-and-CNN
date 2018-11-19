@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "082235666X": {
+            "asin": "082235666X",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.099999990718
+            },
+            "name": "Borderland on the Isthmus: Race, Culture, and the Struggle for the Canal Zone (American Encounters/Global Interactions)",
+            "normalizedName": "Borderland on the Isthmus: Race, Culture, and the Struggle for the Canal Zone (American Encounters/Global Interactions)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.35
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.199999993676
+            }
+        },
+        "178076829X": {
+            "asin": "178076829X",
+            "height": {
+                "unit": "IN",
+                "value": 1.2598425184
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.9763779436
+            },
+            "name": "Enemy in the East: Hitler's Secret Plans to Invade the Soviet Union",
+            "normalizedName": "Enemy in the East: Hitler's Secret Plans to Invade the Soviet Union",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.3668520735366416
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.3779527494
+            }
+        },
+        "B00HPZDLUE": {
+            "asin": "B00HPZDLUE",
+            "height": {
+                "unit": "IN",
+                "value": 3.599999996328
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.599999994287999
+            },
+            "name": "Mirka 9A-232-100   5-Inch 100 Grit Mesh Abrasive Dust Free Sanding Discs,  Box of 50 Discs",
+            "normalizedName": "Mirka 9A-232-100   5-Inch 100 Grit Mesh Abrasive Dust Free Sanding Discs,  Box of 50 Discs",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.8818400467034918
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.49999999439
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

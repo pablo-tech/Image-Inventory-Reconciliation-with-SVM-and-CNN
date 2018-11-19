@@ -1,0 +1,115 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0018U02WW": {
+            "asin": "B0018U02WW",
+            "height": {
+                "unit": "IN",
+                "value": 0.299999999694
+            },
+            "length": {
+                "unit": "IN",
+                "value": 15.899999983782
+            },
+            "name": "Oregon Gator Mulcher 3-N-1 Hi-Lift Blade For 48-Inch V Style Deck John Deere Lawn Mowers 96-308",
+            "normalizedName": "Oregon Gator Mulcher 3-N-1 Hi-Lift Blade For 48-Inch V Style Deck John Deere Lawn Mowers 96-308",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.95
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.599999997348
+            }
+        },
+        "B003RWT31U": {
+            "asin": "B003RWT31U",
+            "height": {
+                "unit": "IN",
+                "value": 2.49999999745
+            },
+            "length": {
+                "unit": "IN",
+                "value": 16.599999983068
+            },
+            "name": "Oregon 396-716 Gator Mulcher G6 Blade 48-Inch Cut on Series 2 Snapper Lawn Mowers",
+            "normalizedName": "Oregon 396-716 Gator Mulcher G6 Blade 48-Inch Cut on Series 2 Snapper Lawn Mowers",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.15
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.99999999592
+            }
+        },
+        "B004PT19BQ": {
+            "asin": "B004PT19BQ",
+            "height": {
+                "unit": "IN",
+                "value": 1.799999998164
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.99999998776
+            },
+            "name": "Iron Stop Designer Sun Blue Wind Spinner",
+            "normalizedName": "Iron Stop Designer Sun Blue Wind Spinner",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.9
+            },
+            "width": {
+                "unit": "IN",
+                "value": 10.99999998878
+            }
+        },
+        "B00RDUWO6I": {
+            "asin": "B00RDUWO6I",
+            "height": {
+                "unit": "IN",
+                "value": 1.2598425184
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.6535432952
+            },
+            "name": "Dinosaur Roar Childrens Backpack",
+            "normalizedName": "Dinosaur Roar Childrens Backpack",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.5731960303572697
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.6850393602
+            }
+        },
+        "B00SWSE02G": {
+            "asin": "B00SWSE02G",
+            "height": {
+                "unit": "IN",
+                "value": 7.699999992146
+            },
+            "length": {
+                "unit": "IN",
+                "value": 15.099999984598
+            },
+            "name": "Masione 4 Pack Solar Powered Fake Dummy Security Camera with Blinking LED Light",
+            "normalizedName": "4 Pack Masione Solar Powered Fake Dummy Security Camera with Blinking LED Light",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 4.0
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.399999991432
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 8
+}

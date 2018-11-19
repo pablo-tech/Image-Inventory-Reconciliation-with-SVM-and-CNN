@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0149QCHLK": {
+            "asin": "B0149QCHLK",
+            "height": {
+                "unit": "IN",
+                "value": 0.5511811018
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.5354330642
+            },
+            "name": "Adonit Jot Dash - Fine Point Precision Stylus for iPad, iPhone, Samsung, Android, and Most Touchscreens - Charcoal",
+            "normalizedName": "Adonit Jot Dash - Fine Point Precision Stylus for iPad, iPhone, Samsung, Android, and Most Touchscreens - Charcoal",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.13227600700552375
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.362204722
+            }
+        },
+        "B017EAZ03K": {
+            "asin": "B017EAZ03K",
+            "height": {
+                "unit": "IN",
+                "value": 2.099999997858
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.599999991228
+            },
+            "name": "DTECH 2 Port VGA Switch with USB 2.0 and PS2 KVM Switcher (Control 2 PCs with just one Keyboard, Mouse, Monitor ) Supports Widescreen Display and up to 2048x1536 Resolution",
+            "normalizedName": "DTECH 2 Port VGA Switch with USB 2.0 and PS2 KVM Switcher (Control 2 PCs with just one Keyboard, Mouse, Monitor ) Supports Widescreen Display and up to 2048x1536 Resolution",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6999999994129864
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.099999993778
+            }
+        },
+        "B01DPI3MN0": {
+            "asin": "B01DPI3MN0",
+            "height": {
+                "unit": "IN",
+                "value": 2.899999997042
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.199999991636
+            },
+            "name": "My Happy Tot Baby Grooming Kit - Highest Quality Essential Set for Infants, Newborns, Kids, Boys and Girls. Includes Nail Clipper, Brush, File, Scissors, Comb, Ergonomic Toothbrush and Finger Toothbrush.",
+            "normalizedName": "My Happy Tot Baby Grooming Kit - Highest Quality Essential Set for Infants, Newborns, Kids, Boys and Girls. Includes Nail Clipper, Brush, File, Scissors, Comb, Ergonomic Toothbrush and Finger Toothbrush.",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6499999994549162
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.899999992962
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

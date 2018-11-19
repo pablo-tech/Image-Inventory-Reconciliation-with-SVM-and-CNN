@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B003IJ6HFM": {
+            "asin": "B003IJ6HFM",
+            "height": {
+                "unit": "IN",
+                "value": 2.1999999977560005
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.99999999184
+            },
+            "name": "Sof Sole Sneaker Balls\u00a0Shoe Deodorizers, Matrix, 6 Pack",
+            "normalizedName": "6 Pack Sof Sole Sneaker Balls\u00a0Shoe Deodorizers, Matrix,",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.20000000000000004
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.799999996124
+            }
+        },
+        "B00JX8P69A": {
+            "asin": "B00JX8P69A",
+            "height": {
+                "unit": "IN",
+                "value": 1.199999998776
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.49999999235
+            },
+            "name": "Tab 4 7.0 Case - Bear Motion Premium Folio Case for 7 inch Samsung Galaxy Tab 4 7.0 - 7\" tablet (Tab 4 7.0, Blue)",
+            "normalizedName": "Tab 4 7.0 Case - Bear Motion Premium Folio Case for 7 inch Samsung Galaxy Tab 4 7.0 - 7\" tablet (Tab 4 7.0, Blue)",
+            "quantity": 8,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.799999995104
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 9
+}

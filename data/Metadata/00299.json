@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00EPD6UFM": {
+            "asin": "B00EPD6UFM",
+            "height": {
+                "unit": "IN",
+                "value": 2.49999999745
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.299999988474
+            },
+            "name": "Full Extra Long (XL) SureGuard Mattress Protector - 100% Waterproof, Hypoallergenic - Premium Fitted Cotton Terry Cover - 10 Year Warranty",
+            "normalizedName": "Full Extra Long (XL) SureGuard Mattress Protector - 100% Waterproof, Hypoallergenic - Premium Fitted Cotton Terry Cover - 10 Year Warranty",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.8999999999999997
+            },
+            "width": {
+                "unit": "IN",
+                "value": 11.099999988678
+            }
+        },
+        "B00THAGEHW": {
+            "asin": "B00THAGEHW",
+            "height": {
+                "unit": "IN",
+                "value": 2.49999999745
+            },
+            "length": {
+                "unit": "IN",
+                "value": 15.899999983782
+            },
+            "name": "Star Wars Loopin' Chewie Game",
+            "normalizedName": "Star Wars Loopin' Chewie Game",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.149999999035621
+            },
+            "width": {
+                "unit": "IN",
+                "value": 10.399999989392
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

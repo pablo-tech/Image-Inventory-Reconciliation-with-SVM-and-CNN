@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0125KUD7C": {
+            "asin": "B0125KUD7C",
+            "height": {
+                "unit": "IN",
+                "value": 2.899999997042
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.99999998776
+            },
+            "name": "Disney Princess Little Kingdom Rapunzel's Stylin' Tower",
+            "normalizedName": "Disney Princess Little Kingdom Rapunzel's Stylin' Tower",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.0999999990775504
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.9999999898
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B006VT9R30": {
+            "asin": "B006VT9R30",
+            "height": {
+                "unit": "IN",
+                "value": 3.2283464534
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.842519675
+            },
+            "name": "BlenderBottle SportMixer 28-ounce, Black/Red",
+            "normalizedName": "BlenderBottle SportMixer 28-ounce, Black/Red",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.5291094288
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.0944881848
+            }
+        },
+        "B01E43RCFE": {
+            "asin": "B01E43RCFE",
+            "height": {
+                "unit": "IN",
+                "value": 1.199999998776
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.9999999898
+            },
+            "name": "Magic Balloons Water Balloons, Colorfull Water 111 Balloons (ITEM 1)",
+            "normalizedName": "Magic Balloons Water Balloons, Colorfull Water 111 Balloons (ITEM 1)",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.1899999998406678
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.49999999439
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

@@ -1,0 +1,115 @@
+{
+    "BIN_FCSKU_DATA": {
+        "0385351232": {
+            "asin": "0385351232",
+            "height": {
+                "unit": "IN",
+                "value": 1.49999999847
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.399999990412
+            },
+            "name": "Longbourn",
+            "normalizedName": "Longbourn",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.3999999999999997
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.49999999337
+            }
+        },
+        "0399169458": {
+            "asin": "0399169458",
+            "height": {
+                "unit": "IN",
+                "value": 1.4960629906
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.2125984158
+            },
+            "name": "Robert B. Parker's Blind Spot (A Jesse Stone Novel)",
+            "normalizedName": "Robert B. Parker's Blind Spot (A Jesse Stone Novel)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.3668520735366416
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.1417322772
+            }
+        },
+        "128509655X": {
+            "asin": "128509655X",
+            "height": {
+                "unit": "IN",
+                "value": 1.0999999988780003
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.199999990616
+            },
+            "name": "Understanding Operating Systems",
+            "normalizedName": "Understanding Operating Systems",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.8999999999999997
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.199999992656
+            }
+        },
+        "1476779023": {
+            "asin": "1476779023",
+            "height": {
+                "unit": "IN",
+                "value": 0.9448818888
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.055118101
+            },
+            "name": "Black Dog Summer: A Novel",
+            "normalizedName": "Black Dog Summer: A Novel",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.8818400474429946
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.9842519624
+            }
+        },
+        "B007CDGT30": {
+            "asin": "B007CDGT30",
+            "height": {
+                "unit": "IN",
+                "value": 5.899999993982
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.299999990514001
+            },
+            "name": "Minnie Bowtique Sand Bucket and Shovel",
+            "normalizedName": "Minnie Bowtique Sand Bucket and Shovel",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.15
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.199999993676
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

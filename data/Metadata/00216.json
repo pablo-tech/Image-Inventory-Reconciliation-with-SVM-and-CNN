@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0058ER9UC": {
+            "asin": "B0058ER9UC",
+            "height": {
+                "unit": "IN",
+                "value": 3.599999996328
+            },
+            "length": {
+                "unit": "IN",
+                "value": 16.99999998266
+            },
+            "name": "TRU-SPEC 1282005 Tactical Response Uniform Shirt, Polyester Cotton Rip-Stop, Large Regular, Navy",
+            "normalizedName": "TRU-SPEC 1282005 Tactical Response Uniform Shirt, Polyester Cotton Rip-Stop, Large Regular, Navy",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.2999999989098325
+            },
+            "width": {
+                "unit": "IN",
+                "value": 11.299999988474
+            }
+        },
+        "B00I8OT8CG": {
+            "asin": "B00I8OT8CG",
+            "height": {
+                "unit": "IN",
+                "value": 3.6999999962260004
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.699999987045999
+            },
+            "name": "Standlee Hay Company Apple Berry Cookie Cubes Treats, Size 5",
+            "normalizedName": "Standlee Hay Company Apple Berry Cookie Cubes Treats, Size 5",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 5.1
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.899999990922
+            }
+        },
+        "B0194CW48U": {
+            "asin": "B0194CW48U",
+            "height": {
+                "unit": "IN",
+                "value": 2.49999999745
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.699999990105999
+            },
+            "name": "9\" x 12\", 2 Mil Clear Plymor Brand Zipper Reclosable Storage Bags, Pack of 200",
+            "normalizedName": "Pack of 200 9\" x 12\", 2 Mil Clear Plymor Brand Zipper Reclosable Storage Bags,",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.3499999971907215
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.99999999082
+            }
+        },
+        "B01CRMWZWO": {
+            "asin": "B01CRMWZWO",
+            "height": {
+                "unit": "IN",
+                "value": 3.799999996124
+            },
+            "length": {
+                "unit": "IN",
+                "value": 14.299999985414
+            },
+            "name": "Essential Oil Box - Popular Carrying Case Makes a Great Gift. Reconfigure and Customize for Storage of Bottles (68 Small 6 Big Grids). Pack of colored sticker labels, 25 pippets and Aromatherapy EBook",
+            "normalizedName": "Essential Oil Box - Popular Carrying Case Makes a Great Gift. Reconfigure and Customize for Storage of Bottles (68 Small 6 Big Grids). Pack of colored sticker labels, 25 pippets and Aromatherapy EBook",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 4.099999996561778
+            },
+            "width": {
+                "unit": "IN",
+                "value": 12.299999987454
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

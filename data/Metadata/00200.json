@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B018RSDQ20": {
+            "asin": "B018RSDQ20",
+            "height": {
+                "unit": "IN",
+                "value": 2.8999999970420003
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.699999987045999
+            },
+            "name": "NOHOO Toddler Kids Cute Cartoon Backpack Shoulder Bag Gift-Dinosaur Backpacks",
+            "normalizedName": "NOHOO Toddler Kids Cute Cartoon Backpack Shoulder Bag Gift-Dinosaur Backpacks",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.04999999911948
+            },
+            "width": {
+                "unit": "IN",
+                "value": 11.399999988372
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

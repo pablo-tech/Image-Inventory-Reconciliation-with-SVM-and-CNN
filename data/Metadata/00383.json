@@ -1,0 +1,115 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00008XPGJ": {
+            "asin": "B00008XPGJ",
+            "height": {
+                "unit": "IN",
+                "value": 0.49999999949
+            },
+            "length": {
+                "unit": "IN",
+                "value": 17.599999982048004
+            },
+            "name": "Pacon Tru-Ray Construction Paper, 12-Inches by 18-Inches, 50-Count, Light Yellow (103046)",
+            "normalizedName": "Pacon Tru-Ray Construction Paper, 12-Inches by 18-Inches, 50-Count, Light Yellow (103046)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.8
+            },
+            "width": {
+                "unit": "IN",
+                "value": 11.99999998776
+            }
+        },
+        "B0006O91EG": {
+            "asin": "B0006O91EG",
+            "height": {
+                "unit": "IN",
+                "value": 2.5984251942
+            },
+            "length": {
+                "unit": "IN",
+                "value": 14.4881889616
+            },
+            "name": "Pb4Y-1 Us Navy Sea Search 1/72 Scale",
+            "normalizedName": "Pb4Y-1 Us Navy Sea Search 1/72 Scale",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.9259320498151443
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.8976377862
+            }
+        },
+        "B015SFSVT8": {
+            "asin": "B015SFSVT8",
+            "height": {
+                "unit": "IN",
+                "value": 1.299999998674
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.99999998674
+            },
+            "name": "Men's Heat Retention Lightweight 100% Polyester Thermal Underwear Set X Large, Black",
+            "normalizedName": "Men's Heat Retention Lightweight 100% Polyester Thermal Underwear Set X Large, Black",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.9499999992033387
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.249999990565
+            }
+        },
+        "B01636HH78": {
+            "asin": "B01636HH78",
+            "height": {
+                "unit": "IN",
+                "value": 6.199999993676
+            },
+            "length": {
+                "unit": "IN",
+                "value": 14.299999985414
+            },
+            "name": "Lori by OG Go Everywhere Convertible Car",
+            "normalizedName": "Lori by OG Go Everywhere Convertible Car",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.4999999979035237
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.799999991024002
+            }
+        },
+        "B017DPFZYK": {
+            "asin": "B017DPFZYK",
+            "height": {
+                "unit": "IN",
+                "value": 2.599999997348
+            },
+            "length": {
+                "unit": "IN",
+                "value": 14.899999984802
+            },
+            "name": "FlexiFreeze Freezable 12 Can Cooler, BLACK",
+            "normalizedName": "FlexiFreeze Freezable 12 Can Cooler, BLACK",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.7999999976519465
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.899999989902
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B001DDY6HG": {
+            "asin": "B001DDY6HG",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.599999993268
+            },
+            "name": "Big Horn 11741PK 4-Inch Key Hose Clamp, 5-Pack, Colors may vary",
+            "normalizedName": "5-Pack Big Horn 11741PK 4-Inch Key Hose Clamp, , Colors may vary",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.25
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.799999995104
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

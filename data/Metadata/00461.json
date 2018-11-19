@@ -1,0 +1,46 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00D2CRXKI": {
+            "asin": "B00D2CRXKI",
+            "height": {
+                "unit": "IN",
+                "value": 1.49999999847
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.99999999184
+            },
+            "name": "LG Electronics Tone Ultra (HBS-800) Bluetooth Stereo Headset - Retail Packaging - Black",
+            "normalizedName": "LG Electronics Tone Ultra (HBS-800) Bluetooth Stereo Headset - Retail Packaging - Black",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3499999997064932
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.99999999286
+            }
+        },
+        "B01HDYZ6HW": {
+            "asin": "B01HDYZ6HW",
+            "height": {
+                "unit": "IN",
+                "value": 3.0
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.0
+            },
+            "name": "Funko Pop! Alice in Wonderland Cheshire Cat Glow in the Dark",
+            "normalizedName": "Funko Pop! Alice in Wonderland Cheshire Cat Glow in the Dark",
+            "quantity": 1,
+            "weight": null,
+            "width": {
+                "unit": "IN",
+                "value": 5.0
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000NPPAUW": {
+            "asin": "B000NPPAUW",
+            "height": {
+                "unit": "IN",
+                "value": 0.299999999694
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.599999987148
+            },
+            "name": "TEKTON 3592 Precision Pliers Set, 5-pc.",
+            "normalizedName": "TEKTON 3592 Precision Pliers Set, 5-pc.",
+            "quantity": 13,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.85
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.699999992146
+            }
+        },
+        "B01EXM8GGU": {
+            "asin": "B01EXM8GGU",
+            "height": {
+                "unit": "IN",
+                "value": 2.299999997654
+            },
+            "length": {
+                "unit": "IN",
+                "value": 13.099999986638
+            },
+            "name": "Pet Self Heating Pad",
+            "normalizedName": "Pet Self Heating Pad",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6999999994129866
+            },
+            "width": {
+                "unit": "IN",
+                "value": 10.899999988882
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 14
+}

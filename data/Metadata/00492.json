@@ -1,0 +1,159 @@
+{
+    "BIN_FCSKU_DATA": {
+        "0060191341": {
+            "asin": "0060191341",
+            "height": {
+                "unit": "IN",
+                "value": 1.299999998674
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.299999990514
+            },
+            "name": "RealAge: Are You as Young as You Can Be?",
+            "normalizedName": "RealAge: Are You as Young as You Can Be?",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.35
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.399999993472
+            }
+        },
+        "0077861671": {
+            "asin": "0077861671",
+            "height": {
+                "unit": "IN",
+                "value": 1.599999998368
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.099999989698
+            },
+            "name": "Investments, 10th Edition",
+            "normalizedName": "Investments, 10th Edition",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 4.1
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.099999991737999
+            }
+        },
+        "0140562737": {
+            "asin": "0140562737",
+            "height": {
+                "unit": "IN",
+                "value": 0.099999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.799999988984
+            },
+            "name": "Miss Bindergarten Gets Ready for Kindergarten (Miss Bindergarten Books (Paperback))",
+            "normalizedName": "Miss Bindergarten Gets Ready for Kindergarten (Miss Bindergarten Books (Paperback))",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.55
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.799999991024
+            }
+        },
+        "0143036912": {
+            "asin": "0143036912",
+            "height": {
+                "unit": "IN",
+                "value": 1.09842519573
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.29921258996
+            },
+            "name": "Oh the Glory of It All",
+            "normalizedName": "Oh the Glory of It All",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.9500159794104
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.40157479764
+            }
+        },
+        "0312045999": {
+            "asin": "0312045999",
+            "height": {
+                "unit": "IN",
+                "value": 0.799999999184
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.399999991432
+            },
+            "name": "Death Is a Two-Stroke Penalty: A Hacker Mystery",
+            "normalizedName": "Death Is a Two-Stroke Penalty: A Hacker Mystery",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.6
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.799999994084
+            }
+        },
+        "0738859176": {
+            "asin": "0738859176",
+            "height": {
+                "unit": "IN",
+                "value": 0.699999999286
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.399999991432
+            },
+            "name": "Demonstrating to Win!: The Indispensable Guide for Demonstrating Software",
+            "normalizedName": "Demonstrating to Win!: The Indispensable Guide for Demonstrating Software",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.75
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.49999999439
+            }
+        },
+        "1118572270": {
+            "asin": "1118572270",
+            "height": {
+                "unit": "IN",
+                "value": 1.2598425184
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.1574803046
+            },
+            "name": "Microeconomics",
+            "normalizedName": "Microeconomics",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.95
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.7952755826
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 7
+}

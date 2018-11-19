@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00CPTUNH4": {
+            "asin": "B00CPTUNH4",
+            "height": {
+                "unit": "IN",
+                "value": 0.58267716476
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.09842518961
+            },
+            "name": "The Extraordinary Adventures of Adele Blanc-Sec (BluRay/DVD/Digital Copy)",
+            "normalizedName": "The Extraordinary Adventures of Adele Blanc-Sec (BluRay/DVD/Digital Copy)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.18333454586339856
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.41732282912
+            }
+        },
+        "B0169HEV5M": {
+            "asin": "B0169HEV5M",
+            "height": {
+                "unit": "IN",
+                "value": 3.49999999643
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.99999998776
+            },
+            "name": "250 Feet - Black- Snagless Cat6 Ethernet Patch Cable by Aurum Cables with Cable Ties and Clips",
+            "normalizedName": "250 Feet - Black- Snagless Cat6 Ethernet Patch Cable by Aurum Cables with Cable Ties and Clips",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 5.449999995429681
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.399999992452001
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

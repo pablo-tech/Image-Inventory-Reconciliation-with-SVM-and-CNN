@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0041T9UD4": {
+            "asin": "B0041T9UD4",
+            "height": {
+                "unit": "IN",
+                "value": 2.899999997042
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.799999990004
+            },
+            "name": "Classic So-Soft Baby Doll",
+            "normalizedName": "Classic So-Soft Baby Doll",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.1
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.49999999337
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

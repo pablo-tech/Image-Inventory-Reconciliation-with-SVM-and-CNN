@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00LL56RNC": {
+            "asin": "B00LL56RNC",
+            "height": {
+                "unit": "IN",
+                "value": 1.299999998674
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.699999993166
+            },
+            "name": "Entertaining with Caspari 12240L Deyrolle Butterflies Napkin Luncheon, Ivory, 20-Pack",
+            "normalizedName": "20-Pack Entertaining with Caspari 12240L Deyrolle Butterflies Napkin Luncheon, Ivory,",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001186074866
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.49999999337
+            }
+        },
+        "B015QZMWR2": {
+            "asin": "B015QZMWR2",
+            "height": {
+                "unit": "IN",
+                "value": 1.968503935
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.629921249
+            },
+            "name": "WWE Basic Figure, Hideo Itami",
+            "normalizedName": "WWE Basic Figure, Hideo Itami",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3086440163462221
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.905511805
+            }
+        },
+        "B01A0BBF8O": {
+            "asin": "B01A0BBF8O",
+            "height": {
+                "unit": "IN",
+                "value": 3.899999996022
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.799999991024002
+            },
+            "name": "Premium 7 Piece Portion Control Container Kit with Free Protein Shaker",
+            "normalizedName": "Premium 7 Piece Portion Control Container Kit with Free Protein Shaker",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6499999994549162
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.099999992758
+            }
+        },
+        "B01F3ZNI2S": {
+            "asin": "B01F3ZNI2S",
+            "height": {
+                "unit": "IN",
+                "value": 4.199999995716
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.599999989188
+            },
+            "name": "Stainless Steel Tumbler 30 oz with BPA FREE Splash Proof Sliding Lid - Premium Quality Double Wall Vacuum Insulated Large Coffee Mug / Travel Mug Design for Hot & Cold Drinks + FREE Recipe eBook Gift",
+            "normalizedName": "Stainless Steel Tumbler 30 oz with BPA FREE Splash Proof Sliding Lid - Premium Quality Double Wall Vacuum Insulated Large Coffee Mug / Travel Mug Design for Hot & Cold Drinks + FREE Recipe eBook Gift",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.6999999985743957
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.49999999133
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

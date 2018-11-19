@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00LFSM004": {
+            "asin": "B00LFSM004",
+            "height": {
+                "unit": "IN",
+                "value": 6.49999999337
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.799999986944
+            },
+            "name": "ERB Safety Products 19637 Americana Full Brim Vent Mega Ratchet Hard Hat, Size: 6 1/2 - 8, Gray",
+            "normalizedName": "ERB Safety Products 19637 Americana Full Brim Vent Mega Ratchet Hard Hat, Size: 6 1/2 - 8, Gray",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.15
+            },
+            "width": {
+                "unit": "IN",
+                "value": 10.799999988984
+            }
+        },
+        "B00TM7BLFA": {
+            "asin": "B00TM7BLFA",
+            "height": {
+                "unit": "IN",
+                "value": 7.399999992452001
+            },
+            "length": {
+                "unit": "IN",
+                "value": 13.899999985822001
+            },
+            "name": "Ready 2 Fish Tackle Box - 2 Tray",
+            "normalizedName": "Ready 2 Fish Tackle Box - 2 Tray",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.55
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.599999992248
+            }
+        },
+        "B00YWYI106": {
+            "asin": "B00YWYI106",
+            "height": {
+                "unit": "IN",
+                "value": 3.99999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 14.699999985006
+            },
+            "name": "INNOCESSORIES\u00ae Deluxe Pets Anti-slip Water Resistant Microfiber Suede Chair Loveseat Sofa Furniture Protector Slipcover (Chair, Tan)",
+            "normalizedName": "INNOCESSORIES\u00ae Deluxe Pets Anti-slip Water Resistant Microfiber Suede Chair Loveseat Sofa Furniture Protector Slipcover (Chair, Tan)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.2499999989517618
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.099999990718
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

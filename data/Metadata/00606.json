@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000GAWSDG": {
+            "asin": "B000GAWSDG",
+            "height": {
+                "unit": "IN",
+                "value": 2.2047244072
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.8031496014
+            },
+            "name": "Casio F91W-1 Classic Resin Strap Digital Sport Watch",
+            "normalizedName": "Casio F91W-1 Classic Resin Strap Digital Sport Watch",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.17636800948859893
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.3070866108
+            }
+        },
+        "B00PC7Q8JI": {
+            "asin": "B00PC7Q8JI",
+            "height": {
+                "unit": "IN",
+                "value": 0.799999999184
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.749999993115
+            },
+            "name": "LEGO Mixels 41529 Nurp-Naut Building Kit",
+            "normalizedName": "LEGO Mixels 41529 Nurp-Naut Building Kit",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.10000000000000002
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.799999996124
+            }
+        },
+        "B00WH1QCMA": {
+            "asin": "B00WH1QCMA",
+            "height": {
+                "unit": "IN",
+                "value": 3.799999996124
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.099999994798
+            },
+            "name": "Funny Guy Mugs Happy To Help Ceramic Coffee Mug, Black, 11-Ounce",
+            "normalizedName": "Funny Guy Mugs Happy To Help Ceramic Coffee Mug, Black, 11-Ounce",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.8499999992871979
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.49999999541
+            }
+        },
+        "B00XIX64Q0": {
+            "asin": "B00XIX64Q0",
+            "height": {
+                "unit": "IN",
+                "value": 0.49999999949
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.9999999898
+            },
+            "name": "Hppe Cut Resistant Protect Hand Gloves - Super Soft, Food Grade Material, Superfine Fiber, Comfortable Fit, Food Cutting Gloves, Safety for Home and Work, Stronger Than Leather, More Comfortable Than Steel Mesh (Small, White)",
+            "normalizedName": "Hppe Cut Resistant Protect Hand Gloves - Super Soft, Food Grade Material, Superfine Fiber, Comfortable Fit, Food Cutting Gloves, Safety for Home and Work, Stronger Than Leather, More Comfortable Than Steel Mesh (Small, White)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.05000000000000001
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.899999997042
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B004QTXVRK": {
+            "asin": "B004QTXVRK",
+            "height": {
+                "unit": "IN",
+                "value": 7.399999992452
+            },
+            "length": {
+                "unit": "IN",
+                "value": 13.199999986536
+            },
+            "name": "Westland Giftware Looney Tunes Tweety and Sylvester Best Friends Cookie Jar, 10-1/2-Inch",
+            "normalizedName": "Westland Giftware Looney Tunes Tweety and Sylvester Best Friends Cookie Jar, 10-1/2-Inch",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.65
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.099999991738
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

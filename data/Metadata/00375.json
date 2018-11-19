@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B005JAH61M": {
+            "asin": "B005JAH61M",
+            "height": {
+                "unit": "IN",
+                "value": 2.699999997246
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.9999999949
+            },
+            "name": "Vitafusion Energy B12 Gummy Vitamins, Very Raspberry 500mcg, 250 Count",
+            "normalizedName": "Vitafusion Energy B12 Gummy Vitamins, Very Raspberry 500mcg, 250 Count",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.35
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.899999995002001
+            }
+        },
+        "B01ALGKMCI": {
+            "asin": "B01ALGKMCI",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.49999999337
+            },
+            "name": "[3 Pack] iPhone 6 Plus Screen Protector, Foxnovo 5.5\" iPhone Tempered Glass Screen Protector with Easy to Paste Tool for Apple iPhone 6 Plus, iPhone 6s Plus",
+            "normalizedName": "3 Pack [ ] iPhone 6 Plus Screen Protector, Foxnovo 5.5\" iPhone Tempered Glass Screen Protector with Easy to Paste Tool for Apple iPhone 6 Plus, iPhone 6s Plus",
+            "quantity": 5,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.19999999983228192
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.99999999592
+            }
+        },
+        "B01CY4B93Q": {
+            "asin": "B01CY4B93Q",
+            "height": {
+                "unit": "IN",
+                "value": 3.199999996736
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.899999988882
+            },
+            "name": "BANDEA Women's 2 Piece Padded Halter Tankini Swimsuit High Waist Swimwear XL",
+            "normalizedName": "BANDEA Women's 2 Piece Padded Halter Tankini Swimsuit High Waist Swimwear XL",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.39999999966456384
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.399999991432
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 7
+}

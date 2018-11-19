@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00Y375P38": {
+            "asin": "B00Y375P38",
+            "height": {
+                "unit": "IN",
+                "value": 1.699999998266
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.9999999898
+            },
+            "name": "Kunst und Magie Women's Alternative Goa Shoulder Bag - Hippie Festival Bag Black",
+            "normalizedName": "Kunst und Magie Women's Alternative Goa Shoulder Bag - Hippie Festival Bag Black",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4499999996226342
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.699999991126
+            }
+        },
+        "B00ZE36BEW": {
+            "asin": "B00ZE36BEW",
+            "height": {
+                "unit": "IN",
+                "value": 0.49999999949
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.49999999235
+            },
+            "name": "Tom Clancy's The Division (Gold Edition) - PC",
+            "normalizedName": "Tom Clancy's The Division (Gold Edition) - PC",
+            "quantity": 16,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.29999999974842284
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.299999994594
+            }
+        },
+        "B017SJKXL6": {
+            "asin": "B017SJKXL6",
+            "height": {
+                "unit": "IN",
+                "value": 2.899999997042
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.799999995104
+            },
+            "name": "1byone Easy Chime Plug-in Wireless Doorbell Operating at 500 feet, CD Quality Sound and LED Flash, 36 Melodies to Choose, White",
+            "normalizedName": "1byone Easy Chime Plug-in Wireless Doorbell Operating at 500 feet, CD Quality Sound and LED Flash, 36 Melodies to Choose, White",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.39999999966456384
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.799999995104
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 18
+}

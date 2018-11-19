@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B001P3NU30": {
+            "asin": "B001P3NU30",
+            "height": {
+                "unit": "IN",
+                "value": 3.49999999643
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.799999987964
+            },
+            "name": "Virbac C.E.T. Enzymatic Oral Hygiene Chews, Large Dog, 30 Count",
+            "normalizedName": "Virbac C.E.T. Enzymatic Oral Hygiene Chews, Large Dog, 30 Count",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.9999999991614094
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.399999993472
+            }
+        },
+        "B008LT0NUO": {
+            "asin": "B008LT0NUO",
+            "height": {
+                "unit": "IN",
+                "value": 3.899999996022
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.099999990718
+            },
+            "name": "Beats BT OV EXEC SLV Executive Over Ear Headphones, Silver",
+            "normalizedName": "Beats BT OV EXEC SLV Executive Over Ear Headphones, Silver",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.15
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.599999992248
+            }
+        },
+        "B00ABVSMQC": {
+            "asin": "B00ABVSMQC",
+            "height": {
+                "unit": "IN",
+                "value": 1.699999998266
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.699999988066
+            },
+            "name": "Cuddledown 400 Thread Count Jacquard Comforter Cover, Twin, White",
+            "normalizedName": "Cuddledown 400 Thread Count Jacquard Comforter Cover, Twin, White",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.4999999999999996
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.399999990412
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00AR105IE": {
+            "asin": "B00AR105IE",
+            "height": {
+                "unit": "IN",
+                "value": 5.599999994287999
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.99999999286
+            },
+            "name": "Westland Giftware 14-Ounce Siamese Cat Bottoms Up Ceramic Mug, 4.75-Inch",
+            "normalizedName": "Westland Giftware 14-Ounce Siamese Cat Bottoms Up Ceramic Mug, 4.75-Inch",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.0
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.599999993268
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

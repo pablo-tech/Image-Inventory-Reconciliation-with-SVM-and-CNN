@@ -1,0 +1,115 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00BFL68H2": {
+            "asin": "B00BFL68H2",
+            "height": {
+                "unit": "IN",
+                "value": 2.7999999971439995
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.699999991126
+            },
+            "name": "Rover The Doodle Dog",
+            "normalizedName": "Rover The Doodle Dog",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.15
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.49999999337
+            }
+        },
+        "B00FXPSOJG": {
+            "asin": "B00FXPSOJG",
+            "height": {
+                "unit": "IN",
+                "value": 1.49999999847
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.199999990616
+            },
+            "name": "Digesteeze Beefhide 8-inch Rolls- 3 pack (27818)",
+            "normalizedName": "Digesteeze Beefhide 8-inch Rolls- 3 pack (27818)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.75
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.99999999388
+            }
+        },
+        "B00OCYXTYY": {
+            "asin": "B00OCYXTYY",
+            "height": {
+                "unit": "IN",
+                "value": 1.3385826758
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.1417322772
+            },
+            "name": "ScanTool OBDLink MX Wi-Fi: OBD Adapter/Diagnostic Scanner for iOS, Android & Windows",
+            "normalizedName": "ScanTool OBDLink MX Wi-Fi: OBD Adapter/Diagnostic Scanner for iOS, Android & Windows",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.15
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.2755905458
+            }
+        },
+        "B00ZCEP9G4": {
+            "asin": "B00ZCEP9G4",
+            "height": {
+                "unit": "IN",
+                "value": 2.299999997654
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.99999999388
+            },
+            "name": "Running Belt, URPOWER\u00ae Multifunctional Zipper Pockets Water Resistant Waist Bag, Water Bottle (Two Bottles Included) Waist Pack for Running Hiking Cycling Climbing Camping Travel Compatible with iPhone 6S, 6, 5 5S 5C 4S,Samsung Galaxy S6 Edge,S6 S5 S4 S3 and Other Smartphones",
+            "normalizedName": "Running Belt, URPOWER\u00ae Multifunctional Zipper Pockets Water Resistant Waist Bag, Water Bottle (Two Bottles Included) Waist Pack for Running Hiking Cycling Climbing Camping Travel Compatible with iPhone 6S, 6, 5 5S 5C 4S,Samsung Galaxy S6 Edge,S6 S5 S4 S3 and Other Smartphones",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3499999999999999
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.9999999949
+            }
+        },
+        "B017N5FDU6": {
+            "asin": "B017N5FDU6",
+            "height": {
+                "unit": "IN",
+                "value": 0.399999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.299999990514001
+            },
+            "name": "Organic Wheatgrass Juice Powder - Raw & Non-GMO Wheatgrass Powder 454 Servings 226 g",
+            "normalizedName": "Organic Wheatgrass Juice Powder - Raw & Non-GMO Wheatgrass Powder 454 Servings 226 g",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.3999999988259728
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.899999997042
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

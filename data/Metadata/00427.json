@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000HARPV0": {
+            "asin": "B000HARPV0",
+            "height": {
+                "unit": "IN",
+                "value": 2.399999997552
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.299999989494
+            },
+            "name": "Cineplexity Game",
+            "normalizedName": "Cineplexity Game",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.6
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.49999999133
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

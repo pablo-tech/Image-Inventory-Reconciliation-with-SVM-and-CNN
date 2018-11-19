@@ -1,0 +1,125 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B004E6QLD6": {
+            "asin": "B004E6QLD6",
+            "height": {
+                "unit": "IN",
+                "value": 1.4173228332
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.3779527494
+            },
+            "name": "Radians JR01B0ID Journey 4 Position Telescoping Temples Glasses with Light Blue Lens",
+            "normalizedName": "Radians JR01B0ID Journey 4 Position Telescoping Temples Glasses with Light Blue Lens",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.5
+            },
+            "width": {
+                "unit": "IN",
+                "value": 1.968503935
+            }
+        },
+        "B00EB7Z6SY": {
+            "asin": "B00EB7Z6SY",
+            "height": {
+                "unit": "IN",
+                "value": 0.599999999388
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.699999995206
+            },
+            "name": "Advanced G Shape Police Earpiece Headset PTT Mic for 2-pin Motorola Radio CP040 CP200 XTNi DTR VL50",
+            "normalizedName": "Advanced G Shape Police Earpiece Headset PTT Mic for 2-pin Motorola Radio CP040 CP200 XTNi DTR VL50",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.05000000000000001
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.599999996328
+            }
+        },
+        "B00G9WHN12": {
+            "asin": "B00G9WHN12",
+            "height": {
+                "unit": "IN",
+                "value": 0.2362204722
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.5275590505
+            },
+            "name": "Kingston Digital 32GB Data Traveler 3.0 USB Flash Drive - Red (DTIG4/32GB )",
+            "normalizedName": "Kingston Digital 32GB Data Traveler 3.0 USB Flash Drive - Red (DTIG4/32GB )",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.044092002335174595
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.93700787
+            }
+        },
+        "B00OZO3XLK": {
+            "asin": "B00OZO3XLK",
+            "height": null,
+            "length": null,
+            "name": "world trip Fancy Passport Cover",
+            "normalizedName": "world trip Fancy Passport Cover",
+            "quantity": 1,
+            "weight": null,
+            "width": null
+        },
+        "B0177KQ806": {
+            "asin": "B0177KQ806",
+            "height": {
+                "unit": "IN",
+                "value": 0.49999999949
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.399999995512001
+            },
+            "name": "BlueFire\u00ae Micro USB to Magnetic Charging Adapter W/LED Cable For Sony Xperia Z1 Z2 Z3 Compact(Blue)",
+            "normalizedName": "BlueFire\u00ae Micro USB to Magnetic Charging Adapter W/LED Cable For Sony Xperia Z1 Z2 Z3 Compact(Blue)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001167587297
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.99999999694
+            }
+        },
+        "B01BCZ856C": {
+            "asin": "B01BCZ856C",
+            "height": {
+                "unit": "IN",
+                "value": 0.2362204722
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.9527558974
+            },
+            "name": "Galaxy S7 Edge Case, VRS Design [Crystal Bumper][Rose Gold] - [Clear Cover][Military Protection] For Samsung S7 Edge",
+            "normalizedName": "Galaxy S7 Edge Case, VRS Design [Crystal Bumper][Rose Gold] - [Clear Cover][Military Protection] For Samsung S7 Edge",
+            "quantity": 6,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.0440924524
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.6220472404
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 11
+}

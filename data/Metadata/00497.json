@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B006VZODC4": {
+            "asin": "B006VZODC4",
+            "height": {
+                "unit": "IN",
+                "value": 6.899999992962
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.49999999133
+            },
+            "name": "Corelle / Corning - Apricot Grove - 9 Ounce Flared Mug (Set of 4)",
+            "normalizedName": "(Set of 4) Corelle / Corning - Apricot Grove - 9 Ounce Flared Mug",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.65
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.099999992758
+            }
+        },
+        "B00CKRU3UI": {
+            "asin": "B00CKRU3UI",
+            "height": {
+                "unit": "IN",
+                "value": 5.699999994186001
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.49999999337
+            },
+            "name": "Ocean Wave Night Light Projector and Music Player. Romance and Relax Effect. Multicolor Led bulbs Or Single Color.Blue Red and Green",
+            "normalizedName": "Ocean Wave Night Light Projector and Music Player. Romance and Relax Effect. Multicolor Led bulbs Or Single Color.Blue Red and Green",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.15
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.99999999388
+            }
+        },
+        "B015XW7YE4": {
+            "asin": "B015XW7YE4",
+            "height": {
+                "unit": "IN",
+                "value": 1.99999999796
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.199999991636
+            },
+            "name": "GLW\u00ae 20W LED RGB Flood Light, Remote Control Waterproof Outdoor Security Light, 4 Models with 16 Color Tones Spotlight, Dimmable Color Changing",
+            "normalizedName": "GLW\u00ae 20W LED RGB Flood Light, Remote Control Waterproof Outdoor Security Light, 4 Models with 16 Color Tones Spotlight, Dimmable Color Changing",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.349999998867903
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.799999994084
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

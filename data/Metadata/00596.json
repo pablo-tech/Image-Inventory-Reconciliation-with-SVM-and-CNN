@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "0470651733": {
+            "asin": "0470651733",
+            "height": {
+                "unit": "IN",
+                "value": 1.199999998776
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.099999990718
+            },
+            "name": "Affiliate Program Management: An Hour a Day",
+            "normalizedName": "Affiliate Program Management: An Hour a Day",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.55
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.299999992554
+            }
+        },
+        "1118533844": {
+            "asin": "1118533844",
+            "height": {
+                "unit": "IN",
+                "value": 0.799999999184
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.099999990718
+            },
+            "name": "Econometrics For Dummies",
+            "normalizedName": "Econometrics For Dummies",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.2
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.299999992554
+            }
+        },
+        "B011FN3NBS": {
+            "asin": "B011FN3NBS",
+            "height": {
+                "unit": "IN",
+                "value": 1.49999999847
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.299999987454
+            },
+            "name": "Cooking Concepts Stainless Steel Tongs",
+            "normalizedName": "Cooking Concepts Stainless Steel Tongs",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3699999996897215
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.399999996532
+            }
+        },
+        "B01AQG9FGW": {
+            "asin": "B01AQG9FGW",
+            "height": {
+                "unit": "IN",
+                "value": 1.899999998062
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.899999991942001
+            },
+            "name": "Zizo Bolt Cover For Galaxy Amp Prime | Galaxy J3 [.33mm 9H Tempered Glass Screen Protector] Dual-Layered [Military Grade] Case Kickstand Belt Clip-Gray/Black",
+            "normalizedName": "Zizo Bolt Cover For Galaxy Amp Prime | Galaxy J3 [.33mm 9H Tempered Glass Screen Protector] Dual-Layered [Military Grade] Case Kickstand Belt Clip-Gray/Black",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.24999999979035234
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.49999999439
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 7
+}

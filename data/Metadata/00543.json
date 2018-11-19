@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00P10IA1A": {
+            "asin": "B00P10IA1A",
+            "height": {
+                "unit": "IN",
+                "value": 1.199999998776
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.399999996532
+            },
+            "name": "LP\u00ae 36W 7.2A Rapid USB Car Charger 3-Port In Car Charger With CI Power Technology (Smart Charging) for Iphone6, Iphone6 Plus, Iphone5, Ipad Air, Samsung Galaxy Note4, Nexus, HTC, Motorola, Nokia and External Battery Charger and Many other USB-Powered Mobile Devices - White",
+            "normalizedName": "LP\u00ae 36W 7.2A Rapid USB Car Charger 3-Port In Car Charger With CI Power Technology (Smart Charging) for Iphone6, Iphone6 Plus, Iphone5, Ipad Air, Samsung Galaxy Note4, Nexus, HTC, Motorola, Nokia and External Battery Charger and Many other USB-Powered Mobile Devices - White",
+            "quantity": 8,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001186074866
+            },
+            "width": {
+                "unit": "IN",
+                "value": 1.699999998266
+            }
+        },
+        "B01CLPRA8G": {
+            "asin": "B01CLPRA8G",
+            "height": {
+                "unit": "IN",
+                "value": 0.25
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.0
+            },
+            "name": "2016 Topps MLB Wacky Promos #MLBW6 Cardinals/Eggs",
+            "normalizedName": "2016 Topps MLB Wacky Promos #MLBW6 Cardinals/Eggs",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.0625
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.25
+            }
+        },
+        "B01G6WKABE": {
+            "asin": "B01G6WKABE",
+            "height": {
+                "unit": "IN",
+                "value": 0.899999999082
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.399999992452001
+            },
+            "name": "Samsung Galaxy Tab A 7.0 Case, Whttle Smart PU Leather 360 Degrees Rotating Stand Case Cover for 2016 Release Samsung Galaxy Tab A 7.0 7-Inch Tablet (SM-T280 / SM-T285) (2016 Released) (White)",
+            "normalizedName": "Samsung Galaxy Tab A 7.0 Case, Whttle Smart PU Leather 360 Degrees Rotating Stand Case Cover for 2016 Release Samsung Galaxy Tab A 7.0 7-Inch Tablet (SM-T280 / SM-T285) (2016 Released) (White)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.24999999979035234
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.9999999949
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 10
+}

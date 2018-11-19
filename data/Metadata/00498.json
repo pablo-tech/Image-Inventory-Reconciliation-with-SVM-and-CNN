@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00UW6BFQU": {
+            "asin": "B00UW6BFQU",
+            "height": {
+                "unit": "IN",
+                "value": 0.199999999796
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.99999999184
+            },
+            "name": "Rearing Unicorn Specialty Vinyl Decal Sized To Fit A 11\" Laptop - Silver Metal Flake",
+            "normalizedName": "Rearing Unicorn Specialty Vinyl Decal Sized To Fit A 11\" Laptop - Silver Metal Flake",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.19999999983228192
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.099999993778
+            }
+        },
+        "B00XI3OLW4": {
+            "asin": "B00XI3OLW4",
+            "height": {
+                "unit": "IN",
+                "value": 1.3999999985719997
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.199999990616
+            },
+            "name": "Citric Acid - 1lb \u2013 Made in USA - 100% Pure - Organic Certified Powder - No Anti-caking Agents. 90 Day Satisfaction Guarantee.",
+            "normalizedName": "Citric Acid - 1lb \u2013 Made in USA - 100% Pure - Organic Certified Powder - No Anti-caking Agents. 90 Day Satisfaction Guarantee.",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.9999999991614094
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.399999994492
+            }
+        },
+        "B00ZWW9VEW": {
+            "asin": "B00ZWW9VEW",
+            "height": {
+                "unit": "IN",
+                "value": 1.99999999796
+            },
+            "length": {
+                "unit": "IN",
+                "value": 2.99999999694
+            },
+            "name": "StarMall Wooden Worms Eat Apples Threading Toys Early Childhood Educational Toys Apple Caterpillar Worm",
+            "normalizedName": "StarMall Wooden Worms Eat Apples Threading Toys Early Childhood Educational Toys Apple Caterpillar Worm",
+            "quantity": 6,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.1999999998322819
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.99999999694
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 8
+}

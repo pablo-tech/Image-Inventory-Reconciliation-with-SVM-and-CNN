@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B008SBD6WW": {
+            "asin": "B008SBD6WW",
+            "height": {
+                "unit": "IN",
+                "value": 2.1999999977560005
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.899999989902
+            },
+            "name": "uxcell\u00ae Square Rubber Cap Furniture Table Leg Covers 40mm x 40mm 10 Pcs Black",
+            "normalizedName": "uxcell\u00ae Square Rubber Cap Furniture Table Leg Covers 40mm x 40mm 10 Pcs Black",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.29999999974842284
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.099999993778
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

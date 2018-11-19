@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0029D1PAA": {
+            "asin": "B0029D1PAA",
+            "height": {
+                "unit": "IN",
+                "value": 3.199999996736
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.699999987045999
+            },
+            "name": "Science Purchase  Universal Hand Gun, Rifle & Shot Gun Cleaning Kit",
+            "normalizedName": "Science Purchase  Universal Hand Gun, Rifle & Shot Gun Cleaning Kit",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.249999998113171
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.49999999031
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

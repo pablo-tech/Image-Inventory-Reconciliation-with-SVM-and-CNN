@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0006TU5BE": {
+            "asin": "B0006TU5BE",
+            "height": {
+                "unit": "IN",
+                "value": 3.399999996532
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.49999999541
+            },
+            "name": "SPECO CVC521BC Color Board Camera",
+            "normalizedName": "SPECO CVC521BC Color Board Camera",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.45
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.799999996124
+            }
+        },
+        "B00IUNVTRW": {
+            "asin": "B00IUNVTRW",
+            "height": {
+                "unit": "IN",
+                "value": 1.181102361
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.0393700736
+            },
+            "name": "Secrid Mini Wallet Leather Vintage Black, Rfid Safe Card Case",
+            "normalizedName": "Secrid Mini Wallet Leather Vintage Black, Rfid Safe Card Case",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.2645520140110475
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.4881889718
+            }
+        },
+        "B00JDQK10G": {
+            "asin": "B00JDQK10G",
+            "height": {
+                "unit": "IN",
+                "value": 0.6999999992859999
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.299999995614
+            },
+            "name": "Amazon.com $100 Gift Card in a Birthday Cupcake Tin (Birthday Cupcake Card Design)",
+            "normalizedName": "Amazon.com $100 Gift Card in a Birthday Cupcake Tin (Birthday Cupcake Card Design)",
+            "quantity": 7,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001186074866
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.6999999962260004
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 9
+}

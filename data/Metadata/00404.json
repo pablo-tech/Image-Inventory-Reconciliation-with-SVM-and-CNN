@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00I504Y5E": {
+            "asin": "B00I504Y5E",
+            "height": {
+                "unit": "IN",
+                "value": 2.099999997858
+            },
+            "length": {
+                "unit": "IN",
+                "value": 15.99999998368
+            },
+            "name": "Briana Faux Silk with Flower Print Curtain Panels 55'' x 84'' - 2 Pack",
+            "normalizedName": "2 Pack Briana Faux Silk with Flower Print Curtain Panels 55'' x 84'' -",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.09999999823896
+            },
+            "width": {
+                "unit": "IN",
+                "value": 12.299999987454
+            }
+        },
+        "B01FMWX0A2": {
+            "asin": "B01FMWX0A2",
+            "height": {
+                "unit": "IN",
+                "value": 3.99999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.49999998827
+            },
+            "name": "Stylish Mini Backpack in Color Stone -12\"L x 10\"W",
+            "normalizedName": "Stylish Mini Backpack in Color Stone -12\"L x 10\"W",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.7999999993291277
+            },
+            "width": {
+                "unit": "IN",
+                "value": 10.599999989188
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

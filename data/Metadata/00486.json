@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B001B0S8R0": {
+            "asin": "B001B0S8R0",
+            "height": {
+                "unit": "IN",
+                "value": 2.799999997144
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.099999994798
+            },
+            "name": "Organic India Tulsi Tea Chai Masala, 18 Count",
+            "normalizedName": "Organic India Tulsi Tea Chai Masala, 18 Count",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.15
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.199999996736
+            }
+        },
+        "B002QHYO0W": {
+            "asin": "B002QHYO0W",
+            "height": {
+                "unit": "IN",
+                "value": 2.199999997756
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.899999995002
+            },
+            "name": "Edwin Jagger 1ej256sds Traditional English Super Badger Hair Shaving Brush Faux Ebony Medium With Drip Stand, Black, Medium",
+            "normalizedName": "Edwin Jagger 1ej256sds Traditional English Super Badger Hair Shaving Brush Faux Ebony Medium With Drip Stand, Black, Medium",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.25
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.399999997552
+            }
+        },
+        "B004N8ZQKY": {
+            "asin": "B004N8ZQKY",
+            "height": {
+                "unit": "IN",
+                "value": 0.799999999184
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.9999999949
+            },
+            "name": "Rosewill ESD Anti-Static Wrist Strap Components RTK-002, Black/Yellow",
+            "normalizedName": "Rosewill ESD Anti-Static Wrist Strap Components RTK-002, Black/Yellow",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.10000000000000002
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.899999997042
+            }
+        },
+        "B019W2MK54": {
+            "asin": "B019W2MK54",
+            "height": {
+                "unit": "IN",
+                "value": 1.968503935
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.4330708606
+            },
+            "name": "Havit 2800 DPI 4 LED Lights Optical Wired Gaming Mouse, Black / Red (HV-MS745)",
+            "normalizedName": "Havit 2800 DPI 4 LED Lights Optical Wired Gaming Mouse, Black / Red (HV-MS745)",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4499999996226342
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.1732283422
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00D7K1KAY": {
+            "asin": "B00D7K1KAY",
+            "height": {
+                "unit": "IN",
+                "value": 3.599999996328
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.299999991534
+            },
+            "name": "Natural Vitality Calm Cherry, 16 Ounce",
+            "normalizedName": "Natural Vitality Calm Cherry, 16 Ounce",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.1999999989936914
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.599999996328
+            }
+        },
+        "B01DKHJV1I": {
+            "asin": "B01DKHJV1I",
+            "height": {
+                "unit": "IN",
+                "value": 1.574803148
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.055118101
+            },
+            "name": "Madhu's COLLECTION 1 Piece House of Kalon American Ale Organic Soap Bar, 6 oz/170g",
+            "normalizedName": "Madhu's COLLECTION 1 Piece House of Kalon American Ale Organic Soap Bar, 6 oz/170g",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6172943336
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.692913379
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

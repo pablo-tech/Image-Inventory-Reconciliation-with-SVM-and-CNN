@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "1770412638": {
+            "asin": "1770412638",
+            "height": {
+                "unit": "IN",
+                "value": 0.72834645595
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.42913384967
+            },
+            "name": "Van Halen Rising: How a Southern California Backyard Party Band Saved Heavy Metal",
+            "normalizedName": "Van Halen Rising: How a Southern California Backyard Party Band Saved Heavy Metal",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.7900044696508
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.85039369482
+            }
+        },
+        "B0009LTA6A": {
+            "asin": "B0009LTA6A",
+            "height": {
+                "unit": "IN",
+                "value": 0.599999999388
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.49999999133
+            },
+            "name": "Belkin CAT5E Snagless Patch Cable  RJ45M/RJ45M; 10 Pink",
+            "normalizedName": "Belkin CAT5E Snagless Patch Cable  RJ45M/RJ45M; 10 Pink",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.05
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.99999999388
+            }
+        },
+        "B0061ZQFKW": {
+            "asin": "B0061ZQFKW",
+            "height": {
+                "unit": "IN",
+                "value": 0.799999999184
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.399999991432
+            },
+            "name": "Dunroven House Spring Cherries Kitchen Stitches Embroidery Set, Blue and White Check",
+            "normalizedName": "Dunroven House Spring Cherries Kitchen Stitches Embroidery Set, Blue and White Check",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.45
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.099999991737999
+            }
+        },
+        "B00T6ZGCAM": {
+            "asin": "B00T6ZGCAM",
+            "height": {
+                "unit": "IN",
+                "value": 1.99999999796
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.099999990718
+            },
+            "name": "KIDDO FEEDO Food Storage Containers - Multipurpose Freezer Tray to Freeze Baby Food, Herbs, Ice Cubes, Sauces etc. - BPA Free & FDA Approved - FREE eBook by Author/Dietitian - Lifetime Guarantee, Gray",
+            "normalizedName": "KIDDO FEEDO Food Storage Containers - Multipurpose Freezer Tray to Freeze Baby Food, Herbs, Ice Cubes, Sauces etc. - BPA Free & FDA Approved - FREE eBook by Author/Dietitian - Lifetime Guarantee, Gray",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.5499943859857981
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.599999992248
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

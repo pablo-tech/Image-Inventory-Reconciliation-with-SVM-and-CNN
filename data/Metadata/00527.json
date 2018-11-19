@@ -1,0 +1,115 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000UVGLHU": {
+            "asin": "B000UVGLHU",
+            "height": {
+                "unit": "IN",
+                "value": 2.899999997042
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.99999999286
+            },
+            "name": "V for Vendetta Mask",
+            "normalizedName": "V for Vendetta Mask",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.14999999987421142
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.49999999337
+            }
+        },
+        "B003U5ZFZ2": {
+            "asin": "B003U5ZFZ2",
+            "height": {
+                "unit": "IN",
+                "value": 0.399999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.49999999643
+            },
+            "name": "Primos Double Lanyard",
+            "normalizedName": "Primos Double Lanyard",
+            "quantity": 6,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.1
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.199999996736
+            }
+        },
+        "B005JRJEZQ": {
+            "asin": "B005JRJEZQ",
+            "height": {
+                "unit": "IN",
+                "value": 0.299999999694
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.199999994696
+            },
+            "name": "Dremel MM482 Wood/Metal Flush Cut Blade",
+            "normalizedName": "Dremel MM482 Wood/Metal Flush Cut Blade",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.10000000000000002
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.599999996328
+            }
+        },
+        "B008YGF9G2": {
+            "asin": "B008YGF9G2",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 2.99999999694
+            },
+            "name": "Mehron Crepe Hair 12-inch Braid (Medium Grey)",
+            "normalizedName": "Mehron Crepe Hair 12-inch Braid (Medium Grey)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.02
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.99999999694
+            }
+        },
+        "B010QN5OLU": {
+            "asin": "B010QN5OLU",
+            "height": {
+                "unit": "IN",
+                "value": 0.099999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.49999999643
+            },
+            "name": "HitLights LED Light Strip DC Jack Connector - Female to wire - For LED Tape Light power and DC connections",
+            "normalizedName": "HitLights LED Light Strip DC Jack Connector - Female to wire - For LED Tape Light power and DC connections",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001167587297
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.699999997246
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 11
+}

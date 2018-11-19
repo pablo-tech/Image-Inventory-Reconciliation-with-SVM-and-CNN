@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000QJE48O": {
+            "asin": "B000QJE48O",
+            "height": {
+                "unit": "IN",
+                "value": 2.099999997858
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.699999994186001
+            },
+            "name": "OXO Good Grips Stainless Steel Bladed Dough Blender and Cutter",
+            "normalizedName": "OXO Good Grips Stainless Steel Bladed Dough Blender and Cutter",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.10000000000000002
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.49999999439
+            }
+        },
+        "B004MAW3NG": {
+            "asin": "B004MAW3NG",
+            "height": {
+                "unit": "IN",
+                "value": 1.49999999847
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.49999999235
+            },
+            "name": "Zenport H300S Harvest Shear, Long Straight Stainless Steel Blade",
+            "normalizedName": "Zenport H300S Harvest Shear, Long Straight Stainless Steel Blade",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.25
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.49999999643
+            }
+        },
+        "B016IHDE88": {
+            "asin": "B016IHDE88",
+            "height": {
+                "unit": "IN",
+                "value": 1.799999998164
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.99999999388
+            },
+            "name": "Disney/Pixar Cars Justin Partson Vehicle",
+            "normalizedName": "Disney/Pixar Cars Justin Partson Vehicle",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.14999999987421142
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.49999999439
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

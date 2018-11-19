@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000I0TZO4": {
+            "asin": "B000I0TZO4",
+            "height": {
+                "unit": "IN",
+                "value": 0.7086614166
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.5590551104
+            },
+            "name": "Sharpie Permanent Marker, Fine Point, Black, Pack of 5",
+            "normalizedName": "Pack of 5 Sharpie Permanent Marker, Fine Point, Black,",
+            "quantity": 12,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.13227600711644918
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.8031496014
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 12
+}

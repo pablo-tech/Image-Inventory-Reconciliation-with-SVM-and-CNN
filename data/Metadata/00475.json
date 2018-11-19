@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00YNSEDRQ": {
+            "asin": "B00YNSEDRQ",
+            "height": {
+                "unit": "IN",
+                "value": 2.99999999694
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.49999999133
+            },
+            "name": "Contigo Autoseal West Loop Stainless Steel Travel Mug with Easy-Clean Lid, 20 oz Radiant Orchid",
+            "normalizedName": "Contigo Autoseal West Loop Stainless Steel Travel Mug with Easy-Clean Lid, 20 oz Radiant Orchid",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.7999999993291277
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.6999999962260004
+            }
+        },
+        "B01B7P0MKY": {
+            "asin": "B01B7P0MKY",
+            "height": {
+                "unit": "IN",
+                "value": 3.199999996736
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.99999998776
+            },
+            "name": "Finding Dory Feature Figure, Bailey",
+            "normalizedName": "Finding Dory Feature Figure, Bailey",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3499999997064932
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.99999999388
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

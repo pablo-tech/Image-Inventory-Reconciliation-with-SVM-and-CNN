@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B004E92CFY": {
+            "asin": "B004E92CFY",
+            "height": {
+                "unit": "IN",
+                "value": 3.49999999643
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.99999999592
+            },
+            "name": "WELL Stainless Steel Condiment Server - Sugar Bowl with Lid and Spoon",
+            "normalizedName": "WELL Stainless Steel Condiment Server - Sugar Bowl with Lid and Spoon",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.5
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.99999999592
+            }
+        },
+        "B01CREZKQK": {
+            "asin": "B01CREZKQK",
+            "height": {
+                "unit": "IN",
+                "value": 0.599999999388
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.99999999388
+            },
+            "name": "HR Wireless Carrying Case for LG Spree Optimus Zone 3 VS425 K4 - Retail Packaging - Silver/Black",
+            "normalizedName": "HR Wireless Carrying Case for LG Spree Optimus Zone 3 VS425 K4 - Retail Packaging - Silver/Black",
+            "quantity": 4,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001167587297
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.099999996838
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

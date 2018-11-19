@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B016XBLT90": {
+            "asin": "B016XBLT90",
+            "height": {
+                "unit": "IN",
+                "value": 1.599999998368
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.199999993676
+            },
+            "name": "Samsung mini Wireless Charging Pad Qi with 2A Wall Charger - Retail Packaging - Black",
+            "normalizedName": "Samsung mini Wireless Charging Pad Qi with 2A Wall Charger - Retail Packaging - Black",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.40999999965617784
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.599999996328
+            }
+        },
+        "B01AWAH4U6": {
+            "asin": "B01AWAH4U6",
+            "height": {
+                "unit": "IN",
+                "value": 2.8999999970420003
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.599999993268
+            },
+            "name": "Kingway Compatible Ink Cartridge Replacement for HP 940XL ( Black,Cyan,Magenta,Yellow , 4-Pack )",
+            "normalizedName": "4-Pack Kingway Compatible Ink Cartridge Replacement for HP 940XL ( Black,Cyan,Magenta,Yellow , )",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.7999999993291276
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.6999999962260004
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0090YJBYS": {
+            "asin": "B0090YJBYS",
+            "height": {
+                "unit": "IN",
+                "value": 2.099999997858
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.299999988474
+            },
+            "name": "HP Office Ultra White, 20lb, 8 1/2 x 11, 92 Bright, 500 Sheets/1 Ream (112101)",
+            "normalizedName": "HP Office Ultra White, 20lb, 8 1/2 x 11, 92 Bright, 500 Sheets/1 Ream (112101)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 4.9
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.799999991024002
+            }
+        },
+        "B01168U5QI": {
+            "asin": "B01168U5QI",
+            "height": {
+                "unit": "IN",
+                "value": 3.99999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.299999991534001
+            },
+            "name": "2016 hot sales Auto body dent removal tools, 31 PCS set high quality PDR tools, Paintless Dent Repair tools with glue gift",
+            "normalizedName": "2016 hot sales Auto body dent removal tools, 31 PCS set high quality PDR tools, Paintless Dent Repair tools with glue gift",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.6499999977777353
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.299999991534001
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

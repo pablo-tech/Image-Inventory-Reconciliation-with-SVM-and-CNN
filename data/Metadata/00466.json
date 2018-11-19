@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B002ZPGW32": {
+            "asin": "B002ZPGW32",
+            "height": {
+                "unit": "IN",
+                "value": 1.99999999796
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.49999999031
+            },
+            "name": "West Chester 96650 Synthetic Leather Waterproof Winter Glove, Neoprene Wrist Hook and Loop Cuff, 10-3/8\" Length, Large (Pack of 1 Pair)",
+            "normalizedName": "Pack of 1 West Chester 96650 Synthetic Leather Waterproof Winter Glove, Neoprene Wrist Hook and Loop Cuff, 10-3/8\" Length, Large ( Pair)",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.25
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.399999994492
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

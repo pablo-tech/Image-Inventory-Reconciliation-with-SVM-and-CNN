@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0044W8MKU": {
+            "asin": "B0044W8MKU",
+            "height": {
+                "unit": "IN",
+                "value": 1.799999998164
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.199999993676
+            },
+            "name": "Trident Sugar Free Gum (Original, 18-Piece, 12-Pack)",
+            "normalizedName": "12-Pack Trident Sugar Free Gum (Original, 18-Piece, )",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.96
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.599999996328
+            }
+        },
+        "B00R1DE0XC": {
+            "asin": "B00R1DE0XC",
+            "height": {
+                "unit": "IN",
+                "value": 2.399999997552
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.199999991636
+            },
+            "name": "Kuuk Silicone Popsicle Ice Molds (4 Pack)",
+            "normalizedName": "(4 Pack) Kuuk Silicone Popsicle Ice Molds",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4000000000000001
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.199999995716
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

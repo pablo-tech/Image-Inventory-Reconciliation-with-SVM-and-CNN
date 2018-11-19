@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00TO54PLC": {
+            "asin": "B00TO54PLC",
+            "height": {
+                "unit": "IN",
+                "value": 2.49999999745
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.599999990208
+            },
+            "name": "Panasonic Hair and Beard Trimmer, Men's, with 39 Adjustable Trim Settings and Two Comb Attachments for Beard and Hair, Corded or Cordless Operation, ER-GB60-K",
+            "normalizedName": "Panasonic Hair and Beard Trimmer, Men's, with 39 Adjustable Trim Settings and Two Comb Attachments for Beard and Hair, Corded or Cordless Operation, ER-GB60-K",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.349999998867903
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.899999991942001
+            }
+        },
+        "B00W3DO2OC": {
+            "asin": "B00W3DO2OC",
+            "height": {
+                "unit": "IN",
+                "value": 1.99999999796
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.49999998725
+            },
+            "name": "Decorative Cast Iron Wall Hook Rack | Vintage Design Hanger with 4 Hooks | For Coats, Hats, Keys, Towels, Clothes, Aprons etc |Wall Mounted |13.6 x 7\u201d- With Screws And Anchors By Comfify",
+            "normalizedName": "Decorative Cast Iron Wall Hook Rack | Vintage Design Hanger with 4 Hooks | For Coats, Hats, Keys, Towels, Clothes, Aprons etc |Wall Mounted |13.6 x 7\u201d- With Screws And Anchors By Comfify",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.6999999985743957
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.99999999388
+            }
+        },
+        "B01DDR0BX2": {
+            "asin": "B01DDR0BX2",
+            "height": {
+                "unit": "IN",
+                "value": 1.99999999796
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.99999998878
+            },
+            "name": "ORICO Smart Charging Desktop Surge Protector Power Strip with 3 AC Outlets and 4 USB Ports for Phones, Tablets, Laptops and Desktops (HPC-3A4U)",
+            "normalizedName": "ORICO Smart Charging Desktop Surge Protector Power Strip with 3 AC Outlets and 4 USB Ports for Phones, Tablets, Laptops and Desktops (HPC-3A4U)",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.7499999993710571
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.49999999643
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

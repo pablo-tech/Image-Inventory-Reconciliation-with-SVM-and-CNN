@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B001F2GDO4": {
+            "asin": "B001F2GDO4",
+            "height": {
+                "unit": "IN",
+                "value": 4.49999999541
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.399999988372
+            },
+            "name": "Rachael Ray Nutrish Natural Dry Dog Food, Beef and Brown Rice Recipe, 6 lbs",
+            "normalizedName": "Rachael Ray Nutrish Natural Dry Dog Food, Beef and Brown Rice Recipe, 6 lbs",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 6.85
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.699999990106
+            }
+        },
+        "B00JPVZ2IA": {
+            "asin": "B00JPVZ2IA",
+            "height": {
+                "unit": "IN",
+                "value": 2.99999999694
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.99999999388
+            },
+            "name": "Women's Black Studded Fashion Fanny or Waist Pack - fits up to 42 inch waist",
+            "normalizedName": "Women's Black Studded Fashion Fanny or Waist Pack - fits up to 42 inch waist",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.8000000000000002
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.699999994186001
+            }
+        },
+        "B00WW4FD3Q": {
+            "asin": "B00WW4FD3Q",
+            "height": {
+                "unit": "IN",
+                "value": 3.3858267682
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.8897637674
+            },
+            "name": "Bandai Hobby HGBF Dom R35 \"Gundam Build Fighters\" Model Kit (1/144 Scale)",
+            "normalizedName": "Bandai Hobby HGBF Dom R35 \"Gundam Build Fighters\" Model Kit (1/144 Scale)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.8377480450708449
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.7165354252
+            }
+        },
+        "B01GMVAN4S": {
+            "asin": "B01GMVAN4S",
+            "height": {
+                "unit": "IN",
+                "value": 2.299999997654
+            },
+            "length": {
+                "unit": "IN",
+                "value": 15.399999984292
+            },
+            "name": "Elikeable Modern 3D Frameless Large Wall Clock Style Watches Hours DIY Room Home Decorations (Black1)",
+            "normalizedName": "Elikeable Modern 3D Frameless Large Wall Clock Style Watches Hours DIY Room Home Decorations (Black1)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.7499999993710571
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.9999999949
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

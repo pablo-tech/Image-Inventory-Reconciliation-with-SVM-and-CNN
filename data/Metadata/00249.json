@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B008BH4IZM": {
+            "asin": "B008BH4IZM",
+            "height": {
+                "unit": "IN",
+                "value": 5.099999994798
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.599999989188
+            },
+            "name": "Marathon 11x4.00-5\" Flat Free Tire on Wheel, 5\" Centered Hub, 5/8\" Bearings",
+            "normalizedName": "Marathon 11x4.00-5\" Flat Free Tire on Wheel, 5\" Centered Hub, 5/8\" Bearings",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 5.7
+            },
+            "width": {
+                "unit": "IN",
+                "value": 10.299999989494001
+            }
+        },
+        "B00INV51ZM": {
+            "asin": "B00INV51ZM",
+            "height": {
+                "unit": "IN",
+                "value": 4.299999995614
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.199999987556
+            },
+            "name": "Plastic Ice Bags 10 Lb. With Draw String Closure - Pack of 100",
+            "normalizedName": "Pack of 100 Plastic Ice Bags 10 Lb. With Draw String Closure -",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.7
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.49999999541
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

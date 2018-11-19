@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "0441172717": {
+            "asin": "0441172717",
+            "height": {
+                "unit": "IN",
+                "value": 2.399999997552
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.49999999235
+            },
+            "name": "Dune",
+            "normalizedName": "Dune",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.05
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.299999995614
+            }
+        },
+        "B003YT6RNS": {
+            "asin": "B003YT6RNS",
+            "height": {
+                "unit": "IN",
+                "value": 1.99999999796
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.699999995206
+            },
+            "name": "HP 61 Black & Tri-color Original Ink Cartridges, 2 pack (CR259FN)",
+            "normalizedName": "HP 61 Black & Tri-color Original Ink Cartridges, 2 pack (CR259FN)",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.15
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.699999995206
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00006IDXJ": {
+            "asin": "B00006IDXJ",
+            "height": {
+                "unit": "IN",
+                "value": 0.299999999694
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.599999987148
+            },
+            "name": "Geographics Burgundy Linen Document Covers, 9.75 x 12.5 Inches, Burgundy Gold Foil, 6 Pack (45333)",
+            "normalizedName": "6 Pack Geographics Burgundy Linen Document Covers, 9.75 x 12.5 Inches, Burgundy Gold Foil, (45333)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.55
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.699999990105999
+            }
+        },
+        "B000MCKAHE": {
+            "asin": "B000MCKAHE",
+            "height": {
+                "unit": "IN",
+                "value": 4.799999995104
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.49999999031
+            },
+            "name": "PYLE PLMRW8 8-Inch 400 Watt White 4 Ohm Marine Subwoofer",
+            "normalizedName": "PYLE PLMRW8 8-Inch 400 Watt White 4 Ohm Marine Subwoofer",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 4.6
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.299999990514001
+            }
+        },
+        "B00DWG6QKC": {
+            "asin": "B00DWG6QKC",
+            "height": {
+                "unit": "IN",
+                "value": 2.299999997654
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.599999990208
+            },
+            "name": "Ergobaby Swaddler 2 pack - 100% Cotton Baby Swaddle Blanket - Pink/Natural - Medium/Large (Discontinued by Manufacturer)",
+            "normalizedName": "Ergobaby Swaddler 2 pack - 100% Cotton Baby Swaddle Blanket - Pink/Natural - Medium/Large (Discontinued by Manufacturer)",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.99999999082
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

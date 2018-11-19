@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B018E5OCBA": {
+            "asin": "B018E5OCBA",
+            "height": {
+                "unit": "IN",
+                "value": 3.799999996124
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.699999989085999
+            },
+            "name": "Wishmade Laser Cut Wedding Invitations Cards Red 50 Pieces Kit for Marriage Engagement Birthday Party Bridal Shower Floral Ribbon with Envelopes Seals Party Favors",
+            "normalizedName": "Wishmade Laser Cut Wedding Invitations Cards Red 50 Pieces Kit for Marriage Engagement Birthday Party Bridal Shower Floral Ribbon with Envelopes Seals Party Favors",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.0499999974422987
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.399999991432
+            }
+        },
+        "B01DZYL07E": {
+            "asin": "B01DZYL07E",
+            "height": {
+                "unit": "IN",
+                "value": 1.3999999985719997
+            },
+            "length": {
+                "unit": "IN",
+                "value": 13.49999998623
+            },
+            "name": "Foundation Brushes Toothbrush Style Makeup Brushes Set Cosmetics Cream Powder Brush 10 PCS",
+            "normalizedName": "Foundation Brushes Toothbrush Style Makeup Brushes Set Cosmetics Cream Powder Brush 10 PCS",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6999999994129864
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.99999999184
+            }
+        },
+        "B01EHE8B5A": {
+            "asin": "B01EHE8B5A",
+            "height": {
+                "unit": "IN",
+                "value": 2.99999999694
+            },
+            "length": {
+                "unit": "IN",
+                "value": 15.299999984394
+            },
+            "name": "2016 Newest Dell Inspiron 7000 13.3\" FHD (1920 x 1080) Touchscreen 2 in 1 convertible Laptop, Intel Core i7-6500U, 8GB, 256GB SSD, HDMI, Backlit Keyboard, Stylus, Bluetooth, No DVD, Windows 10- silver",
+            "normalizedName": "2016 Newest Dell Inspiron 7000 13.3\" FHD (1920 x 1080) Touchscreen 2 in 1 convertible Laptop, Intel Core i7-6500U, 8GB, 256GB SSD, HDMI, Backlit Keyboard, Stylus, Bluetooth, No DVD, Windows 10- silver",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 5.299999995555471
+            },
+            "width": {
+                "unit": "IN",
+                "value": 13.49999998623
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

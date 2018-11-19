@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "0761171894": {
+            "asin": "0761171894",
+            "height": {
+                "unit": "IN",
+                "value": 0.8
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.9
+            },
+            "name": "Jokelopedia, Third Edition: The Biggest, Best, Silliest, Dumbest Joke Book Ever!",
+            "normalizedName": "Jokelopedia, Third Edition: The Biggest, Best, Silliest, Dumbest Joke Book Ever!",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.35
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.5
+            }
+        },
+        "B00O2R1YRA": {
+            "asin": "B00O2R1YRA",
+            "height": {
+                "unit": "IN",
+                "value": 1.799999998164
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.49999999031
+            },
+            "name": "Bebe au Lait Organic Cotton Nursing Essentials Set, Midnight",
+            "normalizedName": "Bebe au Lait Organic Cotton Nursing Essentials Set, Midnight",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.75
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.299999990514001
+            }
+        },
+        "B00RBUF1UG": {
+            "asin": "B00RBUF1UG",
+            "height": {
+                "unit": "IN",
+                "value": 2.099999997858
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.49999998827
+            },
+            "name": "GRAB BAG SHOPPING BAG (Pkg of 2)",
+            "normalizedName": "GRAB BAG SHOPPING BAG (Pkg of 2)",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6999999994129864
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.99999999184
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

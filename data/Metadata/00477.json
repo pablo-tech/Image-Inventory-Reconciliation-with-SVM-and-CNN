@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B010EM2DAS": {
+            "asin": "B010EM2DAS",
+            "height": {
+                "unit": "IN",
+                "value": 1.99999999796
+            },
+            "length": {
+                "unit": "IN",
+                "value": 1.99999999796
+            },
+            "name": "Serenilite Dual Colored Hand Therapy & Stress Relief Balls - Optimal Relief- Great for Hand Exercises and Strengthening (Springtime Serenity-Light Pink/Light Green)",
+            "normalizedName": "Serenilite Dual Colored Hand Therapy & Stress Relief Balls - Optimal Relief- Great for Hand Exercises and Strengthening (Springtime Serenity-Light Pink/Light Green)",
+            "quantity": 13,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.10000000000000002
+            },
+            "width": {
+                "unit": "IN",
+                "value": 1.99999999796
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 13
+}

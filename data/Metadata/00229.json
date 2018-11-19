@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B003E3P7K8": {
+            "asin": "B003E3P7K8",
+            "height": {
+                "unit": "IN",
+                "value": 3.299999996634
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.699999990105999
+            },
+            "name": "Nature's Bakery Whole Wheat Fig Bar Twin Pack, 2 Ounce (Pack of 12)",
+            "normalizedName": "(Pack of 12) Nature's Bakery Whole Wheat Fig Bar Twin Pack, 2 Ounce",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.65
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.399999994492
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

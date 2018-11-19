@@ -1,0 +1,115 @@
+{
+    "BIN_FCSKU_DATA": {
+        "0316311464": {
+            "asin": "0316311464",
+            "height": {
+                "unit": "IN",
+                "value": 1.299999998674
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.099999990718
+            },
+            "name": "The Art of Tough: Fearlessly Facing Politics and Life",
+            "normalizedName": "The Art of Tough: Fearlessly Facing Politics and Life",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.04999999911948
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.199999993676
+            }
+        },
+        "B0000CF8YO": {
+            "asin": "B0000CF8YO",
+            "height": {
+                "unit": "IN",
+                "value": 1.199999998776
+            },
+            "length": {
+                "unit": "IN",
+                "value": 15.699999983986
+            },
+            "name": "Victorinox 47521 10-Inch Chef's Knife, Black Fibrox Handle",
+            "normalizedName": "Victorinox 47521 10-Inch Chef's Knife, Black Fibrox Handle",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4699999996058624
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.99999999694
+            }
+        },
+        "B00IG2SJBQ": {
+            "asin": "B00IG2SJBQ",
+            "height": {
+                "unit": "IN",
+                "value": 4.899999995002001
+            },
+            "length": {
+                "unit": "IN",
+                "value": 15.99999998368
+            },
+            "name": "Ape Case AC580OR Large Tech Messenger Camera Cases (Orange/Grey)",
+            "normalizedName": "Ape Case AC580OR Large Tech Messenger Camera Cases (Orange/Grey)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.0
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.199999990616
+            }
+        },
+        "B00LX12HUG": {
+            "asin": "B00LX12HUG",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.599999994287999
+            },
+            "name": "Ecandy Sports Universal Wireless Music Stereo Bluetooth Headset Earphone Headphone for Cellphones,Smarthpone Iphone 4s,5,5s,Samsung S3,S4,S5 Nokia, LG,Motorola,Ipad,Enabled Bluetooth-Blue",
+            "normalizedName": "Ecandy Sports Universal Wireless Music Stereo Bluetooth Headset Earphone Headphone for Cellphones,Smarthpone Iphone 4s,5,5s,Samsung S3,S4,S5 Nokia, LG,Motorola,Ipad,Enabled Bluetooth-Blue",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.20000000000000004
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.9999999949
+            }
+        },
+        "B0186HHG8W": {
+            "asin": "B0186HHG8W",
+            "height": {
+                "unit": "IN",
+                "value": 3.599999996328
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.399999990412
+            },
+            "name": "RamPro 3\" Car Buffing & Wax Polishing Pad Kit - Drill Attachment Tool with Velcro Wheels",
+            "normalizedName": "RamPro 3\" Car Buffing & Wax Polishing Pad Kit - Drill Attachment Tool with Velcro Wheels",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.5499999995387752
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.9999999949
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

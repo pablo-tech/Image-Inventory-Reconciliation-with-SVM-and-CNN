@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00WIWXQYK": {
+            "asin": "B00WIWXQYK",
+            "height": {
+                "unit": "IN",
+                "value": 3.6999999962260004
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.899999995002001
+            },
+            "name": "Funny Guy Mugs I Don't Like Morning People Or Mornings Or People Ceramic Coffee Mug, Black, 11-Ounce",
+            "normalizedName": "Funny Guy Mugs I Don't Like Morning People Or Mornings Or People Ceramic Coffee Mug, Black, 11-Ounce",
+            "quantity": 5,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.8999999992452684
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.399999995512001
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

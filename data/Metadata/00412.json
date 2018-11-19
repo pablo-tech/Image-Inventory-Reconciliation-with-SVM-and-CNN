@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0098ZSOX8": {
+            "asin": "B0098ZSOX8",
+            "height": {
+                "unit": "IN",
+                "value": 4.49999999541
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.399999993472
+            },
+            "name": "Seaflo 2000 GPH 12v Boat Marine Plumbing Electric Bilge Pumps",
+            "normalizedName": "Seaflo 2000 GPH 12v Boat Marine Plumbing Electric Bilge Pumps",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.7
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.199999994696
+            }
+        },
+        "B00H491568": {
+            "asin": "B00H491568",
+            "height": {
+                "unit": "IN",
+                "value": 0.899999999082
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.599999996328
+            },
+            "name": "Crayola Build Your Box Fiesta Chalk (4 Count)",
+            "normalizedName": "Crayola Build Your Box Fiesta Chalk (4 Count)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.20000000000000004
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.399999996532
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

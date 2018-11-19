@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00APLKGA8": {
+            "asin": "B00APLKGA8",
+            "height": {
+                "unit": "IN",
+                "value": 1.181102361
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.4015747956
+            },
+            "name": "Cable Matters Mini DisplayPort (Thunderbolt&trade; 2 Port Compatible) to HDTV Cable in Black 15 Feet",
+            "normalizedName": "Cable Matters Mini DisplayPort (Thunderbolt&trade; 2 Port Compatible) to HDTV Cable in Black 15 Feet",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.5291040284657967
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.9291338512
+            }
+        },
+        "B00J3YSXQC": {
+            "asin": "B00J3YSXQC",
+            "height": {
+                "unit": "IN",
+                "value": 1.0999999988780003
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.599999991228
+            },
+            "name": "Rothco G1 Vista/Next Camo T-Shirt, 3X-Large",
+            "normalizedName": "Rothco G1 Vista/Next Camo T-Shirt, 3X-Large",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.5999999994968457
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.899999991942001
+            }
+        },
+        "B01E889TUG": {
+            "asin": "B01E889TUG",
+            "height": {
+                "unit": "IN",
+                "value": 0.49999999949
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.899999992962
+            },
+            "name": "[2-PACK]-Mr Shield For Samsung Galaxy J7 [Tempered Glass] Screen Protector with Lifetime Replacement Warranty",
+            "normalizedName": "[2-PACK]-Mr Shield For Samsung Galaxy J7 [Tempered Glass] Screen Protector with Lifetime Replacement Warranty",
+            "quantity": 18,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001167587297
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.099999995818
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 20
+}

@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "0545119367": {
+            "asin": "0545119367",
+            "height": {
+                "unit": "IN",
+                "value": 1.49999999847
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.199999988575998
+            },
+            "name": "Scholastic TF7504 The Farm Magnetic Pattern Blocks",
+            "normalizedName": "Scholastic TF7504 The Farm Magnetic Pattern Blocks",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.2
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.49999999133
+            }
+        },
+        "B0007L1VLO": {
+            "asin": "B0007L1VLO",
+            "height": {
+                "unit": "IN",
+                "value": 1.299999998674
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.49999999337
+            },
+            "name": "BIC Pencil Xtra Sparkle (colorful barrels), Medium Point (0.7 mm), 24-Count",
+            "normalizedName": "BIC Pencil Xtra Sparkle (colorful barrels), Medium Point (0.7 mm), 24-Count",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001186074866
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.599999996328
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

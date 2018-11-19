@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B001DNOV7G": {
+            "asin": "B001DNOV7G",
+            "height": {
+                "unit": "IN",
+                "value": 5.399999994492
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.99999998878
+            },
+            "name": "Pfister 00131XA 3-Handle Tub & Shower Rough-In Valve",
+            "normalizedName": "Pfister 00131XA 3-Handle Tub & Shower Rough-In Valve",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 4.4
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.49999999133
+            }
+        },
+        "B00VSZS9KY": {
+            "asin": "B00VSZS9KY",
+            "height": {
+                "unit": "IN",
+                "value": 2.599999997348
+            },
+            "length": {
+                "unit": "IN",
+                "value": 13.699999986026
+            },
+            "name": "Amy Butler for Welspun ECAB-TW-BT-01 Bath Towel, Wood Fern",
+            "normalizedName": "Amy Butler for Welspun ECAB-TW-BT-01 Bath Towel, Wood Fern",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.2399999989601478
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.9999999898
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

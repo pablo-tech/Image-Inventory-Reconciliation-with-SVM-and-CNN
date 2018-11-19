@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "1416939210": {
+            "asin": "1416939210",
+            "height": {
+                "unit": "IN",
+                "value": 0.799999999184
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.699999993166
+            },
+            "name": "Z for Zachariah",
+            "normalizedName": "Z for Zachariah",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.35
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.9999999949
+            }
+        },
+        "B000F49LU6": {
+            "asin": "B000F49LU6",
+            "height": {
+                "unit": "IN",
+                "value": 4.49999999541
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.20078739423
+            },
+            "name": "Kurt Adler Polonaise Heirlooms Handblown Handpainted New York City Collage Ornament",
+            "normalizedName": "Kurt Adler Polonaise Heirlooms Handblown Handpainted New York City Collage Ornament",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4500075691944
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.09842519165
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

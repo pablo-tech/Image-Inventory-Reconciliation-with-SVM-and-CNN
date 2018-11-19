@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000J07BRQ": {
+            "asin": "B000J07BRQ",
+            "height": {
+                "unit": "IN",
+                "value": 2.99999999694
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.099999991737999
+            },
+            "name": "Scotch Heavy Duty Shipping Packaging Tape, 1.88 Inches x 800 Inches, 6 Rolls with Dispenser (142-6)",
+            "normalizedName": "Scotch Heavy Duty Shipping Packaging Tape, 1.88 Inches x 800 Inches, 6 Rolls with Dispenser (142-6)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.8499999992871979
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.899999992962
+            }
+        },
+        "B0017J67I2": {
+            "asin": "B0017J67I2",
+            "height": {
+                "unit": "IN",
+                "value": 1.49999999847
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.599999995308
+            },
+            "name": "Gas X Ultra Strength Anti-Gas Softgels 50",
+            "normalizedName": "Gas X Ultra Strength Anti-Gas Softgels 50",
+            "quantity": 6,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001186074866
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.7999999971439995
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 7
+}

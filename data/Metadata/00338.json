@@ -1,0 +1,115 @@
+{
+    "BIN_FCSKU_DATA": {
+        "0199931801": {
+            "asin": "0199931801",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.899999989902
+            },
+            "name": "Quantitative Research Methods for Communication: A Hands-On Approach",
+            "normalizedName": "Quantitative Research Methods for Communication: A Hands-On Approach",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.45
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.899999991942001
+            }
+        },
+        "B00002NCMV": {
+            "asin": "B00002NCMV",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.49999998725
+            },
+            "name": "PURDY 144152220 2-Inch Nylox Glide Angle Brush",
+            "normalizedName": "PURDY 144152220 2-Inch Nylox Glide Angle Brush",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.75
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.099999997858
+            }
+        },
+        "B0058JQ71E": {
+            "asin": "B0058JQ71E",
+            "height": {
+                "unit": "IN",
+                "value": 1.799999998164
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.899999991942001
+            },
+            "name": "aFe Filters 28-10303 Pre Filter Filter Wrap",
+            "normalizedName": "aFe Filters 28-10303 Pre Filter Filter Wrap",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.2
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.199999995716
+            }
+        },
+        "B01824RFLC": {
+            "asin": "B01824RFLC",
+            "height": {
+                "unit": "IN",
+                "value": 0.6999999992859999
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.799999987964
+            },
+            "name": "Fintie iPad Pro 12.9 Inch Case - Ultra Slim Lightweight Smart Shell Standing Cover with Auto Sleep / Wake Feature for Apple 12.9-inch iPad Pro (2015 Version), Floral Blue",
+            "normalizedName": "Fintie iPad Pro 12.9 Inch Case - Ultra Slim Lightweight Smart Shell Standing Cover with Auto Sleep / Wake Feature for Apple 12.9-inch iPad Pro (2015 Version), Floral Blue",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3499999997064932
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.49999999031
+            }
+        },
+        "B01DHBQLII": {
+            "asin": "B01DHBQLII",
+            "height": {
+                "unit": "IN",
+                "value": 0.6999999992859999
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.099999989698
+            },
+            "name": "Kangaroo's Multi Voice Changer (6.5-Inch, Choice of Colors)",
+            "normalizedName": "Kangaroo's Multi Voice Changer (6.5-Inch, Choice of Colors)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.29999999974842284
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.99999999184
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 7
+}

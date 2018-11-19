@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "0590450875": {
+            "asin": "0590450875",
+            "height": {
+                "unit": "IN",
+                "value": 0.3149606296
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.0472440822
+            },
+            "name": "I Spy: A Book of Picture Riddles",
+            "normalizedName": "I Spy: A Book of Picture Riddles",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.1
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.055118101
+            }
+        },
+        "0836217357": {
+            "asin": "0836217357",
+            "height": {
+                "unit": "IN",
+                "value": 0.599999999388
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.899999987862
+            },
+            "name": "The Days are Just Packed: A Calvin and Hobbes Collection",
+            "normalizedName": "The Days are Just Packed: A Calvin and Hobbes Collection",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.35
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.99999999082
+            }
+        },
+        "B0052AIJT2": {
+            "asin": "B0052AIJT2",
+            "height": {
+                "unit": "IN",
+                "value": 2.399999997552
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.899999996022
+            },
+            "name": "Spring Valley - Fenugreek 610 mg, 100 Capsules",
+            "normalizedName": "Spring Valley - Fenugreek 610 mg, 100 Capsules",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.24999999979035234
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.399999997552
+            }
+        },
+        "B01AWAGTU2": {
+            "asin": "B01AWAGTU2",
+            "height": {
+                "unit": "IN",
+                "value": 4.099999995817999
+            },
+            "length": {
+                "unit": "IN",
+                "value": 13.099999986638
+            },
+            "name": "Kingway 2 PCS Patent Laser Toner Cartridge HP 83X CF283X Canon 137 Replacement for HP LaserJet Pro M201dw M255dn Canon imageCLASS MF229dw MF216n Printers",
+            "normalizedName": "Kingway 2 PCS Patent Laser Toner Cartridge HP 83X CF283X Canon 137 Replacement for HP LaserJet Pro M201dw M255dn Canon imageCLASS MF229dw MF216n Printers",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.7499999985324661
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.599999995308
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

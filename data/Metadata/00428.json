@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000HARPV0": {
+            "asin": "B000HARPV0",
+            "height": {
+                "unit": "IN",
+                "value": 2.399999997552
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.299999989494
+            },
+            "name": "Cineplexity Game",
+            "normalizedName": "Cineplexity Game",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.6
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.49999999133
+            }
+        },
+        "B00C7VXTIA": {
+            "asin": "B00C7VXTIA",
+            "height": {
+                "unit": "IN",
+                "value": 2.7999999971439995
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.699999992146
+            },
+            "name": "Lavanta Coffee Roasters Sumatra Gayo Mountain Direct Trade Coffee, Green, 2 lb",
+            "normalizedName": "Lavanta Coffee Roasters Sumatra Gayo Mountain Direct Trade Coffee, Green, 2 lb",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.05
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.199999995716
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

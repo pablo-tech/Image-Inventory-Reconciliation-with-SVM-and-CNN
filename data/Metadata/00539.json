@@ -1,0 +1,115 @@
+{
+    "BIN_FCSKU_DATA": {
+        "1565856791": {
+            "asin": "1565856791",
+            "height": {
+                "unit": "IN",
+                "value": 0.6999999992859999
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.49999999235
+            },
+            "name": "Great Masters: Stravinsky- His Life and Music (Great Courses: Fine Arts and Music)",
+            "normalizedName": "Great Masters: Stravinsky- His Life and Music (Great Courses: Fine Arts and Music)",
+            "quantity": 4,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.45
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.299999994594
+            }
+        },
+        "B000BOH91S": {
+            "asin": "B000BOH91S",
+            "height": {
+                "unit": "IN",
+                "value": 0.58267716476
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.09842518961
+            },
+            "name": "Island In The Sun",
+            "normalizedName": "Island In The Sun",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.1833364170792
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.41732282912
+            }
+        },
+        "B001PR0H64": {
+            "asin": "B001PR0H64",
+            "height": {
+                "unit": "IN",
+                "value": 1.49999999847
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.699999994186001
+            },
+            "name": "MLB St. Louis Cardinals Embossed Genuine Cowhide Leather Trifold Wallet",
+            "normalizedName": "MLB St. Louis Cardinals Embossed Genuine Cowhide Leather Trifold Wallet",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4999999995807047
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.899999995002001
+            }
+        },
+        "B01AGGERJC": {
+            "asin": "B01AGGERJC",
+            "height": {
+                "unit": "IN",
+                "value": 1.0999999988780003
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.099999993778
+            },
+            "name": "LG G Vista VS880 Verizon Armor Case, FRKJ\u00ae Heavy Duty Case Cover For LG G Vista VS880 Verizon Full-body Rugged Dual Layer Robot Case",
+            "normalizedName": "LG G Vista VS880 Verizon Armor Case, FRKJ\u00ae Heavy Duty Case Cover For LG G Vista VS880 Verizon Full-body Rugged Dual Layer Robot Case",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.19999999983228192
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.99999999592
+            }
+        },
+        "B01EJ6MXWS": {
+            "asin": "B01EJ6MXWS",
+            "height": {
+                "unit": "IN",
+                "value": 0.049999999949
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.99999999388
+            },
+            "name": "HUAWEI P9 Case DWaybox 2 in 1 Hybrid Heavy Duty Armor Hard Cover Case with kickstand for HUAWEI P9 5.2inches (Gold)",
+            "normalizedName": "HUAWEI P9 Case DWaybox 2 in 1 Hybrid Heavy Duty Armor Hard Cover Case with kickstand for HUAWEI P9 5.2inches (Gold)",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.09999999991614095
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.99999999694
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 9
+}

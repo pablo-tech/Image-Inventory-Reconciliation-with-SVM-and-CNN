@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00SC4DD64": {
+            "asin": "B00SC4DD64",
+            "height": {
+                "unit": "IN",
+                "value": 4.699999995206
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.99999999082
+            },
+            "name": "GUND Pusheen Snackable Donut Plush Stuffed Animal",
+            "normalizedName": "GUND Pusheen Snackable Donut Plush Stuffed Animal",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.25
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.799999992044
+            }
+        },
+        "B01738S8XC": {
+            "asin": "B01738S8XC",
+            "height": {
+                "unit": "IN",
+                "value": 2.99999999694
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.099999989698
+            },
+            "name": "Water Bottle Infuser - 24 Oz -Create Your Own Naturally Flavored Fruit Infused Water, Juice, Iced Tea, Lemonade - Ideal for Running, Sports, Gym, Cycling, Yoga, Travel \u2013 Recipes included",
+            "normalizedName": "Water Bottle Infuser - 24 Oz -Create Your Own Naturally Flavored Fruit Infused Water, Juice, Iced Tea, Lemonade - Ideal for Running, Sports, Gym, Cycling, Yoga, Travel \u2013 Recipes included",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4499999996226342
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.099999996838
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

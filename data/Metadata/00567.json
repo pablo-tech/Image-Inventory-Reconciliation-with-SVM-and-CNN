@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00MKBS1GW": {
+            "asin": "B00MKBS1GW",
+            "height": {
+                "unit": "IN",
+                "value": 1.699999998266
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.99999999082
+            },
+            "name": "Aluminum Chain Link Fence Ties #33 100 Count Pack 6 1/2 Inch Long",
+            "normalizedName": "Aluminum Chain Link Fence Ties #33 100 Count Pack 6 1/2 Inch Long",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6999999999999998
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.799999996124
+            }
+        },
+        "B013HSW4N2": {
+            "asin": "B013HSW4N2",
+            "height": {
+                "unit": "IN",
+                "value": 2.362204722
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.6377952678
+            },
+            "name": "Jaybird X2 Sport Wireless Bluetooth Headphones - Charge",
+            "normalizedName": "Jaybird X2 Sport Wireless Bluetooth Headphones - Charge",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.587312084066285
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.511811018
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00B0GIHZI": {
+            "asin": "B00B0GIHZI",
+            "height": {
+                "unit": "IN",
+                "value": 4.49999999541
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.099999991737999
+            },
+            "name": "Formula 420 Glass Metal Ceramic Pipe Cleaner 12 Oz. 3 Pack",
+            "normalizedName": "3 Pack Formula 420 Glass Metal Ceramic Pipe Cleaner 12 Oz.",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.3499999971907215
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.9999999949
+            }
+        },
+        "B00K2RY8H2": {
+            "asin": "B00K2RY8H2",
+            "height": {
+                "unit": "IN",
+                "value": 6.399999993472
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.599999992248
+            },
+            "name": "Flavored Coffee Variety Sampler Pack for Keurig K-Cup Brewers, 30 Count",
+            "normalizedName": "Flavored Coffee Variety Sampler Pack for Keurig K-Cup Brewers, 30 Count",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.2499999999999998
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.599999993268
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

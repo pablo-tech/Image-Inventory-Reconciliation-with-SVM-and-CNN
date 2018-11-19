@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B01BUQDJLE": {
+            "asin": "B01BUQDJLE",
+            "height": {
+                "unit": "IN",
+                "value": 3.2999999932679995
+            },
+            "length": {
+                "unit": "IN",
+                "value": 13.699999972052
+            },
+            "name": "Travel Duffel Bag Tote Canvas Leather",
+            "normalizedName": "Travel Duffel Bag Tote Canvas Leather",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.6999999937944295
+            },
+            "width": {
+                "unit": "IN",
+                "value": 11.49999997654
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

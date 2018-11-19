@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B001CD9RRG": {
+            "asin": "B001CD9RRG",
+            "height": {
+                "unit": "IN",
+                "value": 1.299999998674
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.99999999184
+            },
+            "name": "BIC Pencil Xtra Strong (colorful barrels), Thick Point (0.9 mm), 24-Count",
+            "normalizedName": "BIC Pencil Xtra Strong (colorful barrels), Thick Point (0.9 mm), 24-Count",
+            "quantity": 4,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.04999999995807048
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.9999999949
+            }
+        },
+        "B00EK89RTS": {
+            "asin": "B00EK89RTS",
+            "height": {
+                "unit": "IN",
+                "value": 2.99999999694
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.49999998827
+            },
+            "name": "Maverik Lacrosse Wonderboy Elbow Pad, White, Large",
+            "normalizedName": "Maverik Lacrosse Wonderboy Elbow Pad, White, Large",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4000000000000001
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.9999999949
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

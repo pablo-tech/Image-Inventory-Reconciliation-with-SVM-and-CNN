@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B003M6E0FU": {
+            "asin": "B003M6E0FU",
+            "height": {
+                "unit": "IN",
+                "value": 5.99999999388
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.49999999031
+            },
+            "name": "Easy Breathe Poly/Nylon Grazing Muzzle Black Horse",
+            "normalizedName": "Easy Breathe Poly/Nylon Grazing Muzzle Black Horse",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.3999999988259728
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.49999999235
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

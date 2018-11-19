@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B01AJZPHJ4": {
+            "asin": "B01AJZPHJ4",
+            "height": {
+                "unit": "IN",
+                "value": 1.0999999988780003
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.799999990004002
+            },
+            "name": "Reliable Home Products \u2013 Protective Case, Screen & Stylus - for Gamepad Nintendo Wii U \u2013 Anti-Glare Screen Protector - Silicone Cover - Large Game Pad Controller/Remote Skin \u2013 3 Pack Blue",
+            "normalizedName": "3 Pack Reliable Home Products \u2013 Protective Case, Screen & Stylus - for Gamepad Nintendo Wii U \u2013 Anti-Glare Screen Protector - Silicone Cover - Large Game Pad Controller/Remote Skin \u2013 Blue",
+            "quantity": 8,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.19999999983228192
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.099999993778
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 8
+}

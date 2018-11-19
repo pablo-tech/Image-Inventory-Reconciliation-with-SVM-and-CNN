@@ -1,0 +1,134 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0011R8W0G": {
+            "asin": "B0011R8W0G",
+            "height": {
+                "unit": "IN",
+                "value": 0.5511811018
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.5905511754
+            },
+            "name": "Moderne E Curiose Inventioni / In Stil Moderno",
+            "normalizedName": "Moderne E Curiose Inventioni / In Stil Moderno",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.31
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.724409444
+            }
+        },
+        "B00FJUB38E": {
+            "asin": "B00FJUB38E",
+            "height": {
+                "unit": "IN",
+                "value": 2.699999997246
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.199999993676
+            },
+            "name": "Fisher-Price Thomas the Train: Take-N-Play Porter",
+            "normalizedName": "Fisher-Price Thomas the Train: Take-N-Play Porter",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.21000000000000002
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.099999993778
+            }
+        },
+        "B00P45NM6U": {
+            "asin": "B00P45NM6U",
+            "height": {
+                "unit": "IN",
+                "value": 3.6999999962260004
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.599999995308
+            },
+            "name": "New. Moyu Pyraminx Speed Cube, Black",
+            "normalizedName": "New. Moyu Pyraminx Speed Cube, Black",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.25
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.099999995818
+            }
+        },
+        "B016VZWV7M": {
+            "asin": "B016VZWV7M",
+            "height": {
+                "unit": "IN",
+                "value": 2.7999999971439995
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.099999995818
+            },
+            "name": "Weltie Men's 100% Silk Necktie, Little Plaid Woven Checkerboard Tie, Soft Wool Lining-Red",
+            "normalizedName": "Weltie Men's 100% Silk Necktie, Little Plaid Woven Checkerboard Tie, Soft Wool Lining-Red",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.29999999974842284
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.099999995818
+            }
+        },
+        "B01CZBSVK2": {
+            "asin": "B01CZBSVK2",
+            "height": {
+                "unit": "IN",
+                "value": 0.1
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.0
+            },
+            "name": "Galaxy A9 Case, Cocomii\u00ae [HEAVY DUTY] Shield Case *NEW* [ULTRA VULCAN ARMOR] Premium Shockproof Cushion Bumper [MILITARY DEFENDER] Full-body Rugged Dual Layer Hybrid Cover (Black) \u2605\u2605\u2605\u2605\u2605",
+            "normalizedName": "Galaxy A9 Case, Cocomii\u00ae [HEAVY DUTY] Shield Case *NEW* [ULTRA VULCAN ARMOR] Premium Shockproof Cushion Bumper [MILITARY DEFENDER] Full-body Rugged Dual Layer Hybrid Cover (Black) \u2605\u2605\u2605\u2605\u2605",
+            "quantity": 1,
+            "weight": null,
+            "width": {
+                "unit": "IN",
+                "value": 2.0
+            }
+        },
+        "B01EHVXRHU": {
+            "asin": "B01EHVXRHU",
+            "height": {
+                "unit": "IN",
+                "value": 0.8499999991330002
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.99999999286
+            },
+            "name": "Makeup Remover Mitt 2-Pack - with Just Water Remove Make up off Face and Eye - Reusable, Machine Washable and Chemical Free - Replaces Towelettes, Pads, Wipes, Oil and Cleansers",
+            "normalizedName": "2-Pack Makeup Remover Mitt - with Just Water Remove Make up off Face and Eye - Reusable, Machine Washable and Chemical Free - Replaces Towelettes, Pads, Wipes, Oil and Cleansers",
+            "quantity": 4,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.13499999988679026
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.949999994951
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 10
+}

@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B005IZ53CW": {
+            "asin": "B005IZ53CW",
+            "height": {
+                "unit": "IN",
+                "value": 0.199999999796
+            },
+            "length": {
+                "unit": "IN",
+                "value": 17.799999981844
+            },
+            "name": "Tillamook Hook R1824 18-Inch S-Hook Extension",
+            "normalizedName": "Tillamook Hook R1824 18-Inch S-Hook Extension",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.35
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.599999997348
+            }
+        },
+        "B01746BWTK": {
+            "asin": "B01746BWTK",
+            "height": {
+                "unit": "IN",
+                "value": 5.599999994287999
+            },
+            "length": {
+                "unit": "IN",
+                "value": 16.599999983068
+            },
+            "name": "KOVOT Condiment Tray With Ice Chamber (4 Section)",
+            "normalizedName": "KOVOT Condiment Tray With Ice Chamber (4 Section)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.6999999977358056
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.699999993166
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

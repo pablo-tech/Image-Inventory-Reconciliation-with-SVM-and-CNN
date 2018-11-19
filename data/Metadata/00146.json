@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00U2TOF64": {
+            "asin": "B00U2TOF64",
+            "height": {
+                "unit": "IN",
+                "value": 3.199999996736
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.099999994798
+            },
+            "name": "2 Amazingly Bright Headlamps: Free Shipping! Hands-free Flashlight for Campers, Crafters, Hunters, Runners, Late-night Readers. 6 different light combinations and adjustable aim for your safety and visibility. Batteries included. Money Back Guarantee!",
+            "normalizedName": "2 Amazingly Bright Headlamps: Free Shipping! Hands-free Flashlight for Campers, Crafters, Hunters, Runners, Late-night Readers. 6 different light combinations and adjustable aim for your safety and visibility. Batteries included. Money Back Guarantee!",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.9999999949
+            }
+        },
+        "B01CTOII8K": {
+            "asin": "B01CTOII8K",
+            "height": {
+                "unit": "IN",
+                "value": 0.599999999388
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.899999995002001
+            },
+            "name": "Cosmos \u00ae 1 Pair Gold Color Magnetic Diamond Flower Curtain Clips Tiebacks Holdbacks",
+            "normalizedName": "Cosmos \u00ae 1 Pair Gold Color Magnetic Diamond Flower Curtain Clips Tiebacks Holdbacks",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.14999999987421142
+            },
+            "width": {
+                "unit": "IN",
+                "value": 0.6999999992859999
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "812654046X": {
+            "asin": "812654046X",
+            "height": {
+                "unit": "IN",
+                "value": 1.4960629906
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.9999999898
+            },
+            "name": "Materials and Processes in Manufacturing",
+            "normalizedName": "Materials and Processes in Manufacturing",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.4391761850276787
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.0314960548
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

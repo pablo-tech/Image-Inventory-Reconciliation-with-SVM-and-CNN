@@ -1,0 +1,46 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B015PB5F0S": {
+            "asin": "B015PB5F0S",
+            "height": {
+                "unit": "IN",
+                "value": 2.5
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.0
+            },
+            "name": "Fire Team Fit Weightlifting Belt, Crossfit, Olympic Lifting, for Men and Women, 6 Inch, Back Support for Lifting (Pink, 26\" - 29\" XX-Small)",
+            "normalizedName": "Fire Team Fit Weightlifting Belt, Crossfit, Olympic Lifting, for Men and Women, 6 Inch, Back Support for Lifting (Pink, 26\" - 29\" XX-Small)",
+            "quantity": 4,
+            "weight": null,
+            "width": {
+                "unit": "IN",
+                "value": 6.0
+            }
+        },
+        "B016DNDC3Y": {
+            "asin": "B016DNDC3Y",
+            "height": {
+                "unit": "IN",
+                "value": 4.999989994900009
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.999975987760024
+            },
+            "name": "Disposable 2oz Plastic Condiment Cups with Lids 200-Pack, Souffle Portion, Jello Shot Cups, Salad Dressing, Sauce",
+            "normalizedName": "200-Pack Disposable 2oz Plastic Condiment Cups with Lids , Souffle Portion, Jello Shot Cups, Salad Dressing, Sauce",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.1499999371656207
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.099983791738016
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

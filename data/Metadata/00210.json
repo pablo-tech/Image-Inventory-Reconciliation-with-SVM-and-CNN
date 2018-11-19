@@ -1,0 +1,159 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000P0L23E": {
+            "asin": "B000P0L23E",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.099999995818
+            },
+            "name": "Grohe 13 955 000 Male Laminar Control, Chrome Finish",
+            "normalizedName": "Grohe 13 955 000 Male Laminar Control, Chrome Finish",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.05
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.099999997858
+            }
+        },
+        "B000Q3DORC": {
+            "asin": "B000Q3DORC",
+            "height": {
+                "unit": "IN",
+                "value": 2.199999997756
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.099999995818
+            },
+            "name": "Deep Sleep Herbs Etc 120 Softgel",
+            "normalizedName": "Deep Sleep Herbs Etc 120 Softgel",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.25
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.199999997756
+            }
+        },
+        "B0017VBL7W": {
+            "asin": "B0017VBL7W",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.099999995818
+            },
+            "name": "Grohe 45 023 000 Renewable Seat Set, 1/2-Inch",
+            "normalizedName": "Grohe 45 023 000 Renewable Seat Set, 1/2-Inch",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.03
+            },
+            "width": {
+                "unit": "IN",
+                "value": 1.899999998062
+            }
+        },
+        "B00GFOIC7S": {
+            "asin": "B00GFOIC7S",
+            "height": {
+                "unit": "IN",
+                "value": 1.799999998164
+            },
+            "length": {
+                "unit": "IN",
+                "value": 1.99999999796
+            },
+            "name": "Red Cup Living Miniature Beverage Cup with Christmas Ornament",
+            "normalizedName": "Red Cup Living Miniature Beverage Cup with Christmas Ornament",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001186074866
+            },
+            "width": {
+                "unit": "IN",
+                "value": 1.99999999796
+            }
+        },
+        "B00IAIF8HY": {
+            "asin": "B00IAIF8HY",
+            "height": {
+                "unit": "IN",
+                "value": 3.799999996124
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.99999999388
+            },
+            "name": "Neutrogena Triple Repair Fortifying Leave-in Treatment, 5.1 Fluid Ounce (Pack of 2)",
+            "normalizedName": "(Pack of 2) Neutrogena Triple Repair Fortifying Leave-in Treatment, 5.1 Fluid Ounce",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.78
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.99999999388
+            }
+        },
+        "B00SX18P0K": {
+            "asin": "B00SX18P0K",
+            "height": {
+                "unit": "IN",
+                "value": 1.699999998266
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.899999993982
+            },
+            "name": "Crest Pro-Health Disney Star Wars Kids Minty Breeze Toothpaste, 4.2 Ounce",
+            "normalizedName": "Crest Pro-Health Disney Star Wars Kids Minty Breeze Toothpaste, 4.2 Ounce",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.24999999979035234
+            },
+            "width": {
+                "unit": "IN",
+                "value": 1.899999998062
+            }
+        },
+        "B00WVEOLF8": {
+            "asin": "B00WVEOLF8",
+            "height": {
+                "unit": "IN",
+                "value": 1.899999998062
+            },
+            "length": {
+                "unit": "IN",
+                "value": 2.599999997348
+            },
+            "name": "JGOB Sponges Makeup Blender Sponge - Fuego Yellow",
+            "normalizedName": "JGOB Sponges Makeup Blender Sponge - Fuego Yellow",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.05000000000000001
+            },
+            "width": {
+                "unit": "IN",
+                "value": 1.899999998062
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 9
+}

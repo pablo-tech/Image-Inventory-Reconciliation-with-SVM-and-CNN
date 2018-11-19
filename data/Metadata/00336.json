@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00477QIMQ": {
+            "asin": "B00477QIMQ",
+            "height": {
+                "unit": "IN",
+                "value": 3.199999996736
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.99999999184
+            },
+            "name": "Harold Import Company Kwik Kut Plain Edge Manual Food Chopper, Stainless Steel Blade, 2.875-Inch Diameter x 3-Inches Tall, Silver",
+            "normalizedName": "Harold Import Company Kwik Kut Plain Edge Manual Food Chopper, Stainless Steel Blade, 2.875-Inch Diameter x 3-Inches Tall, Silver",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.05
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.299999996634
+            }
+        },
+        "B017GBHJ7W": {
+            "asin": "B017GBHJ7W",
+            "height": {
+                "unit": "IN",
+                "value": 1.299999998674
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.99999999592
+            },
+            "name": "Cell Phone Car Mount Air Vent \u2013 Elegant and Simple Design, Expandable Grip, Premium Quality Universal Car Holder Cradle for Apple, Android, Iphone 6, Plus, 5, 5s, 5c, Note \u2013 Best Lifetime Guarantee.",
+            "normalizedName": "Cell Phone Car Mount Air Vent \u2013 Elegant and Simple Design, Expandable Grip, Premium Quality Universal Car Holder Cradle for Apple, Android, Iphone 6, Plus, 5, 5s, 5c, Note \u2013 Best Lifetime Guarantee.",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.4999999970649336
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.299999996634
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

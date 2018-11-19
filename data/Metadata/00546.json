@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B002EVCOCA": {
+            "asin": "B002EVCOCA",
+            "height": {
+                "unit": "IN",
+                "value": 6.199999993676
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.899999990922
+            },
+            "name": "Champion Sports 5 Star Soccer Ball, Size 3, Yellow/White/Black",
+            "normalizedName": "Champion Sports 5 Star Soccer Ball, Size 3, Yellow/White/Black",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.0
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.099999991738
+            }
+        },
+        "B00JR0MXLI": {
+            "asin": "B00JR0MXLI",
+            "height": {
+                "unit": "IN",
+                "value": 3.199999996736
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.399999988372
+            },
+            "name": "Sh&h 27oz Tritan Fruit Infuser Water Bottle, Blue",
+            "normalizedName": "Sh&h 27oz Tritan Fruit Infuser Water Bottle, Blue",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.5
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.299999996634
+            }
+        },
+        "B01C3LEE9G": {
+            "asin": "B01C3LEE9G",
+            "height": {
+                "unit": "IN",
+                "value": 4.899999995002001
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.099999993778
+            },
+            "name": "Nikon COOLPIX B500 Digital Camera (Red)",
+            "normalizedName": "Nikon COOLPIX B500 Digital Camera (Red)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.5999999986582554
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.799999994084
+            }
+        },
+        "B01CJLTSN2": {
+            "asin": "B01CJLTSN2",
+            "height": {
+                "unit": "IN",
+                "value": 0.799999999184
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.99999999184
+            },
+            "name": "Cellpparts For Samsung Galaxy S6 G920T G920A G920V LCD Screen and Digitizer Assembly Replacement with Repair Tools Samsung Logo on top (Black)",
+            "normalizedName": "Cellpparts For Samsung Galaxy S6 G920T G920A G920V LCD Screen and Digitizer Assembly Replacement with Repair Tools Samsung Logo on top (Black)",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.24999999979035234
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.99999999592
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

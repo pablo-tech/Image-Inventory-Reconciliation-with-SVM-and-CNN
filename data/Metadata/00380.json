@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "0762445890": {
+            "asin": "0762445890",
+            "height": {
+                "unit": "IN",
+                "value": 1.0999999988780003
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.99999999082
+            },
+            "name": "Eat More of What You Love: Over 200 Brand-New Recipes Low in Sugar, Fat, and Calories",
+            "normalizedName": "Eat More of What You Love: Over 200 Brand-New Recipes Low in Sugar, Fat, and Calories",
+            "quantity": 7,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.28
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.699999992146
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 7
+}

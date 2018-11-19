@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00LNOBGHI": {
+            "asin": "B00LNOBGHI",
+            "height": {
+                "unit": "IN",
+                "value": 0.199999999796
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.099999991737999
+            },
+            "name": "Crystal Glass, Genuine Czech 5 Inch Nail File in Black Hard Case",
+            "normalizedName": "Crystal Glass, Genuine Czech 5 Inch Nail File in Black Hard Case",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.05000000000000001
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.1999999977560005
+            }
+        },
+        "B013HV7WBS": {
+            "asin": "B013HV7WBS",
+            "height": {
+                "unit": "IN",
+                "value": 2.1999999977560005
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.399999991432
+            },
+            "name": "New York Exotic Novelties Amazing Tammy Gspot Silicone Vibe (Red)",
+            "normalizedName": "New York Exotic Novelties Amazing Tammy Gspot Silicone Vibe (Red)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.29999999974842284
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.899999995002001
+            }
+        },
+        "B013SPR4FW": {
+            "asin": "B013SPR4FW",
+            "height": {
+                "unit": "IN",
+                "value": 0.899999999082
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.599999994287999
+            },
+            "name": "Bugubird V2.0&V1.4 High Speed HDMI Cable 4 Feet ( 1.2 Meters ) Support Ethernet 4K 3D 2160p 1440p 1080p and Full HD",
+            "normalizedName": "Bugubird V2.0&V1.4 High Speed HDMI Cable 4 Feet ( 1.2 Meters ) Support Ethernet 4K 3D 2160p 1440p 1080p and Full HD",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.39999999966456384
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.299999994594
+            }
+        },
+        "B01G6XL6M0": {
+            "asin": "B01G6XL6M0",
+            "height": {
+                "unit": "IN",
+                "value": 1.299999998674
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.99999999388
+            },
+            "name": "Bingle leather Ear Cushions Spare Replacement Ear Pads for Bose Headphones Quietcomfort 2 QC2 Quiet comfort 15 QC15 Quietcomfort 25 QC25 Ae2 Ae2i Ae2w (1Pair Black)",
+            "normalizedName": "Bingle leather Ear Cushions Spare Replacement Ear Pads for Bose Headphones Quietcomfort 2 QC2 Quiet comfort 15 QC15 Quietcomfort 25 QC25 Ae2 Ae2i Ae2w (1Pair Black)",
+            "quantity": 4,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.049999999958070473
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.9999999949
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 8
+}

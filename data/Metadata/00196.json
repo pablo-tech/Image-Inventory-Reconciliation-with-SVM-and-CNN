@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0006IX87S": {
+            "asin": "B0006IX87S",
+            "height": {
+                "unit": "IN",
+                "value": 2.755905509
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.204724397
+            },
+            "name": "Camco 40043 TastePURE Water Filter with Flexible Hose Protector",
+            "normalizedName": "Camco 40043 TastePURE Water Filter with Flexible Hose Protector",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.2345760653848885
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.93700787
+            }
+        },
+        "B01CZ2AEOW": {
+            "asin": "B01CZ2AEOW",
+            "height": {
+                "unit": "IN",
+                "value": 2.99999999694
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.299999989494001
+            },
+            "name": "Hakkalights USA LED MR16 3X2w=6 Watts Orange Spotlight 10pcs 12V",
+            "normalizedName": "Hakkalights USA LED MR16 3X2w=6 Watts Orange Spotlight 10pcs 12V",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.8999999992452686
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.399999995512001
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B01704WDDA": {
+            "asin": "B01704WDDA",
+            "height": {
+                "unit": "IN",
+                "value": 3.99999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.99999999082
+            },
+            "name": "Kanchana Organic Mulberry Tea, Loose Leaf, 2-Pack",
+            "normalizedName": "2-Pack Kanchana Organic Mulberry Tea, Loose Leaf,",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.39999999966456384
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.99999999286
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

@@ -1,0 +1,137 @@
+{
+    "BIN_FCSKU_DATA": {
+        "0062267280": {
+            "asin": "0062267280",
+            "height": {
+                "unit": "IN",
+                "value": 0.899999999082
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.899999991942001
+            },
+            "name": "Up in Honey's Room",
+            "normalizedName": "Up in Honey's Room",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.55
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.199999994696
+            }
+        },
+        "0345466276": {
+            "asin": "0345466276",
+            "height": {
+                "unit": "IN",
+                "value": 0.399999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.599999993268
+            },
+            "name": "Inherit the Wind",
+            "normalizedName": "Inherit the Wind",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.2
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.099999995818
+            }
+        },
+        "0374399883": {
+            "asin": "0374399883",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.699999992146
+            },
+            "name": "Hole in My Life",
+            "normalizedName": "Hole in My Life",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.65
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.9999999949
+            }
+        },
+        "0976184281": {
+            "asin": "0976184281",
+            "height": {
+                "unit": "IN",
+                "value": 1.299999998674
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.299999991534
+            },
+            "name": "Colds & Flu: A Clinical Doctor/Patient Manual for the Natural Prevention and Treatment of Bacterial",
+            "normalizedName": "Colds & Flu: A Clinical Doctor/Patient Manual for the Natural Prevention and Treatment of Bacterial",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.199999994696
+            }
+        },
+        "B012BSTIEW": {
+            "asin": "B012BSTIEW",
+            "height": {
+                "unit": "IN",
+                "value": 1.99999999796
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.299999989494001
+            },
+            "name": "Quick Charge 2.0 Car Charger, Maxboost 30W Dual Output USB -Smart 5V/2.4A +QC 2.0 12V/9V/5V MicroUSB Cable for Samsung Galaxy S7/S6/Edge/Edge Plus/Note 6 5,HTC One,LG, Nexus 5 6 4 7, iPhone 6S/6S Plus",
+            "normalizedName": "Quick Charge 2.0 Car Charger, Maxboost 30W Dual Output USB -Smart 5V/2.4A +QC 2.0 12V/9V/5V MicroUSB Cable for Samsung Galaxy S7/S6/Edge/Edge Plus/Note 6 5,HTC One,LG, Nexus 5 6 4 7, iPhone 6S/6S Plus",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.14999999987421142
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.49999999439
+            }
+        },
+        "B0140WTCPW": {
+            "asin": "B0140WTCPW",
+            "height": {
+                "unit": "IN",
+                "value": 2.299999997654
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.299999992554
+            },
+            "name": "Hot Wheels Star Wars Obi-Wan Kenobi vs. Darth Vader Character Car 2-Pack",
+            "normalizedName": "2-Pack Hot Wheels Star Wars Obi-Wan Kenobi vs. Darth Vader Character Car",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.14999999987421142
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.899999993982
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 8
+}

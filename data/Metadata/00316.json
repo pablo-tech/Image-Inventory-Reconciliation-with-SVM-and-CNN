@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B01AH2CRJW": {
+            "asin": "B01AH2CRJW",
+            "height": {
+                "unit": "IN",
+                "value": 3.299999996634
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.599999992248
+            },
+            "name": "Power Rangers Dino Charge 4\" Red Ranger, Green Ranger, & Black Ranger Action Figure Bundle",
+            "normalizedName": "Power Rangers Dino Charge 4\" Red Ranger, Green Ranger, & Black Ranger Action Figure Bundle",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001167587297
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.199999993676
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

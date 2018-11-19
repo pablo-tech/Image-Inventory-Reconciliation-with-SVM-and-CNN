@@ -1,0 +1,68 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0056JHX7S": {
+            "asin": "B0056JHX7S",
+            "height": {
+                "unit": "IN",
+                "value": 3.199999996736
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.49999999337
+            },
+            "name": "NaturVet 90 Count Hip Flex Level 3 Joint Care Tablets for Pets",
+            "normalizedName": "NaturVet 90 Count Hip Flex Level 3 Joint Care Tablets for Pets",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.85
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.299999996634
+            }
+        },
+        "B00VXEWGK4": {
+            "asin": "B00VXEWGK4",
+            "height": {
+                "unit": "IN",
+                "value": 3.399999996532
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.6999999962260004
+            },
+            "name": "Full Body Acne Treatment & Defense Aromatherapy Dead Sea Bath Salts - \"Hello Clear Skin\" - by Vi-Tae\u00ae 16oz",
+            "normalizedName": "Full Body Acne Treatment & Defense Aromatherapy Dead Sea Bath Salts - \"Hello Clear Skin\" - by Vi-Tae\u00ae 16oz",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.2786680677200633
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.599999996328
+            }
+        },
+        "B01E62WRAS": {
+            "asin": "B01E62WRAS",
+            "height": {
+                "unit": "IN",
+                "value": 0.23
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.0
+            },
+            "name": "BARTON Watch Bands - Navy Blue - Long - 24mm Width - Ballistic Nylon and Stainless Steel",
+            "normalizedName": "BARTON Watch Bands - Navy Blue - Long - 24mm Width - Ballistic Nylon and Stainless Steel",
+            "quantity": 1,
+            "weight": null,
+            "width": {
+                "unit": "IN",
+                "value": 1.5
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

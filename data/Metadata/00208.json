@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000NVNLTS": {
+            "asin": "B000NVNLTS",
+            "height": {
+                "unit": "IN",
+                "value": 1.3999999985719997
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.799999996124
+            },
+            "name": "No-Doz Max Strength Fast Acting Alertness Aid, 60 Caplets",
+            "normalizedName": "No-Doz Max Strength Fast Acting Alertness Aid, 60 Caplets",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001186074866
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.099999997858
+            }
+        },
+        "B0038TVH34": {
+            "asin": "B0038TVH34",
+            "height": {
+                "unit": "IN",
+                "value": 1.3999999985719997
+            },
+            "length": {
+                "unit": "IN",
+                "value": 1.99999999796
+            },
+            "name": "SheaMoisture 4 oz Raw Shea Butter Reconstructive Finishing Elixir",
+            "normalizedName": "SheaMoisture 4 oz Raw Shea Butter Reconstructive Finishing Elixir",
+            "quantity": 4,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.15
+            },
+            "width": {
+                "unit": "IN",
+                "value": 1.699999998266
+            }
+        },
+        "B0082RD6ZY": {
+            "asin": "B0082RD6ZY",
+            "height": {
+                "unit": "IN",
+                "value": 1.599999998368
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.399999994492
+            },
+            "name": "Equate Athlete's Foot Terbinafine HCl 1 oz Compare to Lamisil AT",
+            "normalizedName": "Equate Athlete's Foot Terbinafine HCl 1 oz Compare to Lamisil AT",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001186074866
+            },
+            "width": {
+                "unit": "IN",
+                "value": 1.599999998368
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

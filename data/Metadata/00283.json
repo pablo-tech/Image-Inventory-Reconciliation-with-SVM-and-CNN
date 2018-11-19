@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B006MQLEGK": {
+            "asin": "B006MQLEGK",
+            "height": {
+                "unit": "IN",
+                "value": 3.599999996328
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.099999990718
+            },
+            "name": "4 Winds Herbal Blend",
+            "normalizedName": "4 Winds Herbal Blend",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.07
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.599999992248
+            }
+        },
+        "B00HD4HPEA": {
+            "asin": "B00HD4HPEA",
+            "height": {
+                "unit": "IN",
+                "value": 1.3385826758
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.842519675
+            },
+            "name": "Griffin Clear/Blue Survivor All-Terrain Case + Standfor iPad Air - Military-Duty Case",
+            "normalizedName": "Griffin Clear/Blue Survivor All-Terrain Case + Standfor iPad Air - Military-Duty Case",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.9259320498151443
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.7165354252
+            }
+        },
+        "B00TID8JOE": {
+            "asin": "B00TID8JOE",
+            "height": {
+                "unit": "IN",
+                "value": 1.8897637776
+            },
+            "length": {
+                "unit": "IN",
+                "value": 14.173228332
+            },
+            "name": "Fisher-Price Thomas the Train TrackMaster Motorized Ryan Engine\u00a0",
+            "normalizedName": "Fisher-Price Thomas the Train TrackMaster Motorized Ryan Engine\u00a0",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.485012026093647
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.6220472404
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00PESXDB6": {
+            "asin": "B00PESXDB6",
+            "height": {
+                "unit": "IN",
+                "value": 1.2598425184
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.118110231
+            },
+            "name": "Schleich Tiger Toy Figure",
+            "normalizedName": "Schleich Tiger Toy Figure",
+            "quantity": 9,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.26455201423289837
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.6220472404
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 9
+}

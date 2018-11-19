@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000OT6FP6": {
+            "asin": "B000OT6FP6",
+            "height": {
+                "unit": "IN",
+                "value": 5.299999994594
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.699999993166
+            },
+            "name": "NCAA Iowa State Cyclones Collectible Mini Helmet",
+            "normalizedName": "NCAA Iowa State Cyclones Collectible Mini Helmet",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.65
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.799999994084
+            }
+        },
+        "B01DEW3CNC": {
+            "asin": "B01DEW3CNC",
+            "height": {
+                "unit": "IN",
+                "value": 0.399999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 14.899999984802001
+            },
+            "name": "S7 Edge Screen Protector, Car Rover Full Coverage Premium Tempered Glass Screen Protector Film for Samsung Galaxy S7 Edge(Blue)",
+            "normalizedName": "S7 Edge Screen Protector, Car Rover Full Coverage Premium Tempered Glass Screen Protector Film for Samsung Galaxy S7 Edge(Blue)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.18499999984486076
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.299999994594
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

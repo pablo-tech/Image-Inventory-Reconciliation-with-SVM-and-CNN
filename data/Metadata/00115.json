@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000W43GZA": {
+            "asin": "B000W43GZA",
+            "height": {
+                "unit": "IN",
+                "value": 3.599999996328
+            },
+            "length": {
+                "unit": "IN",
+                "value": 14.49999998521
+            },
+            "name": "Classic Accessories 70952 Veranda Patio Rocking Chair Cover, Medium",
+            "normalizedName": "Classic Accessories 70952 Veranda Patio Rocking Chair Cover, Medium",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.9
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.099999990718
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

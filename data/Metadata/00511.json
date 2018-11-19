@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0190UMF12": {
+            "asin": "B0190UMF12",
+            "height": {
+                "unit": "IN",
+                "value": 3.299999996634
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.99999999082
+            },
+            "name": "300 MaxEeze Care Disposable Graduated Plastic Medicine Cups, 1 OZ",
+            "normalizedName": "300 MaxEeze Care Disposable Graduated Plastic Medicine Cups, 1 OZ",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.7999999993291277
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.6999999962260004
+            }
+        },
+        "B01G7PMBMG": {
+            "asin": "B01G7PMBMG",
+            "height": {
+                "unit": "IN",
+                "value": 2.99999999694
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.599999991228
+            },
+            "name": "No Udder Protein Shaker Bottle- BPA Free",
+            "normalizedName": "No Udder Protein Shaker Bottle- BPA Free",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.29999999974842284
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.099999996838
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

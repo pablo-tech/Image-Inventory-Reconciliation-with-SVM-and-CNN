@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B005LVJVYE": {
+            "asin": "B005LVJVYE",
+            "height": {
+                "unit": "IN",
+                "value": 0.099999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 14.9999999847
+            },
+            "name": "GoneForaRun PRIDE IS FOREVER Runner's Race Medal Hanger",
+            "normalizedName": "GoneForaRun PRIDE IS FOREVER Runner's Race Medal Hanger",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.75
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.199999991636
+            }
+        },
+        "B0074MWI20": {
+            "asin": "B0074MWI20",
+            "height": {
+                "unit": "IN",
+                "value": 1.899999998062
+            },
+            "length": {
+                "unit": "IN",
+                "value": 16.199999983476
+            },
+            "name": "Green Extra Heavyweight Brawny Buffalo Plaid Flannel Shirt, Size 2X-large",
+            "normalizedName": "Green Extra Heavyweight Brawny Buffalo Plaid Flannel Shirt, Size 2X-large",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.35
+            },
+            "width": {
+                "unit": "IN",
+                "value": 10.899999988882
+            }
+        },
+        "B00RG97Y2A": {
+            "asin": "B00RG97Y2A",
+            "height": {
+                "unit": "IN",
+                "value": 2.49999999745
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.699999987045999
+            },
+            "name": "Ever After High Sugar Coated Holly O'Hair Doll",
+            "normalizedName": "Ever After High Sugar Coated Holly O'Hair Doll",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6999999999999998
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.899999991942001
+            }
+        },
+        "B012MGSPOW": {
+            "asin": "B012MGSPOW",
+            "height": {
+                "unit": "IN",
+                "value": 3.99999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.49999999133
+            },
+            "name": "Marvel Captain America: Civil War Iron Man Mask",
+            "normalizedName": "Marvel Captain America: Civil War Iron Man Mask",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.29999999974842284
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.49999999235
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

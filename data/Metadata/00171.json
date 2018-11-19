@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B005CK86XQ": {
+            "asin": "B005CK86XQ",
+            "height": {
+                "unit": "IN",
+                "value": 1.599999998368
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.099999994798
+            },
+            "name": "Ultimate EFA Plus by Youngevity, 90 soft gels",
+            "normalizedName": "Ultimate EFA Plus by Youngevity, 90 soft gels",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3499999999999999
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.49999999745
+            }
+        },
+        "B00EPKNTUO": {
+            "asin": "B00EPKNTUO",
+            "height": {
+                "unit": "IN",
+                "value": 1.49999999847
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.899999990922
+            },
+            "name": "Daniel Tiger's Neighborhood Friends Figures Set",
+            "normalizedName": "Daniel Tiger's Neighborhood Friends Figures Set",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.24999999979035234
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.599999995308
+            }
+        },
+        "B00F9Y9QHA": {
+            "asin": "B00F9Y9QHA",
+            "height": {
+                "unit": "IN",
+                "value": 2.699999997246
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.49999999337
+            },
+            "name": "Special Tea Loose Leaf Black Tea, Kochi, 16 Ounce",
+            "normalizedName": "Special Tea Loose Leaf Black Tea, Kochi, 16 Ounce",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.05
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.899999993982
+            }
+        },
+        "B00GVKMQY6": {
+            "asin": "B00GVKMQY6",
+            "height": {
+                "unit": "IN",
+                "value": 1.49999999847
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.9999999898
+            },
+            "name": "Nintendo 3DS XL Nerf Armor Maximum Protection Case - Pink",
+            "normalizedName": "Nintendo 3DS XL Nerf Armor Maximum Protection Case - Pink",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.5
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.99999999388
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

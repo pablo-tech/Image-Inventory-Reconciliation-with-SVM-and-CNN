@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B013L5VMPM": {
+            "asin": "B013L5VMPM",
+            "height": {
+                "unit": "IN",
+                "value": 1.0
+            },
+            "length": {
+                "unit": "IN",
+                "value": 13.400000000000002
+            },
+            "name": "Lavello Accents Lafleur & Global Collection Sheer Designer Vests (Azure Reflections)",
+            "normalizedName": "Lavello Accents Lafleur & Global Collection Sheer Designer Vests (Azure Reflections)",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.09999999991614099
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.8
+            }
+        },
+        "B019EQOTCU": {
+            "asin": "B019EQOTCU",
+            "height": {
+                "unit": "IN",
+                "value": 3.299999996634
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.399999988372
+            },
+            "name": "Pure Synergy Immune Health with Organic Mushrooms Astragalus Fucoidan Beta-Glucan 60 Vegetable Capsules by The Synergy Company",
+            "normalizedName": "Pure Synergy Immune Health with Organic Mushrooms Astragalus Fucoidan Beta-Glucan 60 Vegetable Capsules by The Synergy Company",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3999959167451476
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.299999996634
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

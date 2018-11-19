@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000BD5F7Y": {
+            "asin": "B000BD5F7Y",
+            "height": {
+                "unit": "IN",
+                "value": 1.299999998674
+            },
+            "length": {
+                "unit": "IN",
+                "value": 2.599999997348
+            },
+            "name": "The Hillman Group 823428 Stainless Steel Flat Head Phillips Sheet Metal Screw, 6-Inch x 1-1/4-Inch, 100-Pack",
+            "normalizedName": "100-Pack The Hillman Group 823428 Stainless Steel Flat Head Phillips Sheet Metal Screw, 6-Inch x 1-1/4-Inch,",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4000000000000001
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.299999997654
+            }
+        },
+        "B002VKX0PY": {
+            "asin": "B002VKX0PY",
+            "height": {
+                "unit": "IN",
+                "value": 1.3999999985719997
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.9999999949
+            },
+            "name": "VELCRO Brand - Sticky Back - 3 1/2\" x 3/4\" Strips, 10 Sets - White",
+            "normalizedName": "VELCRO Brand - Sticky Back - 3 1/2\" x 3/4\" Strips, 10 Sets - White",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.2
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.599999997348
+            }
+        },
+        "B00DI88YCC": {
+            "asin": "B00DI88YCC",
+            "height": {
+                "unit": "IN",
+                "value": 1.699999998266
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.599999993268
+            },
+            "name": "KabelDirekt (20 feet) HDMI Cable (1080p 4K 3D High Speed with Ethernet ARC) - TOP Series",
+            "normalizedName": "KabelDirekt (20 feet) HDMI Cable (1080p 4K 3D High Speed with Ethernet ARC) - TOP Series",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6999999999999998
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.899999993982
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

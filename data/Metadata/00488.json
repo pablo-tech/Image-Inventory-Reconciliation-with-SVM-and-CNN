@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00BP1RM0O": {
+            "asin": "B00BP1RM0O",
+            "height": {
+                "unit": "IN",
+                "value": 2.2834645646
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.448818888
+            },
+            "name": "Galt Toys Inc First Years Farm Teether Soft Book",
+            "normalizedName": "Galt Toys Inc First Years Farm Teether Soft Book",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.13227600711644918
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.1417322772
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

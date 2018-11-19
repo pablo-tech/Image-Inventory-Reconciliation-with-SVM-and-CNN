@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0064LIWVS": {
+            "asin": "B0064LIWVS",
+            "height": {
+                "unit": "IN",
+                "value": 1.199999998776
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.799999994084
+            },
+            "name": "Applied Nutrition Liquid Collagen Skin Revitalization, 10 Count 3.35 Fl Ounce",
+            "normalizedName": "Applied Nutrition Liquid Collagen Skin Revitalization, 10 Count 3.35 Fl Ounce",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3499999999999999
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.699999995206
+            }
+        },
+        "B00DD3KURO": {
+            "asin": "B00DD3KURO",
+            "height": {
+                "unit": "IN",
+                "value": 1.599999998368
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.199999995716
+            },
+            "name": "PLR Optics Original LP-E8 Ultra High Capacity Li-ion Battery For Canon EOS Rebel SL1 (100D), T5i (700D), T4i (650D), T3i (600D), T2i (550D) Digital SLR Cameras (Canon LP-E8 Replacement)",
+            "normalizedName": "PLR Optics Original LP-E8 Ultra High Capacity Li-ion Battery For Canon EOS Rebel SL1 (100D), T5i (700D), T4i (650D), T3i (600D), T2i (550D) Digital SLR Cameras (Canon LP-E8 Replacement)",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001186074866
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.1999999977560005
+            }
+        },
+        "B00IYQRYKQ": {
+            "asin": "B00IYQRYKQ",
+            "height": {
+                "unit": "IN",
+                "value": 2.99999999694
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.099999993778
+            },
+            "name": "NOW Foods DHA-500 180 Softgels (2-Pack)",
+            "normalizedName": "(2-Pack) NOW Foods DHA-500 180 Softgels",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.3
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.299999994594
+            }
+        },
+        "B00XPKI572": {
+            "asin": "B00XPKI572",
+            "height": {
+                "unit": "IN",
+                "value": 0.58267716476
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.09842518961
+            },
+            "name": "Kite Collection [Blu-ray]",
+            "normalizedName": "Kite Collection [Blu-ray]",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.1833364170792
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.41732282912
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

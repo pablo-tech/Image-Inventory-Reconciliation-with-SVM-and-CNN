@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00QFRXE0A": {
+            "asin": "B00QFRXE0A",
+            "height": {
+                "unit": "IN",
+                "value": 0.599999999388
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.799999994084
+            },
+            "name": "iPhone 6 Case, Bastex Heavy Duty Hybrid Protective Kickstand Case - Black Soft Silicone Cover with Aztec Design Case for Apple iPhone 6, 4.7\"",
+            "normalizedName": "iPhone 6 Case, Bastex Heavy Duty Hybrid Protective Kickstand Case - Black Soft Silicone Cover with Aztec Design Case for Apple iPhone 6, 4.7\"",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001186074866
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.299999996634
+            }
+        },
+        "B00Y2DJN4A": {
+            "asin": "B00Y2DJN4A",
+            "height": {
+                "unit": "IN",
+                "value": 3.599999996328
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.699999994186001
+            },
+            "name": "2 Pairs EMAX 2204 MT2204 2300KV Brushless Motor for FPV 250 RC Racing Quadcopter (2 CW + 2 CCW, totally 4PCS) w/ Free Gifts",
+            "normalizedName": "2 Pairs EMAX 2204 MT2204 2300KV Brushless Motor for FPV 250 RC Racing Quadcopter (2 CW + 2 CCW, totally 4PCS) w/ Free Gifts",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6999999999999998
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.599999995308
+            }
+        },
+        "B0118DTSCI": {
+            "asin": "B0118DTSCI",
+            "height": {
+                "unit": "IN",
+                "value": 0.599999999388
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.099999995818
+            },
+            "name": "Lip Smacker Disney Minnie Mouse 3 Stick Lip Balm and Gloss Pack",
+            "normalizedName": "Lip Smacker Disney Minnie Mouse 3 Stick Lip Balm and Gloss Pack",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001167587297
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.99999999592
+            }
+        },
+        "B01EQVE356": {
+            "asin": "B01EQVE356",
+            "height": {
+                "unit": "IN",
+                "value": 2.9527558994881886
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.9370078659842522
+            },
+            "name": "MICHLEY 50pcs 0.9\u201c Plastic Poison Dart Frogs Toy",
+            "normalizedName": "MICHLEY 50pcs 0.9\u201c Plastic Poison Dart Frogs Toy",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.24999999979035234
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.9370078659842522
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

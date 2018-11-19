@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00FL3U43E": {
+            "asin": "B00FL3U43E",
+            "height": {
+                "unit": "IN",
+                "value": 4.299999995614
+            },
+            "length": {
+                "unit": "IN",
+                "value": 17.49999998215
+            },
+            "name": "8-Foot Brown Heavy Leatherette Billiard Table Cover by Felson Billiard Supplies",
+            "normalizedName": "8-Foot Brown Heavy Leatherette Billiard Table Cover by Felson Billiard Supplies",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 8.4
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.9999999949
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

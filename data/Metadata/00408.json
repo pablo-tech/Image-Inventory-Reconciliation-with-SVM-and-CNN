@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0132YMMJC": {
+            "asin": "B0132YMMJC",
+            "height": {
+                "unit": "IN",
+                "value": 3.149606296
+            },
+            "length": {
+                "unit": "IN",
+                "value": 14.2519684894
+            },
+            "name": "Disney Infinity 3.0 Edition: Star Wars Han Solo Figure",
+            "normalizedName": "Disney Infinity 3.0 Edition: Star Wars Han Solo Figure",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.22046001167587295
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.5905511754
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

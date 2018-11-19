@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00DSYED3U": {
+            "asin": "B00DSYED3U",
+            "height": {
+                "unit": "IN",
+                "value": 0.399999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.99999998776
+            },
+            "name": "Avery Removable Round Labels, 1-Inch Diameter, White, Pack of 945 (6450)",
+            "normalizedName": "Pack of 945 Avery Removable Round Labels, 1-Inch Diameter, White, (6450)",
+            "quantity": 4,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.45
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.49999999031
+            }
+        },
+        "B01AZV0HMO": {
+            "asin": "B01AZV0HMO",
+            "height": {
+                "unit": "IN",
+                "value": 4.899999995002001
+            },
+            "length": {
+                "unit": "IN",
+                "value": 13.299999986434
+            },
+            "name": "Monster High Performance HDMI Kit",
+            "normalizedName": "Monster High Performance HDMI Kit",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.4499999971068624
+            },
+            "width": {
+                "unit": "IN",
+                "value": 12.49999998725
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

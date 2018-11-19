@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00012TL2A": {
+            "asin": "B00012TL2A",
+            "height": {
+                "unit": "IN",
+                "value": 2.8346456664
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.9999999898
+            },
+            "name": "Intex Easy Set 8-Foot Pool Cover",
+            "normalizedName": "Intex Easy Set 8-Foot Pool Cover",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.527396192
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.2125984158
+            }
+        },
+        "B00HZ5GHIC": {
+            "asin": "B00HZ5GHIC",
+            "height": {
+                "unit": "IN",
+                "value": 5.599999994287999
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.299999991534
+            },
+            "name": "Lansinoh Disposable Nursing Pads - 60 ct (Pack of 2)",
+            "normalizedName": "(Pack of 2) Lansinoh Disposable Nursing Pads - 60 ct",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.2499999999999998
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.899999991942001
+            }
+        },
+        "B00NVI6DFY": {
+            "asin": "B00NVI6DFY",
+            "height": {
+                "unit": "IN",
+                "value": 3.49999999643
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.99999998776
+            },
+            "name": "New and Improved BulletShaker 2.0 Best 25.36oz (750mL) Thermos to Keep Bulletproof Coffee HOT or Protein Shakes COLD..AND MIXED. (Mixer Ball Included!)",
+            "normalizedName": "New and Improved BulletShaker 2.0 Best 25.36oz (750mL) Thermos to Keep Bulletproof Coffee HOT or Protein Shakes COLD..AND MIXED. (Mixer Ball Included!)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.3
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.599999996328
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

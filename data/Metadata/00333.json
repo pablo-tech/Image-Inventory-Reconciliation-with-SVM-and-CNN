@@ -1,0 +1,159 @@
+{
+    "BIN_FCSKU_DATA": {
+        "0133769399": {
+            "asin": "0133769399",
+            "height": {
+                "unit": "IN",
+                "value": 2.99999999694
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.99999998776
+            },
+            "name": "Starting Out with C++ from Control Structures to Objects (8th Edition)",
+            "normalizedName": "Starting Out with C++ from Control Structures to Objects (8th Edition)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 4.35
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.99999999286
+            }
+        },
+        "1429208384": {
+            "asin": "1429208384",
+            "height": {
+                "unit": "IN",
+                "value": 1.799999998164
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.099999989698
+            },
+            "name": "Calculus: Early Transcendentals",
+            "normalizedName": "Calculus: Early Transcendentals",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 4.999999999999999
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.699999991126
+            }
+        },
+        "B00080ANT0": {
+            "asin": "B00080ANT0",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 17.199999982456
+            },
+            "name": "Makita 798148-7 Clay Spade",
+            "normalizedName": "Makita 798148-7 Clay Spade",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.7
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.299999993574
+            }
+        },
+        "B004I640EE": {
+            "asin": "B004I640EE",
+            "height": {
+                "unit": "IN",
+                "value": 0.599999999388
+            },
+            "length": {
+                "unit": "IN",
+                "value": 13.099999986638
+            },
+            "name": "Rothco Canvas Medic Bag/No Imprint, Brown",
+            "normalizedName": "Rothco Canvas Medic Bag/No Imprint, Brown",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.8000000000000002
+            },
+            "width": {
+                "unit": "IN",
+                "value": 11.599999988168
+            }
+        },
+        "B004XJANZ6": {
+            "asin": "B004XJANZ6",
+            "height": {
+                "unit": "IN",
+                "value": 0.199999999796
+            },
+            "length": {
+                "unit": "IN",
+                "value": 15.99999998368
+            },
+            "name": "Ohio Wholesale Entering Flip Flop Zone Tin Sign",
+            "normalizedName": "Ohio Wholesale Entering Flip Flop Zone Tin Sign",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.8
+            },
+            "width": {
+                "unit": "IN",
+                "value": 10.99999998878
+            }
+        },
+        "B0069RZ04O": {
+            "asin": "B0069RZ04O",
+            "height": {
+                "unit": "IN",
+                "value": 1.899999998062
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.099999987657998
+            },
+            "name": "ARKON SR2CM117 Sirius XM Extending Windshield Mount",
+            "normalizedName": "ARKON SR2CM117 Sirius XM Extending Windshield Mount",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.7
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.899999995002001
+            }
+        },
+        "B00J24OZ74": {
+            "asin": "B00J24OZ74",
+            "height": {
+                "unit": "IN",
+                "value": 5.99999999388
+            },
+            "length": {
+                "unit": "IN",
+                "value": 13.899999985822001
+            },
+            "name": "Four Paws Wee-Wee Super Absorbent Dog Housebreaking Pads, 40 Ct",
+            "normalizedName": "Four Paws Wee-Wee Super Absorbent Dog Housebreaking Pads, 40 Ct",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.6
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.199999990616
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 9
+}

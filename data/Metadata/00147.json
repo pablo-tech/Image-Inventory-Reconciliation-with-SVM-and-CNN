@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B001NIX3S4": {
+            "asin": "B001NIX3S4",
+            "height": {
+                "unit": "IN",
+                "value": 3.5
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.25
+            },
+            "name": "Wild Animal Liquid De-Shedder RTU Spray, 11.7 oz.",
+            "normalizedName": "Wild Animal Liquid De-Shedder RTU Spray, 11.7 oz.",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.0
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.5
+            }
+        },
+        "B00L3MNYRK": {
+            "asin": "B00L3MNYRK",
+            "height": {
+                "unit": "IN",
+                "value": 0.49999999949
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.99999999184
+            },
+            "name": "LinearFlux Portable Charger for Micro-USB Devices - Retail Packaging - Silver/Black",
+            "normalizedName": "LinearFlux Portable Charger for Micro-USB Devices - Retail Packaging - Silver/Black",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.20000000000000004
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.9999999949
+            }
+        },
+        "B016MA1UQ4": {
+            "asin": "B016MA1UQ4",
+            "height": {
+                "unit": "IN",
+                "value": 0.8661417314
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.055118101
+            },
+            "name": "OFKP\u00ae Stick-on Anywhere 10-LED Wireless Motion Sensing Closet Cabinet LED Night Light / Stairs Light with Magnetic Strip-Cool White (Battery Operated)",
+            "normalizedName": "OFKP\u00ae Stick-on Anywhere 10-LED Wireless Motion Sensing Closet Cabinet LED Night Light / Stairs Light with Magnetic Strip-Cool White (Battery Operated)",
+            "quantity": 4,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001167587297
+            },
+            "width": {
+                "unit": "IN",
+                "value": 1.4960629906
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

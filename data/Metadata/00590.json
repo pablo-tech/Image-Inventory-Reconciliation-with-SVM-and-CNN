@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B005JRJE56": {
+            "asin": "B005JRJE56",
+            "height": {
+                "unit": "IN",
+                "value": 3.2283464534
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.5748031378
+            },
+            "name": "Dremel 3000-1/24 1 Attachment/24 Accessories Rotary Tool",
+            "normalizedName": "Dremel 3000-1/24 1 Attachment/24 Accessories Rotary Tool",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.086440166050481
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.267716527
+            }
+        },
+        "B00654FH30": {
+            "asin": "B00654FH30",
+            "height": {
+                "unit": "IN",
+                "value": 1.49999999847
+            },
+            "length": {
+                "unit": "IN",
+                "value": 13.799999985924
+            },
+            "name": "Vidal Sassoon Vsir1531 Chrome Curling Iron, 3/4 Inch, Black",
+            "normalizedName": "Vidal Sassoon Vsir1531 Chrome Curling Iron, 3/4 Inch, Black",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.65
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.49999999541
+            }
+        },
+        "B00F9IZZGC": {
+            "asin": "B00F9IZZGC",
+            "height": {
+                "unit": "IN",
+                "value": 1.574803148
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.3385826656
+            },
+            "name": "Amscan Awesome TMNT Mega Mix Birthday Party Favors Value Pack (48 Piece), 11.3 x 8.3\", Multi",
+            "normalizedName": "Amscan Awesome TMNT Mega Mix Birthday Party Favors Value Pack (48 Piece), 11.3 x 8.3\", Multi",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.5731960308379465
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.267716527
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

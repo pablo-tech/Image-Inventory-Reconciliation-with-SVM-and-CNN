@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B003KZ4FO4": {
+            "asin": "B003KZ4FO4",
+            "height": {
+                "unit": "IN",
+                "value": 0.049999999949
+            },
+            "length": {
+                "unit": "IN",
+                "value": 15.699999983986
+            },
+            "name": "Farmall - If It Ain't Red Tin Sign 16\" X 12.5\" , 12x16",
+            "normalizedName": "Farmall - If It Ain't Red Tin Sign 16\" X 12.5\" , 12x16",
+            "quantity": 23,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.7
+            },
+            "width": {
+                "unit": "IN",
+                "value": 12.099999987658
+            }
+        },
+        "B00YCVXDHK": {
+            "asin": "B00YCVXDHK",
+            "height": {
+                "unit": "IN",
+                "value": 8.799999991024002
+            },
+            "length": {
+                "unit": "IN",
+                "value": 15.099999984598
+            },
+            "name": "Cuisinart CJE-500 Compact Juice Extractor, Black (Certified Refurbished)",
+            "normalizedName": "Cuisinart CJE-500 Compact Juice Extractor, Black (Certified Refurbished)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 8.75
+            },
+            "width": {
+                "unit": "IN",
+                "value": 13.599999986128
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 24
+}

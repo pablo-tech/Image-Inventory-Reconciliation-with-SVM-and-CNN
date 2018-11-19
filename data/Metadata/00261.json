@@ -1,0 +1,159 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00069PDYI": {
+            "asin": "B00069PDYI",
+            "height": {
+                "unit": "IN",
+                "value": 1.0999999988780003
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.599999988168
+            },
+            "name": "Stansport Sportsman's Polarshield Emergency Blanket",
+            "normalizedName": "Stansport Sportsman's Polarshield Emergency Blanket",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.8000000000000002
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.199999992656
+            }
+        },
+        "B0009STDOW": {
+            "asin": "B0009STDOW",
+            "height": {
+                "unit": "IN",
+                "value": 0.6999999992859999
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.099999995818
+            },
+            "name": "Band-Aid Adhesive Bandages, Sheer, All One Size 40 sterile bandages",
+            "normalizedName": "Band-Aid Adhesive Bandages, Sheer, All One Size 40 sterile bandages",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001167587297
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.7999999971439995
+            }
+        },
+        "B008P8FI2O": {
+            "asin": "B008P8FI2O",
+            "height": {
+                "unit": "IN",
+                "value": 1.599999998368
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.99999999082
+            },
+            "name": "Stanco 5076-8 8-Inch Locking Notch Bowl, Chrome",
+            "normalizedName": "Stanco 5076-8 8-Inch Locking Notch Bowl, Chrome",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4000000000000001
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.99999999082
+            }
+        },
+        "B00IBDCYUM": {
+            "asin": "B00IBDCYUM",
+            "height": {
+                "unit": "IN",
+                "value": 1.0999999988780003
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.099999994798
+            },
+            "name": "Obagi Medical Obagi360 Retinol 0.5 , 1 Fluid Ounce",
+            "normalizedName": "Obagi Medical Obagi360 Retinol 0.5 , 1 Fluid Ounce",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.09999999991614096
+            },
+            "width": {
+                "unit": "IN",
+                "value": 1.199999998776
+            }
+        },
+        "B00K9ZSW06": {
+            "asin": "B00K9ZSW06",
+            "height": {
+                "unit": "IN",
+                "value": 2.7999999971439995
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.99999999592
+            },
+            "name": "Marley Coffee Smile Jamaica, Jamaica Blue Mountain Blend Ground Coffee, 8 Ounce",
+            "normalizedName": "Marley Coffee Smile Jamaica, Jamaica Blue Mountain Blend Ground Coffee, 8 Ounce",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.55
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.899999996022
+            }
+        },
+        "B00KT2NXBC": {
+            "asin": "B00KT2NXBC",
+            "height": {
+                "unit": "IN",
+                "value": 1.4
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.1
+            },
+            "name": "Poweradd 903A 4 Bay High-Speed Intelligent Battery Charger with LCD,Smart Rechargeable Battery Charger for AA AAA NI-MH/NI-CD Rechargeable Batteries (Batteries Not Included)",
+            "normalizedName": "Poweradd 903A 4 Bay High-Speed Intelligent Battery Charger with LCD,Smart Rechargeable Battery Charger for AA AAA NI-MH/NI-CD Rechargeable Batteries (Batteries Not Included)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.25
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.7
+            }
+        },
+        "B0158WBF3K": {
+            "asin": "B0158WBF3K",
+            "height": {
+                "unit": "IN",
+                "value": 0.5905511805
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.118110231
+            },
+            "name": "32nd\u00ae Shock proof dual defender case cover for Sony Xperia Z5 Compact, including screen protector, cleaning cloth and touch stylus - Green",
+            "normalizedName": "32nd\u00ae Shock proof dual defender case cover for Sony Xperia Z5 Compact, including screen protector, cleaning cloth and touch stylus - Green",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001167587297
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.755905509
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 7
+}

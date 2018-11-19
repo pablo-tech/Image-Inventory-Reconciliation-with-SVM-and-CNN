@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "0486478793": {
+            "asin": "0486478793",
+            "height": {
+                "unit": "IN",
+                "value": 0.199999999796
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.99999999184
+            },
+            "name": "American Presidents Sticker Book (Dover Sticker Books)",
+            "normalizedName": "American Presidents Sticker Book (Dover Sticker Books)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.05
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.99999999388
+            }
+        },
+        "B00001QEAQ": {
+            "asin": "B00001QEAQ",
+            "height": {
+                "unit": "IN",
+                "value": 1.6535433054
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.87401574
+            },
+            "name": "Ty Beanie Babies - Peace Bear",
+            "normalizedName": "Ty Beanie Babies - Peace Bear",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4409200237214973
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.6220472404
+            }
+        },
+        "B008H7B8JA": {
+            "asin": "B008H7B8JA",
+            "height": {
+                "unit": "IN",
+                "value": 0.799999999184
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.799999995104
+            },
+            "name": "Blue Evil Eye with Elephant Key Ring for Protection (With a Betterdecor Pounch)-027",
+            "normalizedName": "Blue Evil Eye with Elephant Key Ring for Protection (With a Betterdecor Pounch)-027",
+            "quantity": 9,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001186074866
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.99999999694
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 11
+}

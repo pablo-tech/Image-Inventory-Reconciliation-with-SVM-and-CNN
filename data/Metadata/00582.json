@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B009LZ6KDQ": {
+            "asin": "B009LZ6KDQ",
+            "height": {
+                "unit": "IN",
+                "value": 3.299999996634
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.99999998878
+            },
+            "name": "SHEBA Pate in Natural Juices Beef Entr\u00e9e Canned Cat Food 3 Ounces (Pack of 24)",
+            "normalizedName": "(Pack of 24) SHEBA Pate in Natural Juices Beef Entr\u00e9e Canned Cat Food 3 Ounces",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 5.389999995479996
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.899999991942001
+            }
+        },
+        "B00KIXC1CO": {
+            "asin": "B00KIXC1CO",
+            "height": {
+                "unit": "IN",
+                "value": 6.99999999286
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.9999999898
+            },
+            "name": "Royal Designs Shallow Drum Hardback Lamp Shade, Linen White, 9 x 10 x 7",
+            "normalizedName": "Royal Designs Shallow Drum Hardback Lamp Shade, Linen White, 9 x 10 x 7",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.9999999898
+            }
+        },
+        "B018DPJK3Q": {
+            "asin": "B018DPJK3Q",
+            "height": {
+                "unit": "IN",
+                "value": 0.6999999992859999
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.099999989698
+            },
+            "name": "Crayola Folk Art Escapes Coloring Book",
+            "normalizedName": "Crayola Folk Art Escapes Coloring Book",
+            "quantity": 8,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.2499999989517618
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.49999999133
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 11
+}

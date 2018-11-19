@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B01BI5PCJY": {
+            "asin": "B01BI5PCJY",
+            "height": {
+                "unit": "IN",
+                "value": 2.7999999971439995
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.49999998929
+            },
+            "name": "Nestl Bedding Duvet Cover, Protects and Covers your Comforter / Duvet Insert, Luxury 100% Super Soft Microfiber, Twin (Single) Size, Color White, 2 Piece Duvet Cover Set Includes 1 Pillow Sham",
+            "normalizedName": "Nestl Bedding Duvet Cover, Protects and Covers your Comforter / Duvet Insert, Luxury 100% Super Soft Microfiber, Twin (Single) Size, Color White, 2 Piece Duvet Cover Set Includes 1 Pillow Sham",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.4999999979035237
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.49999999031
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

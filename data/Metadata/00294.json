@@ -1,0 +1,68 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B006JZ51MC": {
+            "asin": "B006JZ51MC",
+            "height": {
+                "unit": "IN",
+                "value": 2.49999999745
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.99999999388
+            },
+            "name": "Rain Bird PRF07530LB Drip Irrigation 30 PSI Pressure Regulating Filter, 3/4\" Male Pipe Thread",
+            "normalizedName": "Rain Bird PRF07530LB Drip Irrigation 30 PSI Pressure Regulating Filter, 3/4\" Male Pipe Thread",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.39999591708058035
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.99999999592
+            }
+        },
+        "B00K7LGW4K": {
+            "asin": "B00K7LGW4K",
+            "height": {
+                "unit": "IN",
+                "value": 1.199999998776
+            },
+            "length": {
+                "unit": "IN",
+                "value": 16.299999983374
+            },
+            "name": "CaseLabs Flex-Bay Fan Mount (120mm x 25mm)",
+            "normalizedName": "CaseLabs Flex-Bay Fan Mount (120mm x 25mm)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.24999999979035234
+            },
+            "width": {
+                "unit": "IN",
+                "value": 12.799999986944
+            }
+        },
+        "B01BQTJ2U2": {
+            "asin": "B01BQTJ2U2",
+            "height": {
+                "unit": "IN",
+                "value": 1.0
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.0
+            },
+            "name": "Stargazer Enterprises Sports Headphones (Red) with Microphone Stereo Headset, Sweat-proof Ear-hook Earbuds for iPhone, Android, Smartphones, Tablets, and Any Device with 3.5mm Port",
+            "normalizedName": "Stargazer Enterprises Sports Headphones (Red) with Microphone Stereo Headset, Sweat-proof Ear-hook Earbuds for iPhone, Android, Smartphones, Tablets, and Any Device with 3.5mm Port",
+            "quantity": 1,
+            "weight": null,
+            "width": {
+                "unit": "IN",
+                "value": 3.0
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

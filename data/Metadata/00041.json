@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B01HNO635G": {
+            "asin": "B01HNO635G",
+            "height": {
+                "unit": "IN",
+                "value": 1.3
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.1
+            },
+            "name": "Bvnine Universal Bluetooth Headphones APTX Wireless Stereo Headset with Mic for iPhone and Android",
+            "normalizedName": "Bvnine Universal Bluetooth Headphones APTX Wireless Stereo Headset with Mic for iPhone and Android",
+            "quantity": 6,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.2625
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.3
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

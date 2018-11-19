@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000LSJ0M0": {
+            "asin": "B000LSJ0M0",
+            "height": {
+                "unit": "IN",
+                "value": 0.399999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.49999999439
+            },
+            "name": "Odyssey Halo Paintball Rip Drive Upgrade Kit - Black",
+            "normalizedName": "Odyssey Halo Paintball Rip Drive Upgrade Kit - Black",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001186074866
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.899999996022
+            }
+        },
+        "B00LSJPQII": {
+            "asin": "B00LSJPQII",
+            "height": {
+                "unit": "IN",
+                "value": 2.8
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.900000000000001
+            },
+            "name": "Fawziya Water Cube Metal Clutch Purse Women Evening Clutch Bag - Champagne",
+            "normalizedName": "Fawziya Water Cube Metal Clutch Purse Women Evening Clutch Bag - Champagne",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.85
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.4
+            }
+        },
+        "B014UMYWJ8": {
+            "asin": "B014UMYWJ8",
+            "height": {
+                "unit": "IN",
+                "value": 2.399999997552
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.399999989392
+            },
+            "name": "Batman v Superman: Dawn of Justice Multiverse Knightmare Batman (Apocalypse Flashback) Figure, 6 Inches",
+            "normalizedName": "Batman v Superman: Dawn of Justice Multiverse Knightmare Batman (Apocalypse Flashback) Figure, 6 Inches",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6999999994129864
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.99999999388
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

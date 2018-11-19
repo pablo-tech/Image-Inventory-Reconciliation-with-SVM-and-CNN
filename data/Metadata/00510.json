@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B008SBD6WW": {
+            "asin": "B008SBD6WW",
+            "height": {
+                "unit": "IN",
+                "value": 2.1999999977560005
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.899999989902
+            },
+            "name": "uxcell\u00ae Square Rubber Cap Furniture Table Leg Covers 40mm x 40mm 10 Pcs Black",
+            "normalizedName": "uxcell\u00ae Square Rubber Cap Furniture Table Leg Covers 40mm x 40mm 10 Pcs Black",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.29999999974842284
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.099999993778
+            }
+        },
+        "B01G7CINSA": {
+            "asin": "B01G7CINSA",
+            "height": {
+                "unit": "IN",
+                "value": 3.199999996736
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.99999999286
+            },
+            "name": "Jumbo Yoga Massage Balls (set of 2) by YOGABODY w/Canvas Bag & Online Instructional How-to Videos for Myofascial Release, Trigger Point & Deep Tissue",
+            "normalizedName": "Jumbo Yoga Massage Balls (set of 2) by YOGABODY w/Canvas Bag & Online Instructional How-to Videos for Myofascial Release, Trigger Point & Deep Tissue",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.349999998867903
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.199999996736
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

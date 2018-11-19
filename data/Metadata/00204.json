@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000VCFB0G": {
+            "asin": "B000VCFB0G",
+            "height": {
+                "unit": "IN",
+                "value": 6.3
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.4
+            },
+            "name": "Bounty Paper Napkins, 200 Count",
+            "normalizedName": "Bounty Paper Napkins, 200 Count",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.0
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.6
+            }
+        },
+        "B00RVFGV50": {
+            "asin": "B00RVFGV50",
+            "height": {
+                "unit": "IN",
+                "value": 3.99999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.799999986944
+            },
+            "name": "V4INK 1-Pack Compatible FX-10 FX-9 104 Toner Cartridge For Canon 104 Toner ImageClass Printer MF4100 MF4150 MF4270 MF4350d MF4370dn MF4380dn D420 D480",
+            "normalizedName": "1-Pack V4INK Compatible FX-10 FX-9 104 Toner Cartridge For Canon 104 Toner ImageClass Printer MF4100 MF4150 MF4270 MF4350d MF4370dn MF4380dn D420 D480",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.7500000000000002
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.49999999439
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

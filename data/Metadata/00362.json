@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "0553373056": {
+            "asin": "0553373056",
+            "height": {
+                "unit": "IN",
+                "value": 1.2598425184
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.9763779436
+            },
+            "name": "Creating Love: The Next Great Stage of Growth",
+            "normalizedName": "Creating Love: The Next Great Stage of Growth",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.97
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.511811018
+            }
+        },
+        "B016K5TBKS": {
+            "asin": "B016K5TBKS",
+            "height": {
+                "unit": "IN",
+                "value": 1.99999999796
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.799999990004002
+            },
+            "name": "Waterproof Case, 4 Pack F-color Clear Transparent TPU Perfect for Rafting, Kayaking, Swimming, Boating, Fishing, Skiing, Protect iPhone 6S Plus SE, Galaxy S6 S7 Edge, LG G5 etc. Orange Blue Black Pink",
+            "normalizedName": "4 Pack Waterproof Case, F-color Clear Transparent TPU Perfect for Rafting, Kayaking, Swimming, Boating, Fishing, Skiing, Protect iPhone 6S Plus SE, Galaxy S6 S7 Edge, LG G5 etc. Orange Blue Black Pink",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.7499999993710571
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.9999999949
+            }
+        },
+        "B01DBHZLSO": {
+            "asin": "B01DBHZLSO",
+            "height": {
+                "unit": "IN",
+                "value": 1.5
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.0
+            },
+            "name": "Madhu's COLLECTION MG786169C Photo Frame, 4\" by 6\", Multicolor",
+            "normalizedName": "Madhu's COLLECTION MG786169C Photo Frame, 4\" by 6\", Multicolor",
+            "quantity": 4,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.0
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.0
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

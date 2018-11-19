@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B003E72M1G": {
+            "asin": "B003E72M1G",
+            "height": {
+                "unit": "IN",
+                "value": 1.199999998776
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.099999994798
+            },
+            "name": "Buxton Heiress Double Cardex Wallet, Mahogany, One Size",
+            "normalizedName": "Buxton Heiress Double Cardex Wallet, Mahogany, One Size",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.399999995512001
+            }
+        },
+        "B00CLCIQDI": {
+            "asin": "B00CLCIQDI",
+            "height": {
+                "unit": "IN",
+                "value": 2.299999997654
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.799999995104
+            },
+            "name": "Renew Life Daily Liver Support, 60 Veggie Capsules",
+            "normalizedName": "Renew Life Daily Liver Support, 60 Veggie Capsules",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001186074866
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.49999999745
+            }
+        },
+        "B00H47IY4G": {
+            "asin": "B00H47IY4G",
+            "height": {
+                "unit": "IN",
+                "value": 0.58267716476
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.09842518961
+            },
+            "name": "Android Cop [Blu-ray]",
+            "normalizedName": "Android Cop [Blu-ray]",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.18333454586339856
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.41732282912
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

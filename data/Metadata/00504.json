@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B01DX7LML2": {
+            "asin": "B01DX7LML2",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.99999999592
+            },
+            "name": "Bacon Lovers Gift Set (Bundle of 4 Items) - Bacon Bandages, Bacon Mints, Bacon Toothpicks, and Bacon Lip Balm",
+            "normalizedName": "Bacon Lovers Gift Set (Bundle of 4 Items) - Bacon Bandages, Bacon Mints, Bacon Toothpicks, and Bacon Lip Balm",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.24999999979035234
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.6999999962260004
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

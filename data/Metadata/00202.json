@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B008FS8JD4": {
+            "asin": "B008FS8JD4",
+            "height": {
+                "unit": "IN",
+                "value": 6.299999993574
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.599999990208
+            },
+            "name": "Just Chill Tropical,  12 Ounce (Pack of 12)",
+            "normalizedName": "(Pack of 12) Just Chill Tropical,  12 Ounce",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 10.199999991446376
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.099999992758
+            }
+        },
+        "B00TSP65IO": {
+            "asin": "B00TSP65IO",
+            "height": {
+                "unit": "IN",
+                "value": 4.299999995614
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.399999989392
+            },
+            "name": "Lyndon B. Johnson Bobblehead",
+            "normalizedName": "Lyndon B. Johnson Bobblehead",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.9499999999999998
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.399999995512001
+            }
+        },
+        "B01DUO4YH2": {
+            "asin": "B01DUO4YH2",
+            "height": {
+                "unit": "IN",
+                "value": 4.199999995716
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.99999999184
+            },
+            "name": "Nap Massaging Wrap (Grey)",
+            "normalizedName": "Nap Massaging Wrap (Grey)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.9999999991614094
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.699999992146
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

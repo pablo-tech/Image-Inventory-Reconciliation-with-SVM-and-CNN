@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00L7QZPL0": {
+            "asin": "B00L7QZPL0",
+            "height": {
+                "unit": "IN",
+                "value": 3.599999996328
+            },
+            "length": {
+                "unit": "IN",
+                "value": 14.199999985516
+            },
+            "name": "Indian Headdress with Real 65cm Feathers - Rasta (White,Yellow,Red,Black)",
+            "normalizedName": "Indian Headdress with Real 65cm Feathers - Rasta (White,Yellow,Red,Black)",
+            "quantity": 5,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.5999999994968457
+            },
+            "width": {
+                "unit": "IN",
+                "value": 12.99999998674
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

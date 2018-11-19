@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00SOFZM42": {
+            "asin": "B00SOFZM42",
+            "height": {
+                "unit": "IN",
+                "value": 2.899999997042
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.099999987657998
+            },
+            "name": "Star Wars The Force Awakens Kylo Ren Extendable Lightsaber",
+            "normalizedName": "Star Wars The Force Awakens Kylo Ren Extendable Lightsaber",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4499999996226342
+            },
+            "width": {
+                "unit": "IN",
+                "value": 11.799999987964
+            }
+        },
+        "B01A8ODEO6": {
+            "asin": "B01A8ODEO6",
+            "height": {
+                "unit": "IN",
+                "value": 3.99999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.49999999031
+            },
+            "name": "Derlight New Generation 36W E27 Base Led Grow Light Bulb with 17 Red & 6 Blue High Power Led, 360 Degree Lighting for Indoor Plants Garden Greenhouse Hydroponic System Kit (36W)",
+            "normalizedName": "Derlight New Generation 36W E27 Base Led Grow Light Bulb with 17 Red & 6 Blue High Power Led, 360 Degree Lighting for Indoor Plants Garden Greenhouse Hydroponic System Kit (36W)",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.0999999990775504
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.99999999592
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B005NGGF7I": {
+            "asin": "B005NGGF7I",
+            "height": {
+                "unit": "IN",
+                "value": 1.299999998674
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.99999999286
+            },
+            "name": "Paradise GL22351  Plastic splice wire connector for Low Voltage Landscape Lighting",
+            "normalizedName": "Paradise GL22351  Plastic splice wire connector for Low Voltage Landscape Lighting",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.349999998867903
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.99999999694
+            }
+        },
+        "B00OW2PNEU": {
+            "asin": "B00OW2PNEU",
+            "height": {
+                "unit": "IN",
+                "value": 2.399999997552
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.99999999286
+            },
+            "name": "JLab JK-BLK-BOX JBuddies Kids- folding, Volume Limiting Headphones Guaranteed for Life - Black",
+            "normalizedName": "JLab JK-BLK-BOX JBuddies Kids- folding, Volume Limiting Headphones Guaranteed for Life - Black",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4000000000000001
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.49999999439
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00016X7NA": {
+            "asin": "B00016X7NA",
+            "height": {
+                "unit": "IN",
+                "value": 3.399999996532
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.6999999962260004
+            },
+            "name": "Aura Cacia Aromatherapy Mineral Bath, Tranquil Chamomile, 16 ounce jar",
+            "normalizedName": "Aura Cacia Aromatherapy Mineral Bath, Tranquil Chamomile, 16 ounce jar",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.22
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.6999999962260004
+            }
+        },
+        "B00UCZGXWM": {
+            "asin": "B00UCZGXWM",
+            "height": {
+                "unit": "IN",
+                "value": 0.899999999082
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.099999993778
+            },
+            "name": "Samsung Protective Cover for Samsung Galaxy S6 - Clear Silver",
+            "normalizedName": "Samsung Protective Cover for Samsung Galaxy S6 - Clear Silver",
+            "quantity": 4,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.599999996328
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

@@ -1,0 +1,115 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00JJYW00Q": {
+            "asin": "B00JJYW00Q",
+            "height": {
+                "unit": "IN",
+                "value": 1.199999998776
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.099999988678
+            },
+            "name": "INTEX Lively Print Inflatable Swimming Pool Tube Raft - (Set of 3) | 59230EP",
+            "normalizedName": "(Set of 3) INTEX Lively Print Inflatable Swimming Pool Tube Raft - | 59230EP",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.699999993166
+            }
+        },
+        "B00NSLP2P6": {
+            "asin": "B00NSLP2P6",
+            "height": {
+                "unit": "IN",
+                "value": 0.399999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.49999999235
+            },
+            "name": "Turpro Kids' Shockproof Silicone Case for Alldaymall A88X / A88S 7 inch,Chromo Inc 7 inch,Dragon Touch Y88X Plus / Y88X / Y88 / Q88 A13 7 inch Tablet(Pink)",
+            "normalizedName": "Turpro Kids' Shockproof Silicone Case for Alldaymall A88X / A88S 7 inch,Chromo Inc 7 inch,Dragon Touch Y88X Plus / Y88X / Y88 / Q88 A13 7 inch Tablet(Pink)",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.05000000000000001
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.299999994594
+            }
+        },
+        "B0157P4BYS": {
+            "asin": "B0157P4BYS",
+            "height": {
+                "unit": "IN",
+                "value": 3.0
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.0
+            },
+            "name": "2-Fitness Womens Mens Fitness Weight Lifting Glove with Long Wrist Wrap Support Red M",
+            "normalizedName": "2-Fitness Womens Mens Fitness Weight Lifting Glove with Long Wrist Wrap Support Red M",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.1763698096
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.0
+            }
+        },
+        "B01DJILJ5Y": {
+            "asin": "B01DJILJ5Y",
+            "height": {
+                "unit": "IN",
+                "value": 0.25
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.0
+            },
+            "name": "Women's MLB Classic Long Sleeve T-Shirt (Los Angeles Dodgers, Small)",
+            "normalizedName": "Women's MLB Classic Long Sleeve T-Shirt (Los Angeles Dodgers, Small)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.25
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.0
+            }
+        },
+        "B01DK13TTY": {
+            "asin": "B01DK13TTY",
+            "height": {
+                "unit": "IN",
+                "value": 0.6999999992859999
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.899999991942001
+            },
+            "name": "[2 Pack]iPhone 6 Plus Screen Protector, BTGGG New Version Tempered Glass Screen Protector For iPhone 6 Plus / 6S Plus [HD Easy Installation Anti-fingerprint]",
+            "normalizedName": "2 Pack [ ]iPhone 6 Plus Screen Protector, BTGGG New Version Tempered Glass Screen Protector For iPhone 6 Plus / 6S Plus [HD Easy Installation Anti-fingerprint]",
+            "quantity": 4,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.2599999997819664
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.49999999439
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 12
+}

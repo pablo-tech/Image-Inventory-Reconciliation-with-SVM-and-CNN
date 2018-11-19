@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000ULK7MA": {
+            "asin": "B000ULK7MA",
+            "height": {
+                "unit": "IN",
+                "value": 1.3999999985719997
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.799999995104
+            },
+            "name": "Guinot Masque Pur Equilibre / Pure Balance Mask (2.1 oz)",
+            "normalizedName": "Guinot Masque Pur Equilibre / Pure Balance Mask (2.1 oz)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.2
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.299999997654
+            }
+        },
+        "B00D68PE6I": {
+            "asin": "B00D68PE6I",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.099999990718
+            },
+            "name": "ZJchao Super Bright LED Dental Mirror Shiny Handle + 6pcs Oral Mirrors",
+            "normalizedName": "ZJchao Super Bright LED Dental Mirror Shiny Handle + 6pcs Oral Mirrors",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.15
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.899999995002001
+            }
+        },
+        "B00V7GTVSI": {
+            "asin": "B00V7GTVSI",
+            "height": {
+                "unit": "IN",
+                "value": 1.49999999847
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.099999994798
+            },
+            "name": "Intcrown S520 Wireless Bluetooth Headphones (Green)",
+            "normalizedName": "Intcrown S520 Wireless Bluetooth Headphones (Green)",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.25
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.099999995818
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

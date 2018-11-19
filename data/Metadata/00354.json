@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B001O0VPWW": {
+            "asin": "B001O0VPWW",
+            "height": {
+                "unit": "IN",
+                "value": 3.399999996532
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.799999987964
+            },
+            "name": "Wagner ThermoQuiet PAB315 Brake Shoe Set, Rear",
+            "normalizedName": "Wagner ThermoQuiet PAB315 Brake Shoe Set, Rear",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.6
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.299999994594
+            }
+        },
+        "B00XTFTF5Y": {
+            "asin": "B00XTFTF5Y",
+            "height": {
+                "unit": "IN",
+                "value": 2.7999999971439995
+            },
+            "length": {
+                "unit": "IN",
+                "value": 13.299999986434
+            },
+            "name": "Jeunesse Luminesce Anti-aging Skincare Kit (6 Items): Serum - Moisturizer - Repair - Cleanser - Masque - Renewal",
+            "normalizedName": "Jeunesse Luminesce Anti-aging Skincare Kit (6 Items): Serum - Moisturizer - Repair - Cleanser - Masque - Renewal",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.09999999823896
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.299999990514001
+            }
+        },
+        "B01AW0EYWM": {
+            "asin": "B01AW0EYWM",
+            "height": {
+                "unit": "IN",
+                "value": 2.49999999745
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.99999998674
+            },
+            "name": "Hair Brush Straightener, Instant Magic Silky Straight Hair Styling Comb, Anion Hair Care, Anti Scald, Zero Damage, Massage Straightening Irons, Detangling Digitial Anti Static Ceramic Heating LCD Pink",
+            "normalizedName": "Hair Brush Straightener, Instant Magic Silky Straight Hair Styling Comb, Anion Hair Care, Anti Scald, Zero Damage, Massage Straightening Irons, Detangling Digitial Anti Static Ceramic Heating LCD Pink",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.7499999993710571
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.49999999541
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

@@ -1,0 +1,68 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0053OQO9O": {
+            "asin": "B0053OQO9O",
+            "height": {
+                "unit": "IN",
+                "value": 2.49999999745
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.99999998776
+            },
+            "name": "Totally Bamboo Drawer Organizer, 3-Inch by 12-Inch",
+            "normalizedName": "Totally Bamboo Drawer Organizer, 3-Inch by 12-Inch",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.899999997042
+            }
+        },
+        "B00CS8LA6A": {
+            "asin": "B00CS8LA6A",
+            "height": {
+                "unit": "IN",
+                "value": 5.699999994186001
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.99999998776
+            },
+            "name": "Grade F13 Pressed Wool Felt Sheet, Gray, Meets SAE J314, 1/4\" Thickness, 12\" Width, 72\" Length",
+            "normalizedName": "Grade F13 Pressed Wool Felt Sheet, Gray, Meets SAE J314, 1/4\" Thickness, 12\" Width, 72\" Length",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.07
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.799999994084
+            }
+        },
+        "B01EBJZCB2": {
+            "asin": "B01EBJZCB2",
+            "height": {
+                "unit": "IN",
+                "value": 1.5
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.0
+            },
+            "name": "Selfie Stick, KAPAS Premium Foldable 2.6ft Extend Up Mini Colorful Skin 3.5mm Cable Extendable Monopod with Adjustable Holder for iPhone Samsung and other IOS and Android Smartphone (Yellow)",
+            "normalizedName": "Selfie Stick, KAPAS Premium Foldable 2.6ft Extend Up Mini Colorful Skin 3.5mm Cable Extendable Monopod with Adjustable Holder for iPhone Samsung and other IOS and Android Smartphone (Yellow)",
+            "quantity": 4,
+            "weight": null,
+            "width": {
+                "unit": "IN",
+                "value": 2.5
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

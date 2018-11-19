@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00JQV6WU6": {
+            "asin": "B00JQV6WU6",
+            "height": {
+                "unit": "IN",
+                "value": 0.799999999184
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.799999986944
+            },
+            "name": "Eathtek New Laptop Keyboard for Lenovo IBM Thinkpad Edge E420 E320 E325 E420s E425 series Black US Layout, Compatible with part number 63Y0213 04W0800 0A62003",
+            "normalizedName": "Eathtek New Laptop Keyboard for Lenovo IBM Thinkpad Edge E420 E320 E325 E420s E425 series Black US Layout, Compatible with part number 63Y0213 04W0800 0A62003",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3499999999999999
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.399999994492
+            }
+        },
+        "B018PMK8OM": {
+            "asin": "B018PMK8OM",
+            "height": {
+                "unit": "IN",
+                "value": 1.49999999847
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.299999988474
+            },
+            "name": "Creative and skills Baby quiet book for girls",
+            "normalizedName": "Creative and skills Baby quiet book for girls",
+            "quantity": 6,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.04999999995807048
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.899999989902
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 7
+}

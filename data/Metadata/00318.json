@@ -1,0 +1,46 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B01CUWMGAC": {
+            "asin": "B01CUWMGAC",
+            "height": {
+                "unit": "IN",
+                "value": 7.299999992554
+            },
+            "length": {
+                "unit": "IN",
+                "value": 14.199999985516
+            },
+            "name": "Chanasya Super Soft Fuzzy Fur Warm Charcol Gray Sherpa Throw Blanket 70\"X60\" -Chocklate Brown Waivy Fur Pattern",
+            "normalizedName": "Chanasya Super Soft Fuzzy Fur Warm Charcol Gray Sherpa Throw Blanket 70\"X60\" -Chocklate Brown Waivy Fur Pattern",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.1499999973584396
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.99999999082
+            }
+        },
+        "B01G9YU3MA": {
+            "asin": "B01G9YU3MA",
+            "height": {
+                "unit": "IN",
+                "value": 2.362204722
+            },
+            "length": {
+                "unit": "IN",
+                "value": 15.354330693
+            },
+            "name": "Portable Laptop Case for MacBook Pro 15 / Shoulder Messenger Bag For 15 Inch Laptop / Travel Cable Organizer / USB Cable Adapter Case / Power Bank Case (15 in Black stripe)",
+            "normalizedName": "Portable Laptop Case for MacBook Pro 15 / Shoulder Messenger Bag For 15 Inch Laptop / Travel Cable Organizer / USB Cable Adapter Case / Power Bank Case (15 in Black stripe)",
+            "quantity": 1,
+            "weight": null,
+            "width": {
+                "unit": "IN",
+                "value": 11.023622036
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0053T78A8": {
+            "asin": "B0053T78A8",
+            "height": {
+                "unit": "IN",
+                "value": 1.699999998266
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.599999990208
+            },
+            "name": "HP Compaq Presario CQ62-219WM Laptop Battery - Premium Bavvo\u00ae 6-cell Li-ion Battery",
+            "normalizedName": "HP Compaq Presario CQ62-219WM Laptop Battery - Premium Bavvo\u00ae 6-cell Li-ion Battery",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.9
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.6999999962260004
+            }
+        },
+        "B016U7FAZG": {
+            "asin": "B016U7FAZG",
+            "height": {
+                "unit": "IN",
+                "value": 4.399999995512001
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.399999988372
+            },
+            "name": "Microfiber Sheet Set Quality Bedding 1800 Count Series 6 Piece Classic Soft Bed Linens Designed To Add An Elegant Touch To Your Bedroom (King, Grey)",
+            "normalizedName": "Microfiber Sheet Set Quality Bedding 1800 Count Series 6 Piece Classic Soft Bed Linens Designed To Add An Elegant Touch To Your Bedroom (King, Grey)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.8999999967294965
+            },
+            "width": {
+                "unit": "IN",
+                "value": 10.399999989392
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

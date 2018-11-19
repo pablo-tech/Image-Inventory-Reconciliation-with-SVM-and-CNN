@@ -1,0 +1,115 @@
+{
+    "BIN_FCSKU_DATA": {
+        "0895552108": {
+            "asin": "0895552108",
+            "height": {
+                "unit": "IN",
+                "value": 0.899999999082
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.399999991432
+            },
+            "name": "The Dolorous Passion of Our Lord Jesus Christ: From the Visions of Anne Catherine Emmerich",
+            "normalizedName": "The Dolorous Passion of Our Lord Jesus Christ: From the Visions of Anne Catherine Emmerich",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.9499999999999998
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.599999994287999
+            }
+        },
+        "B00096S49E": {
+            "asin": "B00096S49E",
+            "height": {
+                "unit": "IN",
+                "value": 0.58267716476
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.09842518961
+            },
+            "name": "For Roseanna",
+            "normalizedName": "For Roseanna",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.1833364170792
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.41732282912
+            }
+        },
+        "B003NHN8YW": {
+            "asin": "B003NHN8YW",
+            "height": {
+                "unit": "IN",
+                "value": 1.199999998776
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.399999992452001
+            },
+            "name": "Reflections REF320KN Heavyweight Plastic Disposable Knives 40/PK WNAREF320KN",
+            "normalizedName": "Reflections REF320KN Heavyweight Plastic Disposable Knives 40/PK WNAREF320KN",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.899999996022
+            }
+        },
+        "B006JSGGXM": {
+            "asin": "B006JSGGXM",
+            "height": {
+                "unit": "IN",
+                "value": 1.181102361
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.086614166
+            },
+            "name": "IBRA\u00ae 5 Feet High Speed ORANGE GOLD HDMI 2.0/1.4a HDMI Cable 3D PS4 SKY HD 2160p 4K Ultra HD, [ Latest Version HDMI, 1.5M / 5Ft ]",
+            "normalizedName": "IBRA\u00ae 5 Feet High Speed ORANGE GOLD HDMI 2.0/1.4a HDMI Cable 3D PS4 SKY HD 2160p 4K Ultra HD, [ Latest Version HDMI, 1.5M / 5Ft ]",
+            "quantity": 4,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.22
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.299212592
+            }
+        },
+        "B00GH8PYU0": {
+            "asin": "B00GH8PYU0",
+            "height": {
+                "unit": "IN",
+                "value": 3.49999999643
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.399999994492
+            },
+            "name": "Cramp Tabs Menstrual Pain Relief Acetaminophen 1 Box (250 tablets) by - MS75580",
+            "normalizedName": "Cramp Tabs Menstrual Pain Relief Acetaminophen 1 Box (250 tablets) by - MS75580",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4499999996226342
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.599999995308
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 9
+}

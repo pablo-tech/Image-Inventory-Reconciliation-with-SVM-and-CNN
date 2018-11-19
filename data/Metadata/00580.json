@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B01A5BWS30": {
+            "asin": "B01A5BWS30",
+            "height": {
+                "unit": "IN",
+                "value": 4.299999995614
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.49999999439
+            },
+            "name": "Waterproof Bluetooth Speaker - Portable and Rugged w/ Built-in Microphone",
+            "normalizedName": "Waterproof Bluetooth Speaker - Portable and Rugged w/ Built-in Microphone",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.8999999992452684
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.299999994594
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

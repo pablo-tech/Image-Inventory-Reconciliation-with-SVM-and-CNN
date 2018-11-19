@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B009SZ2P4C": {
+            "asin": "B009SZ2P4C",
+            "height": {
+                "unit": "IN",
+                "value": 3.599999996328
+            },
+            "length": {
+                "unit": "IN",
+                "value": 14.299999985414
+            },
+            "name": "Cotton Luxury Bath Sheet White - (35 inches x 70 inches) Easy Care, Ringspun Cotton for Maximum Softness and Absorbency - By Utopia Towels",
+            "normalizedName": "Cotton Luxury Bath Sheet White - (35 inches x 70 inches) Easy Care, Ringspun Cotton for Maximum Softness and Absorbency - By Utopia Towels",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.95
+            },
+            "width": {
+                "unit": "IN",
+                "value": 12.199999987556
+            }
+        },
+        "B00SXEQBAI": {
+            "asin": "B00SXEQBAI",
+            "height": {
+                "unit": "IN",
+                "value": 5.099999994798
+            },
+            "length": {
+                "unit": "IN",
+                "value": 14.899999984802001
+            },
+            "name": "OxGord\u00ae Solar-Tech Reflective Car Cover - 100% Sun-Proof - Best Reflective Method - Ready-Fit / Semi Custom - Fits up to 168 Inches",
+            "normalizedName": "OxGord\u00ae Solar-Tech Reflective Car Cover - 100% Sun-Proof - Best Reflective Method - Ready-Fit / Semi Custom - Fits up to 168 Inches",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.249999998113171
+            },
+            "width": {
+                "unit": "IN",
+                "value": 12.699999987045999
+            }
+        },
+        "B015GF54G8": {
+            "asin": "B015GF54G8",
+            "height": {
+                "unit": "IN",
+                "value": 3.299999996634
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.49999998725
+            },
+            "name": "Lenovo IdeaPad Miix 700 - 12\" 2-in-1 Laptop/Tablet (Intel Core m5, 4 GB SDRAM, 128 GB SSD, Windows 10) 80QL0008US",
+            "normalizedName": "Lenovo IdeaPad Miix 700 - 12\" 2-in-1 Laptop/Tablet (Intel Core m5, 4 GB SDRAM, 128 GB SSD, Windows 10) 80QL0008US",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 4.29999999639406
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.699999990105999
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

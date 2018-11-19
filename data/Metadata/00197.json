@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B007QH7MZQ": {
+            "asin": "B007QH7MZQ",
+            "height": {
+                "unit": "IN",
+                "value": 2.99999999694
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.899999990922
+            },
+            "name": "Kaytee Exact Natural Nutritional Diet for Cockatiel, 3-Pound",
+            "normalizedName": "Kaytee Exact Natural Nutritional Diet for Cockatiel, 3-Pound",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.1
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.199999992656
+            }
+        },
+        "B00LJXQHTA": {
+            "asin": "B00LJXQHTA",
+            "height": {
+                "unit": "IN",
+                "value": 0.899999999082
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.99999999388
+            },
+            "name": "Swissco Pumice Sponge , 3 count",
+            "normalizedName": "Swissco Pumice Sponge , 3 count",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.05000000000000001
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.699999995206
+            }
+        },
+        "B00V7LT5JI": {
+            "asin": "B00V7LT5JI",
+            "height": {
+                "unit": "IN",
+                "value": 0.49999999949
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.99999999388
+            },
+            "name": "Dentist Dental Ultrasonic Piezo Perio Scaler Tip P1 for EMS WOODPECKER(pack of 10)",
+            "normalizedName": "Dentist Dental Ultrasonic Piezo Perio Scaler Tip P1 for EMS WOODPECKER(pack of 10)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001167587297
+            },
+            "width": {
+                "unit": "IN",
+                "value": 1.599999998368
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

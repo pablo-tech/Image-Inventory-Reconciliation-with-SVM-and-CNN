@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00HLW83OK": {
+            "asin": "B00HLW83OK",
+            "height": {
+                "unit": "IN",
+                "value": 0.49999999949
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.99999999388
+            },
+            "name": "MERSUII Pack Of 300 0.8\" Metal Black safety Pins/Gourd Pin/Bulb Pin/Calabash Pin Bead Needle Pins DIY Home Accessories , Suitable for the Tailor",
+            "normalizedName": "Pack Of 300 MERSUII 0.8\" Metal Black safety Pins/Gourd Pin/Bulb Pin/Calabash Pin Bead Needle Pins DIY Home Accessories , Suitable for the Tailor",
+            "quantity": 8,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001186074866
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.49999999643
+            }
+        },
+        "B00I100KEC": {
+            "asin": "B00I100KEC",
+            "height": {
+                "unit": "IN",
+                "value": 2.7999999971439995
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.49999999643
+            },
+            "name": "OREI 2 in 1 USA to Europe, Russia, UAE Adapter Plug (Type C) - 4 Pack, Black",
+            "normalizedName": "4 Pack OREI 2 in 1 USA to Europe, Russia, UAE Adapter Plug (Type C) - , Black",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.199999996736
+            }
+        },
+        "B0173KFYN2": {
+            "asin": "B0173KFYN2",
+            "height": {
+                "unit": "IN",
+                "value": 0.6999999992859999
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.99999999388
+            },
+            "name": "Elesa Miracle 7 Inch 4pc Handmade Round Crochet Cotton Lace Table Placemats Doilies Value Pack, Vintage, Beige, 7 Inch (4pc-7 Inch Beige)",
+            "normalizedName": "Elesa Miracle 7 Inch 4pc Handmade Round Crochet Cotton Lace Table Placemats Doilies Value Pack, Vintage, Beige, 7 Inch (4pc-7 Inch Beige)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001167587297
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.799999996124
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 10
+}

@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B007ECQ04W": {
+            "asin": "B007ECQ04W",
+            "height": {
+                "unit": "IN",
+                "value": 1.699999998266
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.599999990208
+            },
+            "name": "Burt's Bees: Natural Throat Drops, Honey 20 ct (6 pack)",
+            "normalizedName": "Burt's Bees: Natural Throat Drops, Honey 20 ct (6 pack)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.9499999992033387
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.49999999235
+            }
+        },
+        "B011YZ8NBM": {
+            "asin": "B011YZ8NBM",
+            "height": {
+                "unit": "IN",
+                "value": 2.362204722
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.7716535364
+            },
+            "name": "Star Wars: The Force Awakens Black Series Die Cast Phasma & Flametrooper",
+            "normalizedName": "Star Wars: The Force Awakens Black Series Die Cast Phasma & Flametrooper",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.48501202568692053
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.511811018
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

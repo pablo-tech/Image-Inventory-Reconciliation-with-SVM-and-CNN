@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B01DQ3EJKO": {
+            "asin": "B01DQ3EJKO",
+            "height": {
+                "unit": "IN",
+                "value": 1.0999999988780003
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.199999991636
+            },
+            "name": "1 Pound Bag of Pink Water Gel Pearls Beads for Home Decoration, Wedding Centerpiece, Vase Filler, Plants, Toys, Education (Makes 12 Gallons) by Super Z Outlet\u00ae",
+            "normalizedName": "1 Pound Bag of Pink Water Gel Pearls Beads for Home Decoration, Wedding Centerpiece, Vase Filler, Plants, Toys, Education (Makes 12 Gallons) by Super Z Outlet\u00ae",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.8999999992452684
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.49999999439
+            }
+        },
+        "B01DTOZPXA": {
+            "asin": "B01DTOZPXA",
+            "height": {
+                "unit": "IN",
+                "value": 1.199999998776
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.699999993166
+            },
+            "name": "Ultra Rugged Solar USB Charger Power Bank (8000 mAH)- Green",
+            "normalizedName": "Ultra Rugged Solar USB Charger Power Bank (8000 mAH)- Green",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.7499999993710571
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.199999995716
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

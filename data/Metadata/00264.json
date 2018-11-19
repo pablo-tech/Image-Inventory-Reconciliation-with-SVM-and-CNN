@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000UJFQYG": {
+            "asin": "B000UJFQYG",
+            "height": {
+                "unit": "IN",
+                "value": 1.299999998674
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.9999999949
+            },
+            "name": "Vandoren SR443 Bari Sax ZZ Reeds Strength 3; Box of 5",
+            "normalizedName": "Vandoren SR443 Bari Sax ZZ Reeds Strength 3; Box of 5",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.05
+            },
+            "width": {
+                "unit": "IN",
+                "value": 1.699999998266
+            }
+        },
+        "B00CQGU9GG": {
+            "asin": "B00CQGU9GG",
+            "height": {
+                "unit": "IN",
+                "value": 1.299999998674
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.199999994696
+            },
+            "name": "The Complete Studio Albums 1970-1990 (10 CD)",
+            "normalizedName": "The Complete Studio Albums 1970-1990 (10 CD)",
+            "quantity": 6,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.65
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.099999994798
+            }
+        },
+        "B01EO6MC2Y": {
+            "asin": "B01EO6MC2Y",
+            "height": {
+                "unit": "IN",
+                "value": 0.599999999388
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.099999991738
+            },
+            "name": "Galaxy S7 Edge Case, Jeylly(TM) [Shock Absorption] Hybrid Rubber Plastic Impact Defender Rugged Slim Hard Armor Protection Case Cover Shell For Samsung Galaxy S7 Edge G935 All Carrier [Grey/Turquoise]",
+            "normalizedName": "Galaxy S7 Edge Case, Jeylly(TM) [Shock Absorption] Hybrid Rubber Plastic Impact Defender Rugged Slim Hard Armor Protection Case Cover Shell For Samsung Galaxy S7 Edge G935 All Carrier [Grey/Turquoise]",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.049999999958070473
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.899999995002001
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 9
+}

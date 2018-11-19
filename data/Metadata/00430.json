@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00ILYHVWC": {
+            "asin": "B00ILYHVWC",
+            "height": {
+                "unit": "IN",
+                "value": 1.99999999796
+            },
+            "length": {
+                "unit": "IN",
+                "value": 14.399999985312
+            },
+            "name": "Disguise Disney Doc Mcstuffins Lambie Classic Toddler Costume, Medium/3T-4T",
+            "normalizedName": "Disguise Disney Doc Mcstuffins Lambie Classic Toddler Costume, Medium/3T-4T",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6999999994129864
+            },
+            "width": {
+                "unit": "IN",
+                "value": 11.299999988474
+            }
+        },
+        "B01AWGZKX8": {
+            "asin": "B01AWGZKX8",
+            "height": {
+                "unit": "IN",
+                "value": 2.399999997552
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.799999986944
+            },
+            "name": "Ever After High Epic Winter Ashlynn Ella Doll",
+            "normalizedName": "Ever After High Epic Winter Ashlynn Ella Doll",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.39999999966456384
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.899999990922
+            }
+        },
+        "B01D1XT35U": {
+            "asin": "B01D1XT35U",
+            "height": {
+                "unit": "IN",
+                "value": 3.199999996736
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.799999990004002
+            },
+            "name": "SUNYEE Colorful LED Fountain Dancing Water Mini Speakers for iPhone 4s 5 6 6S 6plus iPod iTouch Samsung S2 S3 S4 S5 S6 S7 Note3,note4 MP3 /Mobile Phones/Computer, All 3.5mm Audio Player (White)",
+            "normalizedName": "SUNYEE Colorful LED Fountain Dancing Water Mini Speakers for iPhone 4s 5 6 6S 6plus iPod iTouch Samsung S2 S3 S4 S5 S6 S7 Note3,note4 MP3 /Mobile Phones/Computer, All 3.5mm Audio Player (White)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.2999999989098325
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.199999993676
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

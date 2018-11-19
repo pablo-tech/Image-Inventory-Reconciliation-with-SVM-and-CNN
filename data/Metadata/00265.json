@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B01154RB3S": {
+            "asin": "B01154RB3S",
+            "height": {
+                "unit": "IN",
+                "value": 3.6999999962260004
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.799999993064
+            },
+            "name": "Nolia Glass - Shatterproof Wine & Cocktail Glass Dishwasher Safe",
+            "normalizedName": "Nolia Glass - Shatterproof Wine & Cocktail Glass Dishwasher Safe",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.09999999991614096
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.899999996022
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

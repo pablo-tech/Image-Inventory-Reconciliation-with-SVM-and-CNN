@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000BN9CRI": {
+            "asin": "B000BN9CRI",
+            "height": {
+                "unit": "IN",
+                "value": 0.899999999082
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.49999999235
+            },
+            "name": "Eclipse Tools 200-009 Pro's Kit Cable Slitter",
+            "normalizedName": "Eclipse Tools 200-009 Pro's Kit Cable Slitter",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4499999996226342
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.099999995818
+            }
+        },
+        "B001E75QH0": {
+            "asin": "B001E75QH0",
+            "height": {
+                "unit": "IN",
+                "value": 1.299999998674
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.699999992146
+            },
+            "name": "Indiana Jones: The Complete Adventure Collection (Raiders of the Lost Ark / Temple of Doom / Last Crusade / Kingdom of the Crystal Skull)",
+            "normalizedName": "Indiana Jones: The Complete Adventure Collection (Raiders of the Lost Ark / Temple of Doom / Last Crusade / Kingdom of the Crystal Skull)",
+            "quantity": 5,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.95
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.49999999439
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

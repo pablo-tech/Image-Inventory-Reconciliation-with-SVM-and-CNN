@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00RXYZ5UG": {
+            "asin": "B00RXYZ5UG",
+            "height": {
+                "unit": "IN",
+                "value": 4.9999999949
+            },
+            "length": {
+                "unit": "IN",
+                "value": 13.99999998572
+            },
+            "name": "Sheriff Callie Cowgirl Hat",
+            "normalizedName": "Sheriff Callie Cowgirl Hat",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.45
+            },
+            "width": {
+                "unit": "IN",
+                "value": 10.99999998878
+            }
+        },
+        "B01CRXH5EQ": {
+            "asin": "B01CRXH5EQ",
+            "height": {
+                "unit": "IN",
+                "value": 1.0999999988780003
+            },
+            "length": {
+                "unit": "IN",
+                "value": 14.699999985006
+            },
+            "name": "iDOO Universal 13 inch Felt Laptop Sleeve Case Bag with Elastic Band for 13 inch MacBook Air/Pro Retina",
+            "normalizedName": "iDOO Universal 13 inch Felt Laptop Sleeve Case Bag with Elastic Band for 13 inch MacBook Air/Pro Retina",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.9999999991614094
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.899999989902
+            }
+        },
+        "B01GJDZZCO": {
+            "asin": "B01GJDZZCO",
+            "height": {
+                "unit": "IN",
+                "value": 1.0
+            },
+            "length": {
+                "unit": "IN",
+                "value": 14.4
+            },
+            "name": "Kayond\u00aeForest series Canvas Fabric Ultraportable Neoprene 13-13.3 Inch Laptop bag/ Notebook Computer Carrying Case (13-13.3 Inch, Blue)",
+            "normalizedName": "Kayond\u00aeForest series Canvas Fabric Ultraportable Neoprene 13-13.3 Inch Laptop bag/ Notebook Computer Carrying Case (13-13.3 Inch, Blue)",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.9700339528
+            },
+            "width": {
+                "unit": "IN",
+                "value": 10.4
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

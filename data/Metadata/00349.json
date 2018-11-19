@@ -1,0 +1,137 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B001GBF6AG": {
+            "asin": "B001GBF6AG",
+            "height": {
+                "unit": "IN",
+                "value": 1.0999999988780003
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.299999996634
+            },
+            "name": "Nature's Blend B Complex #1 Tablets - 100 ct",
+            "normalizedName": "Nature's Blend B Complex #1 Tablets - 100 ct",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.20000000000000004
+            },
+            "width": {
+                "unit": "IN",
+                "value": 1.0999999988780003
+            }
+        },
+        "B002BTLNKO": {
+            "asin": "B002BTLNKO",
+            "height": {
+                "unit": "IN",
+                "value": 0.899999999082
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.899999995002001
+            },
+            "name": "Universal Typewriter Ribbon Twin Spool Black 1/2\" Cloth",
+            "normalizedName": "Universal Typewriter Ribbon Twin Spool Black 1/2\" Cloth",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.10000000000000002
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.399999995512001
+            }
+        },
+        "B003STEIYY": {
+            "asin": "B003STEIYY",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.9999999949
+            },
+            "name": "American Weigh Scales ACP-200 Digital Pocket Scale, 200 by 0.01 G",
+            "normalizedName": "American Weigh Scales ACP-200 Digital Pocket Scale, 200 by 0.01 G",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.38
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.299999996634
+            }
+        },
+        "B0055BZ37O": {
+            "asin": "B0055BZ37O",
+            "height": {
+                "unit": "IN",
+                "value": 1.3999999985719997
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.599999994287999
+            },
+            "name": "CloSYS Fluoride Free Toothpaste, 3.4 Ounce",
+            "normalizedName": "CloSYS Fluoride Free Toothpaste, 3.4 Ounce",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.05
+            },
+            "width": {
+                "unit": "IN",
+                "value": 1.799999998164
+            }
+        },
+        "B00UVJNKA2": {
+            "asin": "B00UVJNKA2",
+            "height": {
+                "unit": "IN",
+                "value": 1.99999999796
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.99999999184
+            },
+            "name": "SIM&NAT 4 PCS Multicolor Leaf Durable Rubber Door Stop,Door Secure Stop Wedge,Door Protector,Doorstopper,Finger Protector",
+            "normalizedName": "SIM&NAT 4 PCS Multicolor Leaf Durable Rubber Door Stop,Door Secure Stop Wedge,Door Protector,Doorstopper,Finger Protector",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.20000000000000004
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.599999995308
+            }
+        },
+        "B019YKNF26": {
+            "asin": "B019YKNF26",
+            "height": {
+                "unit": "IN",
+                "value": 1.99999999796
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.99999999388
+            },
+            "name": "Radico Colour Me Organic (Light Brown)",
+            "normalizedName": "Radico Colour Me Organic (Light Brown)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.24999999979035234
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.99999999694
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 9
+}

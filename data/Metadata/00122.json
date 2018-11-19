@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0007Y5HIY": {
+            "asin": "B0007Y5HIY",
+            "height": {
+                "unit": "IN",
+                "value": 1.199999998776
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.099999995818
+            },
+            "name": "MASSCOOL 80mm Cooling Fan FD08025S1M3/4",
+            "normalizedName": "MASSCOOL 80mm Cooling Fan FD08025S1M3/4",
+            "quantity": 7,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.15
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.399999996532
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 7
+}

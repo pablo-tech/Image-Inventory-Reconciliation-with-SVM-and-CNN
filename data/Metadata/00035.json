@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B001DNOV7G": {
+            "asin": "B001DNOV7G",
+            "height": {
+                "unit": "IN",
+                "value": 5.399999994492
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.99999998878
+            },
+            "name": "Pfister 00131XA 3-Handle Tub & Shower Rough-In Valve",
+            "normalizedName": "Pfister 00131XA 3-Handle Tub & Shower Rough-In Valve",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 4.4
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.49999999133
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

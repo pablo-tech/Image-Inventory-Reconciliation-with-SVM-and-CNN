@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00PC07T02": {
+            "asin": "B00PC07T02",
+            "height": {
+                "unit": "IN",
+                "value": 1.299999998674
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.9999999949
+            },
+            "name": "Anker Unibody Aluminum 3-Port USB 3.0 and Gigabit Ethernet Hub with 1.3ft / 40cm USB 3.0 Cable [Ethernet Port RTL8153 Chipset + USB Ports VL812 Chipset]",
+            "normalizedName": "Anker Unibody Aluminum 3-Port USB 3.0 and Gigabit Ethernet Hub with 1.3ft / 40cm USB 3.0 Cable [Ethernet Port RTL8153 Chipset + USB Ports VL812 Chipset]",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.25
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.599999996328
+            }
+        },
+        "B00R102VTK": {
+            "asin": "B00R102VTK",
+            "height": {
+                "unit": "IN",
+                "value": 1.49999999847
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.99999999388
+            },
+            "name": "Veluxio Wine Vacuum Pump Wine Preserver with Aerating Wine Pourer",
+            "normalizedName": "Veluxio Wine Vacuum Pump Wine Preserver with Aerating Wine Pourer",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.5
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.49999999643
+            }
+        },
+        "B01BX8UBZG": {
+            "asin": "B01BX8UBZG",
+            "height": {
+                "unit": "IN",
+                "value": 3.399999996532
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.699999994186001
+            },
+            "name": "Sulfate Free Color Safe Paraben Free Volume Shampoo (3 Pack)",
+            "normalizedName": "(3 Pack) Sulfate Free Color Safe Paraben Free Volume Shampoo",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.8499999984486073
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.799999995104
+            }
+        },
+        "B01DLVWZJI": {
+            "asin": "B01DLVWZJI",
+            "height": {
+                "unit": "IN",
+                "value": 0.399999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.299999992554
+            },
+            "name": "Grand Prime Case, UrSpeedtekLive Galaxy Grand Prime Wallet Case, Premium PU Leather Funny Case Flip Cover with Card Slots & Stand For Samsung Galaxy Grand Prime G530, Mandala Flower Pattern",
+            "normalizedName": "Grand Prime Case, UrSpeedtekLive Galaxy Grand Prime Wallet Case, Premium PU Leather Funny Case Flip Cover with Card Slots & Stand For Samsung Galaxy Grand Prime G530, Mandala Flower Pattern",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001167587297
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.199999995716
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

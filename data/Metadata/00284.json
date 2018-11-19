@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00UY6SF5C": {
+            "asin": "B00UY6SF5C",
+            "height": {
+                "unit": "IN",
+                "value": 4.299999995614
+            },
+            "length": {
+                "unit": "IN",
+                "value": 14.299999985414
+            },
+            "name": "Forum Novelties Orange Costume, One Size",
+            "normalizedName": "Forum Novelties Orange Costume, One Size",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6978119824306865
+            },
+            "width": {
+                "unit": "IN",
+                "value": 10.49999998929
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

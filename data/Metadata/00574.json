@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00VPRM6MC": {
+            "asin": "B00VPRM6MC",
+            "height": {
+                "unit": "IN",
+                "value": 1.199999998776
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.199999988575998
+            },
+            "name": "iPad Case,iPad 2 Case,iPad 3 Case,iPad 4 Case,The **New**Travellor [Heavy Duty] Ipad2/3/4 Case Silicone [kids proof] - [Rainproof] [Sandproof] [Dirtproof] [Shockproof] Extreme Duty Dual Protective Back Cover with Kickstand and Sticker and [Screen Protector] for Ipad 4/3/2 (Ice Blue Pink)",
+            "normalizedName": "iPad Case,iPad 2 Case,iPad 3 Case,iPad 4 Case,The **New**Travellor [Heavy Duty] Ipad2/3/4 Case Silicone [kids proof] - [Rainproof] [Sandproof] [Dirtproof] [Shockproof] Extreme Duty Dual Protective Back Cover with Kickstand and Sticker and [Screen Protector] for Ipad 4/3/2 (Ice Blue Pink)",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.05
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.199999991636
+            }
+        },
+        "B01F23SHWM": {
+            "asin": "B01F23SHWM",
+            "height": {
+                "unit": "IN",
+                "value": 3.599999996328
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.899999989902
+            },
+            "name": "Funko POP Football: Tom Brady and Rob Gronkowski NFL Toy Action Figure - 2 Piece BUNDLE",
+            "normalizedName": "Funko POP Football: Tom Brady and Rob Gronkowski NFL Toy Action Figure - 2 Piece BUNDLE",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6499999994549162
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.49999999337
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

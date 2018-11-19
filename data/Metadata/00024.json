@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B019GAUUAE": {
+            "asin": "B019GAUUAE",
+            "height": {
+                "unit": "IN",
+                "value": 5.399999994492
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.99999998776
+            },
+            "name": "6 PACK- BR30 LED 11WATT (65W Equivalent), 3000K Warm White, DIMMABLE, Indoor/Outdoor Lighting, 850 Lumens, Flood Light Bulb, UL & ENERGY STAR LISTED",
+            "normalizedName": "6 PACK- BR30 LED 11WATT (65W Equivalent), 3000K Warm White, DIMMABLE, Indoor/Outdoor Lighting, 850 Lumens, Flood Light Bulb, UL & ENERGY STAR LISTED",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.7999999976519456
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.199999991636
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

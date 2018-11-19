@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00SV2OP9Q": {
+            "asin": "B00SV2OP9Q",
+            "height": {
+                "unit": "IN",
+                "value": 6.299999993574
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.399999987352
+            },
+            "name": "3-Blade Vegetable Spiralizer - Includes FREE Spiralizer Recipes Booklet NOT eBook - Precision Kitchenware",
+            "normalizedName": "3-Blade Vegetable Spiralizer - Includes FREE Spiralizer Recipes Booklet NOT eBook - Precision Kitchenware",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.7999999976519456
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.199999990616
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

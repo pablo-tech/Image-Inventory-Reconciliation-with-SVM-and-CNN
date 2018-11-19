@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0035CMA7Q": {
+            "asin": "B0035CMA7Q",
+            "height": {
+                "unit": "IN",
+                "value": 2.7999999971439995
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.199999995716
+            },
+            "name": "Nature's Hollow Mountain Berry Jam 10 Ounces",
+            "normalizedName": "Nature's Hollow Mountain Berry Jam 10 Ounces",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.05
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.599999996328
+            }
+        },
+        "B00UB2F1K6": {
+            "asin": "B00UB2F1K6",
+            "height": {
+                "unit": "IN",
+                "value": 1.0999999988780003
+            },
+            "length": {
+                "unit": "IN",
+                "value": 16.499999983170003
+            },
+            "name": "Strong Scourer Pads Stainless Steel Sponges Scrubbers, Multi Purpose Scrubbing Pads, High Quality Scourer Pads (Value Pack), 12 Pack",
+            "normalizedName": "12 Pack Strong Scourer Pads Stainless Steel Sponges Scrubbers, Multi Purpose Scrubbing Pads, High Quality Scourer Pads (Value Pack),",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.05000000000000001
+            },
+            "width": {
+                "unit": "IN",
+                "value": 12.49999998725
+            }
+        },
+        "B00WHZ48PE": {
+            "asin": "B00WHZ48PE",
+            "height": {
+                "unit": "IN",
+                "value": 3.199999996736
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.399999987352
+            },
+            "name": "Zebella Unisex Canvas Large Travel Duffel Tote Sports Gym Bag Overnight Handbag",
+            "normalizedName": "Zebella Unisex Canvas Large Travel Duffel Tote Sports Gym Bag Overnight Handbag",
+            "quantity": 4,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.09999999823896
+            },
+            "width": {
+                "unit": "IN",
+                "value": 10.299999989494001
+            }
+        },
+        "B015MN3S94": {
+            "asin": "B015MN3S94",
+            "height": {
+                "unit": "IN",
+                "value": 1.99999999796
+            },
+            "length": {
+                "unit": "IN",
+                "value": 17.099999982558003
+            },
+            "name": "Goture Military Tactical Rucksacks Backpack Camping Hiking Running Trekking Outdoor Sports Bag 30L 600D Nylon Multicolor",
+            "normalizedName": "Goture Military Tactical Rucksacks Backpack Camping Hiking Running Trekking Outdoor Sports Bag 30L 600D Nylon Multicolor",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.8999999984066773
+            },
+            "width": {
+                "unit": "IN",
+                "value": 10.599999989188
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 7
+}

@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B013HSW4N2": {
+            "asin": "B013HSW4N2",
+            "height": {
+                "unit": "IN",
+                "value": 2.362204722
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.6377952678
+            },
+            "name": "Jaybird X2 Sport Wireless Bluetooth Headphones - Charge",
+            "normalizedName": "Jaybird X2 Sport Wireless Bluetooth Headphones - Charge",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.587312084066285
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.511811018
+            }
+        },
+        "B0192XSVYM": {
+            "asin": "B0192XSVYM",
+            "height": {
+                "unit": "IN",
+                "value": 2.699999997246
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.49999999337
+            },
+            "name": "Cordless Clip Desk Lamp - 14 Long Life LEDs - Built-in 500mAh Rechargeable Lithium Battery - 3 Brightness Level Touch Dimmer - Portable Lightweight for Indoor & Outdoor Use",
+            "normalizedName": "Cordless Clip Desk Lamp - 14 Long Life LEDs - Built-in 500mAh Rechargeable Lithium Battery - 3 Brightness Level Touch Dimmer - Portable Lightweight for Indoor & Outdoor Use",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.29999999974842284
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.199999995716
+            }
+        },
+        "B01GV0MVYU": {
+            "asin": "B01GV0MVYU",
+            "height": {
+                "unit": "IN",
+                "value": 0.399999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.49999999133
+            },
+            "name": "Samsung Galaxy Core Prime Case,Eouine Ultra Slim Premium TPU Gel Rubber Soft Skin Silicone Protective Case Cover for Samsung Galaxy Core Prime G360 Fruit Back Cover,Small Watermelon Slices",
+            "normalizedName": "Samsung Galaxy Core Prime Case,Eouine Ultra Slim Premium TPU Gel Rubber Soft Skin Silicone Protective Case Cover for Samsung Galaxy Core Prime G360 Fruit Back Cover,Small Watermelon Slices",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001167587297
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.49999999541
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

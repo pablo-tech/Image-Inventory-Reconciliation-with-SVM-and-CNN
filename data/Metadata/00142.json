@@ -1,0 +1,46 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0197O304W": {
+            "asin": "B0197O304W",
+            "height": {
+                "unit": "IN",
+                "value": 0.05
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.0
+            },
+            "name": "Alexi Ricci Baby Blue and Cream color interior 11x11x11 Folding Storage Bin Storage with Style Collection",
+            "normalizedName": "Alexi Ricci Baby Blue and Cream color interior 11x11x11 Folding Storage Bin Storage with Style Collection",
+            "quantity": 1,
+            "weight": null,
+            "width": {
+                "unit": "IN",
+                "value": 11.0
+            }
+        },
+        "B01D4FL9LQ": {
+            "asin": "B01D4FL9LQ",
+            "height": {
+                "unit": "IN",
+                "value": 2.599999997348
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.799999987964
+            },
+            "name": "ASUS Transformer Book T100HA-C4-LB 10.1 inch 64GB Detachable 2-in-1 Touchscreen Laptop/Tablet, Light Blue",
+            "normalizedName": "ASUS Transformer Book T100HA-C4-LB 10.1 inch 64GB Detachable 2-in-1 Touchscreen Laptop/Tablet, Light Blue",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.1499999973584396
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.599999991228
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

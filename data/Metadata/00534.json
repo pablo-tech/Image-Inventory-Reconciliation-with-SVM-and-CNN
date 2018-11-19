@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B003L7XO5M": {
+            "asin": "B003L7XO5M",
+            "height": {
+                "unit": "IN",
+                "value": 2.99999999694
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.49999999439
+            },
+            "name": "Solgar Wild Alaskan Full Spectrum Omega Supplement, 120 Count",
+            "normalizedName": "Solgar Wild Alaskan Full Spectrum Omega Supplement, 120 Count",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.05
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.099999996838
+            }
+        },
+        "B00PET9CII": {
+            "asin": "B00PET9CII",
+            "height": {
+                "unit": "IN",
+                "value": 0.899999999082
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.899999991942001
+            },
+            "name": "iPhone 6 Plus Case, HUMMER\u00ae [Built-In Screen Protector] iPhone 6 (5.5) Case Protective **NEW** [HUMMER Armor HX] EXTREME Slim Protection + Front Built-In Screen Protector Cover / Full Body Protection Rugged but Slim Dual Layer Protective Cover for iPhone 6 Plus (5.5\") (Yellow on Gray)",
+            "normalizedName": "iPhone 6 Plus Case, HUMMER\u00ae [Built-In Screen Protector] iPhone 6 (5.5) Case Protective **NEW** [HUMMER Armor HX] EXTREME Slim Protection + Front Built-In Screen Protector Cover / Full Body Protection Rugged but Slim Dual Layer Protective Cover for iPhone 6 Plus (5.5\") (Yellow on Gray)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.25
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.299999995614
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

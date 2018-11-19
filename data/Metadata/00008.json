@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B002UC6P6E": {
+            "asin": "B002UC6P6E",
+            "height": {
+                "unit": "IN",
+                "value": 1.199999998776
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.099999992758
+            },
+            "name": "JR Products 10845 White Fold Down Camper Latch and Catch",
+            "normalizedName": "JR Products 10845 White Fold Down Camper Latch and Catch",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.65
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.299999996634
+            }
+        },
+        "B017TQ9IWS": {
+            "asin": "B017TQ9IWS",
+            "height": {
+                "unit": "IN",
+                "value": 0.899999999082
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.199999995716
+            },
+            "name": "Manicure Kit - 3 Pcs - Ultimate Personal Care Set With Nail Scissors Pocket Size - Perfect for Travel or for Gift - Black",
+            "normalizedName": "Manicure Kit - 3 Pcs - Ultimate Personal Care Set With Nail Scissors Pocket Size - Perfect for Travel or for Gift - Black",
+            "quantity": 18,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.14999999987421142
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.49999999745
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 19
+}

@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0001WB7JK": {
+            "asin": "B0001WB7JK",
+            "height": {
+                "unit": "IN",
+                "value": 1.699999998266
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.199999992656
+            },
+            "name": "W.r. Case And Sons Cutlery Case-xx Changer",
+            "normalizedName": "W.r. Case And Sons Cutlery Case-xx Changer",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.05
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.099999996838
+            }
+        },
+        "B017ICJ63Y": {
+            "asin": "B017ICJ63Y",
+            "height": {
+                "unit": "IN",
+                "value": 1.299999998674
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.299999995614
+            },
+            "name": "FM Transmitter, AUKEY Radio Transmitter Car Kit with 4.8A 2-Port USB Car Charger, Hands-free Calling, Built-in Mic Music Control for any Devices with 3.5mm Audio Plug",
+            "normalizedName": "FM Transmitter, AUKEY Radio Transmitter Car Kit with 4.8A 2-Port USB Car Charger, Hands-free Calling, Built-in Mic Music Control for any Devices with 3.5mm Audio Plug",
+            "quantity": 4,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.24999999979035234
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.599999996328
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

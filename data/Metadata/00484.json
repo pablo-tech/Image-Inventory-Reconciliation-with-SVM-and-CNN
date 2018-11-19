@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00465I17Y": {
+            "asin": "B00465I17Y",
+            "height": {
+                "unit": "IN",
+                "value": 0.6299212592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.480314953
+            },
+            "name": "H.R. Pufnstuf: The Complete Series",
+            "normalizedName": "H.R. Pufnstuf: The Complete Series",
+            "quantity": 4,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.35273601897719786
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.4330708606
+            }
+        },
+        "B00NH11H38": {
+            "asin": "B00NH11H38",
+            "height": {
+                "unit": "IN",
+                "value": 0.70078740086
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.99999999082
+            },
+            "name": "AmazonBasics Digital Optical Audio Toslink Cable - 6 Feet (1.8 Meters)",
+            "normalizedName": "AmazonBasics Digital Optical Audio Toslink Cable - 6 Feet (1.8 Meters)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.220462262
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.59842519114
+            }
+        },
+        "B00TDDC7EW": {
+            "asin": "B00TDDC7EW",
+            "height": {
+                "unit": "IN",
+                "value": 1.299999998674
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.99999999286
+            },
+            "name": "McDavid 4 Way Elastic Ankle Sleeve with Figure 8 Straps, Medium, Black",
+            "normalizedName": "McDavid 4 Way Elastic Ankle Sleeve with Figure 8 Straps, Medium, Black",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.63
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.9999999949
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

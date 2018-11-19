@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0002VAMNW": {
+            "asin": "B0002VAMNW",
+            "height": {
+                "unit": "IN",
+                "value": 0.6999999992859999
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.199999989596
+            },
+            "name": "Rothco Monty Wool Beret, Green, Small",
+            "normalizedName": "Rothco Monty Wool Beret, Green, Small",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.09999999991614096
+            },
+            "width": {
+                "unit": "IN",
+                "value": 10.199999989596
+            }
+        },
+        "B001HNK2CK": {
+            "asin": "B001HNK2CK",
+            "height": {
+                "unit": "IN",
+                "value": 1.574803148
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.8661417212
+            },
+            "name": "Kangol Women's Modelaine Beret,Black,One Size",
+            "normalizedName": "Kangol Women's Modelaine Beret,Black,One Size",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.18
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.0393700736
+            }
+        },
+        "B019FHNCA8": {
+            "asin": "B019FHNCA8",
+            "height": {
+                "unit": "IN",
+                "value": 4.49999999541
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.899999989902
+            },
+            "name": "Boelter Brands Stella Artois Buy a Lady a Drink Limited Edition Haiti Chalice, 33cl, Clear",
+            "normalizedName": "Boelter Brands Stella Artois Buy a Lady a Drink Limited Edition Haiti Chalice, 33cl, Clear",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6999999994129864
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.599999995308
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

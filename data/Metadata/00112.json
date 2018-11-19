@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000Q7WLAY": {
+            "asin": "B000Q7WLAY",
+            "height": {
+                "unit": "IN",
+                "value": 1.79921259659
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.899999992962
+            },
+            "name": "DampRid FG69H Odor Genie Odor Eliminator in Wild Berry, 8-Ounce",
+            "normalizedName": "DampRid FG69H Odor Genie Odor Eliminator in Wild Berry, 8-Ounce",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.7
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.299999994594
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

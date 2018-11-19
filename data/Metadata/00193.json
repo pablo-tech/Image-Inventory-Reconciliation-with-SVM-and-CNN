@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B005J5WMXY": {
+            "asin": "B005J5WMXY",
+            "height": {
+                "unit": "IN",
+                "value": 0.799999999184
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.799999995104
+            },
+            "name": "External GPS Antenna for Verizon Samsung 3G Network Extender with 16 feet Cable More Freedom to Move!",
+            "normalizedName": "External GPS Antenna for Verizon Samsung 3G Network Extender with 16 feet Cable More Freedom to Move!",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.19999999983228192
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.6999999962260004
+            }
+        },
+        "B00LTJXE1I": {
+            "asin": "B00LTJXE1I",
+            "height": {
+                "unit": "IN",
+                "value": 1.49999999847
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.299999993574
+            },
+            "name": "Obagi Medical Gentle Cleanser, 6.7 oz",
+            "normalizedName": "Obagi Medical Gentle Cleanser, 6.7 oz",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.55
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.299999997654
+            }
+        },
+        "B00R1LW5NG": {
+            "asin": "B00R1LW5NG",
+            "height": {
+                "unit": "IN",
+                "value": 0.799999999184
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.699999995206
+            },
+            "name": "10Ft Right Angle MMCX Male Cable GPS Active Antenna 1575.42MHz 3V-5V",
+            "normalizedName": "10Ft Right Angle MMCX Male Cable GPS Active Antenna 1575.42MHz 3V-5V",
+            "quantity": 4,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.24999999979035234
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.399999995512001
+            }
+        },
+        "B00VV14KIK": {
+            "asin": "B00VV14KIK",
+            "height": {
+                "unit": "IN",
+                "value": 0.799999999184
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.699999995206
+            },
+            "name": "10feet Magnetic GPS Active Antenna MMCX male connector adapter Jump cable 3Meter 1575MHz",
+            "normalizedName": "10feet Magnetic GPS Active Antenna MMCX male connector adapter Jump cable 3Meter 1575MHz",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.24999999979035234
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.799999996124
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 7
+}

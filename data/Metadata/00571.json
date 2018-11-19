@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00009R68V": {
+            "asin": "B00009R68V",
+            "height": {
+                "unit": "IN",
+                "value": 0.399999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.99999998776
+            },
+            "name": "Seal Colormount Tissue - 8 x 10, 25 Sheets",
+            "normalizedName": "Seal Colormount Tissue - 8 x 10, 25 Sheets",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.99999999184
+            }
+        },
+        "B012CSR78A": {
+            "asin": "B012CSR78A",
+            "height": {
+                "unit": "IN",
+                "value": 5.399999994492
+            },
+            "length": {
+                "unit": "IN",
+                "value": 14.49999998521
+            },
+            "name": "G4Free 50L Military Tactical Backpack Hiking Camping Traveling Unisex Outdoor Weather Resistant Mountain Climbing Bag(Army Green)",
+            "normalizedName": "G4Free 50L Military Tactical Backpack Hiking Camping Traveling Unisex Outdoor Weather Resistant Mountain Climbing Bag(Army Green)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.949999997526158
+            },
+            "width": {
+                "unit": "IN",
+                "value": 12.49999998725
+            }
+        },
+        "B01ACABIOO": {
+            "asin": "B01ACABIOO",
+            "height": {
+                "unit": "IN",
+                "value": 2.7999999971439995
+            },
+            "length": {
+                "unit": "IN",
+                "value": 14.199999985516
+            },
+            "name": "Atacama Windproof travel umbrella heavy duty compact auto open close stainless",
+            "normalizedName": "Atacama Windproof travel umbrella heavy duty compact auto open close stainless",
+            "quantity": 6,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.04999999911948
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.099999995818
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 8
+}

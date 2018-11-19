@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B007U1WL54": {
+            "asin": "B007U1WL54",
+            "height": {
+                "unit": "IN",
+                "value": 4.599999995308
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.99999999388
+            },
+            "name": "16CT DonutShop Vue Packs",
+            "normalizedName": "16CT DonutShop Vue Packs",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.55
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.799999995104
+            }
+        },
+        "B0087EIDRS": {
+            "asin": "B0087EIDRS",
+            "height": {
+                "unit": "IN",
+                "value": 3.099999996838
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.599999994287999
+            },
+            "name": "Etekcity Wireless Remote Control Electrical Outlet Switch for Household Appliances, White (Fixed Code, 1Rx-1Tx)",
+            "normalizedName": "Etekcity Wireless Remote Control Electrical Outlet Switch for Household Appliances, White (Fixed Code, 1Rx-1Tx)",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.45
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.6999999962260004
+            }
+        },
+        "B00I0FCMOY": {
+            "asin": "B00I0FCMOY",
+            "height": {
+                "unit": "IN",
+                "value": 0.599999999388
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.399999996532
+            },
+            "name": "Stainless Steel Chrome Solid Sphere Balls For Monkey Fists",
+            "normalizedName": "Stainless Steel Chrome Solid Sphere Balls For Monkey Fists",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6499999994549162
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.099999996838
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

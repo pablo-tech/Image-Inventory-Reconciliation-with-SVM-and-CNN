@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B007XX0296": {
+            "asin": "B007XX0296",
+            "height": {
+                "unit": "IN",
+                "value": 3.599999996328
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.799999990004002
+            },
+            "name": "Optimum Nutrition Shaker Bottle",
+            "normalizedName": "Optimum Nutrition Shaker Bottle",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.599999996328
+            }
+        },
+        "B00S7KTUXS": {
+            "asin": "B00S7KTUXS",
+            "height": {
+                "unit": "IN",
+                "value": 0.599999999388
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.99999999286
+            },
+            "name": "Deconn Plane SAS Cable Controller SFF-8484 32 Pin To 4 SATA 7Pin Adapter HDD Red 50Cm",
+            "normalizedName": "Deconn Plane SAS Cable Controller SFF-8484 32 Pin To 4 SATA 7Pin Adapter HDD Red 50Cm",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.09999999991614096
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.99999999592
+            }
+        },
+        "B00VBOD3QM": {
+            "asin": "B00VBOD3QM",
+            "height": {
+                "unit": "IN",
+                "value": 0.299999999694
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.99999999286
+            },
+            "name": "CableDeconn 5Ft Right 90Degree Angled Micro USB Male to USB Data Charge Cable",
+            "normalizedName": "CableDeconn 5Ft Right 90Degree Angled Micro USB Male to USB Data Charge Cable",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001167587297
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.9999999949
+            }
+        },
+        "B01936N73I": {
+            "asin": "B01936N73I",
+            "height": {
+                "unit": "IN",
+                "value": 4.0944881848
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.2834645544
+            },
+            "name": "Kensington Expert Wireless Trackball Mouse (K72359WW)",
+            "normalizedName": "Kensington Expert Wireless Trackball Mouse (K72359WW)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.3668520723904125
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.2913385732
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 7
+}

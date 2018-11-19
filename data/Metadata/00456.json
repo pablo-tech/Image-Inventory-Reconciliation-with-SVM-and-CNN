@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000068O8H": {
+            "asin": "B000068O8H",
+            "height": {
+                "unit": "IN",
+                "value": 0.899999999082
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.99999998878
+            },
+            "name": "HOSA SPEAKER CBL NEUTRIK SPEAKON",
+            "normalizedName": "HOSA SPEAKER CBL NEUTRIK SPEAKON",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.85
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.99999999082
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

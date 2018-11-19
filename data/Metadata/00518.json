@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00LDBJ09C": {
+            "asin": "B00LDBJ09C",
+            "height": {
+                "unit": "IN",
+                "value": 0.199999999796
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.49999999541
+            },
+            "name": "SET 3pcs SML Earbuds 2pcs Good Earhooks for Plantronics Voyager Edge Mobile Bluetooth Wireless Headset Earloops Earclips Small Medium Large Eargels Eartips Ear Hook Loop Clip Bud Gel",
+            "normalizedName": "SET 3pcs SML Earbuds 2pcs Good Earhooks for Plantronics Voyager Edge Mobile Bluetooth Wireless Headset Earloops Earclips Small Medium Large Eargels Eartips Ear Hook Loop Clip Bud Gel",
+            "quantity": 43,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001167587297
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.99999999694
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 43
+}

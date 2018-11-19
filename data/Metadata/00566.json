@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B002BWOQCS": {
+            "asin": "B002BWOQCS",
+            "height": {
+                "unit": "IN",
+                "value": 0.49999999949
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.099999994798
+            },
+            "name": "Black & Decker 75-626 Assorted Jigsaw Blades Set, Wood and Metal, 24-Pack",
+            "normalizedName": "24-Pack Black & Decker 75-626 Assorted Jigsaw Blades Set, Wood and Metal,",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.15
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.699999997246
+            }
+        },
+        "B00531EXCC": {
+            "asin": "B00531EXCC",
+            "height": {
+                "unit": "IN",
+                "value": 3.99999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.699999991126
+            },
+            "name": "Penn 5000 Fierce Spinning Fishing Reel, Left/Right",
+            "normalizedName": "Penn 5000 Fierce Spinning Fishing Reel, Left/Right",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.2499999999999998
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.99999999184
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

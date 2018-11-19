@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "0135853982": {
+            "asin": "0135853982",
+            "height": {
+                "unit": "IN",
+                "value": 0.599999999388
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.099999991738
+            },
+            "name": "The Miracle of Mind Dynamics: Use Your Subconscious Mind to Obtain Complete Control Over Your Destiny",
+            "normalizedName": "The Miracle of Mind Dynamics: Use Your Subconscious Mind to Obtain Complete Control Over Your Destiny",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.45
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.099999994798
+            }
+        },
+        "B004M15U12": {
+            "asin": "B004M15U12",
+            "height": {
+                "unit": "IN",
+                "value": 3.99999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.49999999439
+            },
+            "name": "Planters Deluxe Whole Cashew, 18.25 Ounce",
+            "normalizedName": "Planters Deluxe Whole Cashew, 18.25 Ounce",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.2999999989098325
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.099999995818
+            }
+        },
+        "B00ST84ZLU": {
+            "asin": "B00ST84ZLU",
+            "height": {
+                "unit": "IN",
+                "value": 2.0472440924
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.267716527
+            },
+            "name": "Tsubaki Extra Moist Shampoo Refill Pack 380ml Red 2015 Spring Edition Japan New",
+            "normalizedName": "Tsubaki Extra Moist Shampoo Refill Pack 380ml Red 2015 Spring Edition Japan New",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.9
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.0944881848
+            }
+        },
+        "B00WH1RSX2": {
+            "asin": "B00WH1RSX2",
+            "height": {
+                "unit": "IN",
+                "value": 3.6999999962260004
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.799999995104
+            },
+            "name": "Funny Guy Mugs Sarcasm Now Loading Ceramic Coffee Mug, Black, 11-Ounce",
+            "normalizedName": "Funny Guy Mugs Sarcasm Now Loading Ceramic Coffee Mug, Black, 11-Ounce",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.8999999992452684
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.599999995308
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

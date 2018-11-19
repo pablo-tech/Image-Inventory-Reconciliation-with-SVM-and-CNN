@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B003R68WF4": {
+            "asin": "B003R68WF4",
+            "height": {
+                "unit": "IN",
+                "value": 5.49999999439
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.099999991737999
+            },
+            "name": "Backyard Exploration Critter Case",
+            "normalizedName": "Backyard Exploration Critter Case",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6999999999999998
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.599999994287999
+            }
+        },
+        "B00NNCZIUO": {
+            "asin": "B00NNCZIUO",
+            "height": {
+                "unit": "IN",
+                "value": 6.199999993676
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.099999991737999
+            },
+            "name": "bbq factory Fireglass 10-pound Reflective Fire Glass with Fireplace Glass and Fire Pit Glass, 1/4-inch(T: 6.0mm), Copper",
+            "normalizedName": "bbq factory Fireglass 10-pound Reflective Fire Glass with Fireplace Glass and Fire Pit Glass, 1/4-inch(T: 6.0mm), Copper",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 10.05
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.199999993676
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

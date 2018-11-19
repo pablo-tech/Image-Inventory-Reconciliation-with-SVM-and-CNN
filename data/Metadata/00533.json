@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B003RMY7CU": {
+            "asin": "B003RMY7CU",
+            "height": {
+                "unit": "IN",
+                "value": 3.199999996736
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.49999999643
+            },
+            "name": "Pennzoil PZ-21 Regular Spin-on Oil Filter",
+            "normalizedName": "Pennzoil PZ-21 Regular Spin-on Oil Filter",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.65
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.199999996736
+            }
+        },
+        "B00412F314": {
+            "asin": "B00412F314",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.99999999082
+            },
+            "name": "The Body Shop Bamboo Pin Hairbrush",
+            "normalizedName": "The Body Shop Bamboo Pin Hairbrush",
+            "quantity": 5,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.15
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.49999999745
+            }
+        },
+        "B00ANSEL36": {
+            "asin": "B00ANSEL36",
+            "height": {
+                "unit": "IN",
+                "value": 0.58267716476
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.09842518961
+            },
+            "name": "Junk Films: The Collected Short Shockumentaries Of Tsurisaki Kiyotaka",
+            "normalizedName": "Junk Films: The Collected Short Shockumentaries Of Tsurisaki Kiyotaka",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.18333454586339856
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.41732282912
+            }
+        },
+        "B01DHBQLHY": {
+            "asin": "B01DHBQLHY",
+            "height": {
+                "unit": "IN",
+                "value": 2.599999997348
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.099999989698
+            },
+            "name": "Kangaroo's Multi Voice Changer (6.5-Inch, Choice of Colors)",
+            "normalizedName": "Kangaroo's Multi Voice Changer (6.5-Inch, Choice of Colors)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.1999999998322819
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.49999999133
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 9
+}

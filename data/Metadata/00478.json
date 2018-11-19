@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B01A4WVUD4": {
+            "asin": "B01A4WVUD4",
+            "height": {
+                "unit": "IN",
+                "value": 2.7999999971439995
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.099999996838
+            },
+            "name": "Clay Face Mask with White Kaolin Mineral Clay. Reduces Wrinkles, Rids Blackheads, Acne & Dirt & Improves Complexion. Free Gift/No Risk",
+            "normalizedName": "Clay Face Mask with White Kaolin Mineral Clay. Reduces Wrinkles, Rids Blackheads, Acne & Dirt & Improves Complexion. Free Gift/No Risk",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4499999996226342
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.99999999694
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

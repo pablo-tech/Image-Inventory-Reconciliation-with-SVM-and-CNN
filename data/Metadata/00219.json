@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000ED9L6C": {
+            "asin": "B000ED9L6C",
+            "height": {
+                "unit": "IN",
+                "value": 3.99999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.699999990105999
+            },
+            "name": "Bob's Red Mill Raw Shelled Sunflower Seeds (Kernels Only), 20-ounce (Pack of 4) (Package May Vary)",
+            "normalizedName": "(Pack of 4) Bob's Red Mill Raw Shelled Sunflower Seeds (Kernels Only), 20-ounce (Package May Vary)",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 4.95
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.199999991636
+            }
+        },
+        "B00H2B4H2M": {
+            "asin": "B00H2B4H2M",
+            "height": {
+                "unit": "IN",
+                "value": 3.599999996328
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.599999989188
+            },
+            "name": "Remington PG6025 All-in-1 Lithium Powered Grooming Kit, Black",
+            "normalizedName": "Remington PG6025 All-in-1 Lithium Powered Grooming Kit, Black",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.0
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.599999993268
+            }
+        },
+        "B01BI5PCJY": {
+            "asin": "B01BI5PCJY",
+            "height": {
+                "unit": "IN",
+                "value": 2.7999999971439995
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.49999998929
+            },
+            "name": "Nestl Bedding Duvet Cover, Protects and Covers your Comforter / Duvet Insert, Luxury 100% Super Soft Microfiber, Twin (Single) Size, Color White, 2 Piece Duvet Cover Set Includes 1 Pillow Sham",
+            "normalizedName": "Nestl Bedding Duvet Cover, Protects and Covers your Comforter / Duvet Insert, Luxury 100% Super Soft Microfiber, Twin (Single) Size, Color White, 2 Piece Duvet Cover Set Includes 1 Pillow Sham",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.4999999979035237
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.49999999031
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

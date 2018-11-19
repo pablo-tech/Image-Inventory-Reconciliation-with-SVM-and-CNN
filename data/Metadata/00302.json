@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000IXC7IW": {
+            "asin": "B000IXC7IW",
+            "height": {
+                "unit": "IN",
+                "value": 0.299999999694
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.199999989596
+            },
+            "name": "SOG Specialty Knives & Tools FSA8-CP Flash II Knife with Straight Edge Assisted Folding 3.5-Inch Steel Drop Point Blade and GRN Handle, Satin Finish",
+            "normalizedName": "SOG Specialty Knives & Tools FSA8-CP Flash II Knife with Straight Edge Assisted Folding 3.5-Inch Steel Drop Point Blade and GRN Handle, Satin Finish",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.299999995614
+            }
+        },
+        "B00LH1X66G": {
+            "asin": "B00LH1X66G",
+            "height": {
+                "unit": "IN",
+                "value": 2.299999997654
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.49999998929
+            },
+            "name": "Balderdash Game, Styles May Vary",
+            "normalizedName": "Balderdash Game, Styles May Vary",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.65
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.99999999184
+            }
+        },
+        "B010TS35ZY": {
+            "asin": "B010TS35ZY",
+            "height": {
+                "unit": "IN",
+                "value": 2.7999999971439995
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.299999987454
+            },
+            "name": "Pooch Smooch - Bad Breath Eliminator for Dogs - Made in the USA - Proprietary Enzyme Mix to Combat Bad Breath",
+            "normalizedName": "Pooch Smooch - Bad Breath Eliminator for Dogs - Made in the USA - Proprietary Enzyme Mix to Combat Bad Breath",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.0999999990775504
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.599999991228
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

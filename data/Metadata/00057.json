@@ -1,0 +1,59 @@
+{
+    "BIN_FCSKU_DATA": {
+        "0985455470": {
+            "asin": "0985455470",
+            "height": {
+                "unit": "IN",
+                "value": 0.2362204722
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.1811023508
+            },
+            "name": "Iraqi Air Force Reborn: The Iraqi Air Arms Since 2004",
+            "normalizedName": "Iraqi Air Force Reborn: The Iraqi Air Arms Since 2004",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.7936641432
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.4251968418
+            }
+        },
+        "B00K5NEMJM": {
+            "asin": "B00K5NEMJM",
+            "height": {
+                "unit": "IN",
+                "value": 2.7999999971439995
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.399999994492
+            },
+            "name": "Garden of Life mykind Organics Women's Once Daily Multi, 60 Organic Tablet",
+            "normalizedName": "Garden of Life mykind Organics Women's Once Daily Multi, 60 Organic Tablet",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.75
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.899999997042
+            }
+        },
+        "B01AQGMRI0": {
+            "asin": "B01AQGMRI0",
+            "height": null,
+            "length": null,
+            "name": "\"Fashion Case\" Unique Eco-Friendly 100% Real Natural Cherry Wood with Laser Engraved \"Chinese Dragon\" Hard Shell Case for iPAD Mini 1/2/3 (GMWD-IPADMINI-N05)",
+            "normalizedName": "\"Fashion Case\" Unique Eco-Friendly 100% Real Natural Cherry Wood with Laser Engraved \"Chinese Dragon\" Hard Shell Case for iPAD Mini 1/2/3 (GMWD-IPADMINI-N05)",
+            "quantity": 1,
+            "weight": null,
+            "width": null
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

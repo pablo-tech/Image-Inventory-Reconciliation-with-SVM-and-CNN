@@ -1,0 +1,68 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0006GANUK": {
+            "asin": "B0006GANUK",
+            "height": {
+                "unit": "IN",
+                "value": 0.599999999388
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.49999999235
+            },
+            "name": "Once Upon A Forest",
+            "normalizedName": "Once Upon A Forest",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.15
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.299999994594
+            }
+        },
+        "B015PB577O": {
+            "asin": "B015PB577O",
+            "height": {
+                "unit": "IN",
+                "value": 2.599999997348
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.699999992146
+            },
+            "name": "8 Adjustable Child Safety Locks (White) - BONUS Spare Tape - Vanguard Safety Adjustable Cabinet Locks with 3M Adhesive for Cabinets & Drawers - Easy Installation, Ideal for Home Safety \u2026",
+            "normalizedName": "8 Adjustable Child Safety Locks (White) - BONUS Spare Tape - Vanguard Safety Adjustable Cabinet Locks with 3M Adhesive for Cabinets & Drawers - Easy Installation, Ideal for Home Safety \u2026",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.24999999979035234
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.899999997042
+            }
+        },
+        "B01DYYCX6M": {
+            "asin": "B01DYYCX6M",
+            "height": {
+                "unit": "IN",
+                "value": 1.97
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.48
+            },
+            "name": "Essential Emergency First Aid Kit - Compact and Lightweight First Aid Bag with 100 Premium Pieces - Ideal for Survival, Traveling, Camping, Hiking and More! Quality Nylon Travel Case Included.",
+            "normalizedName": "Essential Emergency First Aid Kit - Compact and Lightweight First Aid Bag with 100 Premium Pieces - Ideal for Survival, Traveling, Camping, Hiking and More! Quality Nylon Travel Case Included.",
+            "quantity": 1,
+            "weight": null,
+            "width": {
+                "unit": "IN",
+                "value": 5.12
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

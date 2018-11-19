@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B006VAZYNG": {
+            "asin": "B006VAZYNG",
+            "height": {
+                "unit": "IN",
+                "value": 2.99999999694
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.699999995206
+            },
+            "name": "youtheory Collagen Advanced Formula 1, 2 and 3, 290 Tablets",
+            "normalizedName": "youtheory Collagen Advanced Formula 1, 2 and 3, 290 Tablets",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.8999999992452684
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.099999996838
+            }
+        },
+        "B018TYUBHK": {
+            "asin": "B018TYUBHK",
+            "height": {
+                "unit": "IN",
+                "value": 0.399999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.699999994186
+            },
+            "name": "iPhone 6S Case, iPhone 6 Case, BAISRKE Clear Soft TPU Back Cover with Cute Pattern for Normal 4.7 inches iPhone 6/6s - Paper Airplane",
+            "normalizedName": "iPhone 6S Case, iPhone 6 Case, BAISRKE Clear Soft TPU Back Cover with Cute Pattern for Normal 4.7 inches iPhone 6/6s - Paper Airplane",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.29999999974842284
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.199999996736
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

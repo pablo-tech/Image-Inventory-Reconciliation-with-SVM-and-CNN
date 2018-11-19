@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00EK89RTS": {
+            "asin": "B00EK89RTS",
+            "height": {
+                "unit": "IN",
+                "value": 2.99999999694
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.49999998827
+            },
+            "name": "Maverik Lacrosse Wonderboy Elbow Pad, White, Large",
+            "normalizedName": "Maverik Lacrosse Wonderboy Elbow Pad, White, Large",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4000000000000001
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.9999999949
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

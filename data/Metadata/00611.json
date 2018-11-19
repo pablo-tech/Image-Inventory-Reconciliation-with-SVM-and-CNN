@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B009XQHTP6": {
+            "asin": "B009XQHTP6",
+            "height": {
+                "unit": "IN",
+                "value": 3.6999999962260004
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.099999989698
+            },
+            "name": "Viair 00042 Digital Tire Inflation Gun with 2.5\" Gauge and Carry Bag",
+            "normalizedName": "Viair 00042 Digital Tire Inflation Gun with 2.5\" Gauge and Carry Bag",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.6000000000000003
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.599999992248
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

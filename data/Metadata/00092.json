@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0150XXIDW": {
+            "asin": "B0150XXIDW",
+            "height": {
+                "unit": "IN",
+                "value": 3.99999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.99999999184
+            },
+            "name": "Travel Camping Hammock Portable Parachute Nylon Fabric for Hiking, Boating, Sleeping, Backpacking, Climbing (Orange, 275cm \u00d7 140cm)",
+            "normalizedName": "Travel Camping Hammock Portable Parachute Nylon Fabric for Hiking, Boating, Sleeping, Backpacking, Climbing (Orange, 275cm \u00d7 140cm)",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.9499999992033387
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.299999994594
+            }
+        },
+        "B01BNVDTYS": {
+            "asin": "B01BNVDTYS",
+            "height": {
+                "unit": "IN",
+                "value": 2.4803149581
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.7401574714
+            },
+            "name": "Om She Aromatherapy - Lavender & Chamomile Moisturising Body Wash 500mL",
+            "normalizedName": "Om She Aromatherapy - Lavender & Chamomile Moisturising Body Wash 500mL",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.10231131
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.4803149581
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

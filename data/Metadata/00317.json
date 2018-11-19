@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B005Z5HT2M": {
+            "asin": "B005Z5HT2M",
+            "height": {
+                "unit": "IN",
+                "value": 0.7086614166
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.5669291292
+            },
+            "name": "Kinivo BTD-300 Bluetooth 3.0 Low Energy USB adapter - For Windows 10 / 8.1 / 8 / 7 / Vista, Mac OS 10.3.9 or Later",
+            "normalizedName": "Kinivo BTD-300 Bluetooth 3.0 Low Energy USB adapter - For Windows 10 / 8.1 / 8 / 7 / Vista, Mac OS 10.3.9 or Later",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.08818400474429947
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.93700787
+            }
+        },
+        "B00IRWLPPC": {
+            "asin": "B00IRWLPPC",
+            "height": {
+                "unit": "IN",
+                "value": 0.6999999992859999
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.399999992452001
+            },
+            "name": "MoKo Case for Fire HD 7 2014 - Slim Folding Cover with Auto Wake / Sleep for Amazon Kindle Fire HD 7 Inch 4th Generation Tablet (Not Fits HD 7 2015), BLACK",
+            "normalizedName": "MoKo Case for Fire HD 7 2014 - Slim Folding Cover with Auto Wake / Sleep for Amazon Kindle Fire HD 7 Inch 4th Generation Tablet (Not Fits HD 7 2015), BLACK",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4000000000000001
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.99999999388
+            }
+        },
+        "B01AH2CRJW": {
+            "asin": "B01AH2CRJW",
+            "height": {
+                "unit": "IN",
+                "value": 3.299999996634
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.599999992248
+            },
+            "name": "Power Rangers Dino Charge 4\" Red Ranger, Green Ranger, & Black Ranger Action Figure Bundle",
+            "normalizedName": "Power Rangers Dino Charge 4\" Red Ranger, Green Ranger, & Black Ranger Action Figure Bundle",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001167587297
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.199999993676
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

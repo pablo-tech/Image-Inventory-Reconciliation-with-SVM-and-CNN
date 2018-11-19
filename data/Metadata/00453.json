@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00BMWMS1Y": {
+            "asin": "B00BMWMS1Y",
+            "height": {
+                "unit": "IN",
+                "value": 2.49999999745
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.399999988372
+            },
+            "name": "Wissotzky Tea & Dreams Gift Box",
+            "normalizedName": "Wissotzky Tea & Dreams Gift Box",
+            "quantity": 4,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.55
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.799999995104
+            }
+        },
+        "B00Q7JEEF0": {
+            "asin": "B00Q7JEEF0",
+            "height": {
+                "unit": "IN",
+                "value": 4.599999995308
+            },
+            "length": {
+                "unit": "IN",
+                "value": 13.399999986332
+            },
+            "name": "AmazonBasics Fade-Resistant Cotton 6-Piece Towel Set, White",
+            "normalizedName": "AmazonBasics Fade-Resistant Cotton 6-Piece Towel Set, White",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.1999999973165107
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.9999999898
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

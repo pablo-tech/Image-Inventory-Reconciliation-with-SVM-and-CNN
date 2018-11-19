@@ -1,0 +1,46 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B019775SYE": {
+            "asin": "B019775SYE",
+            "height": {
+                "unit": "IN",
+                "value": 1.0
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.0
+            },
+            "name": "Midline Lacrosse Logo Crew Socks (Columbia Blue/Navy, Small)",
+            "normalizedName": "Midline Lacrosse Logo Crew Socks (Columbia Blue/Navy, Small)",
+            "quantity": 2,
+            "weight": null,
+            "width": {
+                "unit": "IN",
+                "value": 4.0
+            }
+        },
+        "B01DDF6WWS": {
+            "asin": "B01DDF6WWS",
+            "height": {
+                "unit": "IN",
+                "value": 0.899999999082
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.799999993064
+            },
+            "name": "iPhone SE Case, araree\u00ae [Airfit] Ultra Slim SOFT-Interior Scratch Protection with Perfect Fit for iPhone SE, 5S and 5 (2016) (BLUE(Matt))",
+            "normalizedName": "iPhone SE Case, araree\u00ae [Airfit] Ultra Slim SOFT-Interior Scratch Protection with Perfect Fit for iPhone SE, 5S and 5 (2016) (BLUE(Matt))",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.20999999982389603
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.799999996124
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

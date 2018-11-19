@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "812654046X": {
+            "asin": "812654046X",
+            "height": {
+                "unit": "IN",
+                "value": 1.4960629906
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.9999999898
+            },
+            "name": "Materials and Processes in Manufacturing",
+            "normalizedName": "Materials and Processes in Manufacturing",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.4391761850276787
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.0314960548
+            }
+        },
+        "B001ET78BU": {
+            "asin": "B001ET78BU",
+            "height": {
+                "unit": "IN",
+                "value": 2.599999997348
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.49999999235
+            },
+            "name": "Giovanni Direct Leave-In Conditioner, Weightless Moisture, 8.5-Ounce Containers (Pack of 3)",
+            "normalizedName": "(Pack of 3) Giovanni Direct Leave-In Conditioner, Weightless Moisture, 8.5-Ounce Containers",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.14999999819703
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.799999996124
+            }
+        },
+        "B001G7PLDW": {
+            "asin": "B001G7PLDW",
+            "height": {
+                "unit": "IN",
+                "value": 1.49999999847
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.299999996634
+            },
+            "name": "Giovanni Smooth as Silk Shampoo, Packaging May Vary, 8.5-Ounce Bottles (Pack of 3)",
+            "normalizedName": "(Pack of 3) Giovanni Smooth as Silk Shampoo, Packaging May Vary, 8.5-Ounce Bottles",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.55
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.99999999694
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

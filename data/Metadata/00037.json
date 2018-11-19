@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00F908YU4": {
+            "asin": "B00F908YU4",
+            "height": {
+                "unit": "IN",
+                "value": 3.99999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.799999994084
+            },
+            "name": "12Watt 4-inch High CRI Wet Location Dimmable Retrofit LED Recessed Lighting Fixture, Energy Star UL-classified 75W Equivalent Ceiling Light, 2700K Soft White 650lm Remodel Recessed Downlight",
+            "normalizedName": "12Watt 4-inch High CRI Wet Location Dimmable Retrofit LED Recessed Lighting Fixture, Energy Star UL-classified 75W Equivalent Ceiling Light, 2700K Soft White 650lm Remodel Recessed Downlight",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6999999999999998
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.699999994186001
+            }
+        },
+        "B00FMHPX62": {
+            "asin": "B00FMHPX62",
+            "height": {
+                "unit": "IN",
+                "value": 0.599999999388
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.099999993778
+            },
+            "name": "DEWALT DWA4214 Oscillating Multi-Material Blade",
+            "normalizedName": "DEWALT DWA4214 Oscillating Multi-Material Blade",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.15
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.599999995308
+            }
+        },
+        "B016CMFESW": {
+            "asin": "B016CMFESW",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.299999994594
+            },
+            "name": "2\"/5cm Assorted Colors D Shape Spring-loaded Gate Aluminum Carabiner for Home, Rv, Camping, Fishing, Hiking, Traveling and Keychain",
+            "normalizedName": "2\"/5cm Assorted Colors D Shape Spring-loaded Gate Aluminum Carabiner for Home, Rv, Camping, Fishing, Hiking, Traveling and Keychain",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.39999999966456384
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.99999999592
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B003822IRA": {
+            "asin": "B003822IRA",
+            "height": {
+                "unit": "IN",
+                "value": 1.299999998674
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.699999992146
+            },
+            "name": "Casio MS-80B Standard Function Desktop Calculator",
+            "normalizedName": "Casio MS-80B Standard Function Desktop Calculator",
+            "quantity": 4,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3499999997064932
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.799999994084
+            }
+        },
+        "B00E6IWNC0": {
+            "asin": "B00E6IWNC0",
+            "height": {
+                "unit": "IN",
+                "value": 1.49999999847
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.299999991534
+            },
+            "name": "Axe Philips Norelco XA9146/42 Detail Styler",
+            "normalizedName": "Axe Philips Norelco XA9146/42 Detail Styler",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4000000000000001
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.799999996124
+            }
+        },
+        "B00RWK5P10": {
+            "asin": "B00RWK5P10",
+            "height": {
+                "unit": "IN",
+                "value": 1.899999998062
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.399999990412
+            },
+            "name": "RUIFA Indoor Quiet 8-Inch Precedent Decorative Wall Clock with Arabic Numerals (Red)",
+            "normalizedName": "RUIFA Indoor Quiet 8-Inch Precedent Decorative Wall Clock with Arabic Numerals (Red)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.75
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.99999999082
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

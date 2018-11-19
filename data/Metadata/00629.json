@@ -1,0 +1,115 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000ZPIMB4": {
+            "asin": "B000ZPIMB4",
+            "height": {
+                "unit": "IN",
+                "value": 1.599999998368
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.299999993574
+            },
+            "name": "BIC Marking Retractable Permanent Marker, Fine Point, Black, 12-Count",
+            "normalizedName": "BIC Marking Retractable Permanent Marker, Fine Point, Black, 12-Count",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.799999997144
+            }
+        },
+        "B0014X2UAK": {
+            "asin": "B0014X2UAK",
+            "height": {
+                "unit": "IN",
+                "value": 0.6999999992859999
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.299999994594
+            },
+            "name": "iWork '09",
+            "normalizedName": "iWork '09",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.15
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.299999994594
+            }
+        },
+        "B00B9LGJNG": {
+            "asin": "B00B9LGJNG",
+            "height": {
+                "unit": "IN",
+                "value": 0.799999999184
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.899999991942001
+            },
+            "name": "American Greetings My Little Pony Award Ribbon",
+            "normalizedName": "American Greetings My Little Pony Award Ribbon",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.05000000000000001
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.299999996634
+            }
+        },
+        "B00Q651N5Y": {
+            "asin": "B00Q651N5Y",
+            "height": {
+                "unit": "IN",
+                "value": 0.49999999949
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.099999992758
+            },
+            "name": "Coolreall Premium Tempered Glass Screen Protector for Google Nexus 5 - Transparent (0.33mm HD Ultra Clear)",
+            "normalizedName": "Coolreall Premium Tempered Glass Screen Protector for Google Nexus 5 - Transparent (0.33mm HD Ultra Clear)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.20000000000000004
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.899999995002001
+            }
+        },
+        "B016BGFXOY": {
+            "asin": "B016BGFXOY",
+            "height": {
+                "unit": "IN",
+                "value": 3.3999999965320002
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.199999990616
+            },
+            "name": "Vittoria Rubino Pro IV 23-622 fold blk/red/blk (2016) 700x23c",
+            "normalizedName": "Vittoria Rubino Pro IV 23-622 fold blk/red/blk (2016) 700x23c",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.5499999995387752
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.199999990616
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

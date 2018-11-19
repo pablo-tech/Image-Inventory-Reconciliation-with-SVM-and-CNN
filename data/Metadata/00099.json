@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B004U5615E": {
+            "asin": "B004U5615E",
+            "height": {
+                "unit": "IN",
+                "value": 3.6999999962260004
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.799999991024002
+            },
+            "name": "Generic AC Power 100-127V AC Adapter For Xbox 360 Slim",
+            "normalizedName": "Generic AC Power 100-127V AC Adapter For Xbox 360 Slim",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.4
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.899999996022
+            }
+        },
+        "B00597CQHE": {
+            "asin": "B00597CQHE",
+            "height": {
+                "unit": "IN",
+                "value": 0.199999999796
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.099999995818
+            },
+            "name": "100pcs 4\" Metallic Gold Twist Ties",
+            "normalizedName": "100pcs 4\" Metallic Gold Twist Ties",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001186074866
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.299999997654
+            }
+        },
+        "B00A7TIW5O": {
+            "asin": "B00A7TIW5O",
+            "height": {
+                "unit": "IN",
+                "value": 3.49999999643
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.399999988372
+            },
+            "name": "Dickies Women's Gen Flex Fit Contrast Stitch Cargo Pant, Khaki, XX-Large",
+            "normalizedName": "Dickies Women's Gen Flex Fit Contrast Stitch Cargo Pant, Khaki, XX-Large",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.85
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.699999992146
+            }
+        },
+        "B01FVPOWD4": {
+            "asin": "B01FVPOWD4",
+            "height": {
+                "unit": "IN",
+                "value": 3.2999999932679995
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.699999976132
+            },
+            "name": "Leather Toiletry Bag travel compact men women sale Leather Dopp Kit Travel Kit Small (Moss Green)",
+            "normalizedName": "Leather Toiletry Bag travel compact men women sale Leather Dopp Kit Travel Kit Small (Moss Green)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6999999994129864
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.399999991024002
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000MCCLDA": {
+            "asin": "B000MCCLDA",
+            "height": {
+                "unit": "IN",
+                "value": 1.6535433054
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.0393700736
+            },
+            "name": "Yakima SKS Lock Cores for Yakima Rooftop Car Racks (4-Pack)",
+            "normalizedName": "(4-Pack) Yakima SKS Lock Cores for Yakima Rooftop Car Racks",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3086440166050481
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.7007873978
+            }
+        },
+        "B007OY4HY0": {
+            "asin": "B007OY4HY0",
+            "height": {
+                "unit": "IN",
+                "value": 1.0
+            },
+            "length": {
+                "unit": "IN",
+                "value": 13.000000000000002
+            },
+            "name": "Nike Legend Royal Short Sleeve Performance Shirt-blue-small",
+            "normalizedName": "Nike Legend Royal Short Sleeve Performance Shirt-blue-small",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.39999999966456384
+            },
+            "width": {
+                "unit": "IN",
+                "value": 11.5
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0073E3Q7A": {
+            "asin": "B0073E3Q7A",
+            "height": {
+                "unit": "IN",
+                "value": 0.49999999949
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.99999999184
+            },
+            "name": "Lodge Manufacturing SCRAPERGPK Grill Pan Scraper, 2-Pack",
+            "normalizedName": "2-Pack Lodge Manufacturing SCRAPERGPK Grill Pan Scraper,",
+            "quantity": 7,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.02
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.699999995206
+            }
+        },
+        "B00PAXDQVM": {
+            "asin": "B00PAXDQVM",
+            "height": {
+                "unit": "IN",
+                "value": 1.199999998776
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.99999999286
+            },
+            "name": "Revitalash Advanced Eyelash Conditioner 2.0 mL 0.068 oz",
+            "normalizedName": "Revitalash Advanced Eyelash Conditioner 2.0 mL 0.068 oz",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001186074866
+            },
+            "width": {
+                "unit": "IN",
+                "value": 1.3999999985719997
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 8
+}

@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00KGVCJX4": {
+            "asin": "B00KGVCJX4",
+            "height": {
+                "unit": "IN",
+                "value": 1.699999998266
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.99999999082
+            },
+            "name": "Victor M162S Clean Kill Mouse Trap, 2-Pack",
+            "normalizedName": "2-Pack Victor M162S Clean Kill Mouse Trap,",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.20000000000000004
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.199999994696
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

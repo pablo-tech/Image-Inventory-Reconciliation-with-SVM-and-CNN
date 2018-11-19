@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000OSZA58": {
+            "asin": "B000OSZA58",
+            "height": {
+                "unit": "IN",
+                "value": 4.49999999541
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.299999988474
+            },
+            "name": "BOSS AUDIO MRH7 Marine  Universal Waterproof Radio Cover and Housing",
+            "normalizedName": "BOSS AUDIO MRH7 Marine  Universal Waterproof Radio Cover and Housing",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.1
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.599999990208
+            }
+        },
+        "B002EAPHKM": {
+            "asin": "B002EAPHKM",
+            "height": {
+                "unit": "IN",
+                "value": 7.599999992248
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.99999999082
+            },
+            "name": "Red Vines Black Licorice Twists (4-Pound Jar)",
+            "normalizedName": "Red Vines Black Licorice Twists (4-Pound Jar)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 4.45
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.699999992146
+            }
+        },
+        "B0030OVB6A": {
+            "asin": "B0030OVB6A",
+            "height": {
+                "unit": "IN",
+                "value": 0.6999999992859999
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.599999991228
+            },
+            "name": "American Metalcraft 1004 Funnels, 9.125\" Length, 9.125\" Width, Silver",
+            "normalizedName": "American Metalcraft 1004 Funnels, 9.125\" Length, 9.125\" Width, Silver",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.9499999999999998
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.399999991432
+            }
+        },
+        "B00365E1NS": {
+            "asin": "B00365E1NS",
+            "height": {
+                "unit": "IN",
+                "value": 6.2204724346
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.8661417212
+            },
+            "name": "Veho VFS-008 Smartfix Scan to SD Stand Alone Slide and Negative Scanner (35mm & 110mm)",
+            "normalizedName": "Veho VFS-008 Smartfix Scan to SD Stand Alone Slide and Negative Scanner (35mm & 110mm)",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.336876125723936
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.4566929068
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

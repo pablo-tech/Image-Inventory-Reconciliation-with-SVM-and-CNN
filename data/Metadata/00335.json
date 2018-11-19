@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0014VX2M2": {
+            "asin": "B0014VX2M2",
+            "height": {
+                "unit": "IN",
+                "value": 0.49999999949
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.899999995002001
+            },
+            "name": "Glock GT03374 Disassembly Takedown Tool Punch",
+            "normalizedName": "Glock GT03374 Disassembly Takedown Tool Punch",
+            "quantity": 5,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001186074866
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.99999999694
+            }
+        },
+        "B00JH8M2D4": {
+            "asin": "B00JH8M2D4",
+            "height": {
+                "unit": "IN",
+                "value": 1.299999998674
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.99999999286
+            },
+            "name": "Fisher-Price Loving Family Sister Figure",
+            "normalizedName": "Fisher-Price Loving Family Sister Figure",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.09999999991614096
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.299999995614
+            }
+        },
+        "B00QGXZGIG": {
+            "asin": "B00QGXZGIG",
+            "height": {
+                "unit": "IN",
+                "value": 2.699999997246
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.49999999439
+            },
+            "name": "Tovolo Tea Infuser, Owl",
+            "normalizedName": "Tovolo Tea Infuser, Owl",
+            "quantity": 5,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001186074866
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.99999999592
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 11
+}

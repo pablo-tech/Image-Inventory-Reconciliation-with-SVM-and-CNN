@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B008WDZP8O": {
+            "asin": "B008WDZP8O",
+            "height": {
+                "unit": "IN",
+                "value": 2.49999999745
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.899999992962
+            },
+            "name": "KC Ginger Mints (4 pack)",
+            "normalizedName": "KC Ginger Mints (4 pack)",
+            "quantity": 5,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.05
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.799999994084
+            }
+        },
+        "B019OX9IHO": {
+            "asin": "B019OX9IHO",
+            "height": {
+                "unit": "IN",
+                "value": 4.49999999541
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.599999992248
+            },
+            "name": "Y-ZONE MagicPrime Wireless Control Laser Christmas Lights, Star Projector, IP65 Waterproof for Seasonal D\u00e9cor, Christmas Holiday, Wedding, Party",
+            "normalizedName": "Y-ZONE MagicPrime Wireless Control Laser Christmas Lights, Star Projector, IP65 Waterproof for Seasonal D\u00e9cor, Christmas Holiday, Wedding, Party",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.4999999987421142
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.799999995104
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 7
+}

@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0041BT21M": {
+            "asin": "B0041BT21M",
+            "height": {
+                "unit": "IN",
+                "value": 0.599999999388
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.299999990514001
+            },
+            "name": "1 X DVI to DVI LCD Monitor Cable 6 Foot",
+            "normalizedName": "1 X DVI to DVI LCD Monitor Cable 6 Foot",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.29999999974842284
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.399999996532
+            }
+        },
+        "B0087Y5ONE": {
+            "asin": "B0087Y5ONE",
+            "height": {
+                "unit": "IN",
+                "value": 3.99999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.49999998827
+            },
+            "name": "Nature's Miracle Non-Stick Antimicrobial Scoop & Caddy (P-82036)",
+            "normalizedName": "Nature's Miracle Non-Stick Antimicrobial Scoop & Caddy (P-82036)",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001186074866
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.99999999286
+            }
+        },
+        "B00V1VSTAA": {
+            "asin": "B00V1VSTAA",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.299999993574
+            },
+            "name": "Foot Angel Anti-Fatigue Compression Foot Sleeve for Plantar Fasciitis Relief, Large/X-Large",
+            "normalizedName": "Foot Angel Anti-Fatigue Compression Foot Sleeve for Plantar Fasciitis Relief, Large/X-Large",
+            "quantity": 5,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.10000000000000002
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.99999999592
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 8
+}

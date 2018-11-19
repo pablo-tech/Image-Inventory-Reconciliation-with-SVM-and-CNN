@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00C3TPXE4": {
+            "asin": "B00C3TPXE4",
+            "height": {
+                "unit": "IN",
+                "value": 1.49999999847
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.99999999082
+            },
+            "name": "KUPOO 32 PCS Professional Beauty Cosmetic Makeup Brush Set Kit with Pouch Black",
+            "normalizedName": "KUPOO 32 PCS Professional Beauty Cosmetic Makeup Brush Set Kit with Pouch Black",
+            "quantity": 4,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3799999996813356
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.799999994084
+            }
+        },
+        "B01BDXE0YO": {
+            "asin": "B01BDXE0YO",
+            "height": {
+                "unit": "IN",
+                "value": 0.099999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.599999996328
+            },
+            "name": "USDA Organic Flax Seeds \u2013 Kosher 16 Oz Bulk Package - Ground Milled Brown Flaxseed Rich in Essential Fatty Acids & Micronutrients \u2013 100% Pure & USA Made By Maple Holistics",
+            "normalizedName": "USDA Organic Flax Seeds \u2013 Kosher 16 Oz Bulk Package - Ground Milled Brown Flaxseed Rich in Essential Fatty Acids & Micronutrients \u2013 100% Pure & USA Made By Maple Holistics",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.04999999911948
+            },
+            "width": {
+                "unit": "IN",
+                "value": 1.49999999847
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00YWPIDW6": {
+            "asin": "B00YWPIDW6",
+            "height": {
+                "unit": "IN",
+                "value": 0.599999999388
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.199999990616
+            },
+            "name": "Nature's Variety Instinct Raw Boost Mixer Turkey Formula Freeze Dried Meal Topper for Dogs, 6 oz. Bag",
+            "normalizedName": "Nature's Variety Instinct Raw Boost Mixer Turkey Formula Freeze Dried Meal Topper for Dogs, 6 oz. Bag",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3499999997064932
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.99999999388
+            }
+        },
+        "B018O8NW04": {
+            "asin": "B018O8NW04",
+            "height": {
+                "unit": "IN",
+                "value": 0.49999999949
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.49999999031
+            },
+            "name": "9.7\" Samsung Galaxy Tab S2 9.7 SM-T815 Tablet Case Cover, WizFun PU Leather Case Cover For 9.7\" Samsung Galaxy Tab S2 9.7 SM-T810 SM-T815 / T810 T815 Android Tablet (Black)",
+            "normalizedName": "9.7\" Samsung Galaxy Tab S2 9.7 SM-T815 Tablet Case Cover, WizFun PU Leather Case Cover For 9.7\" Samsung Galaxy Tab S2 9.7 SM-T810 SM-T815 / T810 T815 Android Tablet (Black)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.39999999966456384
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.299999992554
+            }
+        },
+        "B01CF5XXGU": {
+            "asin": "B01CF5XXGU",
+            "height": {
+                "unit": "IN",
+                "value": 1.299999998674
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.199999992656
+            },
+            "name": "Galaxy S7 Edge Holster, Turtleback Vertical Samsung Galaxy S7 Edge Belt Case, Executive Metal Belt Clip, Black Leather Pouch, Made in USA",
+            "normalizedName": "Galaxy S7 Edge Holster, Turtleback Vertical Samsung Galaxy S7 Edge Belt Case, Executive Metal Belt Clip, Black Leather Pouch, Made in USA",
+            "quantity": 4,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.19999999983228192
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.099999995818
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 7
+}

@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000LRH9J2": {
+            "asin": "B000LRH9J2",
+            "height": {
+                "unit": "IN",
+                "value": 2.49999999745
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.799999994084
+            },
+            "name": "Mint Leaf Crushed (Castella) 3 oz",
+            "normalizedName": "Mint Leaf Crushed (Castella) 3 oz",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.699999997246
+            }
+        },
+        "B001005KVS": {
+            "asin": "B001005KVS",
+            "height": {
+                "unit": "IN",
+                "value": 4.199999995716
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.899999995002001
+            },
+            "name": "Absolute Coatings 3775 Last N Last Wood Finish Acrylic Satin Clear, 1 quart",
+            "normalizedName": "Absolute Coatings 3775 Last N Last Wood Finish Acrylic Satin Clear, 1 quart",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.3499999980293125
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.299999995614
+            }
+        },
+        "B00XHYVS16": {
+            "asin": "B00XHYVS16",
+            "height": {
+                "unit": "IN",
+                "value": 1.599999998368
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.599999992248
+            },
+            "name": "i-smile\u00ae 15PCS Replacement Bands with Metal Clasps for Fitbit Flex / Wireless Activity Bracelet Sport Wristband / Fitbit Flex Bracelet Sport Arm Band (No tracker, Replacement Bands Only) & 2PCS Silicon Fastener Ring For Free (Set of 15, Large)",
+            "normalizedName": "Set of 15 i-smile\u00ae 15PCS Replacement Bands with Metal Clasps for Fitbit Flex / Wireless Activity Bracelet Sport Wristband / Fitbit Flex Bracelet Sport Arm Band (No tracker, Replacement Bands Only) & 2PCS Silicon Fastener Ring For Free ( , Large)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.39999999966456384
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.699999994186001
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

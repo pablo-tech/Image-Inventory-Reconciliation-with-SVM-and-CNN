@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00R1DE0XC": {
+            "asin": "B00R1DE0XC",
+            "height": {
+                "unit": "IN",
+                "value": 2.399999997552
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.199999991636
+            },
+            "name": "Kuuk Silicone Popsicle Ice Molds (4 Pack)",
+            "normalizedName": "(4 Pack) Kuuk Silicone Popsicle Ice Molds",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4000000000000001
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.199999995716
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

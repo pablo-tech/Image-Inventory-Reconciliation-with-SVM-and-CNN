@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B001L1RFPU": {
+            "asin": "B001L1RFPU",
+            "height": {
+                "unit": "IN",
+                "value": 4.099999995818
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.199999987556
+            },
+            "name": "Smead File Pocket, Straight-Cut Tab, 3-1/2\" Expansion, Letter Size, Redrope, 10 per Box (73264)",
+            "normalizedName": "Smead File Pocket, Straight-Cut Tab, 3-1/2\" Expansion, Letter Size, Redrope, 10 per Box (73264)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.05
+            },
+            "width": {
+                "unit": "IN",
+                "value": 10.299999989494
+            }
+        },
+        "B00772BNB4": {
+            "asin": "B00772BNB4",
+            "height": {
+                "unit": "IN",
+                "value": 6.099999993778
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.399999991432
+            },
+            "name": "PlantFusion Diet Supplement, Chocolate Raspberry, 2 Pound",
+            "normalizedName": "PlantFusion Diet Supplement, Chocolate Raspberry, 2 Pound",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.45
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.199999993676
+            }
+        },
+        "B00CZ7AKDI": {
+            "asin": "B00CZ7AKDI",
+            "height": {
+                "unit": "IN",
+                "value": 1.199999998776
+            },
+            "length": {
+                "unit": "IN",
+                "value": 14.9999999847
+            },
+            "name": "The Weight Of Your Love",
+            "normalizedName": "The Weight Of Your Love",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.85
+            },
+            "width": {
+                "unit": "IN",
+                "value": 13.099999986638
+            }
+        },
+        "B00RRV14BE": {
+            "asin": "B00RRV14BE",
+            "height": {
+                "unit": "IN",
+                "value": 2.2
+            },
+            "length": {
+                "unit": "IN",
+                "value": 13.599999999999998
+            },
+            "name": "ZERDSKY Men's Slim Fit Solid Color French Cuff Dress Shirt(Cufflinks Included) 8867",
+            "normalizedName": "ZERDSKY Men's Slim Fit Solid Color French Cuff Dress Shirt(Cufflinks Included) 8867",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4999999995807047
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.9
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

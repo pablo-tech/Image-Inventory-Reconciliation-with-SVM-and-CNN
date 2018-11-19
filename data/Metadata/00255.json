@@ -1,0 +1,68 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0007LTNXC": {
+            "asin": "B0007LTNXC",
+            "height": {
+                "unit": "IN",
+                "value": 2.299999997654
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.099999993778
+            },
+            "name": "Highland Notes, 3 x 3-Inches, Yellow, 12-Pads/Pack",
+            "normalizedName": "Highland Notes, 3 x 3-Inches, Yellow, 12-Pads/Pack",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.149999999035621
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.099999996838
+            }
+        },
+        "B00W4QF67A": {
+            "asin": "B00W4QF67A",
+            "height": {
+                "unit": "IN",
+                "value": 0.5905511805
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.086614166
+            },
+            "name": "Personalized Real Flower Pressed Flower Case for Samsung Galaxy S5 / S4 / S3, Note 4 / Note 3 / Note 2, iPhone 6 / 6 Plus, iPhone 5 / 5s / 5c, iPhone 4 / 4s",
+            "normalizedName": "Personalized Real Flower Pressed Flower Case for Samsung Galaxy S5 / S4 / S3, Note 4 / Note 3 / Note 2, iPhone 6 / 6 Plus, iPhone 5 / 5s / 5c, iPhone 4 / 4s",
+            "quantity": 1,
+            "weight": null,
+            "width": {
+                "unit": "IN",
+                "value": 3.93700787
+            }
+        },
+        "B018WRVO5M": {
+            "asin": "B018WRVO5M",
+            "height": {
+                "unit": "IN",
+                "value": 4.199999995716
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.399999995512001
+            },
+            "name": "Moscow Mule Copper Mug With Brass Handle - 16oz",
+            "normalizedName": "Moscow Mule Copper Mug With Brass Handle - 16oz",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.5999999994968457
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.299999995614
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

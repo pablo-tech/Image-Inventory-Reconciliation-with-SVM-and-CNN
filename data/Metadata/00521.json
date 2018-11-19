@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00DV7D0L0": {
+            "asin": "B00DV7D0L0",
+            "height": {
+                "unit": "IN",
+                "value": 2.1999999977560005
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.899999993982
+            },
+            "name": "GearIT 20-Pack, Cat5e Ethernet Patch Cable 0.5 Feet - Snagless RJ45 Computer LAN Network Cord, White [Lifetime Warranty]",
+            "normalizedName": "20-Pack GearIT , Cat5e Ethernet Patch Cable 0.5 Feet - Snagless RJ45 Computer LAN Network Cord, White [Lifetime Warranty]",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.5
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.699999994186001
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

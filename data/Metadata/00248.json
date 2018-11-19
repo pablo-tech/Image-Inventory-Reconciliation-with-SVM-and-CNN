@@ -1,0 +1,115 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B007WWII3A": {
+            "asin": "B007WWII3A",
+            "height": {
+                "unit": "IN",
+                "value": 0.099999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 1.699999998266
+            },
+            "name": "Apple MD0997M/A micro USB to 30 pin adapter / connector for iPhone IPAD iPOD - Bulk",
+            "normalizedName": "Apple MD0997M/A micro USB to 30 pin adapter / connector for iPhone IPAD iPOD - Bulk",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.03
+            },
+            "width": {
+                "unit": "IN",
+                "value": 0.49999999949
+            }
+        },
+        "B00ILXRPQ0": {
+            "asin": "B00ILXRPQ0",
+            "height": {
+                "unit": "IN",
+                "value": 1.299999998674
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.099999995818
+            },
+            "name": "Wilkinson Sword Double Edge single Razor Cartridge, 20 blades",
+            "normalizedName": "Wilkinson Sword Double Edge single Razor Cartridge, 20 blades",
+            "quantity": 4,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.15
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.799999996124
+            }
+        },
+        "B00MRJQH6I": {
+            "asin": "B00MRJQH6I",
+            "height": {
+                "unit": "IN",
+                "value": 1.299999998674
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.49999999643
+            },
+            "name": "Islandoffer Baby Furniture Corner Safety Bumper Corner Protector Guard Cushion (4x White Cat)",
+            "normalizedName": "Islandoffer Baby Furniture Corner Safety Bumper Corner Protector Guard Cushion (4x White Cat)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001167587297
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.49999999745
+            }
+        },
+        "B00S5V63NO": {
+            "asin": "B00S5V63NO",
+            "height": {
+                "unit": "IN",
+                "value": 0.49999999949
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.249999994645
+            },
+            "name": "Lexar JumpDrive S35 64GB USB 3.0 Flash Drive - LJDS35-64GABNL (Purple)",
+            "normalizedName": "Lexar JumpDrive S35 64GB USB 3.0 Flash Drive - LJDS35-64GABNL (Purple)",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001167587297
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.299999997654
+            }
+        },
+        "B01D13MFLY": {
+            "asin": "B01D13MFLY",
+            "height": {
+                "unit": "IN",
+                "value": 0.399999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 2.99999999694
+            },
+            "name": "Snoopy Dog 1 1/4 Badge Button Pin Pinback Button Set, 12-pcs",
+            "normalizedName": "Snoopy Dog 1 1/4 Badge Button Pin Pinback Button Set, 12-pcs",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.05999999994968456
+            },
+            "width": {
+                "unit": "IN",
+                "value": 1.0999999988780003
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 11
+}

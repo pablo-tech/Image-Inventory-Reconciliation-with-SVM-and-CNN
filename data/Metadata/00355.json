@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00II3A1LE": {
+            "asin": "B00II3A1LE",
+            "height": {
+                "unit": "IN",
+                "value": 0.099999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.99999998776
+            },
+            "name": "Thor Lightning Bolt Macbook Pro Vinyl Decal",
+            "normalizedName": "Thor Lightning Bolt Macbook Pro Vinyl Decal",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001186074866
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.99999999082
+            }
+        },
+        "B019DTKDUU": {
+            "asin": "B019DTKDUU",
+            "height": {
+                "unit": "IN",
+                "value": 3.299999996634
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.199999994696
+            },
+            "name": "SunbowStar 50pcs Mini LED Light Lamp Keychain 5 Body Colors 4 Lights Colors",
+            "normalizedName": "SunbowStar 50pcs Mini LED Light Lamp Keychain 5 Body Colors 4 Lights Colors",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.19999999983228192
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.799999996124
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

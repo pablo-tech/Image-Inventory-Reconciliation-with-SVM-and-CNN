@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "0307981584": {
+            "asin": "0307981584",
+            "height": {
+                "unit": "IN",
+                "value": 0.399999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.899999991942001
+            },
+            "name": "Thomas Saves Easter! (Thomas & Friends) (Glitter Board Book)",
+            "normalizedName": "Thomas Saves Easter! (Thomas & Friends) (Glitter Board Book)",
+            "quantity": 13,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.899999992962
+            }
+        },
+        "B000052XHI": {
+            "asin": "B000052XHI",
+            "height": {
+                "unit": "IN",
+                "value": 1.599999998368
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.799999992044
+            },
+            "name": "First Response Early Result Pregnancy Test, 3 tests, Packaging May Vary",
+            "normalizedName": "First Response Early Result Pregnancy Test, 3 tests, Packaging May Vary",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001167587297
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.299999996634
+            }
+        },
+        "B00GHT7T16": {
+            "asin": "B00GHT7T16",
+            "height": {
+                "unit": "IN",
+                "value": 2.49999999745
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.599999996328
+            },
+            "name": "DORMAN 911-614 Power Steering Air Control Valve",
+            "normalizedName": "DORMAN 911-614 Power Steering Air Control Valve",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.20000000000000004
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.49999999745
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 16
+}

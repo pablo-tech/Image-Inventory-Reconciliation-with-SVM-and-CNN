@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0054P49YE": {
+            "asin": "B0054P49YE",
+            "height": {
+                "unit": "IN",
+                "value": 2.7999999971439995
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.799999995104
+            },
+            "name": "Duck Brand 240180 Clean Release Painter's Tape, 0.94 Inches by 60 Yards, Blue, 3-Pack of Rolls",
+            "normalizedName": "3-Pack Duck Brand 240180 Clean Release Painter's Tape, 0.94 Inches by 60 Yards, Blue, of Rolls",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.05
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.699999995206
+            }
+        },
+        "B00N0XY1GS": {
+            "asin": "B00N0XY1GS",
+            "height": {
+                "unit": "IN",
+                "value": 0.799999999184
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.99999999388
+            },
+            "name": "Protective iPhone 6 Case,iPhone Case,iPhone 6 Case for Women,iPhone 6 Cases Protective,Thinkcase Hybrid Hard Soft Durable Back Cover for iPhone 6 6S",
+            "normalizedName": "Protective iPhone 6 Case,iPhone Case,iPhone 6 Case for Women,iPhone 6 Cases Protective,Thinkcase Hybrid Hard Soft Durable Back Cover for iPhone 6 6S",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.15
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.399999996532
+            }
+        },
+        "B01CNW8ZBI": {
+            "asin": "B01CNW8ZBI",
+            "height": {
+                "unit": "IN",
+                "value": 2.7999999971439995
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.399999993472
+            },
+            "name": "SINCEDA LED Backlight Color Display Digital Date Temperature Projection Weather LCD Snooze Alarm Clock (Black)",
+            "normalizedName": "SINCEDA LED Backlight Color Display Digital Date Temperature Projection Weather LCD Snooze Alarm Clock (Black)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.5199999995639328
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.399999994492
+            }
+        },
+        "B01H05OA8A": {
+            "asin": "B01H05OA8A",
+            "height": {
+                "unit": "IN",
+                "value": 0.199999999796
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.399999994492
+            },
+            "name": "iPhone 6S Case, Unique Shock Absorption Protective Case Cover for iPhone 6/6s, With Rotatable Kickstand, Stand Function - Crystal Clear (White)",
+            "normalizedName": "iPhone 6S Case, Unique Shock Absorption Protective Case Cover for iPhone 6/6s, With Rotatable Kickstand, Stand Function - Crystal Clear (White)",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001167587297
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.299999997654
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

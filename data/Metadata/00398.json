@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000GYLCHK": {
+            "asin": "B000GYLCHK",
+            "height": {
+                "unit": "IN",
+                "value": 1.699999998266
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.699999992146
+            },
+            "name": "Neiko\u00ae 10075A Hex Bit Socket Set, S2 Steel | 13-Piece Set | SAE",
+            "normalizedName": "13-Piece Set Neiko\u00ae 10075A Hex Bit Socket Set, S2 Steel | | SAE",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.35
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.49999999541
+            }
+        },
+        "B00QV77XU6": {
+            "asin": "B00QV77XU6",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.99999999286
+            },
+            "name": "HomeSpot Bluetooth Transmitter, Wireless Portable Splitter, Works with 3.5mm Aux devices, iPods, MP3, CD Player, Laptop, TV ears, aptX Low Latency supported",
+            "normalizedName": "HomeSpot Bluetooth Transmitter, Wireless Portable Splitter, Works with 3.5mm Aux devices, iPods, MP3, CD Player, Laptop, TV ears, aptX Low Latency supported",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.14999999987421142
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.99999999286
+            }
+        },
+        "B00VRAMCF8": {
+            "asin": "B00VRAMCF8",
+            "height": {
+                "unit": "IN",
+                "value": 1.0999999988780003
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.599999992248
+            },
+            "name": "Schick Xtreme 3 Ultimate Razor - 4 ct",
+            "normalizedName": "Schick Xtreme 3 Ultimate Razor - 4 ct",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.19
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.6999999962260004
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

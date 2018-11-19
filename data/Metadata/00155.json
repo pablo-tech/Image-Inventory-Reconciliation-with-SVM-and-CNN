@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B007XE5LTG": {
+            "asin": "B007XE5LTG",
+            "height": {
+                "unit": "IN",
+                "value": 3.399999996532
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.399999989392
+            },
+            "name": "Autel AL519 AutoLink Enhanced OBD ll Scan Tool with Mode 6",
+            "normalizedName": "Autel AL519 AutoLink Enhanced OBD ll Scan Tool with Mode 6",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.09999999823896
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.49999999235
+            }
+        },
+        "B0183J2U20": {
+            "asin": "B0183J2U20",
+            "height": {
+                "unit": "IN",
+                "value": 1.3999999985719997
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.899999990922
+            },
+            "name": "Valdler Natural Berries Reeds Flower Crown with Adjustable Ribbon for Wedding Festivals Champagne",
+            "normalizedName": "Valdler Natural Berries Reeds Flower Crown with Adjustable Ribbon for Wedding Festivals Champagne",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001167587297
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.399999993472
+            }
+        },
+        "B01E7REHWS": {
+            "asin": "B01E7REHWS",
+            "height": {
+                "unit": "IN",
+                "value": 1.299999998674
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.699999992146
+            },
+            "name": "3 Dozen (36) OUTER Space Themed Pencils - CLASSROOM - Party Favors - Doctor/DENTIST Treats TEACHER Solar System - SCIENCE",
+            "normalizedName": "3 Dozen (36) OUTER Space Themed Pencils - CLASSROOM - Party Favors - Doctor/DENTIST Treats TEACHER Solar System - SCIENCE",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.09999999991614096
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.99999999592
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

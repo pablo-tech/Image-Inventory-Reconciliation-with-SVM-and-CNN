@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0002V23BG": {
+            "asin": "B0002V23BG",
+            "height": {
+                "unit": "IN",
+                "value": 2.099999997858
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.899999989902
+            },
+            "name": "Amco Enameled Aluminum Lemon Squeezer",
+            "normalizedName": "Amco Enameled Aluminum Lemon Squeezer",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.65
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.899999996022
+            }
+        },
+        "B000OKOTQM": {
+            "asin": "B000OKOTQM",
+            "height": {
+                "unit": "IN",
+                "value": 3.399999996532
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.299999991534
+            },
+            "name": "Crayola Tempera Washable Paint 32-Ounce Plastic Squeeze Bottle, Brown",
+            "normalizedName": "Crayola Tempera Washable Paint 32-Ounce Plastic Squeeze Bottle, Brown",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.45
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.49999999643
+            }
+        },
+        "B00MUK6M82": {
+            "asin": "B00MUK6M82",
+            "height": {
+                "unit": "IN",
+                "value": 2.599999997348
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.49999999133
+            },
+            "name": "Braun Ear Thermometer",
+            "normalizedName": "Braun Ear Thermometer",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.65
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.399999994492
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

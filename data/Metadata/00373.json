@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000277TBE": {
+            "asin": "B000277TBE",
+            "height": {
+                "unit": "IN",
+                "value": 1.599999998368
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.699999993166
+            },
+            "name": "Yip Yap Breath Freshener For Dogs 12/Pkg Display",
+            "normalizedName": "Yip Yap Breath Freshener For Dogs 12/Pkg Display",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.95
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.099999994798
+            }
+        },
+        "B007GCJKP6": {
+            "asin": "B007GCJKP6",
+            "height": {
+                "unit": "IN",
+                "value": 1.0999999988780003
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.199999991636
+            },
+            "name": "Desantis Mini Scabbard Holster for Beretta Nano Gun, Right Hand, Tan",
+            "normalizedName": "Desantis Mini Scabbard Holster for Beretta Nano Gun, Right Hand, Tan",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.26
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.599999994287999
+            }
+        },
+        "B00TXT2CBY": {
+            "asin": "B00TXT2CBY",
+            "height": {
+                "unit": "IN",
+                "value": 0.049999999949
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.99999999286
+            },
+            "name": "Zegur Travel Neck Pouch with RFID Blocking Technology (Black)",
+            "normalizedName": "Zegur Travel Neck Pouch with RFID Blocking Technology (Black)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.09999999991614096
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.49999999337
+            }
+        },
+        "B014AHK7G0": {
+            "asin": "B014AHK7G0",
+            "height": {
+                "unit": "IN",
+                "value": 1.99999999796
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.99999999286
+            },
+            "name": "Disney/Pixar Cars Hydro Wheels, Ramone",
+            "normalizedName": "Disney/Pixar Cars Hydro Wheels, Ramone",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001167587297
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.099999994798
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

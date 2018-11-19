@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00KF6ORD0": {
+            "asin": "B00KF6ORD0",
+            "height": {
+                "unit": "IN",
+                "value": 2.7999999971439995
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.49999999031
+            },
+            "name": "Fawziya Rhinestone Embellished Heart Ring Clutch Handbag Clutch Evening Purse - Silver",
+            "normalizedName": "Fawziya Rhinestone Embellished Heart Ring Clutch Handbag Clutch Evening Purse - Silver",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.9
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.299999993574
+            }
+        },
+        "B00YXUDY0G": {
+            "asin": "B00YXUDY0G",
+            "height": {
+                "unit": "IN",
+                "value": 0.899999999082
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.49999998929
+            },
+            "name": "Arc'teryx Mens Emblem Short Sleeve T-Shirt Madder MD",
+            "normalizedName": "Arc'teryx Mens Emblem Short Sleeve T-Shirt Madder MD",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3499999997064932
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.49999999337
+            }
+        },
+        "B015XW7YE4": {
+            "asin": "B015XW7YE4",
+            "height": {
+                "unit": "IN",
+                "value": 1.99999999796
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.199999991636
+            },
+            "name": "GLW\u00ae 20W LED RGB Flood Light, Remote Control Waterproof Outdoor Security Light, 4 Models with 16 Color Tones Spotlight, Dimmable Color Changing",
+            "normalizedName": "GLW\u00ae 20W LED RGB Flood Light, Remote Control Waterproof Outdoor Security Light, 4 Models with 16 Color Tones Spotlight, Dimmable Color Changing",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.349999998867903
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.799999994084
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

@@ -1,0 +1,68 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00CDJJZV6": {
+            "asin": "B00CDJJZV6",
+            "height": {
+                "unit": "IN",
+                "value": 7.899999991942001
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.299999987454
+            },
+            "name": "Creative A250 2.1 Multimedia Speaker System",
+            "normalizedName": "Creative A250 2.1 Multimedia Speaker System",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 5.95
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.299999991534
+            }
+        },
+        "B01BSGKJZK": {
+            "asin": "B01BSGKJZK",
+            "height": {
+                "unit": "IN",
+                "value": 2.299999997654
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.99999998674
+            },
+            "name": "Barbie Heart Hands Nikki Doll",
+            "normalizedName": "Barbie Heart Hands Nikki Doll",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4499999996226343
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.49999999439
+            }
+        },
+        "B01C6MG0CQ": {
+            "asin": "B01C6MG0CQ",
+            "height": {
+                "unit": "IN",
+                "value": 2.0
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.0
+            },
+            "name": "Forest Lookout Puzzle By Hiroo Isono - 1000 Pieces by Great American Puzzle Factory",
+            "normalizedName": "Forest Lookout Puzzle By Hiroo Isono - 1000 Pieces by Great American Puzzle Factory",
+            "quantity": 1,
+            "weight": null,
+            "width": {
+                "unit": "IN",
+                "value": 12.0
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

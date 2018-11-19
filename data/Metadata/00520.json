@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0008KLVTQ": {
+            "asin": "B0008KLVTQ",
+            "height": {
+                "unit": "IN",
+                "value": 0.58267716476
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.09842518961
+            },
+            "name": "Jazz Expression: A Toolbox for Improvisation",
+            "normalizedName": "Jazz Expression: A Toolbox for Improvisation",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.1833364170792
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.41732282912
+            }
+        },
+        "B00CYSYZTS": {
+            "asin": "B00CYSYZTS",
+            "height": {
+                "unit": "IN",
+                "value": 3.93700787
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.87401574
+            },
+            "name": "WD SE 2TB Datacenter Hard Disk Drive - 7200 RPM SATA 6 Gb/s 64MB Cache 3.5 Inch - WD2000F9YZ",
+            "normalizedName": "WD SE 2TB Datacenter Hard Disk Drive - 7200 RPM SATA 6 Gb/s 64MB Cache 3.5 Inch - WD2000F9YZ",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.410944074725587
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.299212592
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "0062110500": {
+            "asin": "0062110500",
+            "height": {
+                "unit": "IN",
+                "value": 1.299999998674
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.299999991534
+            },
+            "name": "The Wig in the Window",
+            "normalizedName": "The Wig in the Window",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.05
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.299999994594
+            }
+        },
+        "0590452665": {
+            "asin": "0590452665",
+            "height": {
+                "unit": "IN",
+                "value": 0.399999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.49999999133
+            },
+            "name": "The Egg (First Discovery Books)",
+            "normalizedName": "The Egg (First Discovery Books)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.7
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.099999991738
+            }
+        },
+        "B0040JHNAW": {
+            "asin": "B0040JHNAW",
+            "height": {
+                "unit": "IN",
+                "value": 1.299999998674
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.899999992962
+            },
+            "name": "Fantasia / Fantasia 2000 (Two movie Collection) (Special Edition)",
+            "normalizedName": "Fantasia / Fantasia 2000 (Two movie Collection) (Special Edition)",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3499999999999999
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.399999994492
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

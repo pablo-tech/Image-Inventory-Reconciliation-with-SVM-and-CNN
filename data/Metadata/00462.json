@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B001C63ZVC": {
+            "asin": "B001C63ZVC",
+            "height": {
+                "unit": "IN",
+                "value": 0.799999999184
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.299999996634
+            },
+            "name": "Bosch FR6KPP332S Original Equipment Replacement Spark Plug, (Pack of 1)",
+            "normalizedName": "(Pack of 1) Bosch FR6KPP332S Original Equipment Replacement Spark Plug,",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.05
+            },
+            "width": {
+                "unit": "IN",
+                "value": 0.899999999082
+            }
+        },
+        "B016E4WY9A": {
+            "asin": "B016E4WY9A",
+            "height": {
+                "unit": "IN",
+                "value": 4.599999995308
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.99999999388
+            },
+            "name": "Disney Store Pinocchio Mug Peter Pan Classic Animation Collection Coffee Mug",
+            "normalizedName": "Disney Store Pinocchio Mug Peter Pan Classic Animation Collection Coffee Mug",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.0999999990775504
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.699999994186001
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

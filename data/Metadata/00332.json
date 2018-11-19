@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "1419708457": {
+            "asin": "1419708457",
+            "height": {
+                "unit": "IN",
+                "value": 0.49999999949
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.199999988575998
+            },
+            "name": "Rosie Revere, Engineer",
+            "normalizedName": "Rosie Revere, Engineer",
+            "quantity": 5,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.15
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.299999990514001
+            }
+        },
+        "B000HHQAFA": {
+            "asin": "B000HHQAFA",
+            "height": {
+                "unit": "IN",
+                "value": 4.099999995818
+            },
+            "length": {
+                "unit": "IN",
+                "value": 14.199999985516
+            },
+            "name": "Pet Lou MOO-14 Colossal Dog Chew Toy, 14-Inch Moose",
+            "normalizedName": "Pet Lou MOO-14 Colossal Dog Chew Toy, 14-Inch Moose",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.65
+            },
+            "width": {
+                "unit": "IN",
+                "value": 10.099999989698
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 7
+}

@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00BMWMS1Y": {
+            "asin": "B00BMWMS1Y",
+            "height": {
+                "unit": "IN",
+                "value": 2.49999999745
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.399999988372
+            },
+            "name": "Wissotzky Tea & Dreams Gift Box",
+            "normalizedName": "Wissotzky Tea & Dreams Gift Box",
+            "quantity": 4,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.55
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.799999995104
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B003EMKNK8": {
+            "asin": "B003EMKNK8",
+            "height": {
+                "unit": "IN",
+                "value": 4.299999995614
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.399999992452001
+            },
+            "name": "Tom's of Maine Simply White Natural Toothpaste, Clean Mint , 4.7 Ounce(Pack of 6)",
+            "normalizedName": "(Pack of 6) Tom's of Maine Simply White Natural Toothpaste, Clean Mint , 4.7 Ounce",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.2
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.49999999541
+            }
+        },
+        "B00TL6TX9I": {
+            "asin": "B00TL6TX9I",
+            "height": {
+                "unit": "IN",
+                "value": 2.599999997348
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.99999999592
+            },
+            "name": "Angels eyes Effective Tear Stain Remover Supplement Eye Irritation for Pet Dogs or Cat, 2.64 oz. NEW & Improve Formula! Natural Beef USA Made",
+            "normalizedName": "Angels eyes Effective Tear Stain Remover Supplement Eye Irritation for Pet Dogs or Cat, 2.64 oz. NEW & Improve Formula! Natural Beef USA Made",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.05000000000000001
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.599999997348
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

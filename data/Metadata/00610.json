@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0042T62UM": {
+            "asin": "B0042T62UM",
+            "height": {
+                "unit": "IN",
+                "value": 0.399999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.399999993472
+            },
+            "name": "MCR Safety S21150 Blackjack Safety Glasses with Chrome Metal Temple and Green 5.0 Lens",
+            "normalizedName": "MCR Safety S21150 Blackjack Safety Glasses with Chrome Metal Temple and Green 5.0 Lens",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.2
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.399999997552
+            }
+        },
+        "B00WH1RG70": {
+            "asin": "B00WH1RG70",
+            "height": {
+                "unit": "IN",
+                "value": 3.799999996124
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.49999998929
+            },
+            "name": "Funny Guy Mugs I Love You More Ceramic Coffee Mug, White, 11-Ounce",
+            "normalizedName": "Funny Guy Mugs I Love You More Ceramic Coffee Mug, White, 11-Ounce",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.8499999992871979
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.799999994084
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

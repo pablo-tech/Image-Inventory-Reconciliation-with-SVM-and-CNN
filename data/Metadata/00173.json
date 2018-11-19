@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000GAVLN4": {
+            "asin": "B000GAVLN4",
+            "height": {
+                "unit": "IN",
+                "value": 1.799999998164
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.49999999235
+            },
+            "name": "Pentel .e-sharp Automatic Pencil, 0.5mm, Assorted Barrels, 2 Pack (AZ125BP2M-K6)",
+            "normalizedName": "2 Pack Pentel .e-sharp Automatic Pencil, 0.5mm, Assorted Barrels, (AZ125BP2M-K6)",
+            "quantity": 10,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.03
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.399999993472
+            }
+        },
+        "B00SNVDJ3I": {
+            "asin": "B00SNVDJ3I",
+            "height": {
+                "unit": "IN",
+                "value": 0.6999999992859999
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.899999995002001
+            },
+            "name": "LED Clip On Key Chain Lights with Carabiner, Heart-Red",
+            "normalizedName": "LED Clip On Key Chain Lights with Carabiner, Heart-Red",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.15
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.399999996532
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 11
+}

@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000Q7WLAY": {
+            "asin": "B000Q7WLAY",
+            "height": {
+                "unit": "IN",
+                "value": 1.79921259659
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.899999992962
+            },
+            "name": "DampRid FG69H Odor Genie Odor Eliminator in Wild Berry, 8-Ounce",
+            "normalizedName": "DampRid FG69H Odor Genie Odor Eliminator in Wild Berry, 8-Ounce",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.7
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.299999994594
+            }
+        },
+        "B0034CAYDO": {
+            "asin": "B0034CAYDO",
+            "height": {
+                "unit": "IN",
+                "value": 2.199999997756
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.49999999439
+            },
+            "name": "TetraPond Algae Control Pond Block, 4-Count",
+            "normalizedName": "TetraPond Algae Control Pond Block, 4-Count",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.25
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.599999995308
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

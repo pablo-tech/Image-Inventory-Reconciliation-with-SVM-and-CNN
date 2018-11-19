@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0052FXXPW": {
+            "asin": "B0052FXXPW",
+            "height": {
+                "unit": "IN",
+                "value": 5.5905511754
+            },
+            "length": {
+                "unit": "IN",
+                "value": 14.0944881746
+            },
+            "name": "Hamilton Beach 25409 Quesadilla Maker",
+            "normalizedName": "Hamilton Beach 25409 Quesadilla Maker",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 4.629707502
+            },
+            "width": {
+                "unit": "IN",
+                "value": 12.3622047118
+            }
+        },
+        "B00VINVLL0": {
+            "asin": "B00VINVLL0",
+            "height": {
+                "unit": "IN",
+                "value": 4.099999995818
+            },
+            "length": {
+                "unit": "IN",
+                "value": 16.199999983475998
+            },
+            "name": "Home-it 30 Pack Clothes Hangers PINK Velvet Hangers LOVE SHAPED Clothes Hanger Ultra Thin No Slip",
+            "normalizedName": "30 Pack Home-it Clothes Hangers PINK Velvet Hangers LOVE SHAPED Clothes Hanger Ultra Thin No Slip",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 4.399999996310202
+            },
+            "width": {
+                "unit": "IN",
+                "value": 12.599999987148
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

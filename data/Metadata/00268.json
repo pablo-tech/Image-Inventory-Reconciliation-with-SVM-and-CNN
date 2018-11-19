@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B005X64QYM": {
+            "asin": "B005X64QYM",
+            "height": {
+                "unit": "IN",
+                "value": 0.49999999949
+            },
+            "length": {
+                "unit": "IN",
+                "value": 17.399999982252
+            },
+            "name": "C2G/Cables To Go 29967 16 AWG 250 Volt Computer Power Extension Cord, Black (6 Feet)",
+            "normalizedName": "C2G/Cables To Go 29967 16 AWG 250 Volt Computer Power Extension Cord, Black (6 Feet)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4000000000000001
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.49999999541
+            }
+        },
+        "B00IZH7CMY": {
+            "asin": "B00IZH7CMY",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.99999998674
+            },
+            "name": "LockerLookz Locker Dry Erase Board - White Polka Dot",
+            "normalizedName": "LockerLookz Locker Dry Erase Board - White Polka Dot",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001186074866
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.49999999133
+            }
+        },
+        "B00L7QZPL0": {
+            "asin": "B00L7QZPL0",
+            "height": {
+                "unit": "IN",
+                "value": 3.599999996328
+            },
+            "length": {
+                "unit": "IN",
+                "value": 14.199999985516
+            },
+            "name": "Indian Headdress with Real 65cm Feathers - Rasta (White,Yellow,Red,Black)",
+            "normalizedName": "Indian Headdress with Real 65cm Feathers - Rasta (White,Yellow,Red,Black)",
+            "quantity": 4,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.5999999994968457
+            },
+            "width": {
+                "unit": "IN",
+                "value": 12.99999998674
+            }
+        },
+        "B00MEZ77JG": {
+            "asin": "B00MEZ77JG",
+            "height": {
+                "unit": "IN",
+                "value": 1.799999998164
+            },
+            "length": {
+                "unit": "IN",
+                "value": 15.399999984292
+            },
+            "name": "The Original Gorilla Grip (TM) Non-Slip Area Rug Pad, Made In USA, Available in 2x4, 2x8, 3x5, 4x6, 5x7, 5x8, 6x9, 8x10, 8x11, 9x12, 10x14, 12x15, Rounds and Squares, Extra Cushion, 10 Year Guarantee (5x8)",
+            "normalizedName": "The Original Gorilla Grip (TM) Non-Slip Area Rug Pad, Made In USA, Available in 2x4, 2x8, 3x5, 4x6, 5x7, 5x8, 6x9, 8x10, 8x11, 9x12, 10x14, 12x15, Rounds and Squares, Extra Cushion, 10 Year Guarantee (5x8)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.8699999984318354
+            },
+            "width": {
+                "unit": "IN",
+                "value": 12.49999998725
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 7
+}

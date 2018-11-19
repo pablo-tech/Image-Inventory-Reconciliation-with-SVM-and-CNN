@@ -1,0 +1,68 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B009OE2OCU": {
+            "asin": "B009OE2OCU",
+            "height": {
+                "unit": "IN",
+                "value": 1.3999999985719997
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.099999991737999
+            },
+            "name": "In the Heat of the Night Complete Season One",
+            "normalizedName": "In the Heat of the Night Complete Season One",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.5
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.799999994084
+            }
+        },
+        "B00C63E9MO": {
+            "asin": "B00C63E9MO",
+            "height": {
+                "unit": "IN",
+                "value": 0.58267716476
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.09842518961
+            },
+            "name": "The Great Courses: Great Pharaohs of Ancient Egypt",
+            "normalizedName": "The Great Courses: Great Pharaohs of Ancient Egypt",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.18333454586339856
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.41732282912
+            }
+        },
+        "B01EHN6G6M": {
+            "asin": "B01EHN6G6M",
+            "height": {
+                "unit": "IN",
+                "value": 0.98
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.24
+            },
+            "name": "iPad Pro Case 9.7, F-color PU Leather Stand Folio Case Smart Cover for Apple iPad Pro 9.7 Inch 2016, Auto Wake / Sleep, Adjustable Viewing Angles, Document Card Pocket,Pen Holder,Rose Gold",
+            "normalizedName": "iPad Pro Case 9.7, F-color PU Leather Stand Folio Case Smart Cover for Apple iPad Pro 9.7 Inch 2016, Auto Wake / Sleep, Adjustable Viewing Angles, Document Card Pocket,Pen Holder,Rose Gold",
+            "quantity": 3,
+            "weight": null,
+            "width": {
+                "unit": "IN",
+                "value": 7.48
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

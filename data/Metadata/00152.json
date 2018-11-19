@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B001R2RA4E": {
+            "asin": "B001R2RA4E",
+            "height": {
+                "unit": "IN",
+                "value": 7.1653543234
+            },
+            "length": {
+                "unit": "IN",
+                "value": 16.3779527392
+            },
+            "name": "Yamaha KP65 Electronic Drum Kick Tower",
+            "normalizedName": "Yamaha KP65 Electronic Drum Kick Tower",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 7.548550806112034
+            },
+            "width": {
+                "unit": "IN",
+                "value": 10.3937007768
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

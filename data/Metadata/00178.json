@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0027A76OY": {
+            "asin": "B0027A76OY",
+            "height": {
+                "unit": "IN",
+                "value": 1.299999998674
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.699999989086
+            },
+            "name": "Bando 7PK1732 OEM Quality Serpentine Belt",
+            "normalizedName": "Bando 7PK1732 OEM Quality Serpentine Belt",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.45
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.799999996124
+            }
+        },
+        "B015QZNCQC": {
+            "asin": "B015QZNCQC",
+            "height": {
+                "unit": "IN",
+                "value": 2.49999999745
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.49999998929
+            },
+            "name": "WWE Elite Figure, Nasty Boys Jerry Sags",
+            "normalizedName": "WWE Elite Figure, Nasty Boys Jerry Sags",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.5999999994968457
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.99999999286
+            }
+        },
+        "B01CXO5W80": {
+            "asin": "B01CXO5W80",
+            "height": {
+                "unit": "IN",
+                "value": 1.0999999988780003
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.49999999337
+            },
+            "name": "Tabiger USB 3.0 Ultra Slim Portable External CD RW/ DVD RW/CD ROM/ DVD ROM Drive/Writer/Rewriter/Burner for Laptops, Desktops and Notebooks. Black",
+            "normalizedName": "Tabiger USB 3.0 Ultra Slim Portable External CD RW/ DVD RW/CD ROM/ DVD ROM Drive/Writer/Rewriter/Burner for Laptops, Desktops and Notebooks. Black",
+            "quantity": 5,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.7499999993710571
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.399999993472
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 7
+}

@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00013YZ7U": {
+            "asin": "B00013YZ7U",
+            "height": {
+                "unit": "IN",
+                "value": 3.199999996736
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.899999990922
+            },
+            "name": "Dr. Bronner's Fair Trade & Organic Castile Liquid Soap - (Almond, 32 oz)",
+            "normalizedName": "Dr. Bronner's Fair Trade & Organic Castile Liquid Soap - (Almond, 32 oz)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.3
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.199999996736
+            }
+        },
+        "B000A0C9PO": {
+            "asin": "B000A0C9PO",
+            "height": {
+                "unit": "IN",
+                "value": 1.99999999796
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.399999988372
+            },
+            "name": "Fram CA6576 Extra Guard Rigid Panel Air Filter",
+            "normalizedName": "Fram CA6576 Extra Guard Rigid Panel Air Filter",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.599999995308
+            }
+        },
+        "B00IPAAUEI": {
+            "asin": "B00IPAAUEI",
+            "height": {
+                "unit": "IN",
+                "value": 3.99999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.99999999082
+            },
+            "name": "Mango Spot\u00ae Camera 70-200mm F2.8 IS Lens Mug/Lens Coffee Cup 17oz with Stainless Steel Mug Interior",
+            "normalizedName": "Mango Spot\u00ae Camera 70-200mm F2.8 IS Lens Mug/Lens Coffee Cup 17oz with Stainless Steel Mug Interior",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.9499999999999998
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.099999995818
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

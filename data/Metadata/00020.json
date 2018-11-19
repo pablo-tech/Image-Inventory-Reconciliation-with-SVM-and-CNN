@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00JD5453G": {
+            "asin": "B00JD5453G",
+            "height": {
+                "unit": "IN",
+                "value": 1.599999998368
+            },
+            "length": {
+                "unit": "IN",
+                "value": 14.699999985006
+            },
+            "name": "TORCHSTAR 14-Inch 110V Hardwired Multi-function LED Cabinet Light, Warm White",
+            "normalizedName": "TORCHSTAR 14-Inch 110V Hardwired Multi-function LED Cabinet Light, Warm White",
+            "quantity": 12,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.0
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.99999999592
+            }
+        },
+        "B00O35DRI0": {
+            "asin": "B00O35DRI0",
+            "height": {
+                "unit": "IN",
+                "value": 3.49999999643
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.49999998929
+            },
+            "name": "Mellanni Bed Sheet Set - HIGHEST QUALITY Brushed Microfiber 1800 Bedding - Wrinkle, Fade, Stain Resistant - Hypoallergenic - 4 Piece (Cal King, Mocha)",
+            "normalizedName": "Mellanni Bed Sheet Set - HIGHEST QUALITY Brushed Microfiber 1800 Bedding - Wrinkle, Fade, Stain Resistant - Hypoallergenic - 4 Piece (Cal King, Mocha)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.4
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.799999990004002
+            }
+        },
+        "B014ED82A8": {
+            "asin": "B014ED82A8",
+            "height": {
+                "unit": "IN",
+                "value": 2.8346456664
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.3464566844
+            },
+            "name": "(2 Pack) Pantene Pro-V Shampoo, Damage Detox with Mosa Mint Oil, 12.6 Oz. ea.",
+            "normalizedName": "(2 Pack)  Pantene Pro-V Shampoo, Damage Detox with Mosa Mint Oil, 12.6 Oz. ea.",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.949999998364748
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.7795275552
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 14
+}

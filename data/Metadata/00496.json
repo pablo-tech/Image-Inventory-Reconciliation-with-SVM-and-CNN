@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "0312337353": {
+            "asin": "0312337353",
+            "height": {
+                "unit": "IN",
+                "value": 0.599999999388
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.099999991738
+            },
+            "name": "Hey Ya!: The Unauthorized Biography of Outkast",
+            "normalizedName": "Hey Ya!: The Unauthorized Biography of Outkast",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.55
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.399999994492
+            }
+        },
+        "B0006VSX7K": {
+            "asin": "B0006VSX7K",
+            "height": {
+                "unit": "IN",
+                "value": 1.299999998674
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.9999999898
+            },
+            "name": "\"Tingler for Two\" two-pack of Tingler Head Massagers- In Red Velvet Gift Bags",
+            "normalizedName": "\"Tingler for Two\" two-pack of Tingler Head Massagers- In Red Velvet Gift Bags",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.599999992248
+            }
+        },
+        "B00X9805GO": {
+            "asin": "B00X9805GO",
+            "height": {
+                "unit": "IN",
+                "value": 4.299999995614
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.099999994798
+            },
+            "name": "Charcoal Water Filters Replacements Fits Keurig 2.0 Models by Possiave, Pack of 12",
+            "normalizedName": "Pack of 12 Charcoal Water Filters Replacements Fits Keurig 2.0 Models by Possiave,",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.5
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.9999999949
+            }
+        },
+        "B010N3LSQS": {
+            "asin": "B010N3LSQS",
+            "height": {
+                "unit": "IN",
+                "value": 0.299999999694
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.299999993574
+            },
+            "name": "Generic Baby Bottle Cute 3D TPU Soft Pregnant Woman Milk Bottle Clear Case Lanyard Case Cover for iPhone 6 (Pink)",
+            "normalizedName": "Generic Baby Bottle Cute 3D TPU Soft Pregnant Woman Milk Bottle Clear Case Lanyard Case Cover for iPhone 6 (Pink)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.04999999995807048
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.399999996532
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

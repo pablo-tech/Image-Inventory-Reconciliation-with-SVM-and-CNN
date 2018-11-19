@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0045NRFVK": {
+            "asin": "B0045NRFVK",
+            "height": {
+                "unit": "IN",
+                "value": 5.49999999439
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.49999998827
+            },
+            "name": "Tamrac 3444 Rally 4 Camera Bag (Black)",
+            "normalizedName": "Tamrac 3444 Rally 4 Camera Bag (Black)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.4
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.49999999337
+            }
+        },
+        "B004DPOP7M": {
+            "asin": "B004DPOP7M",
+            "height": {
+                "unit": "IN",
+                "value": 6.599999993268
+            },
+            "length": {
+                "unit": "IN",
+                "value": 14.599999985108
+            },
+            "name": "Ertl John Deere Vehicle Value Set",
+            "normalizedName": "Ertl John Deere Vehicle Value Set",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.6
+            },
+            "width": {
+                "unit": "IN",
+                "value": 10.599999989188
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

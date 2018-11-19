@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B01BVY23OY": {
+            "asin": "B01BVY23OY",
+            "height": {
+                "unit": "IN",
+                "value": 4.299999995614
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.599999988168001
+            },
+            "name": "New Aftermarket Hayward CL200 and CL220 Chlorinator Lid Cap Wrench Opener Tool Pool Pump",
+            "normalizedName": "New Aftermarket Hayward CL200 and CL220 Chlorinator Lid Cap Wrench Opener Tool Pool Pump",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.049999999958070473
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.9999999949
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

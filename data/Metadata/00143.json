@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B003A5FMBE": {
+            "asin": "B003A5FMBE",
+            "height": {
+                "unit": "IN",
+                "value": 0.299999999694
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.99999999082
+            },
+            "name": "Soccer Dinner Plates, 8ct",
+            "normalizedName": "Soccer Dinner Plates, 8ct",
+            "quantity": 6,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.19999999983228192
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.99999999082
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

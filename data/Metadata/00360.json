@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00KF6ORD0": {
+            "asin": "B00KF6ORD0",
+            "height": {
+                "unit": "IN",
+                "value": 2.7999999971439995
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.49999999031
+            },
+            "name": "Fawziya Rhinestone Embellished Heart Ring Clutch Handbag Clutch Evening Purse - Silver",
+            "normalizedName": "Fawziya Rhinestone Embellished Heart Ring Clutch Handbag Clutch Evening Purse - Silver",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.9
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.299999993574
+            }
+        },
+        "B00YXUDY0G": {
+            "asin": "B00YXUDY0G",
+            "height": {
+                "unit": "IN",
+                "value": 0.899999999082
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.49999998929
+            },
+            "name": "Arc'teryx Mens Emblem Short Sleeve T-Shirt Madder MD",
+            "normalizedName": "Arc'teryx Mens Emblem Short Sleeve T-Shirt Madder MD",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3499999997064932
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.49999999337
+            }
+        },
+        "B012FBO0MA": {
+            "asin": "B012FBO0MA",
+            "height": {
+                "unit": "IN",
+                "value": 2.899999997042
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.399999990412
+            },
+            "name": "Fawziya Bow Purse For Women Rhinestone Crystal Evening Clutch Bags-Silver",
+            "normalizedName": "Fawziya Bow Purse For Women Rhinestone Crystal Evening Clutch Bags-Silver",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.2499999989517618
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.199999993676
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

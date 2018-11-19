@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00U2WHUF4": {
+            "asin": "B00U2WHUF4",
+            "height": {
+                "unit": "IN",
+                "value": 2.299999997654
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.099999990718
+            },
+            "name": "Speck Products CandyShell INKED Case for Samsung Galaxy S6 - Carrying Case - Frustration-Free Packaging - Aqua Floral Blue/UltraViolet Purple",
+            "normalizedName": "Speck Products CandyShell INKED Case for Samsung Galaxy S6 - Carrying Case - Frustration-Free Packaging - Aqua Floral Blue/UltraViolet Purple",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4000000000000001
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.299999994594
+            }
+        },
+        "B015XPYQVK": {
+            "asin": "B015XPYQVK",
+            "height": {
+                "unit": "IN",
+                "value": 1.899999998062
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.49999999133
+            },
+            "name": "Wigwams Men's Cypress Classic Lightweight Outdoor Casual Sock, White/Light Blue Medium",
+            "normalizedName": "Wigwams Men's Cypress Classic Lightweight Outdoor Casual Sock, White/Light Blue Medium",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.14999999987421142
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.749999996175
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

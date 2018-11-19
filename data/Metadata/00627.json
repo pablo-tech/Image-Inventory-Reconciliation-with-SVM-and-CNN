@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B004HIZFPQ": {
+            "asin": "B004HIZFPQ",
+            "height": {
+                "unit": "IN",
+                "value": 5.199999994696
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.99999998776
+            },
+            "name": "THE Garden Gnome 10\"",
+            "normalizedName": "THE Garden Gnome 10\"",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.5
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.199999994696
+            }
+        },
+        "B00MAOK7CK": {
+            "asin": "B00MAOK7CK",
+            "height": {
+                "unit": "IN",
+                "value": 4.49999999541
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.49999998827
+            },
+            "name": "Professionals Choice VenTECH SMB Boots 4-PK Medium CAMO",
+            "normalizedName": "Professionals Choice VenTECH SMB Boots 4-PK Medium CAMO",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.4499999987840437
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.299999994594
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

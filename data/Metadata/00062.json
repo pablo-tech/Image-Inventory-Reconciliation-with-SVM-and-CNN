@@ -1,0 +1,68 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B01711D3PO": {
+            "asin": "B01711D3PO",
+            "height": {
+                "unit": "IN",
+                "value": 2.7999999971439995
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.599999993268
+            },
+            "name": "Starink 13 Pack New Compatible PGI-225 CLI-226 Ink Cartridge for Use With Canon PIXMA MG6220 MG8220 MG6120 MG8120 MG8120B Inkjet Printer (3 Big Black,2 Small Black,2 Cyan,2 Magenta,2 Yellow,2 Gray)",
+            "normalizedName": "13 Pack Starink New Compatible PGI-225 CLI-226 Ink Cartridge for Use With Canon PIXMA MG6220 MG8220 MG6120 MG8120 MG8120B Inkjet Printer (3 Big Black,2 Small Black,2 Cyan,2 Magenta,2 Yellow,2 Gray)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.8499999992871979
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.799999996124
+            }
+        },
+        "B019JPKOCU": {
+            "asin": "B019JPKOCU",
+            "height": {
+                "unit": "IN",
+                "value": 0.3099999996838
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.249999996685
+            },
+            "name": "Mini Portable Bottle Cap Air Humidifier with bottle for office home travel (Pink)",
+            "normalizedName": "Mini Portable Bottle Cap Air Humidifier with bottle for office home travel (Pink)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.31499999973584397
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.20599999672988
+            }
+        },
+        "B01D2NII6Y": {
+            "asin": "B01D2NII6Y",
+            "height": {
+                "unit": "IN",
+                "value": 0.9055118101
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.4645669205
+            },
+            "name": "Galaxy S6 Battery Case, Portable Backup Power Bank Case 4200mAh Ultra Slim Rechargeable Extended Charging Case for Samsung Galaxy S6 (Gold)",
+            "normalizedName": "Galaxy S6 Battery Case, Portable Backup Power Bank Case 4200mAh Ultra Slim Rechargeable Extended Charging Case for Samsung Galaxy S6 (Gold)",
+            "quantity": 1,
+            "weight": null,
+            "width": {
+                "unit": "IN",
+                "value": 4.1338582635
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

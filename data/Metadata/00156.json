@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0085CJ1LY": {
+            "asin": "B0085CJ1LY",
+            "height": {
+                "unit": "IN",
+                "value": 5.299999994594
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.199999991636
+            },
+            "name": "Finish Gelpacs Dishwasher Detergent, Orange Scent, 90 Count (Packaging may vary)",
+            "normalizedName": "Finish Gelpacs Dishwasher Detergent, Orange Scent, 90 Count (Packaging may vary)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 4.399999996310202
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.799999992044
+            }
+        },
+        "B00KHWBSIE": {
+            "asin": "B00KHWBSIE",
+            "height": {
+                "unit": "IN",
+                "value": 2.99999999694
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.599999991228
+            },
+            "name": "Dreambaby Stroller Fan - Purple/White",
+            "normalizedName": "Dreambaby Stroller Fan - Purple/White",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.5
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.699999994186001
+            }
+        },
+        "B00ZJ7V2T2": {
+            "asin": "B00ZJ7V2T2",
+            "height": {
+                "unit": "IN",
+                "value": 4.699999995206
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.199999987556
+            },
+            "name": "Premium Rabbit Style Wine Opener, Aerator, Stopper, and Accessories Set with Bamboo Case - 8 Piece Gift Set",
+            "normalizedName": "Premium Rabbit Style Wine Opener, Aerator, Stopper, and Accessories Set with Bamboo Case - 8 Piece Gift Set",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 4.2
+            },
+            "width": {
+                "unit": "IN",
+                "value": 10.799999988984
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

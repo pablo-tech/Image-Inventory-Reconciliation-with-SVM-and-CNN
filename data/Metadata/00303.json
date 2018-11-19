@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000KI8HKC": {
+            "asin": "B000KI8HKC",
+            "height": {
+                "unit": "IN",
+                "value": 3.49999999643
+            },
+            "length": {
+                "unit": "IN",
+                "value": 16.99999998266
+            },
+            "name": "3M Adjustable CPU Stand (CS100MB)",
+            "normalizedName": "3M Adjustable CPU Stand (CS100MB)",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.14999999819703
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.899999995002001
+            }
+        },
+        "B002GALZCY": {
+            "asin": "B002GALZCY",
+            "height": {
+                "unit": "IN",
+                "value": 3.399999996532
+            },
+            "length": {
+                "unit": "IN",
+                "value": 14.9999999847
+            },
+            "name": "Royal & Langnickel Acrylic Easel Art Set with Easy to Store Bag",
+            "normalizedName": "Royal & Langnickel Acrylic Easel Art Set with Easy to Store Bag",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 4.6
+            },
+            "width": {
+                "unit": "IN",
+                "value": 11.199999988575998
+            }
+        },
+        "B002JI3L84": {
+            "asin": "B002JI3L84",
+            "height": {
+                "unit": "IN",
+                "value": 2.1999999977560005
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.49999998929
+            },
+            "name": "Water Sentinel WSW-2 Replacement Fridge Filter, 2 PACK",
+            "normalizedName": "Water Sentinel WSW-2 Replacement Fridge Filter, 2 PACK",
+            "quantity": 4,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.1469166432021063
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.299999995614
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 7
+}

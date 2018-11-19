@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "075660561X": {
+            "asin": "075660561X",
+            "height": {
+                "unit": "IN",
+                "value": 0.1574803148
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.8661417212
+            },
+            "name": "Ultimate Sticker Book: Space",
+            "normalizedName": "Ultimate Sticker Book: Space",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.2600131918028
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.267716527
+            }
+        },
+        "0756658845": {
+            "asin": "0756658845",
+            "height": {
+                "unit": "IN",
+                "value": 0.399999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.099999991737999
+            },
+            "name": "Boys' Potty Time",
+            "normalizedName": "Boys' Potty Time",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.099999991737999
+            }
+        },
+        "1423472721": {
+            "asin": "1423472721",
+            "height": {
+                "unit": "IN",
+                "value": 0.899999999082
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.799999987964
+            },
+            "name": "Sweeney Todd: Vocal Score",
+            "normalizedName": "Sweeney Todd: Vocal Score",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.4
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.99999999082
+            }
+        },
+        "B00M19N0KA": {
+            "asin": "B00M19N0KA",
+            "height": {
+                "unit": "IN",
+                "value": 3.99999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.99999999184
+            },
+            "name": "AGPtEK [UPDATE VERSION] 9.8ft 300 LED Weatherproof Freeze-proof Outdoor String Light Curtain Light for Christmas Xmas Wedding Party Home Decoration - Blue",
+            "normalizedName": "AGPtEK [UPDATE VERSION] 9.8ft 300 LED Weatherproof Freeze-proof Outdoor String Light Curtain Light for Christmas Xmas Wedding Party Home Decoration - Blue",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.2
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.799999995104
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 7
+}

@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B01DTZKNR2": {
+            "asin": "B01DTZKNR2",
+            "height": {
+                "unit": "IN",
+                "value": 3.299999996634
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.799999993064
+            },
+            "name": "Morecoo Art LED Desk Lamp with Flexible Neck USB Rechargeable Eye-care Night Lights(Red)",
+            "normalizedName": "Morecoo Art LED Desk Lamp with Flexible Neck USB Rechargeable Eye-care Night Lights(Red)",
+            "quantity": 4,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4999999995807047
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.299999996634
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

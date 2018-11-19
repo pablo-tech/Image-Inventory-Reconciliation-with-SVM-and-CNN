@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00ARJN2CC": {
+            "asin": "B00ARJN2CC",
+            "height": {
+                "unit": "IN",
+                "value": 7.699999992146
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.99999998878
+            },
+            "name": "Cellucor Performance Whey Protein Supplement, Cookies and Cream, 4 Pound",
+            "normalizedName": "Cellucor Performance Whey Protein Supplement, Cookies and Cream, 4 Pound",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 4.6
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.99999999184
+            }
+        },
+        "B00Y3RHZ4U": {
+            "asin": "B00Y3RHZ4U",
+            "height": {
+                "unit": "IN",
+                "value": 4.899999995002001
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.899999990922
+            },
+            "name": "SELS Par30 Led Bulb, Dimmable, 12 Watt, 800 Lumens, E26 Standard Base, 60 Watt Incandescent bulb Equivalent, UL, 2700K,  Soft White - 2 Pack - Suitable for Damp Locations",
+            "normalizedName": "2 Pack SELS Par30 Led Bulb, Dimmable, 12 Watt, 800 Lumens, E26 Standard Base, 60 Watt Incandescent bulb Equivalent, UL, 2700K,  Soft White - - Suitable for Damp Locations",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.549999998700185
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.899999995002001
+            }
+        },
+        "B01F7AD0X6": {
+            "asin": "B01F7AD0X6",
+            "height": {
+                "unit": "IN",
+                "value": 6.692913379
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.448818888
+            },
+            "name": "LED Desk Lamp for Student Kids Teens College Girls, Cheap Modern LED Reading Lamp by iHouseKeeper L205",
+            "normalizedName": "LED Desk Lamp for Student Kids Teens College Girls, Cheap Modern LED Reading Lamp by iHouseKeeper L205",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.20462262
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.480314953
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

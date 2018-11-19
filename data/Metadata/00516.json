@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B01642U34U": {
+            "asin": "B01642U34U",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.599999992248
+            },
+            "name": "Sunwukin Best Waterproof Case for iPhone 6s/6 Plus 5.5 Inch, [New Arrival] Underwater Shockproof Snowproof Dirtpoof Protection Cover for 5.5 inches [Black]",
+            "normalizedName": "Sunwukin Best Waterproof Case for iPhone 6s/6 Plus 5.5 Inch, [New Arrival] Underwater Shockproof Snowproof Dirtpoof Protection Cover for 5.5 inches [Black]",
+            "quantity": 7,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.39999999966456384
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.49999999541
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 7
+}

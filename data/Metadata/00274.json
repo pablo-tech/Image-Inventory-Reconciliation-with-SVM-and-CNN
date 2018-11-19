@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B001NSI91U": {
+            "asin": "B001NSI91U",
+            "height": {
+                "unit": "IN",
+                "value": 1.599999998368
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.299999991534
+            },
+            "name": "LAVENDER CHAMOMILE Bath Body Works Aromatherapy BODY LOTION lot of 1 new",
+            "normalizedName": "LAVENDER CHAMOMILE Bath Body Works Aromatherapy BODY LOTION lot of 1 new",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.95
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.199999996736
+            }
+        },
+        "B00J91T160": {
+            "asin": "B00J91T160",
+            "height": {
+                "unit": "IN",
+                "value": 3.599999996328
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.299999992554
+            },
+            "name": "True Lemon and True Lime Dispenser Packets 100ct (2pk Variety). Sugar Free Drink Mix, Natural Flavored Water Enhancer, Great Powdered Diet Drink Mix Packets For Paleo Diet, Atkin's Diet, or Other Diets. 100% Natural Drink Mix",
+            "normalizedName": "True Lemon and True Lime Dispenser Packets 100ct (2pk Variety). Sugar Free Drink Mix, Natural Flavored Water Enhancer, Great Powdered Diet Drink Mix Packets For Paleo Diet, Atkin's Diet, or Other Diets. 100% Natural Drink Mix",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6999999999999998
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.399999994492
+            }
+        },
+        "B01CY5R3EE": {
+            "asin": "B01CY5R3EE",
+            "height": {
+                "unit": "IN",
+                "value": 3.599999996328
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.699999994186
+            },
+            "name": "AUKEY Wifi Switch, Air Conditioner Remote Control with Smartphone APP; Support IOS and Android",
+            "normalizedName": "AUKEY Wifi Switch, Air Conditioner Remote Control with Smartphone APP; Support IOS and Android",
+            "quantity": 4,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.534999999551354
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.899999996022
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

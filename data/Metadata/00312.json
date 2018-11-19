@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00VANYCBE": {
+            "asin": "B00VANYCBE",
+            "height": {
+                "unit": "IN",
+                "value": 3.93700787
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.1417322772
+            },
+            "name": "Crocodile Creek Kids Dinosaurs Soccer Ball, Lime Green, 2/5.5\"",
+            "normalizedName": "Crocodile Creek Kids Dinosaurs Soccer Ball, Lime Green, 2/5.5\"",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.35273601868139676
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.2755905458
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

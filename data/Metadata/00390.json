@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B001R1Q2C6": {
+            "asin": "B001R1Q2C6",
+            "height": {
+                "unit": "IN",
+                "value": 6.599999993268
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.299999988474
+            },
+            "name": "Kaz Honeywell HT-904 Tabletop Air-Circulator Fan, White",
+            "normalizedName": "Kaz Honeywell HT-904 Tabletop Air-Circulator Fan, White",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.949999996687567
+            },
+            "width": {
+                "unit": "IN",
+                "value": 10.99999998878
+            }
+        },
+        "B0028LGNSM": {
+            "asin": "B0028LGNSM",
+            "height": {
+                "unit": "IN",
+                "value": 4.899999995002
+            },
+            "length": {
+                "unit": "IN",
+                "value": 13.99999998572
+            },
+            "name": "Krusteaz Buttermilk Pancake Mix, 10-Pound",
+            "normalizedName": "Krusteaz Buttermilk Pancake Mix, 10-Pound",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 10.55
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.799999991024
+            }
+        },
+        "B00RTC23FM": {
+            "asin": "B00RTC23FM",
+            "height": {
+                "unit": "IN",
+                "value": 2.899999997042
+            },
+            "length": {
+                "unit": "IN",
+                "value": 13.599999986128
+            },
+            "name": "Disney/Pixar Cars Color Change Mack Dip & Dunk Trailer",
+            "normalizedName": "Disney/Pixar Cars Color Change Mack Dip & Dunk Trailer",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6999999994129864
+            },
+            "width": {
+                "unit": "IN",
+                "value": 10.699999989085999
+            }
+        },
+        "B01ARGBRGW": {
+            "asin": "B01ARGBRGW",
+            "height": {
+                "unit": "IN",
+                "value": 2.99999999694
+            },
+            "length": {
+                "unit": "IN",
+                "value": 15.99999998368
+            },
+            "name": "Barbie and Toddler Student Flippin Fun Gymnastics Dolls",
+            "normalizedName": "Barbie and Toddler Student Flippin Fun Gymnastics Dolls",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.549999998700185
+            },
+            "width": {
+                "unit": "IN",
+                "value": 12.899999986842
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

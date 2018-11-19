@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00EZGFQIQ": {
+            "asin": "B00EZGFQIQ",
+            "height": {
+                "unit": "IN",
+                "value": 0.49999999949
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.99999999082
+            },
+            "name": "Eco-Fused Microfiber Cleaning Cloths - 10 Cloths and 2 White Cloths - Ideal for Cleaning Glasses, Camera Lenses, iPad, Tablets, Phones, iPhone, Android Phones, LCD Screens and Other Delicate Surfaces",
+            "normalizedName": "Eco-Fused Microfiber Cleaning Cloths - 10 Cloths and 2 White Cloths - Ideal for Cleaning Glasses, Camera Lenses, iPad, Tablets, Phones, iPhone, Android Phones, LCD Screens and Other Delicate Surfaces",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.20000000000000004
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.99999999388
+            }
+        },
+        "B00ZQLLHQE": {
+            "asin": "B00ZQLLHQE",
+            "height": {
+                "unit": "IN",
+                "value": 3.599999996328
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.49999999439
+            },
+            "name": "Orange Sports Cones \u2014 Set of 12 \u2014 Perfect for Exercise Sports and Outdoor Activity \u2014 Toy Construction or Traffic Cones \u2014 Soft Flexible Cone Design \u2014 Shatterproof \u2014 7\u201d in Height \u2014 BONUS: Carry Bag for Easy Transportation",
+            "normalizedName": "Set of 12 Orange Sports Cones \u2014 \u2014 Perfect for Exercise Sports and Outdoor Activity \u2014 Toy Construction or Traffic Cones \u2014 Soft Flexible Cone Design \u2014 Shatterproof \u2014 7\u201d in Height \u2014 BONUS: Carry Bag for Easy Transportation",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.04999999911948
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.9999999949
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

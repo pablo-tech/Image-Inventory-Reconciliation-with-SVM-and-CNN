@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0040RHZ84": {
+            "asin": "B0040RHZ84",
+            "height": {
+                "unit": "IN",
+                "value": 3.49999999643
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.99999998878
+            },
+            "name": "KYOTK132 - Kyocera TK-132 Toner Cartridge - Black",
+            "normalizedName": "KYOTK132 - Kyocera TK-132 Toner Cartridge - Black",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.1
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.99999999592
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

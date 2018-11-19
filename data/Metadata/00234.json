@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00WIWXTWO": {
+            "asin": "B00WIWXTWO",
+            "height": {
+                "unit": "IN",
+                "value": 3.799999996124
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.899999990922
+            },
+            "name": "Funny Guy Mugs Bob The Man The Myth The Legend Ceramic Coffee Mug, Black, 11-Ounce",
+            "normalizedName": "Funny Guy Mugs Bob The Man The Myth The Legend Ceramic Coffee Mug, Black, 11-Ounce",
+            "quantity": 4,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.8999999992452684
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.099999994798
+            }
+        },
+        "B01BSX2YD8": {
+            "asin": "B01BSX2YD8",
+            "height": {
+                "unit": "IN",
+                "value": 1.3999999985719997
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.99999999184
+            },
+            "name": "Denver Broncos NFL Youth Super Bowl 50 Champions Trophy Collection Locker Room Tee (Youth Xlarge 18/20)",
+            "normalizedName": "Denver Broncos NFL Youth Super Bowl 50 Champions Trophy Collection Locker Room Tee (Youth Xlarge 18/20)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.149999999035621
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.299999993574
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

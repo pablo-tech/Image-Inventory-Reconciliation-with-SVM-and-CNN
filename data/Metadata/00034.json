@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B01C84PUYQ": {
+            "asin": "B01C84PUYQ",
+            "height": {
+                "unit": "IN",
+                "value": 3.49999999643
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.599999994287999
+            },
+            "name": "Black TOGUARD 2.46\" LCD Full HD 1080P Dashcam Car Dvr Camera,Novatek NT96220,G-sensor,Parking Monitor,Motion Detection,Loop Recording,Night Vision",
+            "normalizedName": "Black TOGUARD 2.46\" LCD Full HD 1080P Dashcam Car Dvr Camera,Novatek NT96220,G-sensor,Parking Monitor,Motion Detection,Loop Recording,Night Vision",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.24999999979035234
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.799999995104
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

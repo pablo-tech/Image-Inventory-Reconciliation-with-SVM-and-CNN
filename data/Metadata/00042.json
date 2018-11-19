@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00NF5EQK2": {
+            "asin": "B00NF5EQK2",
+            "height": {
+                "unit": "IN",
+                "value": 3.199999996736
+            },
+            "length": {
+                "unit": "IN",
+                "value": 13.399999986332
+            },
+            "name": "Pioneer TSG1645R 6.5-Inch 2-Way 250W Car Speakers",
+            "normalizedName": "Pioneer TSG1645R 6.5-Inch 2-Way 250W Car Speakers",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.05
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.399999992452001
+            }
+        },
+        "B01FVK4NHY": {
+            "asin": "B01FVK4NHY",
+            "height": {
+                "unit": "IN",
+                "value": 2.5590551155
+            },
+            "length": {
+                "unit": "IN",
+                "value": 15.354330693
+            },
+            "name": "*NEW* Azure Bath Mat by Blue Coast Collection! Premium Non slip Bath Mat w/ Mesh Technology Soft Fibers & 50+ suction cups. Mold & Mildew Resistant. Bonus Bath Slippers included. Get yours today!",
+            "normalizedName": "*NEW* Azure Bath Mat by Blue Coast Collection! Premium Non slip Bath Mat w/ Mesh Technology Soft Fibers & 50+ suction cups. Mold & Mildew Resistant. Bonus Bath Slippers included. Get yours today!",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.2345886672
+            },
+            "width": {
+                "unit": "IN",
+                "value": 12.7952755775
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B002SPRFZS": {
+            "asin": "B002SPRFZS",
+            "height": {
+                "unit": "IN",
+                "value": 3.799999996124
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.899999989902
+            },
+            "name": "Toastess THP-432 Electric Single-Coil Cooking Range, White",
+            "normalizedName": "Toastess THP-432 Electric Single-Coil Cooking Range, White",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.3
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.899999989902
+            }
+        },
+        "B01AS6O8YO": {
+            "asin": "B01AS6O8YO",
+            "height": {
+                "unit": "IN",
+                "value": 3.299999996634
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.899999989902
+            },
+            "name": "Schleich North America Rabbit Hutch with Rabbits & Feed Playset",
+            "normalizedName": "Schleich North America Rabbit Hutch with Rabbits & Feed Playset",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.7999999993291277
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.399999992452001
+            }
+        },
+        "B01CPKVDR6": {
+            "asin": "B01CPKVDR6",
+            "height": {
+                "unit": "IN",
+                "value": 5.099999994798
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.99999999184
+            },
+            "name": "Vr Virtual Reality Headset 3D Glasses / Goggles & Bluetooth Controller - All Sizes Apple & Android Smartphones - Immersive 360 HD Superior to Google Cardboard - New Improved 2016 Model Huge Discount",
+            "normalizedName": "Vr Virtual Reality Headset 3D Glasses / Goggles & Bluetooth Controller - All Sizes Apple & Android Smartphones - Immersive 360 HD Superior to Google Cardboard - New Improved 2016 Model Huge Discount",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.9499999992033389
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.599999994287999
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

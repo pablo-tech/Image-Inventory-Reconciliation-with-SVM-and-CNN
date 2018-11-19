@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00I5KUBXS": {
+            "asin": "B00I5KUBXS",
+            "height": {
+                "unit": "IN",
+                "value": 3.099999996838
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.099999991737999
+            },
+            "name": "Old Spice High Endurance Conditioning Hair and Body Wash - 18 oz (Pack of 3)",
+            "normalizedName": "(Pack of 3) Old Spice High Endurance Conditioning Hair and Body Wash - 18 oz",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 4.0
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.099999993778
+            }
+        },
+        "B019XFKM6E": {
+            "asin": "B019XFKM6E",
+            "height": {
+                "unit": "IN",
+                "value": 2.399999997552
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.299999990514001
+            },
+            "name": "Braun BT5050 Electric Trimmer",
+            "normalizedName": "Braun BT5050 Electric Trimmer",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.9499999992033387
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.199999993676
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

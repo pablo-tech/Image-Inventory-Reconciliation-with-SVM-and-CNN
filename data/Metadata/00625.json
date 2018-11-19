@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000NI93AW": {
+            "asin": "B000NI93AW",
+            "height": {
+                "unit": "IN",
+                "value": 0.899999999082
+            },
+            "length": {
+                "unit": "IN",
+                "value": 17.399999982252
+            },
+            "name": "GearWrench 81201 4 Piece 3/8-Inch Drive Wobble Extension Set",
+            "normalizedName": "GearWrench 81201 4 Piece 3/8-Inch Drive Wobble Extension Set",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.75
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.299999995614
+            }
+        },
+        "B00A7POLW6": {
+            "asin": "B00A7POLW6",
+            "height": {
+                "unit": "IN",
+                "value": 2.899999997042
+            },
+            "length": {
+                "unit": "IN",
+                "value": 16.399999983272
+            },
+            "name": "IMPULSE! Neo Vase, Smoke, Large",
+            "normalizedName": "IMPULSE! Neo Vase, Smoke, Large",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.4
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.99999999694
+            }
+        },
+        "B019H2K858": {
+            "asin": "B019H2K858",
+            "height": {
+                "unit": "IN",
+                "value": 2.7999999971439995
+            },
+            "length": {
+                "unit": "IN",
+                "value": 13.399999986332
+            },
+            "name": "Anion Hair Straightening Brush with Misting Ionic Spray Safe and Easy 10x Faster Than a Flat Iron",
+            "normalizedName": "Anion Hair Straightening Brush with Misting Ionic Spray Safe and Easy 10x Faster Than a Flat Iron",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.6999999985743957
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.099999994798
+            }
+        },
+        "B01CU700NM": {
+            "asin": "B01CU700NM",
+            "height": {
+                "unit": "IN",
+                "value": 0.799999999184
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.299999987454
+            },
+            "name": "Aquafree Dry Bag, 10L Yellow Tube Waterproof Bag 100% Waterproof Dry Bag",
+            "normalizedName": "Aquafree Dry Bag, 10L Yellow Tube Waterproof Bag 100% Waterproof Dry Bag",
+            "quantity": 4,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6999999994129864
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.99999999388
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 8
+}

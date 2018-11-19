@@ -1,0 +1,115 @@
+{
+    "BIN_FCSKU_DATA": {
+        "0142000663": {
+            "asin": "0142000663",
+            "height": {
+                "unit": "IN",
+                "value": 1.3999999985719997
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.199999991636
+            },
+            "name": "The Grapes of Wrath (Centennial Edition)",
+            "normalizedName": "The Grapes of Wrath (Centennial Edition)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.15
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.99999999388
+            }
+        },
+        "1416939210": {
+            "asin": "1416939210",
+            "height": {
+                "unit": "IN",
+                "value": 0.799999999184
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.699999993166
+            },
+            "name": "Z for Zachariah",
+            "normalizedName": "Z for Zachariah",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.35
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.9999999949
+            }
+        },
+        "B000F49LU6": {
+            "asin": "B000F49LU6",
+            "height": {
+                "unit": "IN",
+                "value": 4.49999999541
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.20078739423
+            },
+            "name": "Kurt Adler Polonaise Heirlooms Handblown Handpainted New York City Collage Ornament",
+            "normalizedName": "Kurt Adler Polonaise Heirlooms Handblown Handpainted New York City Collage Ornament",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4500075691944
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.09842519165
+            }
+        },
+        "B008JFUO72": {
+            "asin": "B008JFUO72",
+            "height": {
+                "unit": "IN",
+                "value": 0.599999999388
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.399999992452001
+            },
+            "name": "Iron Man 3 (DVD + Digital Copy)",
+            "normalizedName": "Iron Man 3 (DVD + Digital Copy)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.15
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.299999994594
+            }
+        },
+        "B009S0VGUG": {
+            "asin": "B009S0VGUG",
+            "height": {
+                "unit": "IN",
+                "value": 0.58267716476
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.09842518961
+            },
+            "name": "Tony Roberts: I'm Different",
+            "normalizedName": "Tony Roberts: I'm Different",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.1833364170792
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.41732282912
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

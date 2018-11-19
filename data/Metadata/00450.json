@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B008LT0NUO": {
+            "asin": "B008LT0NUO",
+            "height": {
+                "unit": "IN",
+                "value": 3.899999996022
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.099999990718
+            },
+            "name": "Beats BT OV EXEC SLV Executive Over Ear Headphones, Silver",
+            "normalizedName": "Beats BT OV EXEC SLV Executive Over Ear Headphones, Silver",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.15
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.599999992248
+            }
+        },
+        "B00ABVSMQC": {
+            "asin": "B00ABVSMQC",
+            "height": {
+                "unit": "IN",
+                "value": 1.699999998266
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.699999988066
+            },
+            "name": "Cuddledown 400 Thread Count Jacquard Comforter Cover, Twin, White",
+            "normalizedName": "Cuddledown 400 Thread Count Jacquard Comforter Cover, Twin, White",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.4999999999999996
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.399999990412
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

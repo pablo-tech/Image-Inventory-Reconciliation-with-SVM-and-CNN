@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000C33MI2": {
+            "asin": "B000C33MI2",
+            "height": {
+                "unit": "IN",
+                "value": 2.79921259557
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.90157479917
+            },
+            "name": "FRAM XG7317 ULTRA Spin-On Oil Filter with Sure Grip",
+            "normalizedName": "FRAM XG7317 ULTRA Spin-On Oil Filter with Sure Grip",
+            "quantity": 4,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3000050461296
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.90157480019
+            }
+        },
+        "B0050Z27KG": {
+            "asin": "B0050Z27KG",
+            "height": {
+                "unit": "IN",
+                "value": 0.899999999082
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.299999988474
+            },
+            "name": "Suncatcher - Axicon Rainbow Window - Includes Bonus \"Rainbow on Board\" Sun Catcher",
+            "normalizedName": "Suncatcher - Axicon Rainbow Window - Includes Bonus \"Rainbow on Board\" Sun Catcher",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.5
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.699999992146
+            }
+        },
+        "B01BV89HNU": {
+            "asin": "B01BV89HNU",
+            "height": {
+                "unit": "IN",
+                "value": 2.1999999977560005
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.99999999592
+            },
+            "name": "Type C, iOrange-E 2 Pack 6.6 Ft Braided Cable for Nexus 6P, Nexus 5X, Onplus 2, Lumia 950, LG G5, Apple Macbook 12 inch, ChromeBook Pixel, Nokia N1 Tablet and Other USB C Devices, Black",
+            "normalizedName": "2 Pack Type C, iOrange-E 6.6 Ft Braided Cable for Nexus 6P, Nexus 5X, Onplus 2, Lumia 950, LG G5, Apple Macbook 12 inch, ChromeBook Pixel, Nokia N1 Tablet and Other USB C Devices, Black",
+            "quantity": 6,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3499999997064932
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.899999996022
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 12
+}

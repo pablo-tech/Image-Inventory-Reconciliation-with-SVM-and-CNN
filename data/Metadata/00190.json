@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00M1Y7JXY": {
+            "asin": "B00M1Y7JXY",
+            "height": {
+                "unit": "IN",
+                "value": 4.49999999541
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.49999998725
+            },
+            "name": "Delo 271220470 400 XLE 10W-30 Synblend Motor Oil - 1 Gallon",
+            "normalizedName": "Delo 271220470 400 XLE 10W-30 Synblend Motor Oil - 1 Gallon",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 7.5499999936686395
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.899999991942001
+            }
+        },
+        "B00MRRAYFK": {
+            "asin": "B00MRRAYFK",
+            "height": {
+                "unit": "IN",
+                "value": 1.199999998776
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.699999989085999
+            },
+            "name": "ACEGUARDER Apple Ipad Mini 2 Case Waterproof Rainproof Shockproof Kids Proof Case for Ipad Mini 2 (Gifts Outdoor Carabiner + Whistle + Handwritten Touch Pen) (ROSE/WHITE)",
+            "normalizedName": "ACEGUARDER Apple Ipad Mini 2 Case Waterproof Rainproof Shockproof Kids Proof Case for Ipad Mini 2 (Gifts Outdoor Carabiner + Whistle + Handwritten Touch Pen) (ROSE/WHITE)",
+            "quantity": 6,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.9499999999999998
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.399999993472
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 7
+}

@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "0979738504": {
+            "asin": "0979738504",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.199999990616
+            },
+            "name": "Lawyers are Liars: The Truth About Protecting Our Assets",
+            "normalizedName": "Lawyers are Liars: The Truth About Protecting Our Assets",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.4
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.399999993472
+            }
+        },
+        "1501106473": {
+            "asin": "1501106473",
+            "height": {
+                "unit": "IN",
+                "value": 0.72834645595
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.42913384967
+            },
+            "name": "Brooklyn",
+            "normalizedName": "Brooklyn",
+            "quantity": 4,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.7900044696508
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.85039369482
+            }
+        },
+        "B000A59POM": {
+            "asin": "B000A59POM",
+            "height": {
+                "unit": "IN",
+                "value": 3.1
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.7
+            },
+            "name": "Midsomer Murders: A Talent for Life / Death and Dreams / Painted in Blood / A Tale of Two Hamlets / Birds of Prey",
+            "normalizedName": "Midsomer Murders: A Talent for Life / Death and Dreams / Painted in Blood / A Tale of Two Hamlets / Birds of Prey",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.85
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.4
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

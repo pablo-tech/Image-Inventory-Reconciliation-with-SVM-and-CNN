@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00004Z1TN": {
+            "asin": "B00004Z1TN",
+            "height": {
+                "unit": "IN",
+                "value": 1.99999999796
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.99999998776
+            },
+            "name": "Wellington Puritan 34714 Maypole Braid Polypropylene Rope",
+            "normalizedName": "Wellington Puritan 34714 Maypole Braid Polypropylene Rope",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.5485542003084
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.99999999592
+            }
+        },
+        "B000RI6C7K": {
+            "asin": "B000RI6C7K",
+            "height": {
+                "unit": "IN",
+                "value": 2.0472440924
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.3858267682
+            },
+            "name": "Feliway - Refill, 48 ml",
+            "normalizedName": "Feliway - Refill, 48 ml",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.17636800934069835
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.0472440924
+            }
+        },
+        "B00BMU9ZQM": {
+            "asin": "B00BMU9ZQM",
+            "height": {
+                "unit": "IN",
+                "value": 1.699999998266
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.599999989188
+            },
+            "name": "Stanley S20421 Canvas Glove with Knit Wrist, Yellow",
+            "normalizedName": "Stanley S20421 Canvas Glove with Knit Wrist, Yellow",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.5
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.699999994186001
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

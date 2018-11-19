@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B002Q8LSVO": {
+            "asin": "B002Q8LSVO",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.299999994594
+            },
+            "name": "Piggy Paint 100% Non-toxic Girls Nail Polish - Low Odor for Kids - Ice Cream Dream",
+            "normalizedName": "Piggy Paint 100% Non-toxic Girls Nail Polish - Low Odor for Kids - Ice Cream Dream",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.10000000000000002
+            },
+            "width": {
+                "unit": "IN",
+                "value": 1.99999999796
+            }
+        },
+        "B00V57L51U": {
+            "asin": "B00V57L51U",
+            "height": {
+                "unit": "IN",
+                "value": 1.699999998266
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.699999990105999
+            },
+            "name": "Franklin Sports 2 Player Paddle and Ball Set",
+            "normalizedName": "Franklin Sports 2 Player Paddle and Ball Set",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.8000000000000002
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.099999992758
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

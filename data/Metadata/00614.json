@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B003YB7050": {
+            "asin": "B003YB7050",
+            "height": {
+                "unit": "IN",
+                "value": 7.399999992452001
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.199999990616
+            },
+            "name": "General Hydroponics MaxiBloom Bloom Stimulator, 16-Pound",
+            "normalizedName": "General Hydroponics MaxiBloom Bloom Stimulator, 16-Pound",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 17.349999985450456
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.699999991126
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000936QEM": {
+            "asin": "B000936QEM",
+            "height": {
+                "unit": "IN",
+                "value": 2.299999997654
+            },
+            "length": {
+                "unit": "IN",
+                "value": 13.599999986128
+            },
+            "name": "Klein Tools 54437 12-Compartment Storage Box, Mid-Size",
+            "normalizedName": "Klein Tools 54437 12-Compartment Storage Box, Mid-Size",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.55
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.49999999031
+            }
+        },
+        "B0014R91V2": {
+            "asin": "B0014R91V2",
+            "height": {
+                "unit": "IN",
+                "value": 2.5196850368
+            },
+            "length": {
+                "unit": "IN",
+                "value": 13.385826758
+            },
+            "name": "InterDesign Axis Vertical Closet Organizer Rack for Ties, Belts - Chrome",
+            "normalizedName": "InterDesign Axis Vertical Closet Organizer Rack for Ties, Belts - Chrome",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.84
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.1417322772
+            }
+        },
+        "B0016AZGM0": {
+            "asin": "B0016AZGM0",
+            "height": {
+                "unit": "IN",
+                "value": 3.299999996634
+            },
+            "length": {
+                "unit": "IN",
+                "value": 15.99999998368
+            },
+            "name": "Starwest Botanicals Organic Calendula Flowers Whole, 1 Pound",
+            "normalizedName": "Starwest Botanicals Organic Calendula Flowers Whole, 1 Pound",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.04999999911948
+            },
+            "width": {
+                "unit": "IN",
+                "value": 10.99999998878
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

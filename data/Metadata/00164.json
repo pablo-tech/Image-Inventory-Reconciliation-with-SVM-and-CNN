@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "0756628652": {
+            "asin": "0756628652",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.899999987862
+            },
+            "name": "The Human Body Book (Book & DVD)",
+            "normalizedName": "The Human Body Book (Book & DVD)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.65
+            },
+            "width": {
+                "unit": "IN",
+                "value": 10.199999989596
+            }
+        },
+        "B01D2OY3ZI": {
+            "asin": "B01D2OY3ZI",
+            "height": {
+                "unit": "IN",
+                "value": 5.299999994594
+            },
+            "length": {
+                "unit": "IN",
+                "value": 17.399999982252
+            },
+            "name": "kate spade new york Cedar Street Daisy Mini Harmony Tote Bag, Multi, One Size",
+            "normalizedName": "kate spade new york Cedar Street Daisy Mini Harmony Tote Bag, Multi, One Size",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.8999999984066773
+            },
+            "width": {
+                "unit": "IN",
+                "value": 13.599999986128
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B01BYKIYUW": {
+            "asin": "B01BYKIYUW",
+            "height": {
+                "unit": "IN",
+                "value": 1.0
+            },
+            "length": {
+                "unit": "IN",
+                "value": 1.0
+            },
+            "name": "Targus 45W USB Type-C Laptop AC Wall Charger (APA93US)",
+            "normalizedName": "Targus 45W USB Type-C Laptop AC Wall Charger (APA93US)",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.0
+            },
+            "width": {
+                "unit": "IN",
+                "value": 1.0
+            }
+        },
+        "B01EIF6UVA": {
+            "asin": "B01EIF6UVA",
+            "height": {
+                "unit": "IN",
+                "value": 0.2755905509
+            },
+            "length": {
+                "unit": "IN",
+                "value": 2.5590551155
+            },
+            "name": "iPhone 6 Plus & 6S Plus : Premium quality Leather Wallet style Flip Cover plus photo frame, built-in card slot, Cash compartment with Magnetic closure for iPhone 6Plus & 6S Plus (Blue)",
+            "normalizedName": "iPhone 6 Plus & 6S Plus : Premium quality Leather Wallet style Flip Cover plus photo frame, built-in card slot, Cash compartment with Magnetic closure for iPhone 6Plus & 6S Plus (Blue)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001167587297
+            },
+            "width": {
+                "unit": "IN",
+                "value": 1.3779527545
+            }
+        },
+        "B01HE6KCW8": {
+            "asin": "B01HE6KCW8",
+            "height": {
+                "unit": "IN",
+                "value": 0.49999999949
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.99999998776
+            },
+            "name": "#1 Adjustable Child Safety Locks, Childproof, Safety Strap Latches Locks,Security Lock, Adhesive Safety Latches, Cabinet Locks, Multi Use Latches for Baby Proof Drawers, Fridge, Oven, Dishwasher-6Pack",
+            "normalizedName": "6Pack #1 Adjustable Child Safety Locks, Childproof, Safety Strap Latches Locks,Security Lock, Adhesive Safety Latches, Cabinet Locks, Multi Use Latches for Baby Proof Drawers, Fridge, Oven, Dishwasher-",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.1899999998406678
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.6999999962260004
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B013UJS35G": {
+            "asin": "B013UJS35G",
+            "height": {
+                "unit": "IN",
+                "value": 7.099999992758
+            },
+            "length": {
+                "unit": "IN",
+                "value": 14.49999998521
+            },
+            "name": "TaoTronics TT-AH002 30W Ultrasonic Humidifier with Cool Mist, Classic Dial Knob Control, 3.5L Large Capacity, Two 360 degree Rotatable Outlets",
+            "normalizedName": "TaoTronics TT-AH002 30W Ultrasonic Humidifier with Cool Mist, Classic Dial Knob Control, 3.5L Large Capacity, Two 360 degree Rotatable Outlets",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 4.19999999647792
+            },
+            "width": {
+                "unit": "IN",
+                "value": 10.199999989596
+            }
+        },
+        "B01BFKXGQS": {
+            "asin": "B01BFKXGQS",
+            "height": {
+                "unit": "IN",
+                "value": 0.299999999694
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.799999988984
+            },
+            "name": "AT-A-GLANCE Academic Year Weekly / Monthly Planner / Appointment Book, July  2016 - June 2017, 8-1/2\"x11\", Color Selected For You May Vary (895-905A)",
+            "normalizedName": "AT-A-GLANCE Academic Year Weekly / Monthly Planner / Appointment Book, July  2016 - June 2017, 8-1/2\"x11\", Color Selected For You May Vary (895-905A)",
+            "quantity": 7,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.0999999990775504
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.699999991126
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 8
+}

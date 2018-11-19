@@ -1,0 +1,112 @@
+{
+    "BIN_FCSKU_DATA": {
+        "0078035198": {
+            "asin": "0078035198",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.099999989698
+            },
+            "name": "Health Psychology",
+            "normalizedName": "Health Psychology",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.6
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.199999991636
+            }
+        },
+        "0736433937": {
+            "asin": "0736433937",
+            "height": {
+                "unit": "IN",
+                "value": 0.72834645595
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.42913384967
+            },
+            "name": "Lily: Tiana's Helpful Kitten (Disney Princess: Palace Pets) (A Stepping Stone Book(TM))",
+            "normalizedName": "Lily: Tiana's Helpful Kitten (Disney Princess: Palace Pets) (A Stepping Stone Book(TM))",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.7900044696508
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.85039369482
+            }
+        },
+        "B006SA39OU": {
+            "asin": "B006SA39OU",
+            "height": {
+                "unit": "IN",
+                "value": 3.899999996022
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.899999989902
+            },
+            "name": "K9 Granola Factory Grain Free Savory Duck with Apple and Cranberry Crunchers, Net WT. 12 oz",
+            "normalizedName": "K9 Granola Factory Grain Free Savory Duck with Apple and Cranberry Crunchers, Net WT. 12 oz",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.8
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.899999996022
+            }
+        },
+        "B00KVP76G0": {
+            "asin": "B00KVP76G0",
+            "height": {
+                "unit": "IN",
+                "value": 2.49999999745
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.299999992554
+            },
+            "name": "DualShock 4 Wireless Controller for PlayStation 4 - Glacier White",
+            "normalizedName": "DualShock 4 Wireless Controller for PlayStation 4 - Glacier White",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.75
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.699999993166
+            }
+        },
+        "B00YHF3W90": {
+            "asin": "B00YHF3W90",
+            "height": {
+                "unit": "IN",
+                "value": 0.1968503935
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.93700787
+            },
+            "name": "Retro Fashion Pretty Young 2-Pocket Chef's Apron, Light Blue/Elegant Printing",
+            "normalizedName": "Retro Fashion Pretty Young 2-Pocket Chef's Apron, Light Blue/Elegant Printing",
+            "quantity": 1,
+            "weight": null,
+            "width": {
+                "unit": "IN",
+                "value": 2.755905509
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

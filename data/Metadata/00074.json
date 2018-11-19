@@ -1,0 +1,115 @@
+{
+    "BIN_FCSKU_DATA": {
+        "1484725794": {
+            "asin": "1484725794",
+            "height": {
+                "unit": "IN",
+                "value": 1.0999999988780003
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.799999991024002
+            },
+            "name": "The Jungle Book: The Strength of the Wolf is the Pack",
+            "normalizedName": "The Jungle Book: The Strength of the Wolf is the Pack",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.149999999035621
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.699999994186001
+            }
+        },
+        "1596951141": {
+            "asin": "1596951141",
+            "height": {
+                "unit": "IN",
+                "value": 1.199999998776
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.699999993166
+            },
+            "name": "Webster's American English Dictionary",
+            "normalizedName": "Webster's American English Dictionary",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.5
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.099999995818
+            }
+        },
+        "B000MTI10K": {
+            "asin": "B000MTI10K",
+            "height": {
+                "unit": "IN",
+                "value": 1.299999998674
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.899999992962
+            },
+            "name": "Moeller Marine Fuel Tank Barb Connector (Mercury, 3/8\", Male, Bayonet Style)",
+            "normalizedName": "Moeller Marine Fuel Tank Barb Connector (Mercury, 3/8\", Male, Bayonet Style)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6
+            },
+            "width": {
+                "unit": "IN",
+                "value": 1.699999998266
+            }
+        },
+        "B00C9Y8V42": {
+            "asin": "B00C9Y8V42",
+            "height": {
+                "unit": "IN",
+                "value": 3.599999996328
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.99999998776
+            },
+            "name": "DARICE 2873-311 Paper Mache 5m Open Bottom Cone Craft Supplies, 10.63 by 4-Inch",
+            "normalizedName": "DARICE 2873-311 Paper Mache 5m Open Bottom Cone Craft Supplies, 10.63 by 4-Inch",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001186074866
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.6999999962260004
+            }
+        },
+        "B00HSE4WJG": {
+            "asin": "B00HSE4WJG",
+            "height": {
+                "unit": "IN",
+                "value": 0.799999999184
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.99999998776
+            },
+            "name": "[Updated Version] BESTOPE Makeup Brushes Premium Makeup Brush Set Synthetic Kabuki Makeup Foundation Eyeliner Blush Contour Brushes for Powder Cream Concealer Brush Kit(8PCs, Black Sliver)",
+            "normalizedName": "[Updated Version] BESTOPE Makeup Brushes Premium Makeup Brush Set Synthetic Kabuki Makeup Foundation Eyeliner Blush Contour Brushes for Powder Cream Concealer Brush Kit(8PCs, Black Sliver)",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.39999999966456384
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.49999999133
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 7
+}

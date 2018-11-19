@@ -1,0 +1,46 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B01642U34U": {
+            "asin": "B01642U34U",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.599999992248
+            },
+            "name": "Sunwukin Best Waterproof Case for iPhone 6s/6 Plus 5.5 Inch, [New Arrival] Underwater Shockproof Snowproof Dirtpoof Protection Cover for 5.5 inches [Black]",
+            "normalizedName": "Sunwukin Best Waterproof Case for iPhone 6s/6 Plus 5.5 Inch, [New Arrival] Underwater Shockproof Snowproof Dirtpoof Protection Cover for 5.5 inches [Black]",
+            "quantity": 7,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.39999999966456384
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.49999999541
+            }
+        },
+        "B01H1RW5X4": {
+            "asin": "B01H1RW5X4",
+            "height": {
+                "unit": "IN",
+                "value": 1.181102361
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.149606296
+            },
+            "name": "Pincun H9 Bluetooth Headphones with Microphone, Wireless Sport Earbuds with Mic, Waterproof & Sweatproof, Stereo Music Earphones, Handfree Headset for Gym/Working Out/Running (Black Gray)",
+            "normalizedName": "Pincun H9 Bluetooth Headphones with Microphone, Wireless Sport Earbuds with Mic, Waterproof & Sweatproof, Stereo Music Earphones, Handfree Headset for Gym/Working Out/Running (Black Gray)",
+            "quantity": 1,
+            "weight": null,
+            "width": {
+                "unit": "IN",
+                "value": 1.968503935
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 8
+}

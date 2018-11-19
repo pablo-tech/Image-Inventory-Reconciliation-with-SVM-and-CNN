@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0017J67I2": {
+            "asin": "B0017J67I2",
+            "height": {
+                "unit": "IN",
+                "value": 1.49999999847
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.599999995308
+            },
+            "name": "Gas X Ultra Strength Anti-Gas Softgels 50",
+            "normalizedName": "Gas X Ultra Strength Anti-Gas Softgels 50",
+            "quantity": 6,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001186074866
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.7999999971439995
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

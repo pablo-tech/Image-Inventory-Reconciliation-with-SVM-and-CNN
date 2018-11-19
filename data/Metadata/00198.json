@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B007QH7MZQ": {
+            "asin": "B007QH7MZQ",
+            "height": {
+                "unit": "IN",
+                "value": 2.99999999694
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.899999990922
+            },
+            "name": "Kaytee Exact Natural Nutritional Diet for Cockatiel, 3-Pound",
+            "normalizedName": "Kaytee Exact Natural Nutritional Diet for Cockatiel, 3-Pound",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.1
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.199999992656
+            }
+        },
+        "B00LJXQHTA": {
+            "asin": "B00LJXQHTA",
+            "height": {
+                "unit": "IN",
+                "value": 0.899999999082
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.99999999388
+            },
+            "name": "Swissco Pumice Sponge , 3 count",
+            "normalizedName": "Swissco Pumice Sponge , 3 count",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.05000000000000001
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.699999995206
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

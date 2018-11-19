@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00SXEQBAI": {
+            "asin": "B00SXEQBAI",
+            "height": {
+                "unit": "IN",
+                "value": 5.099999994798
+            },
+            "length": {
+                "unit": "IN",
+                "value": 14.899999984802001
+            },
+            "name": "OxGord\u00ae Solar-Tech Reflective Car Cover - 100% Sun-Proof - Best Reflective Method - Ready-Fit / Semi Custom - Fits up to 168 Inches",
+            "normalizedName": "OxGord\u00ae Solar-Tech Reflective Car Cover - 100% Sun-Proof - Best Reflective Method - Ready-Fit / Semi Custom - Fits up to 168 Inches",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.249999998113171
+            },
+            "width": {
+                "unit": "IN",
+                "value": 12.699999987045999
+            }
+        },
+        "B015GF54G8": {
+            "asin": "B015GF54G8",
+            "height": {
+                "unit": "IN",
+                "value": 3.299999996634
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.49999998725
+            },
+            "name": "Lenovo (LENZ9) Lenovo Miix 700 - 80QL0008US 12\" 2160x1440 2-in-1 Laptop/Tablet (Intel Core m5-6Y54 1.1GHz Processor, 4 GB DDR3L SDRAM, 128 GB SDD, Windows 10)",
+            "normalizedName": "Lenovo (LENZ9) Lenovo Miix 700 - 80QL0008US 12\" 2160x1440 2-in-1 Laptop/Tablet (Intel Core m5-6Y54 1.1GHz Processor, 4 GB DDR3L SDRAM, 128 GB SDD, Windows 10)",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 4.29999999639406
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.699999990105999
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

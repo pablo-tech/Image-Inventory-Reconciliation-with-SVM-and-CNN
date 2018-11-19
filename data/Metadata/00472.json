@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "1618688111": {
+            "asin": "1618688111",
+            "height": {
+                "unit": "IN",
+                "value": 0.49999999949
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.899999990922
+            },
+            "name": "Enemies, Foreign and Domestic: A SEAL's Story",
+            "normalizedName": "Enemies, Foreign and Domestic: A SEAL's Story",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.4099999988175873
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.299999993574
+            }
+        },
+        "B000255LJ8": {
+            "asin": "B000255LJ8",
+            "height": {
+                "unit": "IN",
+                "value": 0.90157480223
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.49999999235
+            },
+            "name": "Soap - The Complete Second Season",
+            "normalizedName": "Soap - The Complete Second Season",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6000100922592
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.49999999439
+            }
+        },
+        "B00ZC9OZVY": {
+            "asin": "B00ZC9OZVY",
+            "height": {
+                "unit": "IN",
+                "value": 5.699999994186001
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.599999993268
+            },
+            "name": "Goldenwide\u00ae New Mini Ocean Projector Wave Projection Lamps with Speaker LED Night Light for Home Room Bedroom \u00a8C Multicolor",
+            "normalizedName": "Goldenwide\u00ae New Mini Ocean Projector Wave Projection Lamps with Speaker LED Night Light for Home Room Bedroom \u00a8C Multicolor",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.149999999035621
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.799999994084
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

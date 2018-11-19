@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "1623654726": {
+            "asin": "1623654726",
+            "height": {
+                "unit": "IN",
+                "value": 0.787401574
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.1102362122
+            },
+            "name": "Heaven and Hell",
+            "normalizedName": "Heaven and Hell",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4409200237214973
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.4330708606
+            }
+        },
+        "B00AANQLRI": {
+            "asin": "B00AANQLRI",
+            "height": {
+                "unit": "IN",
+                "value": 1.6535433054
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.480314953
+            },
+            "name": "Jackery Giant+ Premium 12000 mAh Dual USB Portable Battery Charger & External Battery Pack with Panasonic Battery Cells and Aluminum Shell for iPhone, iPad, Galaxy, and Android Smart Devices (Orange)",
+            "normalizedName": "Jackery Giant+ Premium 12000 mAh Dual USB Portable Battery Charger & External Battery Pack with Panasonic Battery Cells and Aluminum Shell for iPhone, iPad, Galaxy, and Android Smart Devices (Orange)",
+            "quantity": 5,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.0141160545594439
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.9606299162
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B001HBT7PK": {
+            "asin": "B001HBT7PK",
+            "height": {
+                "unit": "IN",
+                "value": 1.799999998164
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.99999999592
+            },
+            "name": "Vita Sciences Migraine Relief - Migravent Supplement - Natural Migravent Proprietary Remedy - 60 Caps",
+            "normalizedName": "Vita Sciences Migraine Relief - Migravent Supplement - Natural Migravent Proprietary Remedy - 60 Caps",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.15
+            },
+            "width": {
+                "unit": "IN",
+                "value": 1.99999999796
+            }
+        },
+        "B00JJI6AY4": {
+            "asin": "B00JJI6AY4",
+            "height": {
+                "unit": "IN",
+                "value": 1.99999999796
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.99999999388
+            },
+            "name": "5X Finger Puppets . Children's storytelling helper, hand puppets / finger puppets . Australian animals TY040",
+            "normalizedName": "5X Finger Puppets . Children's storytelling helper, hand puppets / finger puppets . Australian animals TY040",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001167587297
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.9999999949
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

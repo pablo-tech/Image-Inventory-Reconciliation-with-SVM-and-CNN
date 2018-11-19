@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00NGXWL78": {
+            "asin": "B00NGXWL78",
+            "height": {
+                "unit": "IN",
+                "value": 1.799999998164
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.49999999337
+            },
+            "name": "FlashBright LED Bike Light + FREE TAILLIGHT - Extremely Bright, Lightweight, Waterproof, Installs Easily, No Tools Required Fits ALL Bikes Guaranteed.",
+            "normalizedName": "FlashBright LED Bike Light + FREE TAILLIGHT - Extremely Bright, Lightweight, Waterproof, Installs Easily, No Tools Required Fits ALL Bikes Guaranteed.",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.55
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.799999995104
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

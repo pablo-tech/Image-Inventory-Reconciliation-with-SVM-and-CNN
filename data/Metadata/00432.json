@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B004UMM0WK": {
+            "asin": "B004UMM0WK",
+            "height": {
+                "unit": "IN",
+                "value": 5.599999994287999
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.199999990616
+            },
+            "name": "ZuPreem 230357 Natural Large Bird Food, 3-Pound",
+            "normalizedName": "ZuPreem 230357 Natural Large Bird Food, 3-Pound",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.15
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.399999992452001
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B003E2TRXW": {
+            "asin": "B003E2TRXW",
+            "height": {
+                "unit": "IN",
+                "value": 1.49999999847
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.99999999286
+            },
+            "name": "AC Adapter/Power Supply+Cord for HP Pavilion DV2100 DV2500 TX1000 dv6500 dv6700 ze4900 zt3000",
+            "normalizedName": "AC Adapter/Power Supply+Cord for HP Pavilion DV2100 DV2500 TX1000 dv6500 dv6700 ze4900 zt3000",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.24999999979035234
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.49999999439
+            }
+        },
+        "B0093JP5PY": {
+            "asin": "B0093JP5PY",
+            "height": {
+                "unit": "IN",
+                "value": 3.49999999643
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.99999999184
+            },
+            "name": "NCAA Michigan Wolverines EVOCAP Holds Eyewear in Place, Camo Color Cap",
+            "normalizedName": "NCAA Michigan Wolverines EVOCAP Holds Eyewear in Place, Camo Color Cap",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.05
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.9999999949
+            }
+        },
+        "B01D221HSG": {
+            "asin": "B01D221HSG",
+            "height": {
+                "unit": "IN",
+                "value": 0.6999999992859999
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.799999991024002
+            },
+            "name": "iPhone 6S Screen Protector, Tech Armor Apple iPhone 6 (4.7\") Ballistic Glass (.3mm) - Maximize Resale Value - Max Clarity And Touch Accuracy [3-Pack]",
+            "normalizedName": "3-Pack iPhone 6S Screen Protector, Tech Armor Apple iPhone 6 (4.7\") Ballistic Glass (.3mm) - Maximize Resale Value - Max Clarity And Touch Accuracy [ ]",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.19999999983228192
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.799999995104
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

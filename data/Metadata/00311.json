@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00HZVU57U": {
+            "asin": "B00HZVU57U",
+            "height": {
+                "unit": "IN",
+                "value": 2.1999999977560005
+            },
+            "length": {
+                "unit": "IN",
+                "value": 15.599999984088
+            },
+            "name": "Scarleton Women's Vintage Tote Bag H124501 - Black",
+            "normalizedName": "Scarleton Women's Vintage Tote Bag H124501 - Black",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.6000000000000003
+            },
+            "width": {
+                "unit": "IN",
+                "value": 13.099999986638
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

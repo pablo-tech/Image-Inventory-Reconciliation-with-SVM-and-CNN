@@ -1,0 +1,115 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B001IU6LLS": {
+            "asin": "B001IU6LLS",
+            "height": {
+                "unit": "IN",
+                "value": 1.99999999796
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.699999994186001
+            },
+            "name": "Thirstystone Stoneware Coaster Set, University of Iowa",
+            "normalizedName": "Thirstystone Stoneware Coaster Set, University of Iowa",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.15
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.399999995512001
+            }
+        },
+        "B009B9ASZ8": {
+            "asin": "B009B9ASZ8",
+            "height": {
+                "unit": "IN",
+                "value": 0.599999999388
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.099999993778
+            },
+            "name": "Joe Jacket Neoprene Drink Insulator Sleeve, Cup Grip, Navy Quatrefoil",
+            "normalizedName": "Joe Jacket Neoprene Drink Insulator Sleeve, Cup Grip, Navy Quatrefoil",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.25
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.599999995308
+            }
+        },
+        "B00DVCZ982": {
+            "asin": "B00DVCZ982",
+            "height": {
+                "unit": "IN",
+                "value": 1.0999999988780003
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.799999995104
+            },
+            "name": "ProTapes Pro Scenic 714 Crepe Paper 14 Day Easy Release Painters Masking Tape, 60 yds Length x 1\" Width, Blue (Pack of 1)",
+            "normalizedName": "(Pack of 1) ProTapes Pro Scenic 714 Crepe Paper 14 Day Easy Release Painters Masking Tape, 60 yds Length x 1\" Width, Blue",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6999999994129864
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.799999995104
+            }
+        },
+        "B00WABJM60": {
+            "asin": "B00WABJM60",
+            "height": {
+                "unit": "IN",
+                "value": 0.0099999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 14.49999998521
+            },
+            "name": "Caroline's Treasures JMK1203GF Parrots Flag, Small, Multicolor",
+            "normalizedName": "Caroline's Treasures JMK1203GF Parrots Flag, Small, Multicolor",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.009999999991614094
+            },
+            "width": {
+                "unit": "IN",
+                "value": 11.49999998827
+            }
+        },
+        "B019DOFUVM": {
+            "asin": "B019DOFUVM",
+            "height": {
+                "unit": "IN",
+                "value": 1.899999998062
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.9999999949
+            },
+            "name": "Decker Kitchenware Kitchen Professional Ergonomic Baking Dough Blender - Stainless Steel Pastry Cutter - Round Hand Dough Blender with Blades for Your Kitchen Collection",
+            "normalizedName": "Decker Kitchenware Kitchen Professional Ergonomic Baking Dough Blender - Stainless Steel Pastry Cutter - Round Hand Dough Blender with Blades for Your Kitchen Collection",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.39999999966456384
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.699999995206
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

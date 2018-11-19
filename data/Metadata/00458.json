@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00HGV5UBU": {
+            "asin": "B00HGV5UBU",
+            "height": {
+                "unit": "IN",
+                "value": 3.799999996124
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.399999993472
+            },
+            "name": "Hoosier Hill Farm Dried Mixed Vegetables, 1 Pound",
+            "normalizedName": "Hoosier Hill Farm Dried Mixed Vegetables, 1 Pound",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.1800000000000002
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.099999995818
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

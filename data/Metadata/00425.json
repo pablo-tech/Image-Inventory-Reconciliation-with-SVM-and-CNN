@@ -1,0 +1,24 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B015PB5F0S": {
+            "asin": "B015PB5F0S",
+            "height": {
+                "unit": "IN",
+                "value": 2.5
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.0
+            },
+            "name": "Fire Team Fit Weightlifting Belt, Crossfit, Olympic Lifting, for Men and Women, 6 Inch, Back Support for Lifting (Pink, 26\" - 29\" XX-Small)",
+            "normalizedName": "Fire Team Fit Weightlifting Belt, Crossfit, Olympic Lifting, for Men and Women, 6 Inch, Back Support for Lifting (Pink, 26\" - 29\" XX-Small)",
+            "quantity": 4,
+            "weight": null,
+            "width": {
+                "unit": "IN",
+                "value": 6.0
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

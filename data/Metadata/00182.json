@@ -1,0 +1,115 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00AVZXZO2": {
+            "asin": "B00AVZXZO2",
+            "height": {
+                "unit": "IN",
+                "value": 4.299999995614
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.599999995308
+            },
+            "name": "Funny Guy Mugs I Pooped Today Mug",
+            "normalizedName": "Funny Guy Mugs I Pooped Today Mug",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.95
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.399999995512001
+            }
+        },
+        "B00QLU9O14": {
+            "asin": "B00QLU9O14",
+            "height": {
+                "unit": "IN",
+                "value": 1.799999998164
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.99999999286
+            },
+            "name": "Cosmos \u00ae 5 Pack of Led Flash Tyre Wheel Valve Cap Light For Car Bike Bicycle Motorbicycle Wheel Light Tire (Red, Yellow, Blue, Green, Colorful)",
+            "normalizedName": "5 Pack Cosmos \u00ae of Led Flash Tyre Wheel Valve Cap Light For Car Bike Bicycle Motorbicycle Wheel Light Tire (Red, Yellow, Blue, Green, Colorful)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.05000000000000001
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.199999995716
+            }
+        },
+        "B00R8MECFM": {
+            "asin": "B00R8MECFM",
+            "height": {
+                "unit": "IN",
+                "value": 1.3999999985719997
+            },
+            "length": {
+                "unit": "IN",
+                "value": 13.99999998572
+            },
+            "name": "NHL New York Rangers Headrest, One Size, Red",
+            "normalizedName": "NHL New York Rangers Headrest, One Size, Red",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.29999999974842284
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.49999999031
+            }
+        },
+        "B011NQ0ZC2": {
+            "asin": "B011NQ0ZC2",
+            "height": {
+                "unit": "IN",
+                "value": 0.7
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.6
+            },
+            "name": "iKingsky Men's Black Sexy Low Raise Underwear (US Medium/ with Tag L, Jock Straps)",
+            "normalizedName": "iKingsky Men's Black Sexy Low Raise Underwear (US Medium/ with Tag L, Jock Straps)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.04999999995807048
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.799999999999999
+            }
+        },
+        "B0122W7QHS": {
+            "asin": "B0122W7QHS",
+            "height": {
+                "unit": "IN",
+                "value": 0.899999999082
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.49999999031
+            },
+            "name": "Cosmos \u00ae Pack of 2 Stainless Steel Pie Cake Server with Mirror Finished",
+            "normalizedName": "Pack of 2 Cosmos \u00ae Stainless Steel Pie Cake Server with Mirror Finished",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.24999999979035234
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.49999999541
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B002FAYZ86": {
+            "asin": "B002FAYZ86",
+            "height": {
+                "unit": "IN",
+                "value": 2.099999997858
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.799999990004002
+            },
+            "name": "Kangol Wool Spitfire Cap",
+            "normalizedName": "Kangol Wool Spitfire Cap",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.699999990105999
+            }
+        },
+        "B009WUK2OS": {
+            "asin": "B009WUK2OS",
+            "height": {
+                "unit": "IN",
+                "value": 2.299999997654
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.799999993064
+            },
+            "name": "ESDProduct Nitrile Finger Cot, 4 mil Thick, 2-7/10\" Length, X-Large, ESDProduct Natural (Bag of 720)",
+            "normalizedName": "ESDProduct Nitrile Finger Cot, 4 mil Thick, 2-7/10\" Length, X-Large, ESDProduct Natural (Bag of 720)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.9499999999999998
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.099999993778
+            }
+        },
+        "B013F98L44": {
+            "asin": "B013F98L44",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.9999999949
+            },
+            "name": "Home-X\u00ae Corn Silk Remover. Double Row Corn Desilker",
+            "normalizedName": "Home-X\u00ae Corn Silk Remover. Double Row Corn Desilker",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.09999999991614096
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.299999995614
+            }
+        },
+        "B01G168ULC": {
+            "asin": "B01G168ULC",
+            "height": {
+                "unit": "IN",
+                "value": 1.599999998368
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.299999993574
+            },
+            "name": "Flyingman Wireless Bluetooth Outdoor Sport Stereo Earphone with Microphone for Cellphone and Bluetooth Devices-Red&Black (Red&Black)",
+            "normalizedName": "Flyingman Wireless Bluetooth Outdoor Sport Stereo Earphone with Microphone for Cellphone and Bluetooth Devices-Red&Black (Red&Black)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.19999999983228192
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.49999999439
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B004GXJAY4": {
+            "asin": "B004GXJAY4",
+            "height": {
+                "unit": "IN",
+                "value": 0.899999999082
+            },
+            "length": {
+                "unit": "IN",
+                "value": 2.899999997042
+            },
+            "name": "Schleich Sitting Rabbit Toy Figure",
+            "normalizedName": "Schleich Sitting Rabbit Toy Figure",
+            "quantity": 8,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001186074866
+            },
+            "width": {
+                "unit": "IN",
+                "value": 1.99999999796
+            }
+        },
+        "B00JFP0574": {
+            "asin": "B00JFP0574",
+            "height": {
+                "unit": "IN",
+                "value": 3.6220472404
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.7716535364
+            },
+            "name": "MegaGear \"Ever Ready\" Protective Leather Camera Case, Bag for Sony Alpha a5000, Sony a5100 with 16-50mm OSS Lens (Black)",
+            "normalizedName": "MegaGear \"Ever Ready\" Protective Leather Camera Case, Bag for Sony Alpha a5000, Sony a5100 with 16-50mm OSS Lens (Black)",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.5291040284657967
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.6692913328
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 11
+}

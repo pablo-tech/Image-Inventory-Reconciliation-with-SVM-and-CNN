@@ -1,0 +1,115 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B004XAD442": {
+            "asin": "B004XAD442",
+            "height": {
+                "unit": "IN",
+                "value": 2.249999997705
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.299999990514
+            },
+            "name": "SeaSense Double Braid Nylon Dockline (3/8-Inch X 20-Foot, Blue",
+            "normalizedName": "SeaSense Double Braid Nylon Dockline (3/8-Inch X 20-Foot, Blue",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.89
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.99999999592
+            }
+        },
+        "B005EOB8WG": {
+            "asin": "B005EOB8WG",
+            "height": {
+                "unit": "IN",
+                "value": 1.0999999988780003
+            },
+            "length": {
+                "unit": "IN",
+                "value": 2.49999999745
+            },
+            "name": "XSPC G1/4\" to G1/4\" Bulkhead (Black Chrome)",
+            "normalizedName": "XSPC G1/4\" to G1/4\" Bulkhead (Black Chrome)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.05000000000000001
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.1999999977560005
+            }
+        },
+        "B00TDUQQTC": {
+            "asin": "B00TDUQQTC",
+            "height": {
+                "unit": "IN",
+                "value": 1.3385826758
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.2755905458
+            },
+            "name": "Belkin MIXIT Metallic USB Car Charger for Apple and Android Devices (2.4 Amp / 5 Watt), Silver",
+            "normalizedName": "Belkin MIXIT Metallic USB Car Charger for Apple and Android Devices (2.4 Amp / 5 Watt), Silver",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001186074866
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.0157480274
+            }
+        },
+        "B01BL2OHH2": {
+            "asin": "B01BL2OHH2",
+            "height": {
+                "unit": "IN",
+                "value": 0.6999999992859999
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.49999999643
+            },
+            "name": "Bitspower G1/4\" Male to Female Extender Fitting, 40mm, Silver Shining",
+            "normalizedName": "Bitspower G1/4\" Male to Female Extender Fitting, 40mm, Silver Shining",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.09999999991614096
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.7999999971439995
+            }
+        },
+        "B01E9XN3RK": {
+            "asin": "B01E9XN3RK",
+            "height": {
+                "unit": "IN",
+                "value": 0.6999999992859999
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.599999992248
+            },
+            "name": "Horde Alliance Badge Banner Flag Orc Emblem Poster (Red)",
+            "normalizedName": "Horde Alliance Badge Banner Flag Orc Emblem Poster (Red)",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.11999999989936912
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.299999992554
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 9
+}

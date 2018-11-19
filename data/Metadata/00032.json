@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000J09TBC": {
+            "asin": "B000J09TBC",
+            "height": {
+                "unit": "IN",
+                "value": 1.299999998674
+            },
+            "length": {
+                "unit": "IN",
+                "value": 15.099999984598
+            },
+            "name": "Smead TUFF\u00ae Expanding File, Monthly (Jan.-Dec.), 12 Pockets, Flap and Elastic Cord Closure, Legal Size, Redrope-Printed Stock (70390)",
+            "normalizedName": "Smead TUFF\u00ae Expanding File, Monthly (Jan.-Dec.), 12 Pockets, Flap and Elastic Cord Closure, Legal Size, Redrope-Printed Stock (70390)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.9
+            },
+            "width": {
+                "unit": "IN",
+                "value": 10.399999989392
+            }
+        },
+        "B00451SGZ6": {
+            "asin": "B00451SGZ6",
+            "height": {
+                "unit": "IN",
+                "value": 5.49999999439
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.799999987964
+            },
+            "name": "Coffee-mate Coffee Creamer, Original Liquid Singles, 0.375-Ounce Creamers (Pack of 180)",
+            "normalizedName": "(Pack of 180) Coffee-mate Coffee Creamer, Original Liquid Singles, 0.375-Ounce Creamers",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 5.109999995714802
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.799999992044
+            }
+        },
+        "B00KTZIW3S": {
+            "asin": "B00KTZIW3S",
+            "height": {
+                "unit": "IN",
+                "value": 1.49999999847
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.899999987862001
+            },
+            "name": "YOPO New Retro Vintage Casual Women's Backpack School Bag Fashion Travel School PU Leather Handbag ipad bag, four colors avaliable (Blue)",
+            "normalizedName": "YOPO New Retro Vintage Casual Women's Backpack School Bag Fashion Travel School PU Leather Handbag ipad bag, four colors avaliable (Blue)",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.1
+            },
+            "width": {
+                "unit": "IN",
+                "value": 11.099999988678
+            }
+        },
+        "B00Z0RLYDK": {
+            "asin": "B00Z0RLYDK",
+            "height": {
+                "unit": "IN",
+                "value": 2.299999997654
+            },
+            "length": {
+                "unit": "IN",
+                "value": 13.399999986332
+            },
+            "name": "Brielle 400 Thread Count Egyptian Cotton Sateen Fine Sheet Set, Queen, Grey Stripe",
+            "normalizedName": "Brielle 400 Thread Count Egyptian Cotton Sateen Fine Sheet Set, Queen, Grey Stripe",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.7499999968552853
+            },
+            "width": {
+                "unit": "IN",
+                "value": 11.299999988474
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

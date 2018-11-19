@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00JE30GKS": {
+            "asin": "B00JE30GKS",
+            "height": {
+                "unit": "IN",
+                "value": 1.49999999847
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.099999995818
+            },
+            "name": "Balanced Guru Scalp Treatment Detox, 1 Ounce",
+            "normalizedName": "Balanced Guru Scalp Treatment Detox, 1 Ounce",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001186074866
+            },
+            "width": {
+                "unit": "IN",
+                "value": 1.599999998368
+            }
+        },
+        "B00X2XXAWM": {
+            "asin": "B00X2XXAWM",
+            "height": {
+                "unit": "IN",
+                "value": 0.49999999949
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.399999994492
+            },
+            "name": "Professional Concealer Camouflage Makeup Palette (5colors, Neutral-2)",
+            "normalizedName": "Professional Concealer Camouflage Makeup Palette (5colors, Neutral-2)",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.05000000000000001
+            },
+            "width": {
+                "unit": "IN",
+                "value": 1.899999998062
+            }
+        },
+        "B0150SODKE": {
+            "asin": "B0150SODKE",
+            "height": {
+                "unit": "IN",
+                "value": 1.799999998164
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.599999993268
+            },
+            "name": "Jalousie Novelty Glitter Owl Lip Gloss 4 Piece Lip Balm Girls Birthday Party Favors FDA Approved",
+            "normalizedName": "Jalousie Novelty Glitter Owl Lip Gloss 4 Piece Lip Balm Girls Birthday Party Favors FDA Approved",
+            "quantity": 4,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001167587297
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.599999996328
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 8
+}

@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00FY2O73U": {
+            "asin": "B00FY2O73U",
+            "height": {
+                "unit": "IN",
+                "value": 2.599999997348
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.399999994492
+            },
+            "name": "Crayola Washable Glitter Paint, 2-Ounce, 6 Count",
+            "normalizedName": "Crayola Washable Glitter Paint, 2-Ounce, 6 Count",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.0
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.599999996328
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

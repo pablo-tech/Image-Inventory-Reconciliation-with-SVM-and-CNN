@@ -1,0 +1,159 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B001FWVTSY": {
+            "asin": "B001FWVTSY",
+            "height": {
+                "unit": "IN",
+                "value": 1.699999998266
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.49999998929
+            },
+            "name": "Fobus SHR2 Shoulder Harness Only, Ambidextrous (Double) for Roto Holsters and Pouches",
+            "normalizedName": "Fobus SHR2 Shoulder Harness Only, Ambidextrous (Double) for Roto Holsters and Pouches",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.45
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.99999999286
+            }
+        },
+        "B002B7OD8A": {
+            "asin": "B002B7OD8A",
+            "height": {
+                "unit": "IN",
+                "value": 1.799999998164
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.199999991636
+            },
+            "name": "Satco 77606  Swivel Socket SF77-606 Base Extender",
+            "normalizedName": "Satco 77606  Swivel Socket SF77-606 Base Extender",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.35
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.899999993982
+            }
+        },
+        "B0093J2GM4": {
+            "asin": "B0093J2GM4",
+            "height": {
+                "unit": "IN",
+                "value": 1.0999999988780003
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.99999999184
+            },
+            "name": "Spectra 360 Electrode Gel - Parker Laboratories - 8.5 oz Tube - (Pack of 2)",
+            "normalizedName": "(Pack of 2) Spectra 360 Electrode Gel - Parker Laboratories - 8.5 oz Tube -",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.0
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.9999999949
+            }
+        },
+        "B00MOTYVKU": {
+            "asin": "B00MOTYVKU",
+            "height": {
+                "unit": "IN",
+                "value": 2.399999997552
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.49999998725
+            },
+            "name": "WolVol Boys Container Trailer with Light and Sound, Can open back doors (Diecast Metal Cab)",
+            "normalizedName": "WolVol Boys Container Trailer with Light and Sound, Can open back doors (Diecast Metal Cab)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.55
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.199999995716
+            }
+        },
+        "B01CLYE8HI": {
+            "asin": "B01CLYE8HI",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.099999989698
+            },
+            "name": "Oil Painting Hundreds of Birds Cotton Linen Throw Pillow Case Cushion Cover Home Sofa Decorative 18 X 18 Inch\uff083\uff09 (Deer)",
+            "normalizedName": "Oil Painting Hundreds of Birds Cotton Linen Throw Pillow Case Cushion Cover Home Sofa Decorative 18 X 18 Inch\uff083\uff09 (Deer)",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.20499999982808892
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.799999992044
+            }
+        },
+        "B01FYTMHXY": {
+            "asin": "B01FYTMHXY",
+            "height": {
+                "unit": "IN",
+                "value": 1.49999999847
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.099999988678
+            },
+            "name": "Bosszi Kitchen 3 in 1 Set: Kitchen Ceramics Knife 5\" + Vegetable and Fruit Peeler + 6 Piece Stainless Steel Measuring Spoon Set",
+            "normalizedName": "Bosszi Kitchen 3 in 1 Set: Kitchen Ceramics Knife 5\" + Vegetable and Fruit Peeler + 6 Piece Stainless Steel Measuring Spoon Set",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4999999995807047
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.199999996736
+            }
+        },
+        "B01GSAD1CE": {
+            "asin": "B01GSAD1CE",
+            "height": {
+                "unit": "IN",
+                "value": 2.099999997858
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.6999999962260004
+            },
+            "name": "Fibro-Fix Detox Boost - Dr. David Brady Fibromyalgia Fix - 90 Capsules",
+            "normalizedName": "Fibro-Fix Detox Boost - Dr. David Brady Fibromyalgia Fix - 90 Capsules",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.19999999983228192
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.099999997858
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 9
+}

@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000CIXMNM": {
+            "asin": "B000CIXMNM",
+            "height": {
+                "unit": "IN",
+                "value": 1.3999999985719997
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.899999995002001
+            },
+            "name": "Dorman 800-404 Heater Hose Quick Connect",
+            "normalizedName": "Dorman 800-404 Heater Hose Quick Connect",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.25
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.399999996532
+            }
+        },
+        "B005ID1F1W": {
+            "asin": "B005ID1F1W",
+            "height": {
+                "unit": "IN",
+                "value": 2.1999999977560005
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.599999995308
+            },
+            "name": "Centrum Specialist Heart, 60 Count",
+            "normalizedName": "Centrum Specialist Heart, 60 Count",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.299999997654
+            }
+        },
+        "B0186D322U": {
+            "asin": "B0186D322U",
+            "height": {
+                "unit": "IN",
+                "value": 2.399999997552
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.599999995308
+            },
+            "name": "PharMeDoc Kinesio Tape - Elastic Kinesiology Tape for Support & Healing - 100% Cotton - Latex Free Hypoallergenic Athletic Tape for Sports and Muscle Recovery Injuries - Pain and Stress Relief",
+            "normalizedName": "PharMeDoc Kinesio Tape - Elastic Kinesiology Tape for Support & Healing - 100% Cotton - Latex Free Hypoallergenic Athletic Tape for Sports and Muscle Recovery Injuries - Pain and Stress Relief",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.24999999979035234
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.099999996838
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

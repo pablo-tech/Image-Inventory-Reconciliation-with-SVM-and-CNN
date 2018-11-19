@@ -1,0 +1,115 @@
+{
+    "BIN_FCSKU_DATA": {
+        "1118477502": {
+            "asin": "1118477502",
+            "height": {
+                "unit": "IN",
+                "value": 1.4173228332
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.1574803046
+            },
+            "name": "Introduction to Electric Circuits",
+            "normalizedName": "Introduction to Electric Circuits",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.8
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.1889763696
+            }
+        },
+        "1285854950": {
+            "asin": "1285854950",
+            "height": {
+                "unit": "IN",
+                "value": 0.6999999992859999
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.699999989085999
+            },
+            "name": "Student Solutions Manual for Tan's Applied Calculus for the Managerial, Life, and Social Sciences: A Brief Approach, 10th",
+            "normalizedName": "Student Solutions Manual for Tan's Applied Calculus for the Managerial, Life, and Social Sciences: A Brief Approach, 10th",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.9499999999999998
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.49999999133
+            }
+        },
+        "1580538630": {
+            "asin": "1580538630",
+            "height": {
+                "unit": "IN",
+                "value": 2.29921259608
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.29921258894
+            },
+            "name": "Digital Modulation Techniques, Second Edition (Artech House Telecommunications Library)",
+            "normalizedName": "Digital Modulation Techniques, Second Edition (Artech House Telecommunications Library)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.9000487792528
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.20078739525
+            }
+        },
+        "B007Q6EF48": {
+            "asin": "B007Q6EF48",
+            "height": {
+                "unit": "IN",
+                "value": 1.199999998776
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.49999999235
+            },
+            "name": "Ryobi 21 Pcs Titanium Coated Drill Bit Set",
+            "normalizedName": "Ryobi 21 Pcs Titanium Coated Drill Bit Set",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.85
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.49999999541
+            }
+        },
+        "B0141GPH9C": {
+            "asin": "B0141GPH9C",
+            "height": {
+                "unit": "IN",
+                "value": 1.899999998062
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.699999992146
+            },
+            "name": "ShaggyDogz Pet Training Collar For Dogs Offers Vibration, Sound, and Shock Stimulation for Small to Large Dogs. Rainproof Rechargeable Shock Collar For Dogs With Remote.",
+            "normalizedName": "ShaggyDogz Pet Training Collar For Dogs Offers Vibration, Sound, and Shock Stimulation for Small to Large Dogs. Rainproof Rechargeable Shock Collar For Dogs With Remote.",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.19999999983228192
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.699999994186001
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

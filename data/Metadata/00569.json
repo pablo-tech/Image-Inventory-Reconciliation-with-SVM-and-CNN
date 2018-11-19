@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0017YGE8A": {
+            "asin": "B0017YGE8A",
+            "height": {
+                "unit": "IN",
+                "value": 3.99999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.199999991636
+            },
+            "name": "3M Peltor H6A\\V Optime 95 Noise Reduction Earmuff, 1 Each",
+            "normalizedName": "3M Peltor H6A\\V Optime 95 Noise Reduction Earmuff, 1 Each",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.799999994084
+            }
+        },
+        "B00JDQLX1C": {
+            "asin": "B00JDQLX1C",
+            "height": {
+                "unit": "IN",
+                "value": 0.099999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.9999999949
+            },
+            "name": "Amazon.com $20 Gift Card in a Greeting Card (Fitting Christmas Design)",
+            "normalizedName": "Amazon.com $20 Gift Card in a Greeting Card (Fitting Christmas Design)",
+            "quantity": 45,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.15
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.99999999694
+            }
+        },
+        "B00VL8SKAM": {
+            "asin": "B00VL8SKAM",
+            "height": {
+                "unit": "IN",
+                "value": 1.799999998164
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.899999987862001
+            },
+            "name": "Power Grip Wrist Forearm Strengthener and Wrist Exerciser - Build-up Wrist and Forearm Muscles",
+            "normalizedName": "Power Grip Wrist Forearm Strengthener and Wrist Exerciser - Build-up Wrist and Forearm Muscles",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.0
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.699999991126
+            }
+        },
+        "B01789KK7I": {
+            "asin": "B01789KK7I",
+            "height": {
+                "unit": "IN",
+                "value": 1.49999999847
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.99999999082
+            },
+            "name": "Ugly Christmas Sweater Paper Party Gift Bags - 12 pieces",
+            "normalizedName": "Ugly Christmas Sweater Paper Party Gift Bags - 12 pieces",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4999999995807047
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.99999999286
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 48
+}

@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000KL1M88": {
+            "asin": "B000KL1M88",
+            "height": {
+                "unit": "IN",
+                "value": 2.899999997042
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.399999990412
+            },
+            "name": "Fiskars Bulb Transplanter (7983)",
+            "normalizedName": "Fiskars Bulb Transplanter (7983)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.49999999439
+            }
+        },
+        "B000NIGOBS": {
+            "asin": "B000NIGOBS",
+            "height": {
+                "unit": "IN",
+                "value": 0.599999999388
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.9999999898
+            },
+            "name": "Stanley 90-948 8-Inch Adjustable Wrench",
+            "normalizedName": "Stanley 90-948 8-Inch Adjustable Wrench",
+            "quantity": 9,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.65
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.49999999643
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 10
+}

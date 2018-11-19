@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "0679781595": {
+            "asin": "0679781595",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.99999999082
+            },
+            "name": "Overcoming Dyslexia: A New and Complete Science-Based Program for Reading Problems at Any Level",
+            "normalizedName": "Overcoming Dyslexia: A New and Complete Science-Based Program for Reading Problems at Any Level",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.55
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.099999993778
+            }
+        },
+        "1469622491": {
+            "asin": "1469622491",
+            "height": {
+                "unit": "IN",
+                "value": 1.8897637776
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.2913385732
+            },
+            "name": "Lincoln's Autocrat: The Life of Edwin Stanton (Civil War America)",
+            "normalizedName": "Lincoln's Autocrat: The Life of Edwin Stanton (Civil War America)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.2046001186074866
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.4566929068
+            }
+        },
+        "1943893004": {
+            "asin": "1943893004",
+            "height": {
+                "unit": "IN",
+                "value": 0.72834645595
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.42913384967
+            },
+            "name": "Justice Falling (The Falling Series)",
+            "normalizedName": "Justice Falling (The Falling Series)",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.7900044696508
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.85039369482
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

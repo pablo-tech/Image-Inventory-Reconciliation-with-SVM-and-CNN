@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00WFZAC7Y": {
+            "asin": "B00WFZAC7Y",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.99999999184
+            },
+            "name": "Galaxy S4 Waterproof Case, iThrough Waterproof, Dust Proof, Snow Proof, Shock Proof Case with Touched Transparent Screen Protector, Heavy Duty Protective Carrying Cover Case includes a 3.5mm AUX Cable for Samsung Galaxy S4 (Blue-)",
+            "normalizedName": "Galaxy S4 Waterproof Case, iThrough Waterproof, Dust Proof, Snow Proof, Shock Proof Case with Touched Transparent Screen Protector, Heavy Duty Protective Carrying Cover Case includes a 3.5mm AUX Cable for Samsung Galaxy S4 (Blue-)",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.15
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.699999995206
+            }
+        },
+        "B011JKZ3K6": {
+            "asin": "B011JKZ3K6",
+            "height": {
+                "unit": "IN",
+                "value": 4.899999995002001
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.949999989850998
+            },
+            "name": "Crystaline Housewares 5 gallon Water Dispenser-Drinking Water Pump, Use for Kitchen or Survival Kits",
+            "normalizedName": "Crystaline Housewares 5 gallon Water Dispenser-Drinking Water Pump, Use for Kitchen or Survival Kits",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6149999994842668
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.949999994951
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00LQTN9ES": {
+            "asin": "B00LQTN9ES",
+            "height": {
+                "unit": "IN",
+                "value": 7.899999991942001
+            },
+            "length": {
+                "unit": "IN",
+                "value": 13.299999986434
+            },
+            "name": "TEMPTATIONS Functional Treats for Cats Hairball Control Chicken Flavor 4.9 Ounces (Pack of 10)",
+            "normalizedName": "(Pack of 10) TEMPTATIONS Functional Treats for Cats Hairball Control Chicken Flavor 4.9 Ounces",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 4.099999996561778
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.099999990718
+            }
+        },
+        "B00VIQD1S8": {
+            "asin": "B00VIQD1S8",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.99999998878
+            },
+            "name": "Halo SleepSack 100% Cotton Wearable Blanket, Linear print Jungle Pink, Small",
+            "normalizedName": "Halo SleepSack 100% Cotton Wearable Blanket, Linear print Jungle Pink, Small",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.5
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.799999991024002
+            }
+        },
+        "B0146GD2YE": {
+            "asin": "B0146GD2YE",
+            "height": {
+                "unit": "IN",
+                "value": 3.599999996328
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.99999998776
+            },
+            "name": "UNDME Folding Umbrella,Sun Parasol,Unique Purple Daisy Design,Black&Purple",
+            "normalizedName": "UNDME Folding Umbrella,Sun Parasol,Unique Purple Daisy Design,Black&Purple",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.2999999989098325
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.6999999962260004
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

@@ -1,0 +1,90 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00CXACR1U": {
+            "asin": "B00CXACR1U",
+            "height": {
+                "unit": "IN",
+                "value": 0.099999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.99999999286
+            },
+            "name": "BuyCheapCables\u00ae (6 Feet) Ultra Slim 2.2mm OD Toslink Optical Digital Audio Cable (6')",
+            "normalizedName": "BuyCheapCables\u00ae (6 Feet) Ultra Slim 2.2mm OD Toslink Optical Digital Audio Cable (6')",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001186074866
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.49999999337
+            }
+        },
+        "B00NO56G4M": {
+            "asin": "B00NO56G4M",
+            "height": {
+                "unit": "IN",
+                "value": 0.899999999082
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.99999999082
+            },
+            "name": "St. Louis Cardinals Fans. Don't Be a Dick Red T-Shirt (3XL)",
+            "normalizedName": "St. Louis Cardinals Fans. Don't Be a Dick Red T-Shirt (3XL)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.85
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.99999999184
+            }
+        },
+        "B012C8GJBG": {
+            "asin": "B012C8GJBG",
+            "height": {
+                "unit": "IN",
+                "value": 0.5511811018
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.905511805
+            },
+            "name": "Galaxy S5 Case Wallet,Mulbess [Layered Dandy][Vintage Series][Black] - [Ultra Slim][Wallet Case] - Leather Flip Cover With Credit Card Slot for Samsung Galaxy S5 SV i9600",
+            "normalizedName": "Galaxy S5 Case Wallet,Mulbess [Layered Dandy][Vintage Series][Black] - [Ultra Slim][Wallet Case] - Leather Flip Cover With Credit Card Slot for Samsung Galaxy S5 SV i9600",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.22046001167587295
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.3070866108
+            }
+        },
+        "B01ATYIK7G": {
+            "asin": "B01ATYIK7G",
+            "height": {
+                "unit": "IN",
+                "value": 4.0
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.0
+            },
+            "name": "Vergiano Super Bright Flexible Dual Head Clip on LED Reading Light - Clamp Lamp Sensitive Eye Care - Rechargeable USB Desk or Table Lamp - Music Stand Light (BLACK)",
+            "normalizedName": "Vergiano Super Bright Flexible Dual Head Clip on LED Reading Light - Clamp Lamp Sensitive Eye Care - Rechargeable USB Desk or Table Lamp - Music Stand Light (BLACK)",
+            "quantity": 3,
+            "weight": null,
+            "width": {
+                "unit": "IN",
+                "value": 4.0
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 7
+}

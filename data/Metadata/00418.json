@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B002H414PM": {
+            "asin": "B002H414PM",
+            "height": {
+                "unit": "IN",
+                "value": 6.599999993268
+            },
+            "length": {
+                "unit": "IN",
+                "value": 13.899999985822
+            },
+            "name": "Generic Compatible Toner Cartridges Replacement for HP CE505A, 05A (2xBlack, 2-Pack)",
+            "normalizedName": "2-Pack Generic Compatible Toner Cartridges Replacement for HP CE505A, 05A (2xBlack, )",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 4.5
+            },
+            "width": {
+                "unit": "IN",
+                "value": 10.399999989392
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

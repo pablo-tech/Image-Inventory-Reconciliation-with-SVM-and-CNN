@@ -1,0 +1,159 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00008EUNR": {
+            "asin": "B00008EUNR",
+            "height": {
+                "unit": "IN",
+                "value": 0.53937007819
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.54724408883
+            },
+            "name": "Same",
+            "normalizedName": "Same",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.1770752888384
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.97244093981
+            }
+        },
+        "B0001Z4PSW": {
+            "asin": "B0001Z4PSW",
+            "height": {
+                "unit": "IN",
+                "value": 0.53937007819
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.54724408883
+            },
+            "name": "If Bix Played Gershwin",
+            "normalizedName": "If Bix Played Gershwin",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.1770752888384
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.97244093981
+            }
+        },
+        "B002R503UI": {
+            "asin": "B002R503UI",
+            "height": {
+                "unit": "IN",
+                "value": 0.399999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.49999999439
+            },
+            "name": "The Great Italian Tenors - Napoli... Mare E Musica",
+            "normalizedName": "The Great Italian Tenors - Napoli... Mare E Musica",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.19999999983228192
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.899999995002001
+            }
+        },
+        "B00757KRHW": {
+            "asin": "B00757KRHW",
+            "height": {
+                "unit": "IN",
+                "value": 3.799999996124
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.49999999541
+            },
+            "name": "Thomas Labs Bio Case Pro V, Powder, 8oz",
+            "normalizedName": "Thomas Labs Bio Case Pro V, Powder, 8oz",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.5
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.799999996124
+            }
+        },
+        "B00LN4XBA8": {
+            "asin": "B00LN4XBA8",
+            "height": {
+                "unit": "IN",
+                "value": 0.899999999082
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.49999999235
+            },
+            "name": "Bag of mounts for ISAW Cameras",
+            "normalizedName": "Bag of mounts for ISAW Cameras",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3299999997232651
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.299999994594
+            }
+        },
+        "B00OJILRAQ": {
+            "asin": "B00OJILRAQ",
+            "height": {
+                "unit": "IN",
+                "value": 0.899999999082
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.299999995614
+            },
+            "name": "Pro Chef Kitchen Tools Premium Flat S Shaped Hooks in 10 Pack Brushed Stainless Steel Metal",
+            "normalizedName": "10 Pack Pro Chef Kitchen Tools Premium Flat S Shaped Hooks in Brushed Stainless Steel Metal",
+            "quantity": 5,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001186074866
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.099999996838
+            }
+        },
+        "B01BUUBXS6": {
+            "asin": "B01BUUBXS6",
+            "height": {
+                "unit": "IN",
+                "value": 2.99999999694
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.599999995308
+            },
+            "name": "EcoScents The Peace and Love Pack, Multicolor",
+            "normalizedName": "EcoScents The Peace and Love Pack, Multicolor",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.7999999993291277
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.199999995716
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 11
+}

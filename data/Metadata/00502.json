@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B004NHWS0Q": {
+            "asin": "B004NHWS0Q",
+            "height": {
+                "unit": "IN",
+                "value": 0.299999999694
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.49999999133
+            },
+            "name": "Breezy Birthday Favor Bags, 8ct",
+            "normalizedName": "Breezy Birthday Favor Bags, 8ct",
+            "quantity": 18,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.05
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.49999999235
+            }
+        },
+        "B00AEUG0YG": {
+            "asin": "B00AEUG0YG",
+            "height": {
+                "unit": "IN",
+                "value": 1.8110236202
+            },
+            "length": {
+                "unit": "IN",
+                "value": 17.716535415
+            },
+            "name": "Marmot Women's Minimalist Jacket Cherry Tomato LG",
+            "normalizedName": "Marmot Women's Minimalist Jacket Cherry Tomato LG",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.0141160545594439
+            },
+            "width": {
+                "unit": "IN",
+                "value": 11.417322823
+            }
+        },
+        "B00OP9WQAY": {
+            "asin": "B00OP9WQAY",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.99999999082
+            },
+            "name": "Monterey B.T. Insecticide Ready-to-Spray 32oz",
+            "normalizedName": "Monterey B.T. Insecticide Ready-to-Spray 32oz",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.299999998071242
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.9999999949
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 20
+}

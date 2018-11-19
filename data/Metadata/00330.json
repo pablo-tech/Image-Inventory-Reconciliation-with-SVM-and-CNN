@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B004OR15K4": {
+            "asin": "B004OR15K4",
+            "height": {
+                "unit": "IN",
+                "value": 0.8661417314
+            },
+            "length": {
+                "unit": "IN",
+                "value": 2.5984251942
+            },
+            "name": "B+W 49mm XS-Pro Clear with Multi-Resistant Nano Coating (007M)",
+            "normalizedName": "B+W 49mm XS-Pro Clear with Multi-Resistant Nano Coating (007M)",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.09
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.5984251942
+            }
+        },
+        "B00NR6OKTQ": {
+            "asin": "B00NR6OKTQ",
+            "height": {
+                "unit": "IN",
+                "value": 1.799999998164
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.099999994798
+            },
+            "name": "Slugterra Series 4 Goon Doc & Forgesmelter Exclusive Mini Figure 2-Pack (Jakks Pacific)",
+            "normalizedName": "2-Pack Slugterra Series 4 Goon Doc & Forgesmelter Exclusive Mini Figure (Jakks Pacific)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.10000000000000002
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.99999999592
+            }
+        },
+        "B00UMAO02C": {
+            "asin": "B00UMAO02C",
+            "height": {
+                "unit": "IN",
+                "value": 1.699999998266
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.299999990514001
+            },
+            "name": "St Louis Cardinals Womens Red Winners Circle T-Shirt - XLarge",
+            "normalizedName": "St Louis Cardinals Womens Red Winners Circle T-Shirt - XLarge",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.25
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.599999991228
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

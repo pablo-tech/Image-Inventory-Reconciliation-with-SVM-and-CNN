@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00JUO1MC2": {
+            "asin": "B00JUO1MC2",
+            "height": {
+                "unit": "IN",
+                "value": 3.899999996022
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.49999999439
+            },
+            "name": "4-inch ENERGY STAR UL-classified 12W Dimmable Retrofit LED Recessed Lighting Fixture, 85W Halogen Equivalent LED Ceiling Downlight,Soft White 2700K, 850LM, 120\u00b0 Beam Angle Remodel Can Light",
+            "normalizedName": "4-inch ENERGY STAR UL-classified 12W Dimmable Retrofit LED Recessed Lighting Fixture, 85W Halogen Equivalent LED Ceiling Downlight,Soft White 2700K, 850LM, 120\u00b0 Beam Angle Remodel Can Light",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.7999999993291277
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.399999994492
+            }
+        },
+        "B00LTDON0K": {
+            "asin": "B00LTDON0K",
+            "height": {
+                "unit": "IN",
+                "value": 1.299999998674
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.799999993064
+            },
+            "name": "Top Stage GraK-Q4 Guitar Hangers Hooks Holders Wall Mount, 4-Pack",
+            "normalizedName": "4-Pack Top Stage GraK-Q4 Guitar Hangers Hooks Holders Wall Mount,",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001167587297
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.9999999949
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

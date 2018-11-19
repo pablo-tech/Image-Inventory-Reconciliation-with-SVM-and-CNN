@@ -1,0 +1,90 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000K048US": {
+            "asin": "B000K048US",
+            "height": {
+                "unit": "IN",
+                "value": 3.199999996736
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.799999990004
+            },
+            "name": "ACDelco 15756874 GM Original Equipment Rear Radio Speaker",
+            "normalizedName": "ACDelco 15756874 GM Original Equipment Rear Radio Speaker",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.1
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.299999993574
+            }
+        },
+        "B00FFJ5WAO": {
+            "asin": "B00FFJ5WAO",
+            "height": {
+                "unit": "IN",
+                "value": 0.6999999992859999
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.49999999031
+            },
+            "name": "Goody - Ouchless Cushion Brush, Gel Handle, Comfort Flex",
+            "normalizedName": "Goody - Ouchless Cushion Brush, Gel Handle, Comfort Flex",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3499999999999999
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.899999997042
+            }
+        },
+        "B00IN4S28M": {
+            "asin": "B00IN4S28M",
+            "height": {
+                "unit": "IN",
+                "value": 1.99999999796
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.799999990004002
+            },
+            "name": "Sky Rocket Prank Star Poo Dough",
+            "normalizedName": "Sky Rocket Prank Star Poo Dough",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6999999994129864
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.799999994084
+            }
+        },
+        "B015FQ8456": {
+            "asin": "B015FQ8456",
+            "height": {
+                "unit": "IN",
+                "value": 1.0
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.0
+            },
+            "name": "Codream&reg; Mountain Biking Gloves with LED Light Bicycle Cycling Riding Half Finger Cycling Gloves Anti-slip Work Gloves (Size M)",
+            "normalizedName": "Codream&reg; Mountain Biking Gloves with LED Light Bicycle Cycling Riding Half Finger Cycling Gloves Anti-slip Work Gloves (Size M)",
+            "quantity": 2,
+            "weight": null,
+            "width": {
+                "unit": "IN",
+                "value": 4.0
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

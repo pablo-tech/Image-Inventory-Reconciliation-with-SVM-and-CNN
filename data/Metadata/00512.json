@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B001B7C25W": {
+            "asin": "B001B7C25W",
+            "height": {
+                "unit": "IN",
+                "value": 3.299999996634
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.99999998776
+            },
+            "name": "Four Seasons 83134 Aluminum Filter Drier Pad Mount",
+            "normalizedName": "Four Seasons 83134 Aluminum Filter Drier Pad Mount",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.75
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.299999996634
+            }
+        },
+        "B01G7PMBMG": {
+            "asin": "B01G7PMBMG",
+            "height": {
+                "unit": "IN",
+                "value": 2.99999999694
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.599999991228
+            },
+            "name": "No Udder Protein Shaker Bottle- BPA Free",
+            "normalizedName": "No Udder Protein Shaker Bottle- BPA Free",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.29999999974842284
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.099999996838
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

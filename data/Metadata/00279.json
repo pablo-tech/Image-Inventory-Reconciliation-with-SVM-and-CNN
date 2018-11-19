@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00YV3JPOO": {
+            "asin": "B00YV3JPOO",
+            "height": {
+                "unit": "IN",
+                "value": 2.99999999694
+            },
+            "length": {
+                "unit": "IN",
+                "value": 14.799999984904002
+            },
+            "name": "DIBAG \u00ae Vacuum Compressed Storage Space Saver Bags . Flat vacuum bags for Clothing, Duvets, Bedding, Pillows, Curtains & More. (6, 100x80 cm)",
+            "normalizedName": "DIBAG \u00ae Vacuum Compressed Storage Space Saver Bags . Flat vacuum bags for Clothing, Duvets, Bedding, Pillows, Curtains & More. (6, 100x80 cm)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.7999999984905368
+            },
+            "width": {
+                "unit": "IN",
+                "value": 10.49999998929
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

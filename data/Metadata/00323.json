@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0006VQBTW": {
+            "asin": "B0006VQBTW",
+            "height": {
+                "unit": "IN",
+                "value": 0.6299212592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.0393700736
+            },
+            "name": "Quartet Magnetic Dry Erase Markers 6PK, Fine Point, Assorted Colors, ReWritables (51-659312Q)",
+            "normalizedName": "Quartet Magnetic Dry Erase Markers 6PK, Fine Point, Assorted Colors, ReWritables (51-659312Q)",
+            "quantity": 4,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.13227600700552375
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.0944881848
+            }
+        },
+        "B000FLX8N0": {
+            "asin": "B000FLX8N0",
+            "height": {
+                "unit": "IN",
+                "value": 3.49999999643
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.599999994287999
+            },
+            "name": "Yahtzee to Go Travel Game",
+            "normalizedName": "Yahtzee to Go Travel Game",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.45
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.399999994492
+            }
+        },
+        "B0015AA78Y": {
+            "asin": "B0015AA78Y",
+            "height": {
+                "unit": "IN",
+                "value": 0.899999999082
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.899999995002001
+            },
+            "name": "Boots by Boots: NO7 PROTECT & PERFECT EYE CREAM 0.5 OZ",
+            "normalizedName": "Boots by Boots: NO7 PROTECT & PERFECT EYE CREAM 0.5 OZ",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.05000000000000001
+            },
+            "width": {
+                "unit": "IN",
+                "value": 0.899999999082
+            }
+        },
+        "B019JIA68Y": {
+            "asin": "B019JIA68Y",
+            "height": {
+                "unit": "IN",
+                "value": 0.49999999949
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.49999999541
+            },
+            "name": "iJDMTOY (1) Exact Fit Gloss Metallic Black Smart Key Fob Shell For All New 2016-up Toyota Smart Key (Please Verify The Picture Prior Purchase)",
+            "normalizedName": "iJDMTOY (1) Exact Fit Gloss Metallic Black Smart Key Fob Shell For All New 2016-up Toyota Smart Key (Please Verify The Picture Prior Purchase)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.5499999995387752
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.99999999592
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 9
+}

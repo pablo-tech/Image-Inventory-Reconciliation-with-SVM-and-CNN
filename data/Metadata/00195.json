@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0041T9UD4": {
+            "asin": "B0041T9UD4",
+            "height": {
+                "unit": "IN",
+                "value": 2.899999997042
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.799999990004
+            },
+            "name": "Classic So-Soft Baby Doll",
+            "normalizedName": "Classic So-Soft Baby Doll",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.1
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.49999999337
+            }
+        },
+        "B01EKPZHX0": {
+            "asin": "B01EKPZHX0",
+            "height": {
+                "unit": "IN",
+                "value": 4.099999995818
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.899999989902
+            },
+            "name": "AUKEY Car Jump Starter with 400A Peak Current & 12000mAh Portable Charger for Car Battery, Boat, Motorcycles, Lawnmowers and More",
+            "normalizedName": "AUKEY Car Jump Starter with 400A Peak Current & 12000mAh Portable Charger for Car Battery, Boat, Motorcycles, Lawnmowers and More",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.049999998280889
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.599999994287999
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

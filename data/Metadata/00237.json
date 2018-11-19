@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00MI8SYZU": {
+            "asin": "B00MI8SYZU",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.899999992962
+            },
+            "name": "Case-Mate iPhone 6 Carbon Alloy - Black w/ Black Bumper",
+            "normalizedName": "Case-Mate iPhone 6 Carbon Alloy - Black w/ Black Bumper",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.15
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.299999995614
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

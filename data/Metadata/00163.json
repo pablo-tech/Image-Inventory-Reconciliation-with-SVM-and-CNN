@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000CHKIVW": {
+            "asin": "B000CHKIVW",
+            "height": {
+                "unit": "IN",
+                "value": 2.199999997756
+            },
+            "length": {
+                "unit": "IN",
+                "value": 16.49999998317
+            },
+            "name": "Gates 22902 Upper Radiator Hose",
+            "normalizedName": "Gates 22902 Upper Radiator Hose",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.95
+            },
+            "width": {
+                "unit": "IN",
+                "value": 11.399999988372
+            }
+        },
+        "B002SB8LLE": {
+            "asin": "B002SB8LLE",
+            "height": {
+                "unit": "IN",
+                "value": 3.99999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.699999988066
+            },
+            "name": "Proctor-Silex Sandwich Maker white",
+            "normalizedName": "Proctor-Silex Sandwich Maker white",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.2899999972410368
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.299999990514001
+            }
+        },
+        "B011XM4GJO": {
+            "asin": "B011XM4GJO",
+            "height": {
+                "unit": "IN",
+                "value": 0.49999999949
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.49999999235
+            },
+            "name": "iPhone 6S Case,iPhone 6 Case,[4.7inch] by Ailun,Injected&Sealed Bumper,Ultra Transparency,Shock-Absorption,Anti-Scratch&Fingerprints Back Cover,Siania Retail Package[Mint Green]",
+            "normalizedName": "iPhone 6S Case,iPhone 6 Case,[4.7inch] by Ailun,Injected&Sealed Bumper,Ultra Transparency,Shock-Absorption,Anti-Scratch&Fingerprints Back Cover,Siania Retail Package[Mint Green]",
+            "quantity": 4,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4999999995807047
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.49999999541
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 6
+}

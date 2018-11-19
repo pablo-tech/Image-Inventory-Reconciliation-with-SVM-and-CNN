@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00VRAMCF8": {
+            "asin": "B00VRAMCF8",
+            "height": {
+                "unit": "IN",
+                "value": 1.0999999988780003
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.599999992248
+            },
+            "name": "Schick Xtreme 3 Ultimate Razor - 4 ct",
+            "normalizedName": "Schick Xtreme 3 Ultimate Razor - 4 ct",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.19
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.6999999962260004
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

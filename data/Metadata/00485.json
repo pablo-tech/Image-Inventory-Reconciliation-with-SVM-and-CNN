@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B008OEHTB2": {
+            "asin": "B008OEHTB2",
+            "height": {
+                "unit": "IN",
+                "value": 1.699999998266
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.099999988678
+            },
+            "name": "Microsoft Wedge Mobile Keyboard for Business",
+            "normalizedName": "Microsoft Wedge Mobile Keyboard for Business",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.25
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.299999995614
+            }
+        },
+        "B01BULGA10": {
+            "asin": "B01BULGA10",
+            "height": {
+                "unit": "IN",
+                "value": 3.599999996328
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.599999988168
+            },
+            "name": "AquaSense Shower Spray with Ultra Long Stainless Steel Hose",
+            "normalizedName": "AquaSense Shower Spray with Ultra Long Stainless Steel Hose",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.4999999987421142
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.699999994186001
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

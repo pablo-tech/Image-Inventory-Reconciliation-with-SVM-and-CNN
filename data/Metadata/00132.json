@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00KVUGQMU": {
+            "asin": "B00KVUGQMU",
+            "height": {
+                "unit": "IN",
+                "value": 0.249999999745
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.599999995308
+            },
+            "name": "Heartfelt Creations Arianna Blooms",
+            "normalizedName": "Heartfelt Creations Arianna Blooms",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.15
+            },
+            "width": {
+                "unit": "IN",
+                "value": 1.899999998062
+            }
+        },
+        "B00PI2CLPM": {
+            "asin": "B00PI2CLPM",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.099999995818
+            },
+            "name": "Remington Smooth & Silky",
+            "normalizedName": "Remington Smooth & Silky",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.09999999991614096
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.1999999977560005
+            }
+        },
+        "B01DM3CKHM": {
+            "asin": "B01DM3CKHM",
+            "height": {
+                "unit": "IN",
+                "value": 0.49999999949
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.599999992248
+            },
+            "name": "40 Inch Jumbo Helium Foil Mylar Balloons Bouquet (Premium Quality), Matte Gold, Letters BABY",
+            "normalizedName": "40 Inch Jumbo Helium Foil Mylar Balloons Bouquet (Premium Quality), Matte Gold, Letters BABY",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3499999997064933
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.99999999286
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

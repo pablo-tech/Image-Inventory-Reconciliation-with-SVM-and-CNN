@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B004NQMCDK": {
+            "asin": "B004NQMCDK",
+            "height": {
+                "unit": "IN",
+                "value": 3.799999996124
+            },
+            "length": {
+                "unit": "IN",
+                "value": 17.299999982354
+            },
+            "name": "Amplified HD Digital Outdoor HDTV Antenna with Motorized 360 Degree Rotation, UHF/VHF/FM Radio with Infrared Remote Control",
+            "normalizedName": "Amplified HD Digital Outdoor HDTV Antenna with Motorized 360 Degree Rotation, UHF/VHF/FM Radio with Infrared Remote Control",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 4.939999995857363
+            },
+            "width": {
+                "unit": "IN",
+                "value": 13.699999986026
+            }
+        },
+        "B006GJPD88": {
+            "asin": "B006GJPD88",
+            "height": {
+                "unit": "IN",
+                "value": 3.099999996838
+            },
+            "length": {
+                "unit": "IN",
+                "value": 15.799999983884002
+            },
+            "name": "Rubicon Express RE1220 2.75\" x 9\" x 1/2\" U-Bolt Kit",
+            "normalizedName": "Rubicon Express RE1220 2.75\" x 9\" x 1/2\" U-Bolt Kit",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 4.7999999959747655
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.49999999439
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "1937359581": {
+            "asin": "1937359581",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.099999988678
+            },
+            "name": "If You're Reading This, There's Still Time",
+            "normalizedName": "If You're Reading This, There's Still Time",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.4
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.699999991126
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "1423101502": {
+            "asin": "1423101502",
+            "height": {
+                "unit": "IN",
+                "value": 1.199999998776
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.49999999235
+            },
+            "name": "The Last Olympian (Percy Jackson and the Olympians, Book 5)",
+            "normalizedName": "The Last Olympian (Percy Jackson and the Olympians, Book 5)",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6999999999999998
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.199999994696
+            }
+        },
+        "B014LQE4UU": {
+            "asin": "B014LQE4UU",
+            "height": {
+                "unit": "IN",
+                "value": 3.299999996634
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.599999991228
+            },
+            "name": "Rapid Rice Cooker - Microwave Instant / Minute Rice In Less Than 3 Minutes - 2 Pack",
+            "normalizedName": "2 Pack Rapid Rice Cooker - Microwave Instant / Minute Rice In Less Than 3 Minutes -",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.39999999966456384
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.299999994594
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

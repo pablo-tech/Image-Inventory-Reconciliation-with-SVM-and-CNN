@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0033UNIQC": {
+            "asin": "B0033UNIQC",
+            "height": {
+                "unit": "IN",
+                "value": 0.6999999992859999
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.49999998929
+            },
+            "name": "Fiskars 8 Inch Premier Softgrip Titanium Straight Scissors (01-004244J)",
+            "normalizedName": "Fiskars 8 Inch Premier Softgrip Titanium Straight Scissors (01-004244J)",
+            "quantity": 9,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.20000000000000004
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.99999999592
+            }
+        },
+        "B00E9J3MLM": {
+            "asin": "B00E9J3MLM",
+            "height": {
+                "unit": "IN",
+                "value": 7.299999992554
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.799999991024002
+            },
+            "name": "Kitchen Safe: Time Locking Container (White Lid + Clear Base) - 5.5\" Height",
+            "normalizedName": "Kitchen Safe: Time Locking Container (White Lid + Clear Base) - 5.5\" Height",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.3500000000000005
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.699999992146
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 10
+}

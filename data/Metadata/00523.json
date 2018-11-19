@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0169HEV5M": {
+            "asin": "B0169HEV5M",
+            "height": {
+                "unit": "IN",
+                "value": 3.49999999643
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.99999998776
+            },
+            "name": "250 Feet - Black- Snagless Cat6 Ethernet Patch Cable by Aurum Cables with Cable Ties and Clips",
+            "normalizedName": "250 Feet - Black- Snagless Cat6 Ethernet Patch Cable by Aurum Cables with Cable Ties and Clips",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 5.449999995429681
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.399999992452001
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B015E2BQY2": {
+            "asin": "B015E2BQY2",
+            "height": {
+                "unit": "IN",
+                "value": 0.49999999949
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.99999998674
+            },
+            "name": "36 Inch Giant Jumbo Latex Balloons (Premium Helium Quality), Pack of 6, Blue",
+            "normalizedName": "Pack of 6 36 Inch Giant Jumbo Latex Balloons (Premium Helium Quality), , Blue",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3499999997064932
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.99999999184
+            }
+        },
+        "B01AMOMEA2": {
+            "asin": "B01AMOMEA2",
+            "height": {
+                "unit": "IN",
+                "value": 1.699999998266
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.799999990004002
+            },
+            "name": "[UL Listed] Pwr+ 3 Ft AC Power Cord Cable Plug for Acer Asrock Bowflex Epson Frigidaire Foxconn Fuel Haier Hamilton Healthrider Beach Honeywell Horizon Image Landice Nordic Proform Precor Reebok Sharp",
+            "normalizedName": "[UL Listed] Pwr+ 3 Ft AC Power Cord Cable Plug for Acer Asrock Bowflex Epson Frigidaire Foxconn Fuel Haier Hamilton Healthrider Beach Honeywell Horizon Image Landice Nordic Proform Precor Reebok Sharp",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.24999999979035234
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.199999996736
+            }
+        },
+        "B01BPJZ3BA": {
+            "asin": "B01BPJZ3BA",
+            "height": {
+                "unit": "IN",
+                "value": 1.699999998266
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.9999999898
+            },
+            "name": "Member's Mark Remanufactured HP 901XL/901 Combo Pack - 2 Cartridges",
+            "normalizedName": "Member's Mark Remanufactured HP 901XL/901 Combo Pack - 2 Cartridges",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.39999999966456384
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.099999992758
+            }
+        },
+        "B01G445320": {
+            "asin": "B01G445320",
+            "height": {
+                "unit": "IN",
+                "value": 1.199999998776
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.99999999082
+            },
+            "name": "3oz Imported Japanese Organic Pure Green Matcha Tea Bags by Lauren Naturals: Great for - Risk Free Full Money Back Guarantee",
+            "normalizedName": "3oz Imported Japanese Organic Pure Green Matcha Tea Bags by Lauren Naturals: Great for - Risk Free Full Money Back Guarantee",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.049999999958070473
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.799999994084001
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 10
+}

@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00XLMS3X0": {
+            "asin": "B00XLMS3X0",
+            "height": {
+                "unit": "IN",
+                "value": 2.1999999977560005
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.199999992656
+            },
+            "name": "Goo Gone 32 oz. (1 Quart) - Removes stickers, grease, gum, tar, crayon & tape",
+            "normalizedName": "Goo Gone 32 oz. (1 Quart) - Removes stickers, grease, gum, tar, crayon & tape",
+            "quantity": 5,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.8959561004125072
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.099999994798
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

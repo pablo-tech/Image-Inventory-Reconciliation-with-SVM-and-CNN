@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B005D4T9UA": {
+            "asin": "B005D4T9UA",
+            "height": {
+                "unit": "IN",
+                "value": 6.399999993472
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.099999991737999
+            },
+            "name": "Sarah Peyton Cordless Fountain",
+            "normalizedName": "Sarah Peyton Cordless Fountain",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.95
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.399999993472
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

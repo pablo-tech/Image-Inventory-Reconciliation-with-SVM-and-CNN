@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B01EDULNAS": {
+            "asin": "B01EDULNAS",
+            "height": {
+                "unit": "IN",
+                "value": 2.099999997858
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.49999998827
+            },
+            "name": "Pink Makeup Brushes | Complete Professional Brush Set | Cruelty Free by Kirei Cosmetics",
+            "normalizedName": "Pink Makeup Brushes | Complete Professional Brush Set | Cruelty Free by Kirei Cosmetics",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.349999998867903
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.099999992758
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

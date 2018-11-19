@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00BYXT0R6": {
+            "asin": "B00BYXT0R6",
+            "height": {
+                "unit": "IN",
+                "value": 4.299999995614
+            },
+            "length": {
+                "unit": "IN",
+                "value": 13.799999985924
+            },
+            "name": "GHD Air Professional Performance Hair Dryer",
+            "normalizedName": "GHD Air Professional Performance Hair Dryer",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.4
+            },
+            "width": {
+                "unit": "IN",
+                "value": 11.799999987964
+            }
+        },
+        "B010B08YL0": {
+            "asin": "B010B08YL0",
+            "height": {
+                "unit": "IN",
+                "value": 5.699999994186001
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.99999998878
+            },
+            "name": "6 Piece 1500 Thread Count Egyptian Quality Deep Pocket Bed Sheet Set - 2 EXTRA PILLOW CASES, GREAT VALUE - Queen, White",
+            "normalizedName": "6 Piece 1500 Thread Count Egyptian Quality Deep Pocket Bed Sheet Set - 2 EXTRA PILLOW CASES, GREAT VALUE - Queen, White",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.5999999969810736
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.899999989902
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

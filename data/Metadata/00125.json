@@ -1,0 +1,93 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000CIQY1E": {
+            "asin": "B000CIQY1E",
+            "height": {
+                "unit": "IN",
+                "value": 1.49999999847
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.49999999643
+            },
+            "name": "Dorman 090-033 AutoGrade Oil Drain Plug - Pack of 5",
+            "normalizedName": "Pack of 5 Dorman 090-033 AutoGrade Oil Drain Plug -",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.599999997348
+            }
+        },
+        "B00ARALJSU": {
+            "asin": "B00ARALJSU",
+            "height": {
+                "unit": "IN",
+                "value": 3.599999996328
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.599999996328
+            },
+            "name": "LCD Digital Wrist Blood Pressure Monitor Heart Beat Meter 60 Memory",
+            "normalizedName": "LCD Digital Wrist Blood Pressure Monitor Heart Beat Meter 60 Memory",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001186074866
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.599999996328
+            }
+        },
+        "B00KJLT4P2": {
+            "asin": "B00KJLT4P2",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.9999999949
+            },
+            "name": "The Professional's Choice Pistol/Rifle Cotton Knit 1-Inch Square Gun Cleaning Patches (200-Pack), .22/.223-Calibre/5.56mm",
+            "normalizedName": "(200-Pack) The Professional's Choice Pistol/Rifle Cotton Knit 1-Inch Square Gun Cleaning Patches , .22/.223-Calibre/5.56mm",
+            "quantity": 4,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.04409200237214973
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.99999999592
+            }
+        },
+        "B00TL8YUUS": {
+            "asin": "B00TL8YUUS",
+            "height": {
+                "unit": "IN",
+                "value": 1.899999998062
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.99999999388
+            },
+            "name": "Eyekepper Titanium Rimless Reading Glasses Readers Women Blue +2.25",
+            "normalizedName": "Eyekepper Titanium Rimless Reading Glasses Readers Women Blue +2.25",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.05000000000000001
+            },
+            "width": {
+                "unit": "IN",
+                "value": 2.1999999977560005
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 7
+}

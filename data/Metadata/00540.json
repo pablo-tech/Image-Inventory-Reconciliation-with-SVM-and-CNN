@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "8857206882": {
+            "asin": "8857206882",
+            "height": {
+                "unit": "IN",
+                "value": 1.181102361
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.2598425082
+            },
+            "name": "Michael Kenna: Images of the Seventh Day",
+            "normalizedName": "Michael Kenna: Images of the Seventh Day",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.97
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.7637795176
+            }
+        },
+        "B000037X0H": {
+            "asin": "B000037X0H",
+            "height": {
+                "unit": "IN",
+                "value": 3.09842519369
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.49999998827
+            },
+            "name": "Stanley 34-790 100-Foot Open Reel Fiberglass Long Tape Rule",
+            "normalizedName": "Stanley 34-790 100-Foot Open Reel Fiberglass Long Tape Rule",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.4500243896264
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.59842519012
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 4
+}

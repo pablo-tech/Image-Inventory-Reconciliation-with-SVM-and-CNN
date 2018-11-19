@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B010IT7SMU": {
+            "asin": "B010IT7SMU",
+            "height": {
+                "unit": "IN",
+                "value": 2.99999999694
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.599999991228
+            },
+            "name": "First Aid Kit and Bonus CREE Flashlight with Case for Emergency and Medical Survival Essentials - 95 Piece Kit in Lightweight, Water Resistant and Durable Case - Ideal for Car, Home, School, Office, Hiking, Travel and Sports - 30 Day Money Back Guarantee by Vertex Essentials",
+            "normalizedName": "First Aid Kit and Bonus CREE Flashlight with Case for Emergency and Medical Survival Essentials - 95 Piece Kit in Lightweight, Water Resistant and Durable Case - Ideal for Car, Home, School, Office, Hiking, Travel and Sports - 30 Day Money Back Guarantee by Vertex Essentials",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.8499999984486073
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.199999993676
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

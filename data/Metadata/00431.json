@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00ILYHVWC": {
+            "asin": "B00ILYHVWC",
+            "height": {
+                "unit": "IN",
+                "value": 1.99999999796
+            },
+            "length": {
+                "unit": "IN",
+                "value": 14.399999985312
+            },
+            "name": "Disguise Disney Doc Mcstuffins Lambie Classic Toddler Costume, Medium/3T-4T",
+            "normalizedName": "Disguise Disney Doc Mcstuffins Lambie Classic Toddler Costume, Medium/3T-4T",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6999999994129864
+            },
+            "width": {
+                "unit": "IN",
+                "value": 11.299999988474
+            }
+        },
+        "B01AWGZKX8": {
+            "asin": "B01AWGZKX8",
+            "height": {
+                "unit": "IN",
+                "value": 2.399999997552
+            },
+            "length": {
+                "unit": "IN",
+                "value": 12.799999986944
+            },
+            "name": "Ever After High Epic Winter Ashlynn Ella Doll",
+            "normalizedName": "Ever After High Epic Winter Ashlynn Ella Doll",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.39999999966456384
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.899999990922
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

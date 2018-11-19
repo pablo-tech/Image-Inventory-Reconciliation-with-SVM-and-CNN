@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B004P8K24W": {
+            "asin": "B004P8K24W",
+            "height": {
+                "unit": "IN",
+                "value": 3.6
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.3
+            },
+            "name": "D-Link DCS-932L Day & Night Wi-Fi Camera (White)",
+            "normalizedName": "D-Link DCS-932L Day & Night Wi-Fi Camera (White)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.75
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.5
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

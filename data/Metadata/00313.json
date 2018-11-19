@@ -1,0 +1,156 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B000MGWIMK": {
+            "asin": "B000MGWIMK",
+            "height": {
+                "unit": "IN",
+                "value": 1.0999999988780003
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.399999996532
+            },
+            "name": "NOW Foods Cedarwood Oil, 1 Ounce",
+            "normalizedName": "NOW Foods Cedarwood Oil, 1 Ounce",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.15
+            },
+            "width": {
+                "unit": "IN",
+                "value": 1.0999999988780003
+            }
+        },
+        "B0098PKISC": {
+            "asin": "B0098PKISC",
+            "height": {
+                "unit": "IN",
+                "value": 1.0
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.0
+            },
+            "name": "DOA 4-Inch FLV Shrimp Bait (3-Pack), Clear/Yellow",
+            "normalizedName": "(3-Pack) DOA 4-Inch FLV Shrimp Bait , Clear/Yellow",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.25
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.0
+            }
+        },
+        "B00FB9QUUE": {
+            "asin": "B00FB9QUUE",
+            "height": {
+                "unit": "IN",
+                "value": 2.899999997042
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.399999992452001
+            },
+            "name": "Cake Boss Countertop Accessories Chef's Torch, Black",
+            "normalizedName": "Cake Boss Countertop Accessories Chef's Torch, Black",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.5
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.799999995104
+            }
+        },
+        "B00H2ZPMFE": {
+            "asin": "B00H2ZPMFE",
+            "height": {
+                "unit": "IN",
+                "value": 0.899999999082
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.99999999388
+            },
+            "name": "Blistex Nurture & Nourish Lip Protectant, SPF 15 (Pack of 4)",
+            "normalizedName": "(Pack of 4) Blistex Nurture & Nourish Lip Protectant, SPF 15",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.10000000000000002
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.199999996736
+            }
+        },
+        "B00I56IZGC": {
+            "asin": "B00I56IZGC",
+            "height": {
+                "unit": "IN",
+                "value": 1.25
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.0
+            },
+            "name": "Moisturizing Hand & Body Lotion \u2013 (Uplift) \u2013 a Clarifying Blend of Rosemary, Basil & Peppermint- For Dry, Itchy, and Irritated Skin \u2013 Reduce Signs of Aging \u2013 8oz Bottle By the Dragontree",
+            "normalizedName": "Moisturizing Hand & Body Lotion \u2013 (Uplift) \u2013 a Clarifying Blend of Rosemary, Basil & Peppermint- For Dry, Itchy, and Irritated Skin \u2013 Reduce Signs of Aging \u2013 8oz Bottle By the Dragontree",
+            "quantity": 1,
+            "weight": null,
+            "width": {
+                "unit": "IN",
+                "value": 1.25
+            }
+        },
+        "B00WT4BIWO": {
+            "asin": "B00WT4BIWO",
+            "height": {
+                "unit": "IN",
+                "value": 0.099999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.699999992146
+            },
+            "name": "kwmobile Screen protector tempered glass for LG G4 in crystal clear - Premium quality",
+            "normalizedName": "kwmobile Screen protector tempered glass for LG G4 in crystal clear - Premium quality",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.04999999995807048
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.799999996124
+            }
+        },
+        "B00ZCYS15K": {
+            "asin": "B00ZCYS15K",
+            "height": {
+                "unit": "IN",
+                "value": 0.199999999796
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.699999992146
+            },
+            "name": "kwmobile Screen protector tempered glass matt and anti-glare for LG G4 - Premium quality!",
+            "normalizedName": "kwmobile Screen protector tempered glass matt and anti-glare for LG G4 - Premium quality!",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001167587297
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.99999999592
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 8
+}

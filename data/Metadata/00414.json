@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00H7PBWK8": {
+            "asin": "B00H7PBWK8",
+            "height": {
+                "unit": "IN",
+                "value": 0.49999999949
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.9999999949
+            },
+            "name": "Silicon Power 32GB Blaze B30 USB 3.0 Swivel Flash Drive, Black (SP032GBUF3B30V1K)",
+            "normalizedName": "Silicon Power 32GB Blaze B30 USB 3.0 Swivel Flash Drive, Black (SP032GBUF3B30V1K)",
+            "quantity": 12,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001186074866
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.399999996532
+            }
+        },
+        "B0159A0LH2": {
+            "asin": "B0159A0LH2",
+            "height": {
+                "unit": "IN",
+                "value": 2.49999999745
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.899999987862001
+            },
+            "name": "Pumpkin Pie Quest Bars 2 Pack Total of 24 Coated Protein Bars Delicious Limited Time",
+            "normalizedName": "2 Pack Pumpkin Pie Quest Bars Total of 24 Coated Protein Bars Delicious Limited Time",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.299999997232651
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.49999999235
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 13
+}

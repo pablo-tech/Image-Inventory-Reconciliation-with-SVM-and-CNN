@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0071CO808": {
+            "asin": "B0071CO808",
+            "height": {
+                "unit": "IN",
+                "value": 2.599999997348
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.899999992962
+            },
+            "name": "Ace Instant Cold Twin Pack",
+            "normalizedName": "Ace Instant Cold Twin Pack",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.79
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.799999996124
+            }
+        },
+        "B00KWXEEZW": {
+            "asin": "B00KWXEEZW",
+            "height": {
+                "unit": "IN",
+                "value": 4.9999999949
+            },
+            "length": {
+                "unit": "IN",
+                "value": 5.299999994594
+            },
+            "name": "Barbecue Grill LED Light with a Fully Adjustable BBQ Handle Mount. Including a Magnetic LED Lamp.",
+            "normalizedName": "Barbecue Grill LED Light with a Fully Adjustable BBQ Handle Mount. Including a Magnetic LED Lamp.",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.199999994696
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

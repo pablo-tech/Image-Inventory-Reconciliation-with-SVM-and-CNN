@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B001SAQ546": {
+            "asin": "B001SAQ546",
+            "height": {
+                "unit": "IN",
+                "value": 8.199999991636
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.099999988678
+            },
+            "name": "Ito En(North American) Inc. Drk Green Tea, Oi Ocha, 16.90-Ounce (Pack of 12)",
+            "normalizedName": "(Pack of 12) Ito En(North American) Inc. Drk Green Tea, Oi Ocha, 16.90-Ounce",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 14.5
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.199999991636
+            }
+        },
+        "B004NIBQQC": {
+            "asin": "B004NIBQQC",
+            "height": {
+                "unit": "IN",
+                "value": 7.699999992146
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.099999988678
+            },
+            "name": "DVI DVP9071HB-OP Essex Outdoor Sconce, Hammered Black",
+            "normalizedName": "DVI DVP9071HB-OP Essex Outdoor Sconce, Hammered Black",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 3.3
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.399999990412
+            }
+        },
+        "B014O6IXXQ": {
+            "asin": "B014O6IXXQ",
+            "height": {
+                "unit": "IN",
+                "value": 1.99999999796
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.399999989392
+            },
+            "name": "Popular Hippie Mandala Bohemian Psychedelic Intricate Floral Design Indian Bedspread Magical Thinking Tapestry 84x90 Inches,(215x230cms) Blue",
+            "normalizedName": "Popular Hippie Mandala Bohemian Psychedelic Intricate Floral Design Indian Bedspread Magical Thinking Tapestry 84x90 Inches,(215x230cms) Blue",
+            "quantity": 3,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.349999998867903
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.199999993676
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 5
+}

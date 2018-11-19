@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B007B2AES8": {
+            "asin": "B007B2AES8",
+            "height": {
+                "unit": "IN",
+                "value": 0.399999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 3.6999999962260004
+            },
+            "name": "25 1/2\" Inch Chrome Steel Bearing Balls G25",
+            "normalizedName": "25 1/2\" Inch Chrome Steel Bearing Balls G25",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.4499999996226342
+            },
+            "width": {
+                "unit": "IN",
+                "value": 1.99999999796
+            }
+        },
+        "B00MEDUO34": {
+            "asin": "B00MEDUO34",
+            "height": {
+                "unit": "IN",
+                "value": 1.49999999847
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.99999999082
+            },
+            "name": "Waterproof Fitted Vinyl Twin Mattress Protector - 39\" x 75\" x 12\"",
+            "normalizedName": "Waterproof Fitted Vinyl Twin Mattress Protector - 39\" x 75\" x 12\"",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.9499999999999998
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.599999995308
+            }
+        },
+        "B010PTPVNQ": {
+            "asin": "B010PTPVNQ",
+            "height": {
+                "unit": "IN",
+                "value": 2.49999999745
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.49999999337
+            },
+            "name": "Protective PU Leather Camera Case Bag For Samsung Galaxy Camera 2 EK-GC200 GC200 with Strap and Screen Protector - Black",
+            "normalizedName": "Protective PU Leather Camera Case Bag For Samsung Galaxy Camera 2 EK-GC200 GC200 with Strap and Screen Protector - Black",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3499999997064932
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.799999995104
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0123H9HME": {
+            "asin": "B0123H9HME",
+            "height": {
+                "unit": "IN",
+                "value": 3.49999999643
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.599999990208
+            },
+            "name": "Organix Grain Free Lamb & Peas Recipe, 4 lb",
+            "normalizedName": "Organix Grain Free Lamb & Peas Recipe, 4 lb",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 4.549999996184413
+            },
+            "width": {
+                "unit": "IN",
+                "value": 8.099999991737999
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

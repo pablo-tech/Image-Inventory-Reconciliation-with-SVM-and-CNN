@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00JJQ984K": {
+            "asin": "B00JJQ984K",
+            "height": {
+                "unit": "IN",
+                "value": 2.099999997858
+            },
+            "length": {
+                "unit": "IN",
+                "value": 14.9999999847
+            },
+            "name": "Squish Double Over the Sink Colander",
+            "normalizedName": "Squish Double Over the Sink Colander",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.0
+            },
+            "width": {
+                "unit": "IN",
+                "value": 11.299999988474
+            }
+        },
+        "B01F6NLOCI": {
+            "asin": "B01F6NLOCI",
+            "height": {
+                "unit": "IN",
+                "value": 1.0999999988780003
+            },
+            "length": {
+                "unit": "IN",
+                "value": 13.299999986434
+            },
+            "name": "KevenAnna Shoe Insert High quality Silica Gel Shoe pad for Sport Running ,Hiking and Walking.Comfort Ideal Shoe Insoles Pads for Arch support and Massage (US Men's (8 - 13))",
+            "normalizedName": "KevenAnna Shoe Insert High quality Silica Gel Shoe pad for Sport Running ,Hiking and Walking.Comfort Ideal Shoe Insoles Pads for Arch support and Massage (US Men's (8 - 13))",
+            "quantity": 6,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.5799999995136175
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.199999995716
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 8
+}

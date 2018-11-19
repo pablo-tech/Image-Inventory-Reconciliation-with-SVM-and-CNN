@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00RJKB2FQ": {
+            "asin": "B00RJKB2FQ",
+            "height": {
+                "unit": "IN",
+                "value": 4.49999999541
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.49999998827
+            },
+            "name": "MaxxHaul 70214 Powder Coat Black Trailer Spare Tire Carrier",
+            "normalizedName": "MaxxHaul 70214 Powder Coat Black Trailer Spare Tire Carrier",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 5.8
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.899999993982
+            }
+        },
+        "B01C6KHZ1S": {
+            "asin": "B01C6KHZ1S",
+            "height": {
+                "unit": "IN",
+                "value": 7.49999999235
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.699999991126
+            },
+            "name": "Dye I4 Thermal Paintball Goggles - Woody",
+            "normalizedName": "Dye I4 Thermal Paintball Goggles - Woody",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.3999999988259728
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.799999992044
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

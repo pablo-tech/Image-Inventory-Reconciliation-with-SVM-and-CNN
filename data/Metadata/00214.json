@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00794XNX6": {
+            "asin": "B00794XNX6",
+            "height": {
+                "unit": "IN",
+                "value": 0.99999999898
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.99999999184
+            },
+            "name": "Laird Technologies - 450-470 Phantom Elite Antenna, Black",
+            "normalizedName": "Laird Technologies - 450-470 Phantom Elite Antenna, Black",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001186074866
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.399999996532
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}

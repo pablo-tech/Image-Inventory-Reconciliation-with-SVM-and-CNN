@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00E67MTX4": {
+            "asin": "B00E67MTX4",
+            "height": {
+                "unit": "IN",
+                "value": 1.299999998674
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.399999991432
+            },
+            "name": "Outdoor Stove Bushbox XL",
+            "normalizedName": "Outdoor Stove Bushbox XL",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.55
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.49999999439
+            }
+        },
+        "B016Y8MGIU": {
+            "asin": "B016Y8MGIU",
+            "height": {
+                "unit": "IN",
+                "value": 3.2299999967054
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.5399999933292
+            },
+            "name": "OUTXPRO Mosquito Light Bulb Zapper - Flying Insects Wasp Moths Bug Killer - Compatible with Common Bulb Connectors",
+            "normalizedName": "OUTXPRO Mosquito Light Bulb Zapper - Flying Insects Wasp Moths Bug Killer - Compatible with Common Bulb Connectors",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.29999999974842284
+            },
+            "width": {
+                "unit": "IN",
+                "value": 3.3099999966238
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

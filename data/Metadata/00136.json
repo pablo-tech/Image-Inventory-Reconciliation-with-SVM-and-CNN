@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00134D3BA": {
+            "asin": "B00134D3BA",
+            "height": {
+                "unit": "IN",
+                "value": 1.299999998674
+            },
+            "length": {
+                "unit": "IN",
+                "value": 10.99999998878
+            },
+            "name": "Innovera Gel Mouse Pad with Wrist Rest, Nonskid Base, 9 X 7.5 - Inches Black (51450)",
+            "normalizedName": "Innovera Gel Mouse Pad with Wrist Rest, Nonskid Base, 9 X 7.5 - Inches Black (51450)",
+            "quantity": 6,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.7499999993710571
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.099999990718
+            }
+        },
+        "B00I4AAL8Y": {
+            "asin": "B00I4AAL8Y",
+            "height": {
+                "unit": "IN",
+                "value": 4.099999995818
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.699999991126
+            },
+            "name": "Reflections Heavyweight \"Looks Like Silver\" Disposable Flatware (180 pcs)",
+            "normalizedName": "Reflections Heavyweight \"Looks Like Silver\" Disposable Flatware (180 pcs)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.4
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.699999992146
+            }
+        },
+        "B017GSAQKM": {
+            "asin": "B017GSAQKM",
+            "height": {
+                "unit": "IN",
+                "value": 3.99999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.899999990922
+            },
+            "name": "DroolingDog Pet Clothes Dog Fashion Waterproof Winter Coat Green & Blue 2XL",
+            "normalizedName": "DroolingDog Pet Clothes Dog Fashion Waterproof Winter Coat Green & Blue 2XL",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.5999999994968457
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.099999994798
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 8
+}

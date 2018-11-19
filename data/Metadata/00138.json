@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B002STI30A": {
+            "asin": "B002STI30A",
+            "height": {
+                "unit": "IN",
+                "value": 5.199999994696
+            },
+            "length": {
+                "unit": "IN",
+                "value": 7.799999992044
+            },
+            "name": "Dublin Collection Crystal Hurricane Votive Candle Holder",
+            "normalizedName": "Dublin Collection Crystal Hurricane Votive Candle Holder",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.3
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.299999994594
+            }
+        },
+        "B00YBDL8GM": {
+            "asin": "B00YBDL8GM",
+            "height": {
+                "unit": "IN",
+                "value": 3.199999996736
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.599999990208
+            },
+            "name": "Philips Norelco Click and Style Shave Toolkit, Sony Music Special Pack",
+            "normalizedName": "Philips Norelco Click and Style Shave Toolkit, Sony Music Special Pack",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.2499999999999998
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.899999992962
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

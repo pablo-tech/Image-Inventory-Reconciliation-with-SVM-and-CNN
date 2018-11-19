@@ -1,0 +1,71 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B00H0BKJ3A": {
+            "asin": "B00H0BKJ3A",
+            "height": {
+                "unit": "IN",
+                "value": 1.181102361
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.9999999898
+            },
+            "name": "Joseph Joseph Note Clip Multi-Purpose Magnetic Bag Clip, Set of 3",
+            "normalizedName": "Set of 3 Joseph Joseph Note Clip Multi-Purpose Magnetic Bag Clip,",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.3086440166050481
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.9606299162
+            }
+        },
+        "B012QXE6XU": {
+            "asin": "B012QXE6XU",
+            "height": {
+                "unit": "IN",
+                "value": 1.299999998674
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.899999989902
+            },
+            "name": "Ipad mini case,ACEGUARDER&reg;ipad mini 2 case,ipad mini 3 case *Slim Military-Duty* Case for Rainproof Shock proof Anti-Dirt Drop Resistance Case with Back Clip for Apple Ipad mini 2/3 (Camo-Black)",
+            "normalizedName": "Ipad mini case,ACEGUARDER&reg;ipad mini 2 case,ipad mini 3 case *Slim Military-Duty* Case for Rainproof Shock proof Anti-Dirt Drop Resistance Case with Back Clip for Apple Ipad mini 2/3 (Camo-Black)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.8999999992452684
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.49999999337
+            }
+        },
+        "B01BSZDXTU": {
+            "asin": "B01BSZDXTU",
+            "height": {
+                "unit": "IN",
+                "value": 4.899999995002001
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.299999993574
+            },
+            "name": "(12) 2 Ounce 2 oz Empty Amber Glass Bottles W/black Fine Mist Sparyer (12) 3ml Pipettes (12) Chalk Labels for Essential Oils, Cleaning Products, Aromatherapy",
+            "normalizedName": "(12) 2 Ounce 2 oz Empty Amber Glass Bottles W/black Fine Mist Sparyer (12) 3ml Pipettes (12) Chalk Labels for Essential Oils, Cleaning Products, Aromatherapy",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 2.049999998280889
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.49999999439
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "1402705417": {
+            "asin": "1402705417",
+            "height": {
+                "unit": "IN",
+                "value": 0.299999999694
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.099999991737999
+            },
+            "name": "Challenging Logic Puzzles (Mensa\u00ae)",
+            "normalizedName": "Challenging Logic Puzzles (Mensa\u00ae)",
+            "quantity": 14,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.25
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.299999994594
+            }
+        },
+        "B00JLMNITS": {
+            "asin": "B00JLMNITS",
+            "height": {
+                "unit": "IN",
+                "value": 3.299999996634
+            },
+            "length": {
+                "unit": "IN",
+                "value": 4.199999995716
+            },
+            "name": "2014 Panini FIFA World Cup Brazil Factory Sealed HUGE 50 Pack Sticker Box with 350 Brand New MINT World Cup Stickers!",
+            "normalizedName": "50 Pack 2014 Panini FIFA World Cup Brazil Factory Sealed HUGE Sticker Box with 350 Brand New MINT World Cup Stickers!",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.6
+            },
+            "width": {
+                "unit": "IN",
+                "value": 4.199999995716
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 15
+}

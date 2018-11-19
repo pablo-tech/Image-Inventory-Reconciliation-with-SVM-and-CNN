@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0161IJ55U": {
+            "asin": "B0161IJ55U",
+            "height": {
+                "unit": "IN",
+                "value": 4.49999999541
+            },
+            "length": {
+                "unit": "IN",
+                "value": 6.399999993472
+            },
+            "name": "LIFX Color 1000 BR30 Wi-Fi Smart LED Light Bulb, Adjustable, Multicolor, Dimmable, No Hub Required, Works with Alexa",
+            "normalizedName": "LIFX Color 1000 BR30 Wi-Fi Smart LED Light Bulb, Adjustable, Multicolor, Dimmable, No Hub Required, Works with Alexa",
+            "quantity": 2,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.1999999989936914
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.49999999439
+            }
+        },
+        "B01704WDDA": {
+            "asin": "B01704WDDA",
+            "height": {
+                "unit": "IN",
+                "value": 3.99999999592
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.99999999082
+            },
+            "name": "Kanchana Organic Mulberry Tea, Loose Leaf, 2-Pack",
+            "normalizedName": "2-Pack Kanchana Organic Mulberry Tea, Loose Leaf,",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.39999999966456384
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.99999999286
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 3
+}

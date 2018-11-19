@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B0132YMMJC": {
+            "asin": "B0132YMMJC",
+            "height": {
+                "unit": "IN",
+                "value": 3.149606296
+            },
+            "length": {
+                "unit": "IN",
+                "value": 14.2519684894
+            },
+            "name": "Disney Infinity 3.0 Edition: Star Wars Han Solo Figure",
+            "normalizedName": "Disney Infinity 3.0 Edition: Star Wars Han Solo Figure",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.22046001167587295
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.5905511754
+            }
+        },
+        "B01DFHDMS6": {
+            "asin": "B01DFHDMS6",
+            "height": {
+                "unit": "IN",
+                "value": 0.799999999184
+            },
+            "length": {
+                "unit": "IN",
+                "value": 8.49999999133
+            },
+            "name": "ScionBeauty Premium Improved Self Tanning Mitt Set - Applicator Mitt, Exfoliating Mitt and Facial Mitt - New Improved Double Sided Body Applicator Glove with a Thumb",
+            "normalizedName": "ScionBeauty Premium Improved Self Tanning Mitt Set - Applicator Mitt, Exfoliating Mitt and Facial Mitt - New Improved Double Sided Body Applicator Glove with a Thumb",
+            "quantity": 6,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.022046001167587297
+            },
+            "width": {
+                "unit": "IN",
+                "value": 6.49999999337
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 7
+}

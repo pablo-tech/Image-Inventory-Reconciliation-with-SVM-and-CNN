@@ -1,0 +1,49 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B007Q2KZU0": {
+            "asin": "B007Q2KZU0",
+            "height": {
+                "unit": "IN",
+                "value": 1.79921259659
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.9999999898
+            },
+            "name": "BigMouth Inc Gigantic Donut Pool Float (Strawberry Frosted with Sprinkles)",
+            "normalizedName": "BigMouth Inc Gigantic Donut Pool Float (Strawberry Frosted with Sprinkles)",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 1.5873282864
+            },
+            "width": {
+                "unit": "IN",
+                "value": 7.20078739423
+            }
+        },
+        "B00LSDZI9G": {
+            "asin": "B00LSDZI9G",
+            "height": {
+                "unit": "IN",
+                "value": 1.3999999985719997
+            },
+            "length": {
+                "unit": "IN",
+                "value": 9.699999990105999
+            },
+            "name": "Accord ABSWWH284 Sidewall/Ceiling Register with 2-Way Design, 8-Inch x 4-Inch(Duct Opening Measurements), White",
+            "normalizedName": "Accord ABSWWH284 Sidewall/Ceiling Register with 2-Way Design, 8-Inch x 4-Inch(Duct Opening Measurements), White",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.5
+            },
+            "width": {
+                "unit": "IN",
+                "value": 5.699999994186001
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 2
+}

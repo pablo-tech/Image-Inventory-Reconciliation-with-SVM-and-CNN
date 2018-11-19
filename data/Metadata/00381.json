@@ -1,0 +1,27 @@
+{
+    "BIN_FCSKU_DATA": {
+        "B01EOV99PW": {
+            "asin": "B01EOV99PW",
+            "height": {
+                "unit": "IN",
+                "value": 2.7999999971439995
+            },
+            "length": {
+                "unit": "IN",
+                "value": 11.599999988168
+            },
+            "name": "Amgate 5 Pack 5 Gallon Gardening Grow Bags Container with Strap handles, Aeration Plant Hydroponic Pot",
+            "normalizedName": "5 Pack Amgate 5 Gallon Gardening Grow Bags Container with Strap handles, Aeration Plant Hydroponic Pot",
+            "quantity": 1,
+            "weight": {
+                "unit": "pounds",
+                "value": 0.7499999993710571
+            },
+            "width": {
+                "unit": "IN",
+                "value": 9.49999999031
+            }
+        }
+    },
+    "EXPECTED_QUANTITY": 1
+}
