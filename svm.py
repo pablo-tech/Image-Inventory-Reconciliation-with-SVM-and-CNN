@@ -20,11 +20,6 @@ def getTransformedMatrix(image):
     resizedReshaped = resized.reshape(1, target_size * target_size * number_colors)
     return resizedReshaped
 
-def printShape(image, name):
-    print("BEFORE: ", name, "= " , image.shape) # (128, 128, 3)
-    rgb_matrix =  getTransformedMatrix(image).shape # (16384, 3)
-    print("AFTER: ", name, "= " , rgb_matrix)
-
 # RANDOM
 random.seed(229)
 
@@ -33,24 +28,10 @@ local_path = ''
 sage_path = '/home/ec2-user/SageMaker/efs/amazon-bin/'
 env_path = local_path
 
-train_file = env_path+'counting_train.json'
-# train_file = env_path+'/input/counting_train.json'
-
-image_path = env_path+'data/Images/'
+images_path = "data/Images/"
 # img_path = env_path+'/data/bin-images-resize/'
+metadata_path = "data/Metadata/"
 
-
-# FILE
-with open(train_file) as f:
-    data_list = json.loads(f.read())
-print("#files_train=", len(data_list))
-
-sample_images = "data/Images/"
-sample_meta = "data/Metadata/"
-sample_name = "00001"
-
-sample_image = imread(sample_images+sample_name+".jpg")
-sample_transformed = getTransformedMatrix(sample_image)
 
 # CROSS VALIDATION
 def getXY(setName):
@@ -65,8 +46,8 @@ def getXY(setName):
         file_name = '%05d.jpg' % (xId_y[0]+1)
         expected_quantity = xId_y[1]
         try:
-            this_image = imread(sample_images+file_name)
-            image_transformed = getTransformedMatrix(sample_image)
+            this_image = imread(images_path+file_name)
+            image_transformed = getTransformedMatrix(this_image)
             if len(X_set)==0:
                 X_set = image_transformed
                 Y_out = [expected_quantity]
@@ -86,6 +67,9 @@ X_validation,Y_validation=getXY("counting_val")
 print("X_validation=", X_validation.shape, " Y_out=", Y_validation.shape)
 
 
+# PLOT
+# sample_name = "00001"
+# sample_image = imread(images_path+sample_name+".jpg")
 # plt.imshow(sample_image)
 # plt.show()
 
