@@ -51,36 +51,33 @@ sample_image = imread(sample_images+sample_name+".jpg")
 sample_transformed = getTransformedMatrix(sample_image)
 
 # META
-X_set = []
-Y_out = []
-bad_count = 0
-train_xId_y_list = env_path+"counting_train.json"
-with open(train_xId_y_list) as metadata_file:
-    metadata_json = json.load(metadata_file)
-for xId_y in metadata_json:
-    # print("xId_y=",xId_y)
-    file_name = '%05d.jpg' % (xId_y[0])
-    expected_quantity = xId_y[1]
-    try:
-        this_image = imread(sample_images+file_name)
-        image_transformed = getTransformedMatrix(sample_image)
-        if len(X_set)==0:
-            X_set = image_transformed
-            Y_out = [expected_quantity]
-        else:
-            X_set = np.concatenate((X_set, image_transformed))
-            Y_out = np.concatenate((Y_out, [expected_quantity]))
-        print("X_set=", X_set.shape, " Y_out=", Y_out.shape)
-    except:
-        bad_count = bad_count+1
-        # print("error=", file_name)
+def getXY(setName):
+    X_set = []
+    Y_out = []
+    bad_count = 0
+    train_xId_y_list = env_path+setName+".json"
+    with open(train_xId_y_list) as metadata_file:
+        metadata_json = json.load(metadata_file)
+    for xId_y in metadata_json:
+        # print("xId_y=",xId_y)
+        file_name = '%05d.jpg' % (xId_y[0])
+        expected_quantity = xId_y[1]
+        try:
+            this_image = imread(sample_images+file_name)
+            image_transformed = getTransformedMatrix(sample_image)
+            if len(X_set)==0:
+                X_set = image_transformed
+                Y_out = [expected_quantity]
+            else:
+                X_set = np.concatenate((X_set, image_transformed))
+                Y_out = np.concatenate((Y_out, [expected_quantity]))
+            print("X_set=", X_set.shape, " Y_out=", Y_out.shape)
+        except:
+            bad_count = bad_count+1
+            # print("error=", file_name)
+    return X_set,Y_out
 
-    # print("EXPECTED_QUANTITY=",expected_quantity)
-    # meta_list = metadata_json["BIN_FCSKU_DATA"]
-    # for meta_key in meta_list:
-    #     meta_data = meta_list[meta_key]
-    #     print(meta_data["quantity"])
-
+X_set,Y_out=getXY("counting_train")
 print("X_set=", X_set.shape, " Y_out=", Y_out.shape)
 
 # plt.imshow(sample_image)
