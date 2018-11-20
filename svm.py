@@ -24,13 +24,19 @@ def getTransformedMatrix(image):
 random.seed(229)
 
 # PATH
-local_path = ''
-sage_path = '/home/ec2-user/SageMaker/efs/amazon-bin/'
-env_path = local_path
+local_root = ''
+local_images_path = local_root+'data/Images/'
+local_metadata_path = local_root+'data/Metadata/'
+local_summary_path = local_root+''
+sage_root = '/home/ec2-user/SageMaker/efs/'
+sage_images_path = sage_root+'amazon-bin/bin-images/'
+sage_metadata_path = sage_root+'amazon-bin/metadata/' #/home/ec2-user/SageMaker/efs/amazon-bin/bin-images
+sage_summary_path = sage_root+'amazon-bin/' #/home/ec2-user/SageMaker/efs/amazon-bin/bin-images
+env_images_path = local_images_path
+env_metadata_path = local_metadata_path
+env_summary_path = local_summary_path
 
-images_path = "data/Images/"
 # img_path = env_path+'/data/bin-images-resize/'
-metadata_path = "data/Metadata/"
 
 
 # CROSS VALIDATION
@@ -38,7 +44,7 @@ def getXY(setName):
     X_set = []
     Y_out = []
     bad_count = 0
-    train_xId_y_list = env_path+setName+".json"
+    train_xId_y_list = local_summary_path+setName+".json"
     with open(train_xId_y_list) as metadata_file:
         metadata_json = json.load(metadata_file)
     for xId_y in metadata_json:
@@ -46,7 +52,7 @@ def getXY(setName):
         file_name = '%05d.jpg' % (xId_y[0]+1)
         expected_quantity = xId_y[1]
         try:
-            this_image = imread(images_path+file_name)
+            this_image = imread(env_images_path+file_name)
             image_transformed = getTransformedMatrix(this_image)
             if len(X_set)==0:
                 X_set = image_transformed
