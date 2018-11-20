@@ -29,6 +29,8 @@ https://docs.google.com/document/d/1xske1KOxGRQHKKHka5QHvT5bANZL9dsex68De2v9elg/
 
 # Environment
 
+```
 conda env create -f environment.yml
 source activate ai-inventory
 conda env remove -n ai-inventory
+```

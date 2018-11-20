@@ -7,6 +7,30 @@ import matplotlib.pyplot as plt;
 import skimage.transform
 
 
+## CONFIG
+max_taining = 400
+svm_regularization = 'l1' # 'l2'
+#  SVC, SVR, NuSVC and NuSVR
+
+# PATH
+# local
+local_root = ''
+local_images_path = local_root+'data/Images/'
+local_metadata_path = local_root+'data/Metadata/'
+local_summary_path = local_root+''
+# sage
+sage_root = '/home/ec2-user/SageMaker/efs/'
+sage_images_path = sage_root+'amazon-bin/bin-images/'
+sage_metadata_path = sage_root+'amazon-bin/metadata/'
+sage_summary_path = sage_root
+# env
+env_images_path = local_images_path
+env_metadata_path = local_metadata_path
+env_summary_path = local_summary_path
+# env_images_path = sage_images_path
+# env_metadata_path = sage_metadata_path
+# env_summary_path = sage_summary_path
+
 # HELPER
 def getTransformedMatrix(image):
     target_size = 224
@@ -23,47 +47,35 @@ def getTransformedMatrix(image):
 # RANDOM
 random.seed(229)
 
-# PATH
-local_root = ''
-local_images_path = local_root+'data/Images/'
-local_metadata_path = local_root+'data/Metadata/'
-local_summary_path = local_root+''
-sage_root = '/home/ec2-user/SageMaker/efs/'
-sage_images_path = sage_root+'amazon-bin/bin-images/'
-sage_metadata_path = sage_root+'amazon-bin/metadata/' #/home/ec2-user/SageMaker/efs/amazon-bin/bin-images
-sage_summary_path = sage_root+'amazon-bin/' #/home/ec2-user/SageMaker/efs/amazon-bin/bin-images
-env_images_path = local_images_path
-env_metadata_path = local_metadata_path
-env_summary_path = local_summary_path
-
-# img_path = env_path+'/data/bin-images-resize/'
-
 
 # CROSS VALIDATION
 def getXY(setName):
     X_set = []
     Y_out = []
+    total_count = 0
     bad_count = 0
-    train_xId_y_list = local_summary_path+setName+".json"
+    train_xId_y_list = env_summary_path+setName+".json"
     with open(train_xId_y_list) as metadata_file:
         metadata_json = json.load(metadata_file)
     for xId_y in metadata_json:
-        # print("xId_y=",xId_y)
-        file_name = '%05d.jpg' % (xId_y[0]+1)
-        expected_quantity = xId_y[1]
-        try:
-            this_image = imread(env_images_path+file_name)
-            image_transformed = getTransformedMatrix(this_image)
-            if len(X_set)==0:
-                X_set = image_transformed
-                Y_out = [expected_quantity]
-            else:
-                X_set = np.concatenate((X_set, image_transformed))
-                Y_out = np.concatenate((Y_out, [expected_quantity]))
-            print(setName + " X_set=", X_set.shape, " Y_out=", Y_out.shape)
-        except:
-            bad_count = bad_count+1
-            # print("error=", file_name)
+        if(total_count<max_taining):
+            # print("xId_y=",xId_y)
+            file_name = '%05d.jpg' % (xId_y[0]+1)
+            expected_quantity = xId_y[1]
+            try:
+                this_image = imread(env_images_path+file_name)
+                image_transformed = getTransformedMatrix(this_image)
+                if len(X_set)==0:
+                    X_set = image_transformed
+                    Y_out = [expected_quantity]
+                else:
+                    X_set = np.concatenate((X_set, image_transformed))
+                    Y_out = np.concatenate((Y_out, [expected_quantity]))
+                print(setName + " X_set=", X_set.shape, " Y_out=", Y_out.shape)
+            except:
+                bad_count = bad_count+1
+                # print("error=", file_name)
+            total_count = total_count+1
     return X_set,Y_out
 
 X_train,Y_train=getXY("counting_train")
@@ -81,8 +93,18 @@ print("X_validation=", X_validation.shape, " Y_out=", Y_validation.shape)
 
 
 # SVM
+# SVC and NuSVC are similar methods, but accept slightly different sets of parameters and have different mathematical
+# formulations (see section Mathematical formulation). On the other hand, LinearSVC is another implementation of
+# Support Vector Classification for the case of a linear kernel. Note that LinearSVC does not accept keyword kernel,
+# as this is assumed to be linear.
+# isProbability = True
 print("WILL NOW TRAIN SVM... set_size=", len(Y_train))
-clf = svm.SVC(gamma='scale')
+# clf = svm.LinearSVC(loss='l2', penalty='l1', dual=False)
+# clf = svm.LinearSVC(penalty='l2')
+#clf = svm.SVC(gamma='scale')
+# clf = svm.NuSVC()
+# clf = svm.SVC(gamma='scale', decision_function_shape='ovo')
+clf = svm.LinearSVC(penalty='l2', multi_class='ovr')
 clf.fit(X_train, Y_train)
 
 
@@ -95,7 +117,7 @@ def getAccuracy(X_set, Y_set, class_id):
         y_actual_output = Y_set[i]
         if(y_actual_output==class_id):
             y_predicted_output = clf.predict([x_input])
-            # print("cross-validation predict=", y_predicted_output, " vs=", y_actual_output)
+            print("cross-validation predict=", y_predicted_output, " vs=", y_actual_output)
             if(y_actual_output==y_predicted_output):
                 class_success_count = class_success_count + 1
             class_total_count = class_total_count+1
@@ -108,17 +130,17 @@ def getAccuracy(X_set, Y_set, class_id):
     return class_accuracy, class_success_count, class_total_count
 
 print("WILL NOW VALIDATE SVM... set_size=", len(Y_validation))
-classes_under_study = 5
+classes_under_study = 6
 class_accuracy_percent = np.zeros(classes_under_study)
 class_success_count = np.zeros(classes_under_study)
 class_count = np.zeros(classes_under_study)
 
-for class_id in range(1, classes_under_study+1):
+for class_id in range(classes_under_study):
     class_id_accuracy, class_id_success_count, class_id_count = getAccuracy(X_validation, Y_validation, class_id)
     print("class_id=", class_id, " class_id_accuracy=",class_id_accuracy, " class_id_success_count=",class_id_success_count, " class_id_count=",class_id_count)
-    class_accuracy_percent[class_id-1] = class_id_accuracy
-    class_success_count[class_id-1] = class_id_success_count
-    class_count[class_id-1] = class_id_count
+    class_accuracy_percent[class_id] = class_id_accuracy
+    class_success_count[class_id] = class_id_success_count
+    class_count[class_id] = class_id_count
 
 print("validation total=", len(Y_validation), " split into class_count=", class_count)
 print("validation class_accuracy=", class_accuracy_percent)
