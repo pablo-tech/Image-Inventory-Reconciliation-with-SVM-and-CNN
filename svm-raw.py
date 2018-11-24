@@ -9,8 +9,6 @@ import skimage.transform
 
 ## CONFIG
 max_taining = 400
-svm_regularization = 'l1' # 'l2'
-#  SVC, SVR, NuSVC and NuSVR
 
 # PATH
 # local
@@ -32,7 +30,7 @@ env_summary_path = local_summary_path
 # env_summary_path = sage_summary_path
 
 # HELPER
-def getTransformedMatrix(image):
+def getResizedReshapedMatrix(image):
     target_size = 224
     number_colors = 3
     num_rows = image.shape[0]
@@ -43,6 +41,15 @@ def getTransformedMatrix(image):
     resized = skimage.transform.resize(image, (target_size,target_size, number_colors))
     resizedReshaped = resized.reshape(1, target_size * target_size * number_colors)
     return resizedReshaped
+
+def getZeroMeanNormalizedVarianceMatrix(Xmatrix):
+    # Mean subtraction: subtracting the mean across every individual feature in the data
+    Xmatrix -= np.mean(Xmatrix, axis = 0)
+    # Normalization, two wasy:
+    # 1) is to divide each dimension by its standard deviation, once it has been zero-centered
+    Xmatrix /= np.std(Xmatrix, axis = 0)
+    # 2) Another form of this preprocessing normalizes each dimension so that the min and max along the dimension is -1 and 1 respectively
+    return Xmatrix
 
 # RANDOM
 random.seed(229)
@@ -64,12 +71,14 @@ def getXY(setName):
             expected_quantity = xId_y[1]
             try:
                 this_image = imread(env_images_path+file_name)
-                image_transformed = getTransformedMatrix(this_image)
+                image_resized_reshaped = getResizedReshapedMatrix(this_image)
+                image_mean_variance_normalized = getZeroMeanNormalizedVarianceMatrix(image_resized_reshaped)
+                image_to_use = image_mean_variance_normalized
                 if len(X_set)==0:
-                    X_set = image_transformed
+                    X_set = image_to_use
                     Y_out = [expected_quantity]
                 else:
-                    X_set = np.concatenate((X_set, image_transformed))
+                    X_set = np.concatenate((X_set, image_to_use))
                     Y_out = np.concatenate((Y_out, [expected_quantity]))
                 print(setName + " X_set=", X_set.shape, " Y_out=", Y_out.shape)
             except:
@@ -79,10 +88,7 @@ def getXY(setName):
     return X_set,Y_out
 
 X_train,Y_train=getXY("counting_train")
-print("X_train=", X_train.shape, " Y_out=", Y_train.shape)
-
 X_validation,Y_validation=getXY("counting_val")
-print("X_validation=", X_validation.shape, " Y_out=", Y_validation.shape)
 
 
 # PLOT
@@ -101,10 +107,11 @@ print("X_validation=", X_validation.shape, " Y_out=", Y_validation.shape)
 print("WILL NOW TRAIN SVM... set_size=", len(Y_train))
 # clf = svm.LinearSVC(loss='l2', penalty='l1', dual=False)
 # clf = svm.LinearSVC(penalty='l2')
-#clf = svm.SVC(gamma='scale')
 # clf = svm.NuSVC()
 # clf = svm.SVC(gamma='scale', decision_function_shape='ovo')
-clf = svm.LinearSVC(penalty='l2', multi_class='ovr')
+# clf = svm.SVC(gamma='scale')
+clf = svm.NuSVC(nu=0.1) # gamma='scale'
+# clf = svm.LinearSVC(penalty='l2', multi_class='ovr')
 clf.fit(X_train, Y_train)
 
 
