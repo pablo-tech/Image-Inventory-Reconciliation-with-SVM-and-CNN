@@ -156,13 +156,6 @@ def validate(param_string, trained_model, X_validation, Y_validation):
 # Current default is ‘auto’ which uses 1 / n_features, if gamma='scale' is passed then it uses 1 / (n_features * X.std()) as value of gamma.
 # The current default of gamma, ‘auto’, will change to ‘scale’ in version 0.22. ‘auto_deprecated’, a deprecated version of ‘auto’ is used as a default indicating that no explicit value of gamma was passed.
 
-# clf = svm.LinearSVC(loss='l2', penalty='l1', dual=False)
-# clf = svm.LinearSVC(penalty='l2')
-# clf = svm.NuSVC()
-# clf = svm.SVC(gamma='scale', decision_function_shape='ovo')
-# clf = svm.SVC(gamma='scale')
-# clf = svm.LinearSVC(penalty='l2', multi_class='ovr')
-
 nu_range = [0.05, 0.10, 0.15]
 C_range = [1e-2, 1, 1e2]
 gamma_range = [1e-1, 1, 1e1]
@@ -171,11 +164,18 @@ param_validation_accuracy = {}
 for nu_param in nu_range:
     for c_param in C_range:
         for gamma_param in gamma_range:
-            param_string = "nu=",nu_param, " c=",c_param, "gamma=",gamma_param
+            param_string = "nu=",nu_param, "_c=",c_param, "_gamma=",gamma_param
             print(param_string, "...WILL NOW TRAIN SVM... set_size=", len(Y_train))
             try:
-                clf = svm.NuSVC(nu=nu_param, C=c_param, gamma=gamma_param) # gamma='scale'
+                # clf = svm.NuSVC(nu=nu_param, )
+                clf = svm.SVC(C=c_param, gamma=gamma_param)
                 clf.fit(X_train_mean_variance_normalized, Y_train)
+                # clf = svm.LinearSVC(loss='l2', penalty='l1', dual=False)
+                # clf = svm.LinearSVC(penalty='l2')
+                # clf = svm.NuSVC()
+                # clf = svm.SVC(gamma='scale', decision_function_shape='ovo')
+                # clf = svm.SVC(gamma='scale')
+                # clf = svm.LinearSVC(penalty='l2', multi_class='ovr')
                 class_accuracy_percent = validate(param_string, clf, X_validation_mean_variance_normalized, Y_validation)
             except Exception:
                 print("Unexpected error:", sys.exc_info())
