@@ -5,6 +5,7 @@ import json
 from matplotlib.image import imread;
 import matplotlib.pyplot as plt;
 import skimage.transform
+import sys
 
 
 ## CONFIG
@@ -97,40 +98,17 @@ X_validation_mean_variance_normalized = getZeroMeanNormalizedVarianceMatrix(X_va
 print ("X_train=", X_train_mean_variance_normalized)
 # exit(1)
 
-# PLOT
-# sample_name = "00001"
-# sample_image = imread(images_path+sample_name+".jpg")
-# plt.imshow(sample_image)
-# plt.show()
-
-
-# SVM
-# SVC and NuSVC are similar methods, but accept slightly different sets of parameters and have different mathematical
-# formulations (see section Mathematical formulation). On the other hand, LinearSVC is another implementation of
-# Support Vector Classification for the case of a linear kernel. Note that LinearSVC does not accept keyword kernel,
-# as this is assumed to be linear.
-# isProbability = True
-print("WILL NOW TRAIN SVM... set_size=", len(Y_train))
-# clf = svm.LinearSVC(loss='l2', penalty='l1', dual=False)
-# clf = svm.LinearSVC(penalty='l2')
-# clf = svm.NuSVC()
-# clf = svm.SVC(gamma='scale', decision_function_shape='ovo')
-# clf = svm.SVC(gamma='scale')
-clf = svm.NuSVC(nu=0.1) # gamma='scale'
-# clf = svm.LinearSVC(penalty='l2', multi_class='ovr')
-clf.fit(X_train_mean_variance_normalized, Y_train)
-
 
 # ACCURACY
-def getAccuracy(X_set, Y_set, class_id):
+def getAccuracy(param_string, trained_model, X_set, Y_set, class_id):
     class_total_count = 0
     class_success_count = 0
     for i in range(len(Y_set)):
         x_input = X_set[i]
         y_actual_output = Y_set[i]
         if(y_actual_output==class_id):
-            y_predicted_output = clf.predict([x_input])
-            print("cross-validation predict=", y_predicted_output, " vs=", y_actual_output)
+            y_predicted_output = trained_model.predict([x_input])
+            print(param_string, " cross-validation predict=", y_predicted_output, " vs=", y_actual_output)
             if(y_actual_output==y_predicted_output):
                 class_success_count = class_success_count + 1
             class_total_count = class_total_count+1
@@ -142,20 +120,60 @@ def getAccuracy(X_set, Y_set, class_id):
 
     return class_accuracy, class_success_count, class_total_count
 
-print("WILL NOW VALIDATE SVM... set_size=", len(Y_validation))
-classes_under_study = 6
-class_accuracy_percent = np.zeros(classes_under_study)
-class_success_count = np.zeros(classes_under_study)
-class_count = np.zeros(classes_under_study)
+def validate(param_string, trained_model, X_validation, Y_validation):
+    print(param_string, " WILL NOW VALIDATE SVM... set_size=", len(Y_validation))
+    classes_under_study = 6
+    class_accuracy_percent = np.zeros(classes_under_study)
+    class_success_count = np.zeros(classes_under_study)
+    class_count = np.zeros(classes_under_study)
 
-for class_id in range(classes_under_study):
-    class_id_accuracy, class_id_success_count, class_id_count = getAccuracy(X_validation_mean_variance_normalized, Y_validation, class_id)
-    print("class_id=", class_id, " class_id_accuracy=",class_id_accuracy, " class_id_success_count=",class_id_success_count, " class_id_count=",class_id_count)
-    class_accuracy_percent[class_id] = class_id_accuracy
-    class_success_count[class_id] = class_id_success_count
-    class_count[class_id] = class_id_count
+    for class_id in range(classes_under_study):
+        class_id_accuracy, class_id_success_count, class_id_count = getAccuracy(param_string, trained_model, X_validation_mean_variance_normalized, Y_validation, class_id)
+        print(param_string, " class_id=", class_id, " class_id_accuracy=",class_id_accuracy, " class_id_success_count=",class_id_success_count, " class_id_count=",class_id_count)
+        class_accuracy_percent[class_id] = class_id_accuracy
+        class_success_count[class_id] = class_id_success_count
+        class_count[class_id] = class_id_count
 
-print("validation total=", len(Y_validation), " split into class_count=", class_count)
-print("validation class_accuracy=", class_accuracy_percent)
-overall_accuracy = np.sum(class_success_count)/len(Y_validation)
-print("overall accuracy=", overall_accuracy)
+    print(param_string, " validation total=", len(Y_validation), " split into class_count=", class_count)
+    print(param_string, " validation class_accuracy=", class_accuracy_percent)
+    overall_accuracy = np.sum(class_success_count)/len(Y_validation)
+    print(param_string, " overall accuracy=", overall_accuracy)
+    return class_accuracy_percent
+
+
+# SVM
+# SVC and NuSVC are similar methods, but accept slightly different sets of parameters and have different mathematical
+# formulations (see section Mathematical formulation). On the other hand, LinearSVC is another implementation of
+# Support Vector Classification for the case of a linear kernel. Note that LinearSVC does not accept keyword kernel,
+# as this is assumed to be linear.
+# isProbability = True
+# clf = svm.LinearSVC(loss='l2', penalty='l1', dual=False)
+# clf = svm.LinearSVC(penalty='l2')
+# clf = svm.NuSVC()
+# clf = svm.SVC(gamma='scale', decision_function_shape='ovo')
+# clf = svm.SVC(gamma='scale')
+# clf = svm.LinearSVC(penalty='l2', multi_class='ovr')
+
+
+param_range = [0.05, 0.10, 0.15]
+param_validation_accuracy = {}
+for param_value in param_range:
+    param_string = "nu=",param_value
+    print(param_string, "...WILL NOW TRAIN SVM... set_size=", len(Y_train))
+    try:
+        clf = svm.NuSVC(nu=param_value) # gamma='scale'
+        clf.fit(X_train_mean_variance_normalized, Y_train)
+        class_accuracy_percent = validate(param_string, clf, X_validation_mean_variance_normalized, Y_validation)
+    except Exception:
+        print("Unexpected error:", sys.exc_info())
+        bad = True
+    param_validation_accuracy[param_string] = class_accuracy_percent
+
+print("param_validation_accuracy=", param_validation_accuracy)
+# PLOT
+# sample_name = "00001"
+# sample_image = imread(images_path+sample_name+".jpg")
+# plt.imshow(sample_image)
+# plt.show()
+
+
