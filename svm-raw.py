@@ -146,7 +146,16 @@ def validate(param_string, trained_model, X_validation, Y_validation):
 # formulations (see section Mathematical formulation). On the other hand, LinearSVC is another implementation of
 # Support Vector Classification for the case of a linear kernel. Note that LinearSVC does not accept keyword kernel,
 # as this is assumed to be linear.
-# isProbability = True
+
+# KERNEL : string, optional (default=’rbf’)
+# Specifies the kernel type to be used in the algorithm.
+# It must be one of ‘linear’, ‘poly’, ‘rbf’, ‘sigmoid’, ‘precomputed’ or a callable. If none is given, ‘rbf’ will be used.
+# If a callable is given it is used to precompute the kernel matrix.
+# GAMMA : float, optional (default=’auto’)
+# Kernel coefficient for ‘rbf’, ‘poly’ and ‘sigmoid’.
+# Current default is ‘auto’ which uses 1 / n_features, if gamma='scale' is passed then it uses 1 / (n_features * X.std()) as value of gamma.
+# The current default of gamma, ‘auto’, will change to ‘scale’ in version 0.22. ‘auto_deprecated’, a deprecated version of ‘auto’ is used as a default indicating that no explicit value of gamma was passed.
+
 # clf = svm.LinearSVC(loss='l2', penalty='l1', dual=False)
 # clf = svm.LinearSVC(penalty='l2')
 # clf = svm.NuSVC()
@@ -154,20 +163,24 @@ def validate(param_string, trained_model, X_validation, Y_validation):
 # clf = svm.SVC(gamma='scale')
 # clf = svm.LinearSVC(penalty='l2', multi_class='ovr')
 
+nu_range = [0.05, 0.10, 0.15]
+C_range = [1e-2, 1, 1e2]
+gamma_range = [1e-1, 1, 1e1]
 
-param_range = [0.05, 0.10, 0.15]
 param_validation_accuracy = {}
-for param_value in param_range:
-    param_string = "nu=",param_value
-    print(param_string, "...WILL NOW TRAIN SVM... set_size=", len(Y_train))
-    try:
-        clf = svm.NuSVC(nu=param_value) # gamma='scale'
-        clf.fit(X_train_mean_variance_normalized, Y_train)
-        class_accuracy_percent = validate(param_string, clf, X_validation_mean_variance_normalized, Y_validation)
-    except Exception:
-        print("Unexpected error:", sys.exc_info())
-        bad = True
-    param_validation_accuracy[param_string] = class_accuracy_percent
+for nu_param in nu_range:
+    for c_param in C_range:
+        for gamma_param in gamma_range:
+            param_string = "nu=",nu_param, " c=",c_param, "gamma=",gamma_param
+            print(param_string, "...WILL NOW TRAIN SVM... set_size=", len(Y_train))
+            try:
+                clf = svm.NuSVC(nu=nu_param, C=c_param, gamma=gamma_param) # gamma='scale'
+                clf.fit(X_train_mean_variance_normalized, Y_train)
+                class_accuracy_percent = validate(param_string, clf, X_validation_mean_variance_normalized, Y_validation)
+            except Exception:
+                print("Unexpected error:", sys.exc_info())
+                bad = True
+            param_validation_accuracy[param_string] = class_accuracy_percent
 
 print("param_validation_accuracy=", param_validation_accuracy)
 # PLOT
@@ -177,3 +190,8 @@ print("param_validation_accuracy=", param_validation_accuracy)
 # plt.show()
 
 
+# JUST NU
+# param_validation_accuracy= {
+# ('nu=', 0.05): array([0.28571429, 0.08108108, 0.29032258, 0.20560748, 0.35897436, 0.17948718]),
+# ('nu=', 0.1): array([0.28571429, 0.08108108, 0.27956989, 0.20560748, 0.35897436, 0.17948718]),
+# ('nu=', 0.15): array([0.28571429, 0.08108108, 0.27956989, 0.20560748, 0.35897436, 0.17948718])}
