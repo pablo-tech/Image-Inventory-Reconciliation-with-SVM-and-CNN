@@ -6,10 +6,11 @@ from matplotlib.image import imread;
 import matplotlib.pyplot as plt;
 import skimage.transform
 import sys
+from sklearn.decomposition import PCA
 
 
 ## CONFIG
-max_taining = 400
+max_taining_examples = 400
 
 # PATH
 # local
@@ -68,7 +69,7 @@ def getXY(setName):
     with open(train_xId_y_list) as metadata_file:
         metadata_json = json.load(metadata_file)
     for xId_y in metadata_json:
-        if(total_count<max_taining):
+        if(total_count<max_taining_examples):
             # print("xId_y=",xId_y)
             file_name = '%05d.jpg' % (xId_y[0]+1)
             expected_quantity = xId_y[1]
@@ -94,6 +95,15 @@ X_validation,Y_validation=getXY("counting_val")
 
 X_train_mean_variance_normalized = getZeroMeanNormalizedVarianceMatrix(X_train)
 X_validation_mean_variance_normalized = getZeroMeanNormalizedVarianceMatrix(X_validation)
+
+# PCA
+# n_components=10000 must be between 0 and min(n_samples, n_features)=336 with svd_solver='full'
+pca = PCA(n_components= int(max_taining_examples/2))  # some examples may be missing (in the test set)
+x_pca = pca.fit_transform(X_train_mean_variance_normalized)
+
+X_train = pca.fit_transform(X_train_mean_variance_normalized)
+print("x_pca.shape=",x_pca.shape)
+X_validation_mean_variance_normalized = pca.fit_transform(X_validation_mean_variance_normalized)
 
 print ("X_train=", X_train_mean_variance_normalized)
 # exit(1)
@@ -161,26 +171,27 @@ C_range = [1e-2, 1, 1e2]
 gamma_range = [1e-1, 1, 1e1]
 
 param_validation_accuracy = {}
-for nu_param in nu_range:
-    for c_param in C_range:
-        for gamma_param in gamma_range:
-            param_string = "nu=",nu_param, "_c=",c_param, "_gamma=",gamma_param
-            print(param_string, "...WILL NOW TRAIN SVM... set_size=", len(Y_train))
-            try:
-                # clf = svm.NuSVC(nu=nu_param, )
-                clf = svm.SVC(C=c_param, gamma=gamma_param)
-                clf.fit(X_train_mean_variance_normalized, Y_train)
-                # clf = svm.LinearSVC(loss='l2', penalty='l1', dual=False)
-                # clf = svm.LinearSVC(penalty='l2')
-                # clf = svm.NuSVC()
-                # clf = svm.SVC(gamma='scale', decision_function_shape='ovo')
-                # clf = svm.SVC(gamma='scale')
-                # clf = svm.LinearSVC(penalty='l2', multi_class='ovr')
-                class_accuracy_percent = validate(param_string, clf, X_validation_mean_variance_normalized, Y_validation)
-            except Exception:
-                print("Unexpected error:", sys.exc_info())
-                bad = True
-            param_validation_accuracy[param_string] = class_accuracy_percent
+# for nu_param in nu_range:
+for c_param in C_range:
+    for gamma_param in gamma_range:
+        # param_string = "nu=",nu_param
+        param_string = "_c=",c_param, "_gamma=",gamma_param
+        print(param_string, "...WILL NOW TRAIN SVM... set_size=", len(Y_train))
+        try:
+            # clf = svm.NuSVC(nu=nu_param, )
+            clf = svm.SVC(C=c_param, gamma=gamma_param)  # radial kernel
+            clf.fit(X_train_mean_variance_normalized, Y_train)
+            # clf = svm.LinearSVC(loss='l2', penalty='l1', dual=False)
+            # clf = svm.LinearSVC(penalty='l2')
+            # clf = svm.NuSVC()
+            # clf = svm.SVC(gamma='scale', decision_function_shape='ovo')
+            # clf = svm.SVC(gamma='scale')
+            # clf = svm.LinearSVC(penalty='l2', multi_class='ovr')
+            class_accuracy_percent = validate(param_string, clf, X_validation_mean_variance_normalized, Y_validation)
+        except Exception:
+            print("Unexpected error:", sys.exc_info())
+            bad = True
+        param_validation_accuracy[param_string] = class_accuracy_percent
 
 print("param_validation_accuracy=", param_validation_accuracy)
 # PLOT
@@ -190,8 +201,20 @@ print("param_validation_accuracy=", param_validation_accuracy)
 # plt.show()
 
 
-# JUST NU
+# svm.NuSVC
 # param_validation_accuracy= {
 # ('nu=', 0.05): array([0.28571429, 0.08108108, 0.29032258, 0.20560748, 0.35897436, 0.17948718]),
 # ('nu=', 0.1): array([0.28571429, 0.08108108, 0.27956989, 0.20560748, 0.35897436, 0.17948718]),
 # ('nu=', 0.15): array([0.28571429, 0.08108108, 0.27956989, 0.20560748, 0.35897436, 0.17948718])}
+
+# svm.SVC
+# param_validation_accuracy= {
+# ('_c=', 0.01, '_gamma=', 0.1): array([0., 0., 0., 0., 1., 0.]),
+# ('_c=', 0.01, '_gamma=', 1): array([0., 0., 0., 0., 1., 0.]),
+# ('_c=', 0.01, '_gamma=', 10.0): array([0., 0., 0., 0., 1., 0.]),
+# ('_c=', 1, '_gamma=', 0.1): array([0., 0., 0., 0., 1., 0.]),
+# ('_c=', 1, '_gamma=', 1): array([0., 0., 0., 0., 1., 0.]),
+# ('_c=', 1, '_gamma=', 10.0): array([0., 0., 0., 0., 1., 0.]),
+# ('_c=', 100.0, '_gamma=', 0.1): array([0., 0., 0., 0., 1., 0.]),
+# ('_c=', 100.0, '_gamma=', 1): array([0., 0., 0., 0., 1., 0.]),
+# ('_c=', 100.0, '_gamma=', 10.0): array([0., 0., 0., 0., 1., 0.])}
