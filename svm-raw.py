@@ -122,7 +122,7 @@ if(isPreproces):
         set_name = "counting_val"
         X_validation,Y_validation=getXY(set_name, i_begin, i_end)
         np.save(getBatchFileName(set_name, batch), X_validation)
-        exit(0)
+    exit(0)
 else:
     ## RECOVER BATHES FROM DISK
     for batch in range(number_of_batches):
