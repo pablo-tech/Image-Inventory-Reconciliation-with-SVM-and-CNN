@@ -17,7 +17,7 @@ from sklearn.decomposition import PCA
 
 ## CONFIG
 isLocal = True # false for SageMaker
-isPreproces = True # false to build model from pre-processed file
+isPreproces = False # false to build model from pre-processed file
 max_taining_examples = 35
 example_batch_size = 5
 
@@ -123,13 +123,27 @@ if(isPreproces):
         X_validation,Y_validation=getXY(set_name, i_begin, i_end)
         np.save(getBatchFileName(set_name, batch), X_validation)
     exit(0)
-else:
-    ## RECOVER BATHES FROM DISK
+# else:
+
+## RECOVER BATHES FROM DISK
+
+def getMatrixFromFile(set_name):
+    full_set = []
     for batch in range(number_of_batches):
-        X_train = np.load(getBatchFileName("counting_train", batch))
-        X_validation = np.load(getBatchFileName("counting_val", batch))
-        X_train_mean_variance_normalized = getRoundedZeroMeanNormalizedVarianceMatrix(X_train)
-        X_validation_mean_variance_normalized = getRoundedZeroMeanNormalizedVarianceMatrix(X_validation)
+        file_name = getBatchFileName(set_name, batch)+".npy"
+        batch_set = np.load(file_name)
+        if len(full_set)==0:
+            full_set = batch_set
+        else:
+            full_set = np.concatenate((full_set, [batch_set]))
+    return full_set
+
+
+X_full_train_set = getMatrixFromFile("counting_train")
+X_full_validation_set = getMatrixFromFile("counting_val")
+
+X_train_mean_variance_normalized = getRoundedZeroMeanNormalizedVarianceMatrix(X_full_train_set)
+X_validation_mean_variance_normalized = getRoundedZeroMeanNormalizedVarianceMatrix(X_full_validation_set)
 
 # PCA
 def getPcaMatrix(design_matrix, pca_model):
