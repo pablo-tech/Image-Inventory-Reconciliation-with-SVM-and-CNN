@@ -16,7 +16,7 @@ from sklearn.decomposition import PCA
 # 3) xgradient: Sravan
 
 ## CONFIG
-max_taining_examples = 400
+max_taining_examples = 35
 
 # PATH
 # local
@@ -161,10 +161,10 @@ def validate(param_string, trained_model, X_validation, Y_validation):
         class_success_count[class_id] = class_id_success_count
         class_count[class_id] = class_id_count
 
-    print(param_string, " validation total=", len(Y_validation), " split into class_count=", class_count)
-    print(param_string, " validation class_accuracy=", class_accuracy_percent)
+    print(param_string, " validation_total=", len(Y_validation), " split into class_count=", class_count)
+    print(param_string, " validation_class_accuracy=", class_accuracy_percent)
     overall_accuracy = np.sum(class_success_count)/len(Y_validation)
-    print(param_string, " overall accuracy=", overall_accuracy)
+    print(param_string, " overall_accuracy=", overall_accuracy)
     return class_accuracy_percent
 
 
