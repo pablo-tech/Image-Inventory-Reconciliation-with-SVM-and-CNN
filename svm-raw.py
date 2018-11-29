@@ -17,6 +17,7 @@ from sklearn.decomposition import PCA
 
 ## CONFIG
 max_taining_examples = 35
+example_batch_size = 5
 
 # PATH
 # local
@@ -69,38 +70,42 @@ random.seed(229)
 
 
 # CROSS VALIDATION
-def getXY(setName):
+def getXY(setName, i_begin, i_end):
     X_set = []
     Y_out = []
-    total_count = 0
-    bad_count = 0
     train_xId_y_list = env_summary_path+setName+".json"
     with open(train_xId_y_list) as metadata_file:
         metadata_json = json.load(metadata_file)
-    for xId_y in metadata_json:
-        if(total_count<max_taining_examples):
-            # print("xId_y=",xId_y)
-            file_name = '%05d.jpg' % (xId_y[0]+1)
-            expected_quantity = xId_y[1]
-            try:
-                this_image = imread(env_images_path+file_name)
-                image_resized_reshaped = getRoundedResizedReshapedMatrix(this_image)
-                image_to_use = image_resized_reshaped
-                if len(X_set)==0:
-                    X_set = image_to_use
-                    Y_out = [expected_quantity]
-                else:
-                    X_set = np.concatenate((X_set, image_to_use))
-                    Y_out = np.concatenate((Y_out, [expected_quantity]))
-                print(setName + " X_set=", X_set.shape, " Y_out=", Y_out.shape)
-            except:
-                bad_count = bad_count+1
-                # print("error=", file_name)
-            total_count = total_count+1
+    for metadata_index in range(i_begin, i_end):
+        xId_y = metadata_json[metadata_index]
+        print("xId_y=",xId_y)
+        file_name = '%05d.jpg' % (xId_y[0]+1)
+        expected_quantity = xId_y[1]
+        try:
+            this_image = imread(env_images_path+file_name)
+            image_resized_reshaped = getRoundedResizedReshapedMatrix(this_image)
+            image_to_use = image_resized_reshaped
+            if len(X_set)==0:
+                X_set = image_to_use
+                Y_out = [expected_quantity]
+            else:
+                X_set = np.concatenate((X_set, image_to_use))
+                Y_out = np.concatenate((Y_out, [expected_quantity]))
+        except:
+            bad_count = True
+            # print("error=", file_name)
+    print(setName + " X_set=", X_set.shape, " Y_out=", Y_out.shape)
     return X_set,Y_out
 
-X_train,Y_train=getXY("counting_train")
-X_validation,Y_validation=getXY("counting_val")
+
+## SAVE BATCH TO DISK
+for batch in range(max_taining_examples/example_batch_size):
+    i_begin = batch*example_batch_size
+    i_end = i_begin + example_batch_size
+    print("i_begin=", i_begin, " i_end=",i_end)
+    X_train,Y_train=getXY("counting_train", i_begin, i_end)
+    X_validation,Y_validation=getXY("counting_val", i_begin, i_end)
+
 
 X_train_mean_variance_normalized = getRoundedZeroMeanNormalizedVarianceMatrix(X_train)
 X_validation_mean_variance_normalized = getRoundedZeroMeanNormalizedVarianceMatrix(X_validation)
@@ -236,3 +241,16 @@ print("param_validation_accuracy=", param_validation_accuracy)
 # ('_c=', 100.0, '_gamma=', 0.1): array([0., 0., 0., 0., 1., 0.]),
 # ('_c=', 100.0, '_gamma=', 1): array([0., 0., 0., 0., 1., 0.]),
 # ('_c=', 100.0, '_gamma=', 10.0): array([0., 0., 0., 0., 1., 0.])}
+
+# RAW RGB Normalized with PCA, 1000 examples SVM.SVC
+# overall_accuracy= 0.252
+# param_validation_accuracy=
+# {('_c=', 0.01, '_gamma=', 0.1): array([0., 0., 0., 1., 0., 0.]),
+# ('_c=', 0.01, '_gamma=', 1): array([0., 0., 0., 1., 0., 0.]),
+# ('_c=', 0.01, '_gamma=', 10.0): array([0., 0., 0., 1., 0., 0.]),
+# ('_c=', 1, '_gamma=', 0.1): array([0., 0., 0., 1., 0., 0.]),
+# ('_c=', 1, '_gamma=', 1): array([0., 0., 0., 1., 0., 0.]),
+# ('_c=', 1, '_gamma=', 10.0): array([0., 0., 0., 1., 0., 0.]),
+# ('_c=', 100.0, '_gamma=', 0.1): array([0., 0., 0., 1., 0., 0.]),
+# ('_c=', 100.0, '_gamma=', 1): array([0., 0., 0., 1., 0., 0.]),
+# ('_c=', 100.0, '_gamma=', 10.0): array([0., 0., 0., 1., 0., 0.])}
