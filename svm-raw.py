@@ -24,18 +24,22 @@ example_batch_size = 5
 local_root = ''
 local_images_path = local_root+'data/Images/'
 local_metadata_path = local_root+'data/Metadata/'
+local_processed_path = local_root+'data/Processed/'
 local_summary_path = local_root+''
 # sage
 sage_root = '/home/ec2-user/SageMaker/efs/'
 sage_images_path = sage_root+'amazon-bin/bin-images/'
 sage_metadata_path = sage_root+'amazon-bin/metadata/'
+sage_processed_path = sage_root+'processed/'
 sage_summary_path = sage_root
 # env
 env_images_path = local_images_path
 env_metadata_path = local_metadata_path
+env_processed_path = local_processed_path
 env_summary_path = local_summary_path
 # env_images_path = sage_images_path
 # env_metadata_path = sage_metadata_path
+# env_processed_path = sage_processed_path
 # env_summary_path = sage_summary_path
 
 # HELPER
@@ -99,14 +103,19 @@ def getXY(setName, i_begin, i_end):
 
 
 ## SAVE BATCH TO DISK
+
 for batch in range(max_taining_examples/example_batch_size):
     i_begin = batch*example_batch_size
     i_end = i_begin + example_batch_size
     print("i_begin=", i_begin, " i_end=",i_end)
     X_train,Y_train=getXY("counting_train", i_begin, i_end)
+    np.save(env_processed_path+str(batch)+".counting_train", X_train)
     X_validation,Y_validation=getXY("counting_val", i_begin, i_end)
+    np.save(env_processed_path+str(batch)+".counting_val", X_validation)
 
 
+
+## RECOVER BATHES FROM DISK
 X_train_mean_variance_normalized = getRoundedZeroMeanNormalizedVarianceMatrix(X_train)
 X_validation_mean_variance_normalized = getRoundedZeroMeanNormalizedVarianceMatrix(X_validation)
 
