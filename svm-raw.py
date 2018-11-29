@@ -16,6 +16,8 @@ from sklearn.decomposition import PCA
 # 3) xgradient: Sravan
 
 ## CONFIG
+isLocal = True # false for SageMaker
+isPreproces = True # false to build model from pre-processed file
 max_taining_examples = 35
 example_batch_size = 5
 
@@ -33,14 +35,16 @@ sage_metadata_path = sage_root+'amazon-bin/metadata/'
 sage_processed_path = sage_root+'processed/'
 sage_summary_path = sage_root
 # env
-env_images_path = local_images_path
-env_metadata_path = local_metadata_path
-env_processed_path = local_processed_path
-env_summary_path = local_summary_path
-# env_images_path = sage_images_path
-# env_metadata_path = sage_metadata_path
-# env_processed_path = sage_processed_path
-# env_summary_path = sage_summary_path
+if(isLocal):
+    env_images_path = local_images_path
+    env_metadata_path = local_metadata_path
+    env_processed_path = local_processed_path
+    env_summary_path = local_summary_path
+else:
+    env_images_path = sage_images_path
+    env_metadata_path = sage_metadata_path
+    env_processed_path = sage_processed_path
+    env_summary_path = sage_summary_path
 
 # HELPER
 def getRoundedResizedReshapedMatrix(image):
@@ -81,11 +85,11 @@ def getXY(setName, i_begin, i_end):
     with open(train_xId_y_list) as metadata_file:
         metadata_json = json.load(metadata_file)
     for metadata_index in range(i_begin, i_end):
-        xId_y = metadata_json[metadata_index]
-        print("xId_y=",xId_y)
-        file_name = '%05d.jpg' % (xId_y[0]+1)
-        expected_quantity = xId_y[1]
         try:
+            xId_y = metadata_json[metadata_index]
+            print("xId_y=",xId_y)
+            file_name = '%05d.jpg' % (xId_y[0]+1)
+            expected_quantity = xId_y[1]
             this_image = imread(env_images_path+file_name)
             image_resized_reshaped = getRoundedResizedReshapedMatrix(this_image)
             image_to_use = image_resized_reshaped
@@ -101,23 +105,31 @@ def getXY(setName, i_begin, i_end):
     print(setName + " X_set=", X_set.shape, " Y_out=", Y_out.shape)
     return X_set,Y_out
 
+def getBatchFileName(set_name, batch_number):
+    return env_processed_path+str(batch_number)+"."+set_name
 
-## SAVE BATCH TO DISK
-
-for batch in range(max_taining_examples/example_batch_size):
-    i_begin = batch*example_batch_size
-    i_end = i_begin + example_batch_size
-    print("i_begin=", i_begin, " i_end=",i_end)
-    X_train,Y_train=getXY("counting_train", i_begin, i_end)
-    np.save(env_processed_path+str(batch)+".counting_train", X_train)
-    X_validation,Y_validation=getXY("counting_val", i_begin, i_end)
-    np.save(env_processed_path+str(batch)+".counting_val", X_validation)
-
-
-
-## RECOVER BATHES FROM DISK
-X_train_mean_variance_normalized = getRoundedZeroMeanNormalizedVarianceMatrix(X_train)
-X_validation_mean_variance_normalized = getRoundedZeroMeanNormalizedVarianceMatrix(X_validation)
+# DATA
+number_of_batches = max_taining_examples/example_batch_size
+if(isPreproces):
+    ## SAVE BATCH TO DISK
+    for batch in range(number_of_batches):
+        i_begin = batch*example_batch_size
+        i_end = i_begin + example_batch_size
+        print("i_begin=", i_begin, " i_end=",i_end)
+        set_name = "counting_train"
+        X_train,Y_train=getXY(set_name, i_begin, i_end)
+        np.save(getBatchFileName(set_name, batch), X_train)
+        set_name = "counting_val"
+        X_validation,Y_validation=getXY(set_name, i_begin, i_end)
+        np.save(getBatchFileName(set_name, batch), X_validation)
+        exit(0)
+else:
+    ## RECOVER BATHES FROM DISK
+    for batch in range(number_of_batches):
+        X_train = np.load(getBatchFileName("counting_train", batch))
+        X_validation = np.load(getBatchFileName("counting_val", batch))
+        X_train_mean_variance_normalized = getRoundedZeroMeanNormalizedVarianceMatrix(X_train)
+        X_validation_mean_variance_normalized = getRoundedZeroMeanNormalizedVarianceMatrix(X_validation)
 
 # PCA
 def getPcaMatrix(design_matrix, pca_model):
