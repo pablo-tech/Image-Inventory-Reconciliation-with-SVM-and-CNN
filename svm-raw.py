@@ -17,7 +17,7 @@ from sklearn.decomposition import PCA
 
 ## CONFIG
 isLocal = True # false for SageMaker
-isPreproces = False # false to build model from pre-processed file
+isPreproces = True # false to build model from pre-processed file
 max_taining_examples = 35
 example_batch_size = 5
 
@@ -87,7 +87,7 @@ def getXY(setName, i_begin, i_end):
     for metadata_index in range(i_begin, i_end):
         try:
             xId_y = metadata_json[metadata_index]
-            print("xId_y=",xId_y)
+            print(setName+": "+ str(i_begin)+"->"+str(i_end)+" => xId_y=",xId_y)
             file_name = '%05d.jpg' % (xId_y[0]+1)
             expected_quantity = xId_y[1]
             this_image = imread(env_images_path+file_name)
@@ -99,7 +99,8 @@ def getXY(setName, i_begin, i_end):
             else:
                 X_set = np.concatenate((X_set, image_to_use))
                 Y_out = np.concatenate((Y_out, [expected_quantity]))
-        except:
+        except Exception:
+            print("Unexpected error:", sys.exc_info())
             bad_count = True
             # print("error=", file_name)
     print(setName + " X_set=", X_set.shape, " Y_out=", Y_out.shape)
@@ -109,7 +110,7 @@ def getBatchFileName(set_name, in_or_out, batch_number):
     return env_processed_path+set_name+"."+in_or_out+str(batch_number)
 
 # DATA
-number_of_batches = max_taining_examples/example_batch_size
+number_of_batches = int(max_taining_examples/example_batch_size)
 if(isPreproces):
     ## SAVE BATCH TO DISK
     for batch in range(number_of_batches):
@@ -154,7 +155,7 @@ X_validation_mean_variance_normalized = getRoundedZeroMeanNormalizedVarianceMatr
 def getPcaMatrix(design_matrix, pca_model):
     pca_matrix = pca_model.fit_transform(design_matrix)
     roundedPcaMatrix = np.around(pca_matrix, decimals=2)
-    print("roundedPcaMatrix=", roundedPcaMatrix)
+    print("roundedPcaMatrix[0]=", roundedPcaMatrix[0])
     return roundedPcaMatrix
 
 # n_components=10000 must be between 0 and min(n_samples, n_features)=336 with svd_solver='full'
@@ -167,10 +168,10 @@ X_validation_pca_mean_variance_normalized = getPcaMatrix(X_validation_mean_varia
 # FINAL MATRIX
 X_train_final = X_train_pca_mean_variance_normalized
 Y_train_final = Y_full_train_set
-print (X_train_final.shape, " <= X_train_final=", X_train_final)
+print (X_train_final.shape, " <= X_train_final[0]=", X_train_final[0])
 X_validation_final = X_validation_pca_mean_variance_normalized
 Y_validation_final = Y_full_validation_set
-print (X_validation_final.shape, " <= X_validation_final=", X_validation_final)
+print (X_validation_final.shape, " <= X_validation_final[0]=", X_validation_final[0])
 
 
 # ACCURACY
@@ -182,7 +183,7 @@ def getAccuracy(param_string, trained_model, X_set, Y_set, class_id):
         y_actual_output = Y_set[i]
         if(y_actual_output==class_id):
             y_predicted_output = trained_model.predict([x_input])
-            print(param_string, " cross-validation predict=", y_predicted_output, " vs=", y_actual_output)
+            # print(param_string, " cross-validation predict=", y_predicted_output, " vs=", y_actual_output)
             if(y_actual_output==y_predicted_output):
                 class_success_count = class_success_count + 1
             class_total_count = class_total_count+1
