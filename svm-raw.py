@@ -132,14 +132,17 @@ if(isPreproces):
 def getMatrixFromFile(set_name, in_or_out):
     full_set = []
     for batch in range(number_of_batches):
-        file_name = getBatchFileName(set_name, in_or_out, batch)+".npy"
-        batch_set = np.load(file_name)
-        print(batch_set.shape, " batch_set=",batch_set)
-        if len(full_set)==0:
-            full_set = batch_set
-        else:
-            full_set = np.concatenate((full_set, batch_set), axis=0)
-        print("full_set=",full_set)
+        try:
+            file_name = getBatchFileName(set_name, in_or_out, batch)+".npy"
+            batch_set = np.load(file_name)
+            print(batch_set.shape, " batch_set=",batch_set)
+            if len(full_set)==0:
+                full_set = batch_set
+            else:
+                full_set = np.concatenate((full_set, batch_set), axis=0)
+            print("full_set=",full_set)
+        except Exception:
+            print("unable to recover ", set_name, " ", in_or_out, " batch=" + batch)
     return full_set
 
 
