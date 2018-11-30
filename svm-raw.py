@@ -105,8 +105,8 @@ def getXY(setName, i_begin, i_end):
     print(setName + " X_set=", X_set.shape, " Y_out=", Y_out.shape)
     return X_set,Y_out
 
-def getBatchFileName(set_name, batch_number):
-    return env_processed_path+str(batch_number)+"."+set_name
+def getBatchFileName(set_name, in_or_out, batch_number):
+    return env_processed_path+set_name+"."+in_or_out+str(batch_number)
 
 # DATA
 number_of_batches = max_taining_examples/example_batch_size
@@ -117,30 +117,35 @@ if(isPreproces):
         i_end = i_begin + example_batch_size
         print("i_begin=", i_begin, " i_end=",i_end)
         set_name = "counting_train"
-        X_train,Y_train=getXY(set_name, i_begin, i_end)
-        np.save(getBatchFileName(set_name, batch), X_train)
+        X_train_batch,Y_train_batch=getXY(set_name, i_begin, i_end)
+        np.save(getBatchFileName(set_name, "X", batch), X_train_batch)
+        np.save(getBatchFileName(set_name, "Y", batch), Y_train_batch)
         set_name = "counting_val"
-        X_validation,Y_validation=getXY(set_name, i_begin, i_end)
-        np.save(getBatchFileName(set_name, batch), X_validation)
+        X_validation_batch,Y_validation_batch=getXY(set_name, i_begin, i_end)
+        np.save(getBatchFileName(set_name, "X", batch), X_validation_batch)
+        np.save(getBatchFileName(set_name, "Y", batch), Y_validation_batch)
     exit(0)
 # else:
 
 ## RECOVER BATHES FROM DISK
-
-def getMatrixFromFile(set_name):
+def getMatrixFromFile(set_name, in_or_out):
     full_set = []
     for batch in range(number_of_batches):
-        file_name = getBatchFileName(set_name, batch)+".npy"
+        file_name = getBatchFileName(set_name, in_or_out, batch)+".npy"
         batch_set = np.load(file_name)
+        print(batch_set.shape, " batch_set=",batch_set)
         if len(full_set)==0:
             full_set = batch_set
         else:
-            full_set = np.concatenate((full_set, [batch_set]))
+            full_set = np.concatenate((full_set, batch_set), axis=0)
+        print("full_set=",full_set)
     return full_set
 
 
-X_full_train_set = getMatrixFromFile("counting_train")
-X_full_validation_set = getMatrixFromFile("counting_val")
+X_full_train_set = getMatrixFromFile("counting_train", "X")
+Y_full_train_set = getMatrixFromFile("counting_train", "Y")
+X_full_validation_set = getMatrixFromFile("counting_val", "X")
+Y_full_validation_set = getMatrixFromFile("counting_train", "Y")
 
 X_train_mean_variance_normalized = getRoundedZeroMeanNormalizedVarianceMatrix(X_full_train_set)
 X_validation_mean_variance_normalized = getRoundedZeroMeanNormalizedVarianceMatrix(X_full_validation_set)
@@ -161,8 +166,10 @@ X_validation_pca_mean_variance_normalized = getPcaMatrix(X_validation_mean_varia
 
 # FINAL MATRIX
 X_train_final = X_train_pca_mean_variance_normalized
+Y_train_final = Y_full_train_set
 print (X_train_final.shape, " <= X_train_final=", X_train_final)
 X_validation_final = X_validation_pca_mean_variance_normalized
+Y_validation_final = Y_full_validation_set
 print (X_validation_final.shape, " <= X_validation_final=", X_validation_final)
 
 
@@ -233,18 +240,18 @@ for c_param in C_range:
     for gamma_param in gamma_range:
         # param_string = "nu=",nu_param
         param_string = "_c=",c_param, "_gamma=",gamma_param
-        print(param_string, "...WILL NOW TRAIN SVM... set_size=", len(Y_train))
+        print(param_string, "...WILL NOW TRAIN SVM... set_size=", len(Y_train_final))
         try:
             # clf = svm.NuSVC(nu=nu_param, )
             clf = svm.SVC(C=c_param, gamma=gamma_param)  # radial kernel
-            clf.fit(X_train_final, Y_train)
+            clf.fit(X_train_final, Y_train_final)
             # clf = svm.LinearSVC(loss='l2', penalty='l1', dual=False)
             # clf = svm.LinearSVC(penalty='l2')
             # clf = svm.NuSVC()
             # clf = svm.SVC(gamma='scale', decision_function_shape='ovo')
             # clf = svm.SVC(gamma='scale')
             # clf = svm.LinearSVC(penalty='l2', multi_class='ovr')
-            class_accuracy_percent = validate(param_string, clf, X_validation_final, Y_validation)
+            class_accuracy_percent = validate(param_string, clf, X_validation_final, Y_validation_final)
         except Exception:
             print("Unexpected error:", sys.exc_info())
             bad = True
@@ -279,6 +286,19 @@ print("param_validation_accuracy=", param_validation_accuracy)
 
 # RAW RGB Normalized with PCA, 1000 examples SVM.SVC
 # overall_accuracy= 0.252
+# param_validation_accuracy=
+# {('_c=', 0.01, '_gamma=', 0.1): array([0., 0., 0., 1., 0., 0.]),
+# ('_c=', 0.01, '_gamma=', 1): array([0., 0., 0., 1., 0., 0.]),
+# ('_c=', 0.01, '_gamma=', 10.0): array([0., 0., 0., 1., 0., 0.]),
+# ('_c=', 1, '_gamma=', 0.1): array([0., 0., 0., 1., 0., 0.]),
+# ('_c=', 1, '_gamma=', 1): array([0., 0., 0., 1., 0., 0.]),
+# ('_c=', 1, '_gamma=', 10.0): array([0., 0., 0., 1., 0., 0.]),
+# ('_c=', 100.0, '_gamma=', 0.1): array([0., 0., 0., 1., 0., 0.]),
+# ('_c=', 100.0, '_gamma=', 1): array([0., 0., 0., 1., 0., 0.]),
+# ('_c=', 100.0, '_gamma=', 10.0): array([0., 0., 0., 1., 0., 0.])}
+
+# RAW RGB Normalized with PCA, 5000 examples SVM.SVC
+# overall_accuracy= 0.2416
 # param_validation_accuracy=
 # {('_c=', 0.01, '_gamma=', 0.1): array([0., 0., 0., 1., 0., 0.]),
 # ('_c=', 0.01, '_gamma=', 1): array([0., 0., 0., 1., 0., 0.]),
