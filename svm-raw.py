@@ -289,7 +289,7 @@ def accuracy_of_linear(X_train_matrix, Y_train_matrix, X_validation_matrix, Y_va
         for loss_param in linear_loss:
             for strategy_param in linear_multiclass_strategy:
                 for c_param in C_range:
-                    param_string = search_case, "_penalty=",penalty_param, "_loss=",loss_param, "_strategy=",strategy_param, "_c_param=",c_param
+                    param_string = search_case, "_penalty=",penalty_param, "_loss=",loss_param, "_multi_class=",strategy_param, "_c_param=",c_param
                     print(param_string, "...WILL NOW TRAIN SVM... set_size=", len(Y_train_matrix))
                     try:
                         clf = svm.LinearSVC(penalty=penalty_param, loss=loss_param, multi_class=strategy_param, C=c_param)
