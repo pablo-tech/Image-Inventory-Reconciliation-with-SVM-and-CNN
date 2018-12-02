@@ -20,6 +20,7 @@ isLocal = True # false for SageMaker
 isPreproces = False # false to build model from pre-processed file
 max_taining_examples = 35
 example_batch_size = 5
+pca_columns = int(example_batch_size*1)
 
 # PATH
 # local
@@ -162,7 +163,7 @@ def getPcaMatrix(design_matrix, pca_model):
     return roundedPcaMatrix
 
 # n_components=10000 must be between 0 and min(n_samples, n_features)=336 with svd_solver='full'
-pca = PCA(n_components= int(max_taining_examples/2))  # some examples may be missing (in the test set)
+pca = PCA(n_components= pca_columns)  # some examples may be missing (in the test set)
 X_train_pca_mean_variance_normalized = getPcaMatrix(X_train_mean_variance_normalized, pca)
 X_validation_pca_mean_variance_normalized = getPcaMatrix(X_validation_mean_variance_normalized, pca)
 
@@ -245,8 +246,8 @@ def validate(param_string, trained_model, X_validation, Y_validation):
 # clf = svm.LinearSVC(penalty='l2', multi_class='ovr')
 
 # SEARCH FOR PARAMS: SVC
-C_range = [1e-3, 1e-2, 1e-1, 1, 1e2, 1e3, 1e4, 1e5]
-gamma_range = [1e-3, 1e-2, 1e-1, 1, 1e1, 1e2, 1e3, 1e4, 1e5]
+C_range = [1, 1e2, 1e3, 1e4, 1e5, 1e6, 1e7, 1e8, 1e9, 1e10, 1e11, 1e12] # 1e-9, 1e-8, 1e-7, 1e-6, 1e-5, 1e-4, 1e-3, 1e-2, 1e-1,
+gamma_range = [1e-11, 1e-10, 1e-9, 1e-8, 1e-7, 1e-6, 1e-5]  # 1e-4, 1e-3, 1e-2, 1e-1, 1, 1e1, 1e2, 1e3, 1e4, 1e5, 1e6, 1e7, 1e8, 1e9
 def accuracy_of_svc(X_train_matrix, Y_train_matrix, X_validation_matrix, Y_validation_matrix, accuracy_map, search_case):
     for c_param in C_range:
         for gamma_param in gamma_range:
@@ -265,9 +266,10 @@ def accuracy_of_svc(X_train_matrix, Y_train_matrix, X_validation_matrix, Y_valid
     return accuracy_map
 
 # SEARCH FOR PARAMS: NU
-nu_range = [1e-3, 1e-2, 0.025, 0.05, 1e-1, 0.15]
+# nu_range = [1e-9, 1e-8, 1e-7, 1e-6, 1e-5, 1e-4, 1e-3, 1e-2, 0.025, 0.05, 1e-1, 0.15]
+nu_max = 25
 def accuracy_of_nu(X_train_matrix, Y_train_matrix, X_validation_matrix, Y_validation_matrix, accuracy_map, search_case):
-    for nu_param in nu_range:
+    for nu_param in range(nu_max):
         param_string = search_case, "_nu_param=",nu_param
         print(param_string, "...WILL NOW TRAIN SVM... set_size=", len(Y_train_matrix))
         try:
