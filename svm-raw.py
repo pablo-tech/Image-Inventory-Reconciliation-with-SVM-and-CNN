@@ -239,8 +239,8 @@ def validate(param_string, trained_model, X_validation, Y_validation):
 
 # PARAM SEARCH
 # Search for params: SVC
-C_range = [1, 1e2, 1e3, 1e4, 1e5, 1e6, 1e7, 1e8, 1e9, 1e10, 1e11, 1e12] # 1e-9, 1e-8, 1e-7, 1e-6, 1e-5, 1e-4, 1e-3, 1e-2, 1e-1,
-gamma_range = [1e-11, 1e-10, 1e-9, 1e-8, 1e-7, 1e-6, 1e-5]  # 1e-4, 1e-3, 1e-2, 1e-1, 1, 1e1, 1e2, 1e3, 1e4, 1e5, 1e6, 1e7, 1e8, 1e9
+C_range = [1, 1e2, 1e3, 1e4] # , 1e5, 1e6, 1e7, 1e8, 1e9, 1e10, 1e11, 1e12, 1e-9, 1e-8, 1e-7, 1e-6, 1e-5, 1e-4, 1e-3, 1e-2, 1e-1,
+gamma_range = [1e-8, 1e-7, 1e-6, 1e-5]  # 1e-9, 1e-11, 1e-10, 1e-4, 1e-3, 1e-2, 1e-1, 1, 1e1, 1e2, 1e3, 1e4, 1e5, 1e6, 1e7, 1e8, 1e9
 def accuracy_of_svc(X_train_matrix, Y_train_matrix, X_validation_matrix, Y_validation_matrix, accuracy_map, search_case):
     for c_param in C_range:
         for gamma_param in gamma_range:
@@ -259,10 +259,9 @@ def accuracy_of_svc(X_train_matrix, Y_train_matrix, X_validation_matrix, Y_valid
     return accuracy_map
 
 # Search for params: Nu
-#  nu_range = [1e-9, 1e-8, 1e-7, 1e-6, 1e-5, 1e-4, 1e-3, 1e-2, 0.025, 0.05, 1e-1, 0.15]
-nu_max = 25
+nu_range = [1e-4, 1e-3, 0.01, 0.05, 0.1, 0.15, 0.20, 0.25] # 1e-9, 1e-8, 1e-7, 1e-6, 1e-5,
 def accuracy_of_nu(X_train_matrix, Y_train_matrix, X_validation_matrix, Y_validation_matrix, accuracy_map, search_case):
-    for nu_param in range(nu_max):
+    for nu_param in nu_range:
         param_string = search_case, "_nu_param=",nu_param
         print(param_string, "...WILL NOW TRAIN SVM... set_size=", len(Y_train_matrix))
         try:
@@ -281,7 +280,7 @@ def accuracy_of_nu(X_train_matrix, Y_train_matrix, X_validation_matrix, Y_valida
 linear_penalty = ['l1', 'l2']
 linear_loss = ['hinge', 'squared_hinge']
 linear_multiclass_strategy = ['ovr', 'crammer_singer']
-C_range = [1, 1e2, 1e3, 1e4, 1e5, 1e6, 1e7, 1e8, 1e9, 1e10, 1e11, 1e12] # 1e-9, 1e-8, 1e-7, 1e-6, 1e-5, 1e-4, 1e-3, 1e-2, 1e-1,
+C_range = [1, 1e2, 1e3, 1e4]
 def accuracy_of_linear(X_train_matrix, Y_train_matrix, X_validation_matrix, Y_validation_matrix, accuracy_map, search_case):
     for penalty_param in linear_penalty:
         for loss_param in linear_loss:
