@@ -295,9 +295,9 @@ accuracy_of_nu(X_train_final, Y_train_final, X_train_final, Y_train_final, param
 
 
 for param_accuracy in param_training_accuracy.keys():
-    print(param_accuracy, " == ", param_training_accuracy[param_accuracy])
+    print("ACCURACY_AGAINST_TRAINING: ", param_accuracy, " == ", param_training_accuracy[param_accuracy])
 for param_accuracy in param_validation_accuracy.keys():
-    print(param_accuracy, " == ", param_validation_accuracy[param_accuracy])
+    print("ACCURACY_AGAINST_VALIDATION: ", param_accuracy, " == ", param_validation_accuracy[param_accuracy])
 
 
 # PLOT
