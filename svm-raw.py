@@ -17,7 +17,7 @@ from sklearn.decomposition import PCA
 
 ## CONFIG
 isLocal = True # false for SageMaker
-isPreproces = True # false to build model from pre-processed file
+isPreproces = False # false to build model from pre-processed file
 max_taining_examples = 35
 example_batch_size = 5
 
@@ -215,8 +215,9 @@ def validate(param_string, trained_model, X_validation, Y_validation):
     print(param_string, " validation_total=", len(Y_validation), " split into class_count=", class_count)
     print(param_string, " validation_class_accuracy=", class_accuracy_percent)
     overall_accuracy = np.sum(class_success_count)/len(Y_validation)
-    print(param_string, " overall_accuracy=", overall_accuracy)
-    return class_accuracy_percent
+    class_and_overall_accuracy = np.append(class_accuracy_percent, overall_accuracy)
+    print(param_string, " class_and_overall_accuracy=", class_and_overall_accuracy)
+    return class_and_overall_accuracy
 
 
 # SVM
@@ -234,35 +235,71 @@ def validate(param_string, trained_model, X_validation, Y_validation):
 # Current default is auto which uses 1 / n_features, if gamma='scale' is passed then it uses 1 / (n_features * X.std()) as value of gamma.
 # The current default of gamma, auto, will change to scale in version 0.22. auto_deprecated, a deprecated version of auto is used as a default indicating that no explicit value of gamma was passed.
 
-nu_range = [0.05, 0.10, 0.15]
-C_range = [1e-2, 1, 1e2]
-gamma_range = [1e-1, 1, 1e1]
 
-param_validation_accuracy = {}
-# for nu_param in nu_range:
-for c_param in C_range:
-    for gamma_param in gamma_range:
-        # param_string = "nu=",nu_param
-        param_string = "_c=",c_param, "_gamma=",gamma_param
-        print(param_string, "...WILL NOW TRAIN SVM... set_size=", len(Y_train_final))
+# PARAM SEARCH
+# clf = svm.LinearSVC(loss='l2', penalty='l1', dual=False)
+# clf = svm.LinearSVC(penalty='l2')
+# clf = svm.NuSVC()
+# clf = svm.SVC(gamma='scale', decision_function_shape='ovo')
+# clf = svm.SVC(gamma='scale')
+# clf = svm.LinearSVC(penalty='l2', multi_class='ovr')
+
+# SEARCH FOR PARAMS: SVC
+C_range = [1e-3, 1e-2, 1e-1, 1, 1e2, 1e3, 1e4, 1e5]
+gamma_range = [1e-3, 1e-2, 1e-1, 1, 1e1, 1e2, 1e3, 1e4, 1e5]
+def accuracy_of_svc(X_train_matrix, Y_train_matrix, X_validation_matrix, Y_validation_matrix, accuracy_map):
+    for c_param in C_range:
+        for gamma_param in gamma_range:
+            param_string = "_c=",c_param, "_gamma=",gamma_param
+            print(param_string, "...WILL NOW TRAIN SVM... set_size=", len(Y_train_matrix))
+            try:
+                clf = svm.SVC(C=c_param, gamma=gamma_param)  # radial kernel
+                clf.fit(X_train_matrix, Y_train_matrix)
+                class_accuracy_percent = validate(param_string, clf, X_validation_matrix, Y_validation_matrix)
+            except Exception:
+                print("Unexpected error:", sys.exc_info())
+                bad = True
+                class_accuracy_percent = 0
+            accuracy_map[param_string] = class_accuracy_percent
+            # print("SAVING_INTO", param_string, " class_accuracy_percent=", class_accuracy_percent)
+    return accuracy_map
+
+# SEARCH FOR PARAMS: NU
+nu_range = [1e-3, 1e-2, 0.025, 0.05, 1e-1, 0.15]
+def accuracy_of_nu(X_train_matrix, Y_train_matrix, X_validation_matrix, Y_validation_matrix, accuracy_map):
+    for nu_param in nu_range:
+        param_string = "_nu_param=",nu_param
+        print(param_string, "...WILL NOW TRAIN SVM... set_size=", len(Y_train_matrix))
         try:
-            # clf = svm.NuSVC(nu=nu_param, )
-            clf = svm.SVC(C=c_param, gamma=gamma_param)  # radial kernel
-            clf.fit(X_train_final, Y_train_final)
-            # clf = svm.LinearSVC(loss='l2', penalty='l1', dual=False)
-            # clf = svm.LinearSVC(penalty='l2')
-            # clf = svm.NuSVC()
-            # clf = svm.SVC(gamma='scale', decision_function_shape='ovo')
-            # clf = svm.SVC(gamma='scale')
-            # clf = svm.LinearSVC(penalty='l2', multi_class='ovr')
-            class_accuracy_percent = validate(param_string, clf, X_validation_final, Y_validation_final)
+            clf = svm.NuSVC(nu=nu_param)
+            clf.fit(X_train_matrix, Y_train_matrix)
+            class_accuracy_percent = validate(param_string, clf, X_validation_matrix, Y_validation_matrix)
         except Exception:
             print("Unexpected error:", sys.exc_info())
             bad = True
             class_accuracy_percent = 0
-        param_validation_accuracy[param_string] = class_accuracy_percent
+        accuracy_map[param_string] = class_accuracy_percent
+        # print("SAVING_INTO", param_string, " class_accuracy_percent=", class_accuracy_percent)
+    return accuracy_map
 
-print("param_validation_accuracy=", param_validation_accuracy)
+
+## ACCURACY RESULTS
+
+param_training_accuracy = {}
+accuracy_of_svc(X_train_final, Y_train_final, X_validation_final, Y_validation_final, param_training_accuracy)
+accuracy_of_nu(X_train_final, Y_train_final, X_validation_final, Y_validation_final, param_training_accuracy)
+
+param_validation_accuracy = {}
+accuracy_of_svc(X_train_final, Y_train_final, X_train_final, Y_train_final, param_validation_accuracy)
+accuracy_of_nu(X_train_final, Y_train_final, X_train_final, Y_train_final, param_validation_accuracy)
+
+
+for param_accuracy in param_training_accuracy.keys():
+    print(param_accuracy, " == ", param_training_accuracy[param_accuracy])
+for param_accuracy in param_validation_accuracy.keys():
+    print(param_accuracy, " == ", param_validation_accuracy[param_accuracy])
+
+
 # PLOT
 # sample_name = "00001"
 # sample_image = imread(images_path+sample_name+".jpg")
@@ -313,3 +350,20 @@ print("param_validation_accuracy=", param_validation_accuracy)
 # ('_c=', 100.0, '_gamma=', 0.1): array([0., 0., 0., 1., 0., 0.]),
 # ('_c=', 100.0, '_gamma=', 1): array([0., 0., 0., 1., 0., 0.]),
 # ('_c=', 100.0, '_gamma=', 10.0): array([0., 0., 0., 1., 0., 0.])}
+
+
+# 2000 example slooking searching for params including nu
+# param_validation_accuracy= {
+# validation_total= 2000  split into class_count= [ 47. 219. 440. 484. 462. 348.]
+# ('_c=', 0.01, '_gamma=', 0.1): array([0., 0., 0., 1., 0., 0.]),
+# ('_c=', 0.01, '_gamma=', 1): array([0., 0., 0., 1., 0., 0.]),
+# ('_c=', 0.01, '_gamma=', 10.0): array([0., 0., 0., 1., 0., 0.]),
+# ('_c=', 1, '_gamma=', 0.1): array([0., 0., 0., 1., 0., 0.]),
+# ('_c=', 1, '_gamma=', 1): array([0., 0., 0., 1., 0., 0.]),
+# ('_c=', 1, '_gamma=', 10.0): array([0., 0., 0., 1., 0., 0.]),
+# ('_c=', 100.0, '_gamma=', 0.1): array([0., 0., 0., 1., 0., 0.]),
+# ('_c=', 100.0, '_gamma=', 1): array([0., 0., 0., 1., 0., 0.]),
+# ('_c=', 100.0, '_gamma=', 10.0): array([0., 0., 0., 1., 0., 0.]),
+# ('_nu_param=', 0.05): array([0., 0., 0., 1., 0., 0.]),
+# ('_nu_param=', 0.1): array([0., 0., 0., 1., 0., 0.]),
+# ('_nu_param=', 0.15): array([0., 0., 0., 1., 0., 0.])}
