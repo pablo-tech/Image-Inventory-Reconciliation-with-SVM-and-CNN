@@ -141,7 +141,7 @@ def getMatrixFromFile(set_name, in_or_out):
                 full_set = batch_set
             else:
                 full_set = np.concatenate((full_set, batch_set), axis=0)
-            print("full_set=",full_set)
+            print(full_set.shape, " full_set=",full_set)
         except Exception:
             print("unable to recover ", set_name, " ", in_or_out, " batch=" + batch)
     return full_set
