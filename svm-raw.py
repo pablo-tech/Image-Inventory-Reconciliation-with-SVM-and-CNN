@@ -192,7 +192,7 @@ def getAccuracy(param_string, trained_model, X_set, Y_set, class_id):
             class_total_count = class_total_count+1
     class_accuracy = 0
     try:
-        class_accuracy = class_success_count/class_total_count
+        class_accuracy = float(class_success_count/class_total_count)
     except:
         accuracy_error = True
 
@@ -284,20 +284,19 @@ def accuracy_of_nu(X_train_matrix, Y_train_matrix, X_validation_matrix, Y_valida
 
 
 ## ACCURACY RESULTS
-
-param_training_accuracy = {}
-accuracy_of_svc(X_train_final, Y_train_final, X_validation_final, Y_validation_final, param_training_accuracy, "trainWithTraining_validateWithTraining")
-accuracy_of_nu(X_train_final, Y_train_final, X_validation_final, Y_validation_final, param_training_accuracy, "trainWithTraining_validateWithTraining")
-
+np.set_printoptions(precision=2)
 param_validation_accuracy = {}
-accuracy_of_svc(X_train_final, Y_train_final, X_train_final, Y_train_final, param_validation_accuracy, "trainWithTraining_validateWithValidation")
-accuracy_of_nu(X_train_final, Y_train_final, X_train_final, Y_train_final, param_validation_accuracy, "trainWithTraining_validateWithValidation")
+param_training_accuracy = {}
+accuracy_of_svc(X_train_final, Y_train_final, X_train_final, Y_train_final, param_validation_accuracy, "trainWithTraining_validateWithTraining")
+accuracy_of_nu(X_train_final, Y_train_final, X_train_final, Y_train_final, param_validation_accuracy, "trainWithTraining_validateWithTraining")
+accuracy_of_svc(X_train_final, Y_train_final, X_validation_final, Y_validation_final, param_training_accuracy, "trainWithTraining_validateWithValidation")
+accuracy_of_nu(X_train_final, Y_train_final, X_validation_final, Y_validation_final, param_training_accuracy, "trainWithTraining_validateWithValidation")
 
 
 for param_accuracy in param_training_accuracy.keys():
-    print(param_accuracy, " == ", param_training_accuracy[param_accuracy])
+    print("==>", param_accuracy, " == ", param_training_accuracy[param_accuracy])
 for param_accuracy in param_validation_accuracy.keys():
-    print(param_accuracy, " == ", param_validation_accuracy[param_accuracy])
+    print("==>", param_accuracy, " == ", param_validation_accuracy[param_accuracy])
 
 
 # PLOT
@@ -367,3 +366,162 @@ for param_accuracy in param_validation_accuracy.keys():
 # ('_nu_param=', 0.05): array([0., 0., 0., 1., 0., 0.]),
 # ('_nu_param=', 0.1): array([0., 0., 0., 1., 0., 0.]),
 # ('_nu_param=', 0.15): array([0., 0., 0., 1., 0., 0.])}
+
+
+# 2000 EXAMPLES
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.001, '_gamma=', 0.001)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.001, '_gamma=', 0.01)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.001, '_gamma=', 0.1)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.001, '_gamma=', 1)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.001, '_gamma=', 10.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.001, '_gamma=', 100.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.001, '_gamma=', 1000.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.001, '_gamma=', 10000.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.001, '_gamma=', 100000.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.01, '_gamma=', 0.001)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.01, '_gamma=', 0.01)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.01, '_gamma=', 0.1)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.01, '_gamma=', 1)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.01, '_gamma=', 10.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.01, '_gamma=', 100.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.01, '_gamma=', 1000.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.01, '_gamma=', 10000.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.01, '_gamma=', 100000.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.1, '_gamma=', 0.001)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.1, '_gamma=', 0.01)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.1, '_gamma=', 0.1)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.1, '_gamma=', 1)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.1, '_gamma=', 10.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.1, '_gamma=', 100.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.1, '_gamma=', 1000.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.1, '_gamma=', 10000.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.1, '_gamma=', 100000.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 1, '_gamma=', 0.001)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 1, '_gamma=', 0.01)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 1, '_gamma=', 0.1)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 1, '_gamma=', 1)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 1, '_gamma=', 10.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 1, '_gamma=', 100.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 1, '_gamma=', 1000.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 1, '_gamma=', 10000.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 1, '_gamma=', 100000.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 100.0, '_gamma=', 0.001)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 100.0, '_gamma=', 0.01)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 100.0, '_gamma=', 0.1)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 100.0, '_gamma=', 1)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 100.0, '_gamma=', 10.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 100.0, '_gamma=', 100.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 100.0, '_gamma=', 1000.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 100.0, '_gamma=', 10000.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 100.0, '_gamma=', 100000.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 1000.0, '_gamma=', 0.001)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 1000.0, '_gamma=', 0.01)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 1000.0, '_gamma=', 0.1)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 1000.0, '_gamma=', 1)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 1000.0, '_gamma=', 10.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 1000.0, '_gamma=', 100.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 1000.0, '_gamma=', 1000.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 1000.0, '_gamma=', 10000.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 1000.0, '_gamma=', 100000.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 10000.0, '_gamma=', 0.001)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 10000.0, '_gamma=', 0.01)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 10000.0, '_gamma=', 0.1)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 10000.0, '_gamma=', 1)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 10000.0, '_gamma=', 10.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 10000.0, '_gamma=', 100.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 10000.0, '_gamma=', 1000.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 10000.0, '_gamma=', 10000.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 10000.0, '_gamma=', 100000.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 100000.0, '_gamma=', 0.001)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 100000.0, '_gamma=', 0.01)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 100000.0, '_gamma=', 0.1)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 100000.0, '_gamma=', 1)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 100000.0, '_gamma=', 10.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 100000.0, '_gamma=', 100.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 100000.0, '_gamma=', 1000.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 100000.0, '_gamma=', 10000.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_c=', 100000.0, '_gamma=', 100000.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_nu_param=', 0.001)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_nu_param=', 0.01)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_nu_param=', 0.025)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_nu_param=', 0.05)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_nu_param=', 0.1)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_TRAINING:  ('_nu_param=', 0.15)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.001, '_gamma=', 0.001)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.001, '_gamma=', 0.01)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.001, '_gamma=', 0.1)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.001, '_gamma=', 1)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.001, '_gamma=', 10.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.001, '_gamma=', 100.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.001, '_gamma=', 1000.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.001, '_gamma=', 10000.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.001, '_gamma=', 100000.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.01, '_gamma=', 0.001)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.01, '_gamma=', 0.01)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.01, '_gamma=', 0.1)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.01, '_gamma=', 1)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.01, '_gamma=', 10.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.01, '_gamma=', 100.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.01, '_gamma=', 1000.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.01, '_gamma=', 10000.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.01, '_gamma=', 100000.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.1, '_gamma=', 0.001)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.1, '_gamma=', 0.01)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.1, '_gamma=', 0.1)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.1, '_gamma=', 1)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.1, '_gamma=', 10.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.1, '_gamma=', 100.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.1, '_gamma=', 1000.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.1, '_gamma=', 10000.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.1, '_gamma=', 100000.0)  ==  [0. 0. 0. 1. 0. 0.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 1, '_gamma=', 0.001)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 1, '_gamma=', 0.01)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 1, '_gamma=', 0.1)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 1, '_gamma=', 1)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 1, '_gamma=', 10.0)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 1, '_gamma=', 100.0)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 1, '_gamma=', 1000.0)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 1, '_gamma=', 10000.0)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 1, '_gamma=', 100000.0)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 100.0, '_gamma=', 0.001)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 100.0, '_gamma=', 0.01)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 100.0, '_gamma=', 0.1)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 100.0, '_gamma=', 1)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 100.0, '_gamma=', 10.0)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 100.0, '_gamma=', 100.0)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 100.0, '_gamma=', 1000.0)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 100.0, '_gamma=', 10000.0)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 100.0, '_gamma=', 100000.0)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 1000.0, '_gamma=', 0.001)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 1000.0, '_gamma=', 0.01)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 1000.0, '_gamma=', 0.1)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 1000.0, '_gamma=', 1)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 1000.0, '_gamma=', 10.0)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 1000.0, '_gamma=', 100.0)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 1000.0, '_gamma=', 1000.0)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 1000.0, '_gamma=', 10000.0)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 1000.0, '_gamma=', 100000.0)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 10000.0, '_gamma=', 0.001)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 10000.0, '_gamma=', 0.01)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 10000.0, '_gamma=', 0.1)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 10000.0, '_gamma=', 1)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 10000.0, '_gamma=', 10.0)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 10000.0, '_gamma=', 100.0)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 10000.0, '_gamma=', 1000.0)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 10000.0, '_gamma=', 10000.0)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 10000.0, '_gamma=', 100000.0)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 100000.0, '_gamma=', 0.001)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 100000.0, '_gamma=', 0.01)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 100000.0, '_gamma=', 0.1)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 100000.0, '_gamma=', 1)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 100000.0, '_gamma=', 10.0)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 100000.0, '_gamma=', 100.0)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 100000.0, '_gamma=', 1000.0)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 100000.0, '_gamma=', 10000.0)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_c=', 100000.0, '_gamma=', 100000.0)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_nu_param=', 0.001)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_nu_param=', 0.01)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_nu_param=', 0.025)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_nu_param=', 0.05)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_nu_param=', 0.1)  ==  [1. 1. 1. 1. 1. 1.]
+# ACCURACY_AGAINST_VALIDATION:  ('_nu_param=', 0.15)  ==  [1. 1. 1. 1. 1. 1.]
