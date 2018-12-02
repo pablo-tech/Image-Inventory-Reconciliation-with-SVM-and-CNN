@@ -247,10 +247,10 @@ def validate(param_string, trained_model, X_validation, Y_validation):
 # SEARCH FOR PARAMS: SVC
 C_range = [1e-3, 1e-2, 1e-1, 1, 1e2, 1e3, 1e4, 1e5]
 gamma_range = [1e-3, 1e-2, 1e-1, 1, 1e1, 1e2, 1e3, 1e4, 1e5]
-def accuracy_of_svc(X_train_matrix, Y_train_matrix, X_validation_matrix, Y_validation_matrix, accuracy_map):
+def accuracy_of_svc(X_train_matrix, Y_train_matrix, X_validation_matrix, Y_validation_matrix, accuracy_map, search_case):
     for c_param in C_range:
         for gamma_param in gamma_range:
-            param_string = "_c=",c_param, "_gamma=",gamma_param
+            param_string = search_case,"_c=",c_param, "_gamma=",gamma_param
             print(param_string, "...WILL NOW TRAIN SVM... set_size=", len(Y_train_matrix))
             try:
                 clf = svm.SVC(C=c_param, gamma=gamma_param)  # radial kernel
@@ -266,9 +266,9 @@ def accuracy_of_svc(X_train_matrix, Y_train_matrix, X_validation_matrix, Y_valid
 
 # SEARCH FOR PARAMS: NU
 nu_range = [1e-3, 1e-2, 0.025, 0.05, 1e-1, 0.15]
-def accuracy_of_nu(X_train_matrix, Y_train_matrix, X_validation_matrix, Y_validation_matrix, accuracy_map):
+def accuracy_of_nu(X_train_matrix, Y_train_matrix, X_validation_matrix, Y_validation_matrix, accuracy_map, search_case):
     for nu_param in nu_range:
-        param_string = "_nu_param=",nu_param
+        param_string = search_case, "_nu_param=",nu_param
         print(param_string, "...WILL NOW TRAIN SVM... set_size=", len(Y_train_matrix))
         try:
             clf = svm.NuSVC(nu=nu_param)
@@ -286,18 +286,18 @@ def accuracy_of_nu(X_train_matrix, Y_train_matrix, X_validation_matrix, Y_valida
 ## ACCURACY RESULTS
 
 param_training_accuracy = {}
-accuracy_of_svc(X_train_final, Y_train_final, X_validation_final, Y_validation_final, param_training_accuracy)
-accuracy_of_nu(X_train_final, Y_train_final, X_validation_final, Y_validation_final, param_training_accuracy)
+accuracy_of_svc(X_train_final, Y_train_final, X_validation_final, Y_validation_final, param_training_accuracy, "trainWithTraining_validateWithTraining")
+accuracy_of_nu(X_train_final, Y_train_final, X_validation_final, Y_validation_final, param_training_accuracy, "trainWithTraining_validateWithTraining")
 
 param_validation_accuracy = {}
-accuracy_of_svc(X_train_final, Y_train_final, X_train_final, Y_train_final, param_validation_accuracy)
-accuracy_of_nu(X_train_final, Y_train_final, X_train_final, Y_train_final, param_validation_accuracy)
+accuracy_of_svc(X_train_final, Y_train_final, X_train_final, Y_train_final, param_validation_accuracy, "trainWithTraining_validateWithValidation")
+accuracy_of_nu(X_train_final, Y_train_final, X_train_final, Y_train_final, param_validation_accuracy, "trainWithTraining_validateWithValidation")
 
 
 for param_accuracy in param_training_accuracy.keys():
-    print("ACCURACY_AGAINST_TRAINING: ", param_accuracy, " == ", param_training_accuracy[param_accuracy])
+    print(param_accuracy, " == ", param_training_accuracy[param_accuracy])
 for param_accuracy in param_validation_accuracy.keys():
-    print("ACCURACY_AGAINST_VALIDATION: ", param_accuracy, " == ", param_validation_accuracy[param_accuracy])
+    print(param_accuracy, " == ", param_validation_accuracy[param_accuracy])
 
 
 # PLOT
