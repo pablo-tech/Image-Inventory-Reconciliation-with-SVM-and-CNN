@@ -238,14 +238,7 @@ def validate(param_string, trained_model, X_validation, Y_validation):
 
 
 # PARAM SEARCH
-# clf = svm.LinearSVC(loss='l2', penalty='l1', dual=False)
-# clf = svm.LinearSVC(penalty='l2')
-# clf = svm.NuSVC()
-# clf = svm.SVC(gamma='scale', decision_function_shape='ovo')
-# clf = svm.SVC(gamma='scale')
-# clf = svm.LinearSVC(penalty='l2', multi_class='ovr')
-
-# SEARCH FOR PARAMS: SVC
+# Search for params: SVC
 C_range = [1, 1e2, 1e3, 1e4, 1e5, 1e6, 1e7, 1e8, 1e9, 1e10, 1e11, 1e12] # 1e-9, 1e-8, 1e-7, 1e-6, 1e-5, 1e-4, 1e-3, 1e-2, 1e-1,
 gamma_range = [1e-11, 1e-10, 1e-9, 1e-8, 1e-7, 1e-6, 1e-5]  # 1e-4, 1e-3, 1e-2, 1e-1, 1, 1e1, 1e2, 1e3, 1e4, 1e5, 1e6, 1e7, 1e8, 1e9
 def accuracy_of_svc(X_train_matrix, Y_train_matrix, X_validation_matrix, Y_validation_matrix, accuracy_map, search_case):
@@ -265,8 +258,8 @@ def accuracy_of_svc(X_train_matrix, Y_train_matrix, X_validation_matrix, Y_valid
             # print("SAVING_INTO", param_string, " class_accuracy_percent=", class_accuracy_percent)
     return accuracy_map
 
-# SEARCH FOR PARAMS: NU
-# nu_range = [1e-9, 1e-8, 1e-7, 1e-6, 1e-5, 1e-4, 1e-3, 1e-2, 0.025, 0.05, 1e-1, 0.15]
+# Search for params: Nu
+#  nu_range = [1e-9, 1e-8, 1e-7, 1e-6, 1e-5, 1e-4, 1e-3, 1e-2, 0.025, 0.05, 1e-1, 0.15]
 nu_max = 25
 def accuracy_of_nu(X_train_matrix, Y_train_matrix, X_validation_matrix, Y_validation_matrix, accuracy_map, search_case):
     for nu_param in range(nu_max):
@@ -284,21 +277,45 @@ def accuracy_of_nu(X_train_matrix, Y_train_matrix, X_validation_matrix, Y_valida
         # print("SAVING_INTO", param_string, " class_accuracy_percent=", class_accuracy_percent)
     return accuracy_map
 
+# Search for params: Linear
+linear_penalty = ['l1', 'l2']
+linear_loss = ['hinge', 'squared_hinge']
+linear_multiclass_strategy = ['ovr', 'crammer_singer']
+C_range = [1, 1e2, 1e3, 1e4, 1e5, 1e6, 1e7, 1e8, 1e9, 1e10, 1e11, 1e12] # 1e-9, 1e-8, 1e-7, 1e-6, 1e-5, 1e-4, 1e-3, 1e-2, 1e-1,
+def accuracy_of_linear(X_train_matrix, Y_train_matrix, X_validation_matrix, Y_validation_matrix, accuracy_map, search_case):
+    for penalty_param in linear_penalty:
+        for loss_param in linear_loss:
+            for strategy_param in linear_multiclass_strategy:
+                for c_param in C_range:
+                    param_string = search_case, "_penalty=",penalty_param, "_loss=",loss_param, "_strategy=",strategy_param, "_c_param=",c_param
+                    print(param_string, "...WILL NOW TRAIN SVM... set_size=", len(Y_train_matrix))
+                    try:
+                        clf = svm.LinearSVC(penalty=penalty_param, loss=loss_param, strategy=strategy_param, C=c_param)
+                        clf.fit(X_train_matrix, Y_train_matrix)
+                        class_accuracy_percent = validate(param_string, clf, X_validation_matrix, Y_validation_matrix)
+                    except Exception:
+                        print("Unexpected error:", sys.exc_info())
+                        bad = True
+                        class_accuracy_percent = 0
+                    accuracy_map[param_string] = class_accuracy_percent
+                    # print("SAVING_INTO", param_string, " class_accuracy_percent=", class_accuracy_percent)
+    return accuracy_map
+
 
 ## ACCURACY RESULTS
 np.set_printoptions(precision=2)
-param_validation_accuracy = {}
-param_training_accuracy = {}
-accuracy_of_svc(X_train_final, Y_train_final, X_train_final, Y_train_final, param_validation_accuracy, "trainWithTraining_validateWithTraining")
-accuracy_of_nu(X_train_final, Y_train_final, X_train_final, Y_train_final, param_validation_accuracy, "trainWithTraining_validateWithTraining")
-accuracy_of_svc(X_train_final, Y_train_final, X_validation_final, Y_validation_final, param_training_accuracy, "trainWithTraining_validateWithValidation")
-accuracy_of_nu(X_train_final, Y_train_final, X_validation_final, Y_validation_final, param_training_accuracy, "trainWithTraining_validateWithValidation")
+param_accuracy = {}
+# trainWithTraining_validateWithTraining
+accuracy_of_svc(X_train_final, Y_train_final, X_train_final, Y_train_final, param_accuracy, "trainWithTraining_validateWithTraining")
+accuracy_of_nu(X_train_final, Y_train_final, X_train_final, Y_train_final, param_accuracy, "trainWithTraining_validateWithTraining")
+accuracy_of_linear(X_train_final, Y_train_final, X_train_final, Y_train_final, param_accuracy, "trainWithTraining_validateWithTraining")
+# trainWithTraining_validateWithValidation
+accuracy_of_svc(X_train_final, Y_train_final, X_validation_final, Y_validation_final, param_accuracy, "trainWithTraining_validateWithValidation")
+accuracy_of_nu(X_train_final, Y_train_final, X_validation_final, Y_validation_final, param_accuracy, "trainWithTraining_validateWithValidation")
+accuracy_of_linear(X_train_final, Y_train_final, X_train_final, Y_train_final, param_accuracy, "trainWithTraining_validateWithValidation")
 
-
-for param_accuracy in param_training_accuracy.keys():
-    print("==>", param_accuracy, " == ", param_training_accuracy[param_accuracy])
-for param_accuracy in param_validation_accuracy.keys():
-    print("==>", param_accuracy, " == ", param_validation_accuracy[param_accuracy])
+for accuracy_key in param_accuracy.keys():
+    print("==>", accuracy_key, " == ", param_accuracy[accuracy_key])
 
 
 # PLOT
