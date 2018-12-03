@@ -22,9 +22,9 @@ isExplore = True # true for parameter search, false for explotaition of good par
 # examples
 max_taining_examples = 35  # if Sage 2000, local 35
 if(isLocal==False):
-    max_taining_examples = 2000
+    max_taining_examples = 1000
 if(isExplore==False):
-    max_taining_examples = max_taining_examples*3  # TODO
+    max_taining_examples = max_taining_examples*5  # TODO
 # batch
 example_batch_size = 5
 if(isLocal==False):
