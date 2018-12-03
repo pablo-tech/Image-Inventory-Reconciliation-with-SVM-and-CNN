@@ -351,9 +351,10 @@ for accuracy_key in param_accuracy.keys():
     print("==>", accuracy_key, " == ", param_accuracy[accuracy_key])
 
 ## SELECTED PARAMETERS
-# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l1', '_loss=', 'hinge', '_strategy=', 'crammer_singer', '_c_param=', 1)  ==  [1. 1. 1. 1. 1. 1. 1.]
-# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l2', '_loss=', 'hinge', '_strategy=', 'ovr', '_c_param=', 1)  ==  [1. 1. 1. 1. 1. 1. 1.]
-# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l2', '_loss=', 'squared_hinge', '_strategy=', 'ovr', '_c_param=', 1)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithValidation', '_c=', 1, '_gamma=', 1e-06)  ==  [0.   0.   0.22 0.6  0.23 0.   0.24]
+# ==> ('trainWithTraining_validateWithValidation', '_nu_param=', 1e-06)  ==  [0.32 0.37 0.06 0.01 0.2  0.01 0.11]
+# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l1', '_loss=', 'hinge', '_multi_class=', 'crammer_singer', '_c_param=', 1)  ==  [0.04 0.16 0.19 0.23 0.19 0.19 0.19]
+# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l2', '_loss=', 'squared_hinge', '_multi_class=', 'ovr', '_c_param=', 1)  ==  [0.02 0.09 0.17 0.25 0.23 0.18 0.19]
 
 
 # PLOT
