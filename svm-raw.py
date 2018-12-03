@@ -327,15 +327,19 @@ def determine_accuracy(X_train, Y_train, X_validation, Y_validation,
                        param_accuracy, isExplore)
 
 # DATA
+# recover from disk batch
 X_full_train_set = getMatrixFromFile("counting_train", "X")
 Y_full_train_set = getMatrixFromFile("counting_train", "Y")
 X_full_validation_set = getMatrixFromFile("counting_val", "X")
 Y_full_validation_set = getMatrixFromFile("counting_train", "Y")
 
+# normalize
 X_train_mean_variance_normalized = getRoundedZeroMeanNormalizedVarianceMatrix(X_full_train_set)
 X_validation_mean_variance_normalized = getRoundedZeroMeanNormalizedVarianceMatrix(X_full_validation_set)
 
-# n_components=10000 must be between 0 and min(n_samples, n_features)=336 with svd_solver='full'
+# PCA
+# n_components=10000 between 0 and min(n_samples, n_features) with svd_solver='full'
+# TODO svd_solver : string {‘auto’, ‘full’, ‘arpack’, ‘randomized’}
 pca = PCA(n_components= pca_columns)  # some examples may be missing (in the test set)
 X_train_pca_mean_variance_normalized = getPcaMatrix(X_train_mean_variance_normalized, pca)
 X_validation_pca_mean_variance_normalized = getPcaMatrix(X_validation_mean_variance_normalized, pca)
