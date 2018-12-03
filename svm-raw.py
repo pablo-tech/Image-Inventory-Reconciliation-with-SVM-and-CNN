@@ -19,11 +19,21 @@ from sklearn.decomposition import PCA
 isLocal = True # false for SageMaker
 isPreproces = False # false to build model from pre-processed file
 isExplore = True # true for parameter search, false for explotaition of good params
-max_taining_examples = 35
+# examples
+max_taining_examples = 35  # if Sage 2000, local 35
+if(isLocal==False):
+    max_taining_examples = 2000
 if(isExplore==False):
-    max_taining_examples = max_taining_examples*3
+    max_taining_examples = max_taining_examples*3  # TODO
+# batch
 example_batch_size = 5
+if(isLocal==False):
+    example_batch_size = 1000
+# pca
 pca_columns = int(example_batch_size*1)
+# random
+random.seed(229)
+
 
 # PATH
 # local
@@ -76,9 +86,6 @@ def getRoundedZeroMeanNormalizedVarianceMatrix(Xmatrix):
     roundedResizedReshaped = np.around(Xmatrix, decimals=2)
     print("XmatrixNormalizedRounded=", roundedResizedReshaped)
     return roundedResizedReshaped
-
-# RANDOM
-random.seed(229)
 
 
 # CROSS VALIDATION
@@ -150,13 +157,6 @@ def getMatrixFromFile(set_name, in_or_out):
     return full_set
 
 
-X_full_train_set = getMatrixFromFile("counting_train", "X")
-Y_full_train_set = getMatrixFromFile("counting_train", "Y")
-X_full_validation_set = getMatrixFromFile("counting_val", "X")
-Y_full_validation_set = getMatrixFromFile("counting_train", "Y")
-
-X_train_mean_variance_normalized = getRoundedZeroMeanNormalizedVarianceMatrix(X_full_train_set)
-X_validation_mean_variance_normalized = getRoundedZeroMeanNormalizedVarianceMatrix(X_full_validation_set)
 
 # PCA
 def getPcaMatrix(design_matrix, pca_model):
@@ -164,22 +164,6 @@ def getPcaMatrix(design_matrix, pca_model):
     roundedPcaMatrix = np.around(pca_matrix, decimals=2)
     print("roundedPcaMatrix[0]=", roundedPcaMatrix[0])
     return roundedPcaMatrix
-
-# n_components=10000 must be between 0 and min(n_samples, n_features)=336 with svd_solver='full'
-pca = PCA(n_components= pca_columns)  # some examples may be missing (in the test set)
-X_train_pca_mean_variance_normalized = getPcaMatrix(X_train_mean_variance_normalized, pca)
-X_validation_pca_mean_variance_normalized = getPcaMatrix(X_validation_mean_variance_normalized, pca)
-
-# exit(1)
-
-# FINAL MATRIX
-X_train_final = X_train_pca_mean_variance_normalized
-Y_train_final = Y_full_train_set
-print (X_train_final.shape, " <= X_train_final[0]=", X_train_final[0])
-X_validation_final = X_validation_pca_mean_variance_normalized
-Y_validation_final = Y_full_validation_set
-print (X_validation_final.shape, " <= X_validation_final[0]=", X_validation_final[0])
-
 
 # ACCURACY
 def getAccuracy(param_string, trained_model, X_set, Y_set, class_id):
@@ -224,14 +208,12 @@ def validate(param_string, trained_model, X_validation, Y_validation):
     return class_and_overall_accuracy
 
 
-# SVM
+# PARAM SEARCH: SVM
 # SVC and NuSVC are similar methods, but accept slightly different sets of parameters and have different mathematical
 # formulations (see section Mathematical formulation). On the other hand, LinearSVC is another implementation of
 # Support Vector Classification for the case of a linear kernel. Note that LinearSVC does not accept keyword kernel,
 # as this is assumed to be linear.
-
-
-# PARAM SEARCH
+#
 # https://scikit-learn.org/stable/auto_examples/svm/plot_rbf_parameters.html
 # Search for params: SVC
 # https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
@@ -337,16 +319,40 @@ def determine_model_accuracy(set_name, X_train, Y_train, X_validation, Y_validat
     accuracy_of_linear(set_name, X_train, Y_train, X_validation, Y_validation,
                        linear_penalty(isExplore), linear_loss(isExplore), linear_multiclass_strategy(isExplore), C_range(isExplore), param_accuracy)
 
-def determine_accuracy(param_accuracy, isExplore):
-    determine_model_accuracy("trainWithTraining_validateWithValidation", X_train_final, Y_train_final, X_validation_final, Y_validation_final,
+def determine_accuracy(X_train, Y_train, X_validation, Y_validation,
+                       param_accuracy, isExplore):
+    determine_model_accuracy("trainWithTraining_validateWithValidation", X_train, Y_train, X_validation, Y_validation,
                        param_accuracy, isExplore)
-    determine_model_accuracy("trainWithTraining_validateWithTraining", X_train_final, Y_train_final, X_train_final, Y_train_final,
+    determine_model_accuracy("trainWithTraining_validateWithTraining", X_train, Y_train, X_train, Y_train,
                        param_accuracy, isExplore)
+
+# DATA
+X_full_train_set = getMatrixFromFile("counting_train", "X")
+Y_full_train_set = getMatrixFromFile("counting_train", "Y")
+X_full_validation_set = getMatrixFromFile("counting_val", "X")
+Y_full_validation_set = getMatrixFromFile("counting_train", "Y")
+
+X_train_mean_variance_normalized = getRoundedZeroMeanNormalizedVarianceMatrix(X_full_train_set)
+X_validation_mean_variance_normalized = getRoundedZeroMeanNormalizedVarianceMatrix(X_full_validation_set)
+
+# n_components=10000 must be between 0 and min(n_samples, n_features)=336 with svd_solver='full'
+pca = PCA(n_components= pca_columns)  # some examples may be missing (in the test set)
+X_train_pca_mean_variance_normalized = getPcaMatrix(X_train_mean_variance_normalized, pca)
+X_validation_pca_mean_variance_normalized = getPcaMatrix(X_validation_mean_variance_normalized, pca)
+
+# FINAL MATRIX
+X_train_final = X_train_pca_mean_variance_normalized
+Y_train_final = Y_full_train_set
+print (X_train_final.shape, " <= X_train_final[0]=", X_train_final[0])
+X_validation_final = X_validation_pca_mean_variance_normalized
+Y_validation_final = Y_full_validation_set
+print (X_validation_final.shape, " <= X_validation_final[0]=", X_validation_final[0])
 
 # RUN
 np.set_printoptions(precision=2)
 param_accuracy = {}
-determine_accuracy(param_accuracy, True)
+determine_accuracy(X_train_final, Y_train_final, X_validation_final, Y_validation_final,
+                   param_accuracy, True)
 for accuracy_key in param_accuracy.keys():
     print("==>", accuracy_key, " == ", param_accuracy[accuracy_key])
 
