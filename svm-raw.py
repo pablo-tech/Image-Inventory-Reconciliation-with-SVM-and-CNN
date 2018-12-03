@@ -18,7 +18,10 @@ from sklearn.decomposition import PCA
 ## CONFIG
 isLocal = True # false for SageMaker
 isPreproces = False # false to build model from pre-processed file
+isExplore = True # true for parameter search, false for explotaition of good params
 max_taining_examples = 35
+if(isExplore==False):
+    max_taining_examples = max_taining_examples*3
 example_batch_size = 5
 pca_columns = int(example_batch_size*1)
 
@@ -227,22 +230,13 @@ def validate(param_string, trained_model, X_validation, Y_validation):
 # Support Vector Classification for the case of a linear kernel. Note that LinearSVC does not accept keyword kernel,
 # as this is assumed to be linear.
 
-# KERNEL : string, optional (default=rbf)
-# Specifies the kernel type to be used in the algorithm.
-# It must be one of linear, poly, rbf, sigmoid, precomputed or a callable. If none is given, rbf will be used.
-# If a callable is given it is used to precompute the kernel matrix.
-# GAMMA : float, optional (default=auto)
-# Kernel coefficient for rbf, poly and sigmoid.
-# Current default is auto which uses 1 / n_features, if gamma='scale' is passed then it uses 1 / (n_features * X.std()) as value of gamma.
-# The current default of gamma, auto, will change to scale in version 0.22. auto_deprecated, a deprecated version of auto is used as a default indicating that no explicit value of gamma was passed.
-
 
 # PARAM SEARCH
+# https://scikit-learn.org/stable/auto_examples/svm/plot_rbf_parameters.html
 # Search for params: SVC
 # https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
-C_range = [1, 1e2, 1e3, 1e4] # , 1e5, 1e6, 1e7, 1e8, 1e9, 1e10, 1e11, 1e12, 1e-9, 1e-8, 1e-7, 1e-6, 1e-5, 1e-4, 1e-3, 1e-2, 1e-1,
-gamma_range = [1e-8, 1e-7, 1e-6, 1e-5]  # 1e-9, 1e-11, 1e-10, 1e-4, 1e-3, 1e-2, 1e-1, 1, 1e1, 1e2, 1e3, 1e4, 1e5, 1e6, 1e7, 1e8, 1e9
-def accuracy_of_svc(X_train_matrix, Y_train_matrix, X_validation_matrix, Y_validation_matrix, accuracy_map, search_case):
+def accuracy_of_svc(X_train_matrix, Y_train_matrix, X_validation_matrix, Y_validation_matrix, accuracy_map, search_case,
+                    C_range, gamma_range):
     for c_param in C_range:
         for gamma_param in gamma_range:
             param_string = search_case,"_c=",c_param, "_gamma=",gamma_param
@@ -261,8 +255,8 @@ def accuracy_of_svc(X_train_matrix, Y_train_matrix, X_validation_matrix, Y_valid
 
 # Search for params: Nu
 # https://scikit-learn.org/stable/modules/generated/sklearn.svm.NuSVC.html
-nu_range = [1e-4, 1e-3, 0.01, 0.05, 0.1, 0.15, 0.20, 0.25] # 1e-9, 1e-8, 1e-7, 1e-6, 1e-5,
-def accuracy_of_nu(X_train_matrix, Y_train_matrix, X_validation_matrix, Y_validation_matrix, accuracy_map, search_case):
+def accuracy_of_nu(X_train_matrix, Y_train_matrix, X_validation_matrix, Y_validation_matrix, accuracy_map, search_case,
+                   nu_range):
     for nu_param in nu_range:
         param_string = search_case, "_nu_param=",nu_param
         print(param_string, "...WILL NOW TRAIN SVM... set_size=", len(Y_train_matrix))
@@ -280,11 +274,8 @@ def accuracy_of_nu(X_train_matrix, Y_train_matrix, X_validation_matrix, Y_valida
 
 # Search for params: Linear
 # https://scikit-learn.org/stable/modules/generated/sklearn.svm.LinearSVC.html
-linear_penalty = ['l1', 'l2']
-linear_loss = ['hinge', 'squared_hinge']
-linear_multiclass_strategy = ['ovr', 'crammer_singer']
-C_range = [1, 1e2, 1e3, 1e4]
-def accuracy_of_linear(X_train_matrix, Y_train_matrix, X_validation_matrix, Y_validation_matrix, accuracy_map, search_case):
+def accuracy_of_linear(X_train_matrix, Y_train_matrix, X_validation_matrix, Y_validation_matrix, accuracy_map, search_case,
+                       linear_penalty, linear_loss, linear_multiclass_strategy, C_range):
     for penalty_param in linear_penalty:
         for loss_param in linear_loss:
             for strategy_param in linear_multiclass_strategy:
@@ -305,19 +296,65 @@ def accuracy_of_linear(X_train_matrix, Y_train_matrix, X_validation_matrix, Y_va
 
 
 ## ACCURACY RESULTS
+# SVC
+def C_range(isExplore):
+    if(isExplore):
+        return [1, 1e2, 1e3] # 1e3, 1e4, 1e5, 1e6, 1e7, 1e8, 1e9, 1e10, 1e11, 1e12, 1e-9, 1e-8, 1e-7, 1e-6, 1e-5, 1e-4, 1e-3, 1e-2, 1e-1,
+    return [1, 1e2, 1e3] # 1e3, 1e4, 1e5, 1e6, 1e7, 1e8, 1e9, 1e10, 1e11, 1e12, 1e-9, 1e-8, 1e-7, 1e-6, 1e-5, 1e-4, 1e-3, 1e-2, 1e-1,
+def gamma_range(isExplore):
+    if(isExplore):
+        return [1e-8, 1e-7, 1e-6]  # 1e-5, 1e-9, 1e-11, 1e-10, 1e-4, 1e-3, 1e-2, 1e-1, 1, 1e1, 1e2, 1e3, 1e4, 1e5, 1e6, 1e7, 1e8, 1e9
+    return [1e-8, 1e-7, 1e-6]  # 1e-5, 1e-9, 1e-11, 1e-10, 1e-4, 1e-3, 1e-2, 1e-1, 1, 1e1, 1e2, 1e3, 1e4, 1e5, 1e6, 1e7, 1e8, 1e9
+# Nu
+def nu_range(isExplore):
+    if(isExplore):
+        return [1e-6, 1e-5, 1e-4, 1e-3, 0.01] # 1e-9, 1e-8, 1e-7, 1e-6, 1e-5, 0.20, 0.25, 0.05, 0.1, 0.15
+    return [1e-6, 1e-5, 1e-4, 1e-3, 0.01] # 1e-9, 1e-8, 1e-7, 1e-6, 1e-5, 0.20, 0.25, 0.05, 0.1, 0.15
+# Linear
+def linear_penalty(isExplore):
+    if(isExplore):
+        return ['l1', 'l2']
+    return ['l1', 'l2']
+def linear_loss(isExplore):
+    if(isExplore):
+        return ['hinge', 'squared_hinge']
+    return ['hinge', 'squared_hinge']
+def linear_multiclass_strategy(isExplore):
+    if(isExplore):
+        return ['ovr', 'crammer_singer']
+    return ['ovr', 'crammer_singer']
+def C_range_explore(isExplore):
+    if(isExplore):
+        return [1, 1e2, 1e3, 1e4]
+    return [1, 1e2, 1e3, 1e4]
+
+def determine_accuracy(param_accuracy, isExplore):
+    # trainWithTraining_validateWithTraining
+    accuracy_of_svc(X_train_final, Y_train_final, X_train_final, Y_train_final, param_accuracy, "trainWithTraining_validateWithTraining",
+                    C_range(isExplore), gamma_range(isExplore))
+    accuracy_of_nu(X_train_final, Y_train_final, X_train_final, Y_train_final, param_accuracy, "trainWithTraining_validateWithTraining",
+                   nu_range(isExplore))
+    accuracy_of_linear(X_train_final, Y_train_final, X_train_final, Y_train_final, param_accuracy, "trainWithTraining_validateWithTraining",
+                       linear_penalty(isExplore), linear_loss(isExplore), linear_multiclass_strategy(isExplore), C_range(isExplore))
+    # trainWithTraining_validateWithValidation
+    accuracy_of_svc(X_train_final, Y_train_final, X_validation_final, Y_validation_final, param_accuracy, "trainWithTraining_validateWithValidation",
+                    C_range(isExplore), gamma_range(isExplore))
+    accuracy_of_nu(X_train_final, Y_train_final, X_validation_final, Y_validation_final, param_accuracy, "trainWithTraining_validateWithValidation",
+                   nu_range(isExplore))
+    accuracy_of_linear(X_train_final, Y_train_final, X_train_final, Y_train_final, param_accuracy, "trainWithTraining_validateWithValidation",
+                       linear_penalty(isExplore), linear_loss(isExplore), linear_multiclass_strategy(isExplore), C_range(isExplore))
+
+# RUN
 np.set_printoptions(precision=2)
 param_accuracy = {}
-# trainWithTraining_validateWithTraining
-accuracy_of_svc(X_train_final, Y_train_final, X_train_final, Y_train_final, param_accuracy, "trainWithTraining_validateWithTraining")
-accuracy_of_nu(X_train_final, Y_train_final, X_train_final, Y_train_final, param_accuracy, "trainWithTraining_validateWithTraining")
-accuracy_of_linear(X_train_final, Y_train_final, X_train_final, Y_train_final, param_accuracy, "trainWithTraining_validateWithTraining")
-# trainWithTraining_validateWithValidation
-accuracy_of_svc(X_train_final, Y_train_final, X_validation_final, Y_validation_final, param_accuracy, "trainWithTraining_validateWithValidation")
-accuracy_of_nu(X_train_final, Y_train_final, X_validation_final, Y_validation_final, param_accuracy, "trainWithTraining_validateWithValidation")
-accuracy_of_linear(X_train_final, Y_train_final, X_train_final, Y_train_final, param_accuracy, "trainWithTraining_validateWithValidation")
-
+determine_accuracy(param_accuracy, True)
 for accuracy_key in param_accuracy.keys():
     print("==>", accuracy_key, " == ", param_accuracy[accuracy_key])
+
+## SELECTED PARAMETERS
+# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l1', '_loss=', 'hinge', '_strategy=', 'crammer_singer', '_c_param=', 1)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l2', '_loss=', 'hinge', '_strategy=', 'ovr', '_c_param=', 1)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l2', '_loss=', 'squared_hinge', '_strategy=', 'ovr', '_c_param=', 1)  ==  [1. 1. 1. 1. 1. 1. 1.]
 
 
 # PLOT
@@ -327,222 +364,119 @@ for accuracy_key in param_accuracy.keys():
 # plt.show()
 
 
-# svm.NuSVC
-# param_validation_accuracy= {
-# ('nu=', 0.05): array([0.28571429, 0.08108108, 0.29032258, 0.20560748, 0.35897436, 0.17948718]),
-# ('nu=', 0.1): array([0.28571429, 0.08108108, 0.27956989, 0.20560748, 0.35897436, 0.17948718]),
-# ('nu=', 0.15): array([0.28571429, 0.08108108, 0.27956989, 0.20560748, 0.35897436, 0.17948718])}
-
-# svm.SVC
-# param_validation_accuracy= {
-# ('_c=', 0.01, '_gamma=', 0.1): array([0., 0., 0., 0., 1., 0.]),
-# ('_c=', 0.01, '_gamma=', 1): array([0., 0., 0., 0., 1., 0.]),
-# ('_c=', 0.01, '_gamma=', 10.0): array([0., 0., 0., 0., 1., 0.]),
-# ('_c=', 1, '_gamma=', 0.1): array([0., 0., 0., 0., 1., 0.]),
-# ('_c=', 1, '_gamma=', 1): array([0., 0., 0., 0., 1., 0.]),
-# ('_c=', 1, '_gamma=', 10.0): array([0., 0., 0., 0., 1., 0.]),
-# ('_c=', 100.0, '_gamma=', 0.1): array([0., 0., 0., 0., 1., 0.]),
-# ('_c=', 100.0, '_gamma=', 1): array([0., 0., 0., 0., 1., 0.]),
-# ('_c=', 100.0, '_gamma=', 10.0): array([0., 0., 0., 0., 1., 0.])}
-
-# RAW RGB Normalized with PCA, 1000 examples SVM.SVC
-# overall_accuracy= 0.252
-# param_validation_accuracy=
-# {('_c=', 0.01, '_gamma=', 0.1): array([0., 0., 0., 1., 0., 0.]),
-# ('_c=', 0.01, '_gamma=', 1): array([0., 0., 0., 1., 0., 0.]),
-# ('_c=', 0.01, '_gamma=', 10.0): array([0., 0., 0., 1., 0., 0.]),
-# ('_c=', 1, '_gamma=', 0.1): array([0., 0., 0., 1., 0., 0.]),
-# ('_c=', 1, '_gamma=', 1): array([0., 0., 0., 1., 0., 0.]),
-# ('_c=', 1, '_gamma=', 10.0): array([0., 0., 0., 1., 0., 0.]),
-# ('_c=', 100.0, '_gamma=', 0.1): array([0., 0., 0., 1., 0., 0.]),
-# ('_c=', 100.0, '_gamma=', 1): array([0., 0., 0., 1., 0., 0.]),
-# ('_c=', 100.0, '_gamma=', 10.0): array([0., 0., 0., 1., 0., 0.])}
-
-# RAW RGB Normalized with PCA, 5000 examples SVM.SVC
-# overall_accuracy= 0.2416
-# param_validation_accuracy=
-# {('_c=', 0.01, '_gamma=', 0.1): array([0., 0., 0., 1., 0., 0.]),
-# ('_c=', 0.01, '_gamma=', 1): array([0., 0., 0., 1., 0., 0.]),
-# ('_c=', 0.01, '_gamma=', 10.0): array([0., 0., 0., 1., 0., 0.]),
-# ('_c=', 1, '_gamma=', 0.1): array([0., 0., 0., 1., 0., 0.]),
-# ('_c=', 1, '_gamma=', 1): array([0., 0., 0., 1., 0., 0.]),
-# ('_c=', 1, '_gamma=', 10.0): array([0., 0., 0., 1., 0., 0.]),
-# ('_c=', 100.0, '_gamma=', 0.1): array([0., 0., 0., 1., 0., 0.]),
-# ('_c=', 100.0, '_gamma=', 1): array([0., 0., 0., 1., 0., 0.]),
-# ('_c=', 100.0, '_gamma=', 10.0): array([0., 0., 0., 1., 0., 0.])}
-
-
-# 2000 example slooking searching for params including nu
-# param_validation_accuracy= {
-# validation_total= 2000  split into class_count= [ 47. 219. 440. 484. 462. 348.]
-# ('_c=', 0.01, '_gamma=', 0.1): array([0., 0., 0., 1., 0., 0.]),
-# ('_c=', 0.01, '_gamma=', 1): array([0., 0., 0., 1., 0., 0.]),
-# ('_c=', 0.01, '_gamma=', 10.0): array([0., 0., 0., 1., 0., 0.]),
-# ('_c=', 1, '_gamma=', 0.1): array([0., 0., 0., 1., 0., 0.]),
-# ('_c=', 1, '_gamma=', 1): array([0., 0., 0., 1., 0., 0.]),
-# ('_c=', 1, '_gamma=', 10.0): array([0., 0., 0., 1., 0., 0.]),
-# ('_c=', 100.0, '_gamma=', 0.1): array([0., 0., 0., 1., 0., 0.]),
-# ('_c=', 100.0, '_gamma=', 1): array([0., 0., 0., 1., 0., 0.]),
-# ('_c=', 100.0, '_gamma=', 10.0): array([0., 0., 0., 1., 0., 0.]),
-# ('_nu_param=', 0.05): array([0., 0., 0., 1., 0., 0.]),
-# ('_nu_param=', 0.1): array([0., 0., 0., 1., 0., 0.]),
-# ('_nu_param=', 0.15): array([0., 0., 0., 1., 0., 0.])}
-
-
-# 2000 EXAMPLES
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.001, '_gamma=', 0.001)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.001, '_gamma=', 0.01)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.001, '_gamma=', 0.1)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.001, '_gamma=', 1)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.001, '_gamma=', 10.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.001, '_gamma=', 100.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.001, '_gamma=', 1000.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.001, '_gamma=', 10000.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.001, '_gamma=', 100000.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.01, '_gamma=', 0.001)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.01, '_gamma=', 0.01)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.01, '_gamma=', 0.1)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.01, '_gamma=', 1)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.01, '_gamma=', 10.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.01, '_gamma=', 100.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.01, '_gamma=', 1000.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.01, '_gamma=', 10000.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.01, '_gamma=', 100000.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.1, '_gamma=', 0.001)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.1, '_gamma=', 0.01)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.1, '_gamma=', 0.1)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.1, '_gamma=', 1)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.1, '_gamma=', 10.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.1, '_gamma=', 100.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.1, '_gamma=', 1000.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.1, '_gamma=', 10000.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 0.1, '_gamma=', 100000.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 1, '_gamma=', 0.001)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 1, '_gamma=', 0.01)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 1, '_gamma=', 0.1)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 1, '_gamma=', 1)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 1, '_gamma=', 10.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 1, '_gamma=', 100.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 1, '_gamma=', 1000.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 1, '_gamma=', 10000.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 1, '_gamma=', 100000.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 100.0, '_gamma=', 0.001)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 100.0, '_gamma=', 0.01)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 100.0, '_gamma=', 0.1)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 100.0, '_gamma=', 1)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 100.0, '_gamma=', 10.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 100.0, '_gamma=', 100.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 100.0, '_gamma=', 1000.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 100.0, '_gamma=', 10000.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 100.0, '_gamma=', 100000.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 1000.0, '_gamma=', 0.001)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 1000.0, '_gamma=', 0.01)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 1000.0, '_gamma=', 0.1)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 1000.0, '_gamma=', 1)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 1000.0, '_gamma=', 10.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 1000.0, '_gamma=', 100.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 1000.0, '_gamma=', 1000.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 1000.0, '_gamma=', 10000.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 1000.0, '_gamma=', 100000.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 10000.0, '_gamma=', 0.001)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 10000.0, '_gamma=', 0.01)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 10000.0, '_gamma=', 0.1)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 10000.0, '_gamma=', 1)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 10000.0, '_gamma=', 10.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 10000.0, '_gamma=', 100.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 10000.0, '_gamma=', 1000.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 10000.0, '_gamma=', 10000.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 10000.0, '_gamma=', 100000.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 100000.0, '_gamma=', 0.001)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 100000.0, '_gamma=', 0.01)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 100000.0, '_gamma=', 0.1)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 100000.0, '_gamma=', 1)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 100000.0, '_gamma=', 10.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 100000.0, '_gamma=', 100.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 100000.0, '_gamma=', 1000.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 100000.0, '_gamma=', 10000.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_c=', 100000.0, '_gamma=', 100000.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_nu_param=', 0.001)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_nu_param=', 0.01)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_nu_param=', 0.025)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_nu_param=', 0.05)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_nu_param=', 0.1)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_TRAINING:  ('_nu_param=', 0.15)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.001, '_gamma=', 0.001)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.001, '_gamma=', 0.01)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.001, '_gamma=', 0.1)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.001, '_gamma=', 1)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.001, '_gamma=', 10.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.001, '_gamma=', 100.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.001, '_gamma=', 1000.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.001, '_gamma=', 10000.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.001, '_gamma=', 100000.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.01, '_gamma=', 0.001)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.01, '_gamma=', 0.01)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.01, '_gamma=', 0.1)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.01, '_gamma=', 1)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.01, '_gamma=', 10.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.01, '_gamma=', 100.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.01, '_gamma=', 1000.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.01, '_gamma=', 10000.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.01, '_gamma=', 100000.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.1, '_gamma=', 0.001)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.1, '_gamma=', 0.01)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.1, '_gamma=', 0.1)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.1, '_gamma=', 1)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.1, '_gamma=', 10.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.1, '_gamma=', 100.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.1, '_gamma=', 1000.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.1, '_gamma=', 10000.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 0.1, '_gamma=', 100000.0)  ==  [0. 0. 0. 1. 0. 0.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 1, '_gamma=', 0.001)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 1, '_gamma=', 0.01)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 1, '_gamma=', 0.1)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 1, '_gamma=', 1)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 1, '_gamma=', 10.0)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 1, '_gamma=', 100.0)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 1, '_gamma=', 1000.0)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 1, '_gamma=', 10000.0)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 1, '_gamma=', 100000.0)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 100.0, '_gamma=', 0.001)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 100.0, '_gamma=', 0.01)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 100.0, '_gamma=', 0.1)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 100.0, '_gamma=', 1)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 100.0, '_gamma=', 10.0)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 100.0, '_gamma=', 100.0)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 100.0, '_gamma=', 1000.0)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 100.0, '_gamma=', 10000.0)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 100.0, '_gamma=', 100000.0)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 1000.0, '_gamma=', 0.001)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 1000.0, '_gamma=', 0.01)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 1000.0, '_gamma=', 0.1)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 1000.0, '_gamma=', 1)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 1000.0, '_gamma=', 10.0)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 1000.0, '_gamma=', 100.0)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 1000.0, '_gamma=', 1000.0)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 1000.0, '_gamma=', 10000.0)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 1000.0, '_gamma=', 100000.0)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 10000.0, '_gamma=', 0.001)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 10000.0, '_gamma=', 0.01)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 10000.0, '_gamma=', 0.1)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 10000.0, '_gamma=', 1)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 10000.0, '_gamma=', 10.0)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 10000.0, '_gamma=', 100.0)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 10000.0, '_gamma=', 1000.0)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 10000.0, '_gamma=', 10000.0)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 10000.0, '_gamma=', 100000.0)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 100000.0, '_gamma=', 0.001)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 100000.0, '_gamma=', 0.01)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 100000.0, '_gamma=', 0.1)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 100000.0, '_gamma=', 1)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 100000.0, '_gamma=', 10.0)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 100000.0, '_gamma=', 100.0)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 100000.0, '_gamma=', 1000.0)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 100000.0, '_gamma=', 10000.0)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_c=', 100000.0, '_gamma=', 100000.0)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_nu_param=', 0.001)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_nu_param=', 0.01)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_nu_param=', 0.025)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_nu_param=', 0.05)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_nu_param=', 0.1)  ==  [1. 1. 1. 1. 1. 1.]
-# ACCURACY_AGAINST_VALIDATION:  ('_nu_param=', 0.15)  ==  [1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_c=', 1, '_gamma=', 1e-08)  ==  [0.   0.   0.   1.   0.   0.   0.25]
+# ==> ('trainWithTraining_validateWithTraining', '_c=', 1, '_gamma=', 1e-07)  ==  [0.   0.   0.   1.   0.   0.   0.25]
+# ==> ('trainWithTraining_validateWithTraining', '_c=', 1, '_gamma=', 1e-06)  ==  [0.   0.   0.   1.   0.12 0.   0.27]
+# ==> ('trainWithTraining_validateWithTraining', '_c=', 1, '_gamma=', 1e-05)  ==  [0.67 0.8  0.89 0.97 0.96 0.91 0.91]
+# ==> ('trainWithTraining_validateWithTraining', '_c=', 100.0, '_gamma=', 1e-08)  ==  [0.   0.   0.01 0.94 0.3  0.   0.3 ]
+# ==> ('trainWithTraining_validateWithTraining', '_c=', 100.0, '_gamma=', 1e-07)  ==  [0.62 0.76 0.81 0.88 0.83 0.8  0.82]
+# ==> ('trainWithTraining_validateWithTraining', '_c=', 100.0, '_gamma=', 1e-06)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_c=', 100.0, '_gamma=', 1e-05)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_c=', 1000.0, '_gamma=', 1e-08)  ==  [0.62 0.75 0.81 0.86 0.83 0.79 0.81]
+# ==> ('trainWithTraining_validateWithTraining', '_c=', 1000.0, '_gamma=', 1e-07)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_c=', 1000.0, '_gamma=', 1e-06)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_c=', 1000.0, '_gamma=', 1e-05)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_c=', 10000.0, '_gamma=', 1e-08)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_c=', 10000.0, '_gamma=', 1e-07)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_c=', 10000.0, '_gamma=', 1e-06)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_c=', 10000.0, '_gamma=', 1e-05)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_nu_param=', 0.0001)  ==  [1.   0.19 0.16 0.09 0.11 0.09 0.14]
+# ==> ('trainWithTraining_validateWithTraining', '_nu_param=', 0.001)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_nu_param=', 0.01)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_nu_param=', 0.05)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_nu_param=', 0.1)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_nu_param=', 0.15)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_nu_param=', 0.2)  ==  0
+# ==> ('trainWithTraining_validateWithTraining', '_nu_param=', 0.25)  ==  0
+# ==> ('trainWithTraining_validateWithTraining', '_penalty=', 'l1', '_loss=', 'hinge', '_strategy=', 'ovr', '_c_param=', 1)  ==  0
+# ==> ('trainWithTraining_validateWithTraining', '_penalty=', 'l1', '_loss=', 'hinge', '_strategy=', 'ovr', '_c_param=', 100.0)  ==  0
+# ==> ('trainWithTraining_validateWithTraining', '_penalty=', 'l1', '_loss=', 'hinge', '_strategy=', 'ovr', '_c_param=', 1000.0)  ==  0
+# ==> ('trainWithTraining_validateWithTraining', '_penalty=', 'l1', '_loss=', 'hinge', '_strategy=', 'ovr', '_c_param=', 10000.0)  ==  0
+# ==> ('trainWithTraining_validateWithTraining', '_penalty=', 'l1', '_loss=', 'hinge', '_strategy=', 'crammer_singer', '_c_param=', 1)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_penalty=', 'l1', '_loss=', 'hinge', '_strategy=', 'crammer_singer', '_c_param=', 100.0)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_penalty=', 'l1', '_loss=', 'hinge', '_strategy=', 'crammer_singer', '_c_param=', 1000.0)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_penalty=', 'l1', '_loss=', 'hinge', '_strategy=', 'crammer_singer', '_c_param=', 10000.0)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_penalty=', 'l1', '_loss=', 'squared_hinge', '_strategy=', 'ovr', '_c_param=', 1)  ==  0
+# ==> ('trainWithTraining_validateWithTraining', '_penalty=', 'l1', '_loss=', 'squared_hinge', '_strategy=', 'ovr', '_c_param=', 100.0)  ==  0
+# ==> ('trainWithTraining_validateWithTraining', '_penalty=', 'l1', '_loss=', 'squared_hinge', '_strategy=', 'ovr', '_c_param=', 1000.0)  ==  0
+# ==> ('trainWithTraining_validateWithTraining', '_penalty=', 'l1', '_loss=', 'squared_hinge', '_strategy=', 'ovr', '_c_param=', 10000.0)  ==  0
+# ==> ('trainWithTraining_validateWithTraining', '_penalty=', 'l1', '_loss=', 'squared_hinge', '_strategy=', 'crammer_singer', '_c_param=', 1)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_penalty=', 'l1', '_loss=', 'squared_hinge', '_strategy=', 'crammer_singer', '_c_param=', 100.0)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_penalty=', 'l1', '_loss=', 'squared_hinge', '_strategy=', 'crammer_singer', '_c_param=', 1000.0)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_penalty=', 'l1', '_loss=', 'squared_hinge', '_strategy=', 'crammer_singer', '_c_param=', 10000.0)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_penalty=', 'l2', '_loss=', 'hinge', '_strategy=', 'ovr', '_c_param=', 1)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_penalty=', 'l2', '_loss=', 'hinge', '_strategy=', 'ovr', '_c_param=', 100.0)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_penalty=', 'l2', '_loss=', 'hinge', '_strategy=', 'ovr', '_c_param=', 1000.0)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_penalty=', 'l2', '_loss=', 'hinge', '_strategy=', 'ovr', '_c_param=', 10000.0)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_penalty=', 'l2', '_loss=', 'hinge', '_strategy=', 'crammer_singer', '_c_param=', 1)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_penalty=', 'l2', '_loss=', 'hinge', '_strategy=', 'crammer_singer', '_c_param=', 100.0)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_penalty=', 'l2', '_loss=', 'hinge', '_strategy=', 'crammer_singer', '_c_param=', 1000.0)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_penalty=', 'l2', '_loss=', 'hinge', '_strategy=', 'crammer_singer', '_c_param=', 10000.0)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_penalty=', 'l2', '_loss=', 'squared_hinge', '_strategy=', 'ovr', '_c_param=', 1)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_penalty=', 'l2', '_loss=', 'squared_hinge', '_strategy=', 'ovr', '_c_param=', 100.0)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_penalty=', 'l2', '_loss=', 'squared_hinge', '_strategy=', 'ovr', '_c_param=', 1000.0)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_penalty=', 'l2', '_loss=', 'squared_hinge', '_strategy=', 'ovr', '_c_param=', 10000.0)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_penalty=', 'l2', '_loss=', 'squared_hinge', '_strategy=', 'crammer_singer', '_c_param=', 1)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_penalty=', 'l2', '_loss=', 'squared_hinge', '_strategy=', 'crammer_singer', '_c_param=', 100.0)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_penalty=', 'l2', '_loss=', 'squared_hinge', '_strategy=', 'crammer_singer', '_c_param=', 1000.0)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithTraining', '_penalty=', 'l2', '_loss=', 'squared_hinge', '_strategy=', 'crammer_singer', '_c_param=', 10000.0)  ==  [1. 1. 1. 1. 1. 1. 1.]
+#
+#
+#
+#
+# ==> ('trainWithTraining_validateWithValidation', '_c=', 1, '_gamma=', 1e-08)  ==  [0.   0.   0.   1.   0.   0.   0.25]
+# ==> ('trainWithTraining_validateWithValidation', '_c=', 1, '_gamma=', 1e-07)  ==  [0.   0.   0.   1.   0.   0.   0.25]
+# ==> ('trainWithTraining_validateWithValidation', '_c=', 1, '_gamma=', 1e-06)  ==  [0.   0.   0.   0.95 0.02 0.   0.24]
+# ==> ('trainWithTraining_validateWithValidation', '_c=', 1, '_gamma=', 1e-05)  ==  [0.   0.05 0.23 0.49 0.17 0.06 0.22]
+# ==> ('trainWithTraining_validateWithValidation', '_c=', 100.0, '_gamma=', 1e-08)  ==  [0.   0.   0.   0.84 0.09 0.   0.23]
+# ==> ('trainWithTraining_validateWithValidation', '_c=', 100.0, '_gamma=', 1e-07)  ==  [0.05 0.09 0.26 0.3  0.17 0.15 0.21]
+# ==> ('trainWithTraining_validateWithValidation', '_c=', 100.0, '_gamma=', 1e-06)  ==  [0.   0.08 0.21 0.29 0.22 0.19 0.21]
+# ==> ('trainWithTraining_validateWithValidation', '_c=', 100.0, '_gamma=', 1e-05)  ==  [0.   0.07 0.24 0.35 0.19 0.12 0.21]
+# ==> ('trainWithTraining_validateWithValidation', '_c=', 1000.0, '_gamma=', 1e-08)  ==  [0.05 0.09 0.25 0.3  0.18 0.15 0.21]
+# ==> ('trainWithTraining_validateWithValidation', '_c=', 1000.0, '_gamma=', 1e-07)  ==  [0.05 0.12 0.25 0.28 0.22 0.17 0.22]
+# ==> ('trainWithTraining_validateWithValidation', '_c=', 1000.0, '_gamma=', 1e-06)  ==  [0.   0.08 0.21 0.29 0.22 0.19 0.21]
+# ==> ('trainWithTraining_validateWithValidation', '_c=', 1000.0, '_gamma=', 1e-05)  ==  [0.   0.07 0.24 0.35 0.19 0.12 0.21]
+# ==> ('trainWithTraining_validateWithValidation', '_c=', 10000.0, '_gamma=', 1e-08)  ==  [0.05 0.14 0.27 0.27 0.24 0.17 0.23]
+# ==> ('trainWithTraining_validateWithValidation', '_c=', 10000.0, '_gamma=', 1e-07)  ==  [0.05 0.12 0.25 0.28 0.23 0.17 0.22]
+# ==> ('trainWithTraining_validateWithValidation', '_c=', 10000.0, '_gamma=', 1e-06)  ==  [0.   0.08 0.21 0.29 0.22 0.19 0.21]
+# ==> ('trainWithTraining_validateWithValidation', '_c=', 10000.0, '_gamma=', 1e-05)  ==  [0.   0.07 0.24 0.35 0.19 0.12 0.21]
+# ==> ('trainWithTraining_validateWithValidation', '_nu_param=', 0.0001)  ==  [0.71 0.23 0.08 0.   0.02 0.   0.06]
+# ==> ('trainWithTraining_validateWithValidation', '_nu_param=', 0.001)  ==  [0.   0.   0.   1.   0.   0.   0.25]
+# ==> ('trainWithTraining_validateWithValidation', '_nu_param=', 0.01)  ==  [0.   0.   0.   1.   0.   0.   0.25]
+# ==> ('trainWithTraining_validateWithValidation', '_nu_param=', 0.05)  ==  [0.   0.   0.   1.   0.   0.   0.25]
+# ==> ('trainWithTraining_validateWithValidation', '_nu_param=', 0.1)  ==  [0.   0.   0.   1.   0.   0.   0.25]
+# ==> ('trainWithTraining_validateWithValidation', '_nu_param=', 0.15)  ==  [0.   0.   0.   1.   0.   0.   0.25]
+# ==> ('trainWithTraining_validateWithValidation', '_nu_param=', 0.2)  ==  0
+# ==> ('trainWithTraining_validateWithValidation', '_nu_param=', 0.25)  ==  0
+# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l1', '_loss=', 'hinge', '_strategy=', 'ovr', '_c_param=', 1)  ==  0
+# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l1', '_loss=', 'hinge', '_strategy=', 'ovr', '_c_param=', 100.0)  ==  0
+# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l1', '_loss=', 'hinge', '_strategy=', 'ovr', '_c_param=', 1000.0)  ==  0
+# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l1', '_loss=', 'hinge', '_strategy=', 'ovr', '_c_param=', 10000.0)  ==  0
+# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l1', '_loss=', 'hinge', '_strategy=', 'crammer_singer', '_c_param=', 1)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l1', '_loss=', 'hinge', '_strategy=', 'crammer_singer', '_c_param=', 100.0)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l1', '_loss=', 'hinge', '_strategy=', 'crammer_singer', '_c_param=', 1000.0)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l1', '_loss=', 'hinge', '_strategy=', 'crammer_singer', '_c_param=', 10000.0)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l1', '_loss=', 'squared_hinge', '_strategy=', 'ovr', '_c_param=', 1)  ==  0
+# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l1', '_loss=', 'squared_hinge', '_strategy=', 'ovr', '_c_param=', 100.0)  ==  0
+# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l1', '_loss=', 'squared_hinge', '_strategy=', 'ovr', '_c_param=', 1000.0)  ==  0
+# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l1', '_loss=', 'squared_hinge', '_strategy=', 'ovr', '_c_param=', 10000.0)  ==  0
+# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l1', '_loss=', 'squared_hinge', '_strategy=', 'crammer_singer', '_c_param=', 1)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l1', '_loss=', 'squared_hinge', '_strategy=', 'crammer_singer', '_c_param=', 100.0)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l1', '_loss=', 'squared_hinge', '_strategy=', 'crammer_singer', '_c_param=', 1000.0)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l1', '_loss=', 'squared_hinge', '_strategy=', 'crammer_singer', '_c_param=', 10000.0)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l2', '_loss=', 'hinge', '_strategy=', 'ovr', '_c_param=', 1)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l2', '_loss=', 'hinge', '_strategy=', 'ovr', '_c_param=', 100.0)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l2', '_loss=', 'hinge', '_strategy=', 'ovr', '_c_param=', 1000.0)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l2', '_loss=', 'hinge', '_strategy=', 'ovr', '_c_param=', 10000.0)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l2', '_loss=', 'hinge', '_strategy=', 'crammer_singer', '_c_param=', 1)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l2', '_loss=', 'hinge', '_strategy=', 'crammer_singer', '_c_param=', 100.0)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l2', '_loss=', 'hinge', '_strategy=', 'crammer_singer', '_c_param=', 1000.0)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l2', '_loss=', 'hinge', '_strategy=', 'crammer_singer', '_c_param=', 10000.0)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l2', '_loss=', 'squared_hinge', '_strategy=', 'ovr', '_c_param=', 1)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l2', '_loss=', 'squared_hinge', '_strategy=', 'ovr', '_c_param=', 100.0)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l2', '_loss=', 'squared_hinge', '_strategy=', 'ovr', '_c_param=', 1000.0)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l2', '_loss=', 'squared_hinge', '_strategy=', 'ovr', '_c_param=', 10000.0)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l2', '_loss=', 'squared_hinge', '_strategy=', 'crammer_singer', '_c_param=', 1)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l2', '_loss=', 'squared_hinge', '_strategy=', 'crammer_singer', '_c_param=', 100.0)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l2', '_loss=', 'squared_hinge', '_strategy=', 'crammer_singer', '_c_param=', 1000.0)  ==  [1. 1. 1. 1. 1. 1. 1.]
+# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l2', '_loss=', 'squared_hinge', '_strategy=', 'crammer_singer', '_c_param=', 10000.0)  ==  [1. 1. 1. 1. 1. 1. 1.]
