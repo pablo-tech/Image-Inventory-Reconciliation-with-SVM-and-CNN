@@ -329,19 +329,19 @@ def C_range_explore(isExplore):
     return [1, 1e2, 1e3, 1e4]
 
 def determine_accuracy(param_accuracy, isExplore):
+    # trainWithTraining_validateWithValidation
+    accuracy_of_svc(X_train_final, Y_train_final, X_validation_final, Y_validation_final, param_accuracy, "trainWithTraining_validateWithValidation",
+                    C_range(isExplore), gamma_range(isExplore))
+    accuracy_of_nu(X_train_final, Y_train_final, X_validation_final, Y_validation_final, param_accuracy, "trainWithTraining_validateWithValidation",
+                   nu_range(isExplore))
+    accuracy_of_linear(X_train_final, Y_train_final, X_validation_final, Y_validation_final, param_accuracy, "trainWithTraining_validateWithValidation",
+                       linear_penalty(isExplore), linear_loss(isExplore), linear_multiclass_strategy(isExplore), C_range(isExplore))
     # trainWithTraining_validateWithTraining
     accuracy_of_svc(X_train_final, Y_train_final, X_train_final, Y_train_final, param_accuracy, "trainWithTraining_validateWithTraining",
                     C_range(isExplore), gamma_range(isExplore))
     accuracy_of_nu(X_train_final, Y_train_final, X_train_final, Y_train_final, param_accuracy, "trainWithTraining_validateWithTraining",
                    nu_range(isExplore))
     accuracy_of_linear(X_train_final, Y_train_final, X_train_final, Y_train_final, param_accuracy, "trainWithTraining_validateWithTraining",
-                       linear_penalty(isExplore), linear_loss(isExplore), linear_multiclass_strategy(isExplore), C_range(isExplore))
-    # trainWithTraining_validateWithValidation
-    accuracy_of_svc(X_train_final, Y_train_final, X_validation_final, Y_validation_final, param_accuracy, "trainWithTraining_validateWithValidation",
-                    C_range(isExplore), gamma_range(isExplore))
-    accuracy_of_nu(X_train_final, Y_train_final, X_validation_final, Y_validation_final, param_accuracy, "trainWithTraining_validateWithValidation",
-                   nu_range(isExplore))
-    accuracy_of_linear(X_train_final, Y_train_final, X_train_final, Y_train_final, param_accuracy, "trainWithTraining_validateWithValidation",
                        linear_penalty(isExplore), linear_loss(isExplore), linear_multiclass_strategy(isExplore), C_range(isExplore))
 
 # RUN
