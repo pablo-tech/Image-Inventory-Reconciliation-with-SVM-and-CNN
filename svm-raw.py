@@ -235,8 +235,8 @@ def validate(param_string, trained_model, X_validation, Y_validation):
 # https://scikit-learn.org/stable/auto_examples/svm/plot_rbf_parameters.html
 # Search for params: SVC
 # https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
-def accuracy_of_svc(X_train_matrix, Y_train_matrix, X_validation_matrix, Y_validation_matrix, accuracy_map, search_case,
-                    C_range, gamma_range):
+def accuracy_of_svc(search_case, X_train_matrix, Y_train_matrix, X_validation_matrix, Y_validation_matrix,
+                    C_range, gamma_range, accuracy_map):
     for c_param in C_range:
         for gamma_param in gamma_range:
             param_string = search_case,"_c=",c_param, "_gamma=",gamma_param
@@ -255,8 +255,8 @@ def accuracy_of_svc(X_train_matrix, Y_train_matrix, X_validation_matrix, Y_valid
 
 # Search for params: Nu
 # https://scikit-learn.org/stable/modules/generated/sklearn.svm.NuSVC.html
-def accuracy_of_nu(X_train_matrix, Y_train_matrix, X_validation_matrix, Y_validation_matrix, accuracy_map, search_case,
-                   nu_range):
+def accuracy_of_nu(search_case, X_train_matrix, Y_train_matrix, X_validation_matrix, Y_validation_matrix,
+                   nu_range, accuracy_map):
     for nu_param in nu_range:
         param_string = search_case, "_nu_param=",nu_param
         print(param_string, "...WILL NOW TRAIN SVM... set_size=", len(Y_train_matrix))
@@ -274,8 +274,8 @@ def accuracy_of_nu(X_train_matrix, Y_train_matrix, X_validation_matrix, Y_valida
 
 # Search for params: Linear
 # https://scikit-learn.org/stable/modules/generated/sklearn.svm.LinearSVC.html
-def accuracy_of_linear(X_train_matrix, Y_train_matrix, X_validation_matrix, Y_validation_matrix, accuracy_map, search_case,
-                       linear_penalty, linear_loss, linear_multiclass_strategy, C_range):
+def accuracy_of_linear(search_case, X_train_matrix, Y_train_matrix, X_validation_matrix, Y_validation_matrix,
+                       linear_penalty, linear_loss, linear_multiclass_strategy, C_range, accuracy_map):
     for penalty_param in linear_penalty:
         for loss_param in linear_loss:
             for strategy_param in linear_multiclass_strategy:
@@ -328,21 +328,20 @@ def C_range_explore(isExplore):
         return [1, 1e2, 1e3, 1e4]
     return [1, 1e2, 1e3, 1e4]
 
+def determine_model_accuracy(set_name, X_train, Y_train, X_validation, Y_validation,
+                             param_accuracy, isExplore):
+    accuracy_of_svc(set_name, X_train, Y_train, X_validation, Y_validation,
+                    C_range(isExplore), gamma_range(isExplore), param_accuracy)
+    accuracy_of_nu(set_name, X_train, Y_train, X_validation, Y_validation,
+                   nu_range(isExplore), param_accuracy)
+    accuracy_of_linear(set_name, X_train, Y_train, X_validation, Y_validation,
+                       linear_penalty(isExplore), linear_loss(isExplore), linear_multiclass_strategy(isExplore), C_range(isExplore), param_accuracy)
+
 def determine_accuracy(param_accuracy, isExplore):
-    # trainWithTraining_validateWithValidation
-    accuracy_of_svc(X_train_final, Y_train_final, X_validation_final, Y_validation_final, param_accuracy, "trainWithTraining_validateWithValidation",
-                    C_range(isExplore), gamma_range(isExplore))
-    accuracy_of_nu(X_train_final, Y_train_final, X_validation_final, Y_validation_final, param_accuracy, "trainWithTraining_validateWithValidation",
-                   nu_range(isExplore))
-    accuracy_of_linear(X_train_final, Y_train_final, X_validation_final, Y_validation_final, param_accuracy, "trainWithTraining_validateWithValidation",
-                       linear_penalty(isExplore), linear_loss(isExplore), linear_multiclass_strategy(isExplore), C_range(isExplore))
-    # trainWithTraining_validateWithTraining
-    accuracy_of_svc(X_train_final, Y_train_final, X_train_final, Y_train_final, param_accuracy, "trainWithTraining_validateWithTraining",
-                    C_range(isExplore), gamma_range(isExplore))
-    accuracy_of_nu(X_train_final, Y_train_final, X_train_final, Y_train_final, param_accuracy, "trainWithTraining_validateWithTraining",
-                   nu_range(isExplore))
-    accuracy_of_linear(X_train_final, Y_train_final, X_train_final, Y_train_final, param_accuracy, "trainWithTraining_validateWithTraining",
-                       linear_penalty(isExplore), linear_loss(isExplore), linear_multiclass_strategy(isExplore), C_range(isExplore))
+    determine_model_accuracy("trainWithTraining_validateWithValidation", X_train_final, Y_train_final, X_validation_final, Y_validation_final,
+                       param_accuracy, isExplore)
+    determine_model_accuracy("trainWithTraining_validateWithTraining", X_train_final, Y_train_final, X_train_final, Y_train_final,
+                       param_accuracy, isExplore)
 
 # RUN
 np.set_printoptions(precision=2)
