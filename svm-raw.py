@@ -7,6 +7,7 @@ import matplotlib.pyplot as plt;
 import skimage.transform
 import sys
 from sklearn.decomposition import PCA
+from sklearn.model_selection import KFold
 
 ###
 # -1) 2 digit deecimal
@@ -320,10 +321,10 @@ def determine_model_accuracy(set_name, X_train, Y_train, X_validation, Y_validat
                        linear_penalty(isExplore), linear_loss(isExplore), linear_multiclass_strategy(isExplore), C_range(isExplore), param_accuracy)
 
 def determine_accuracy(X_train, Y_train, X_validation, Y_validation,
-                       param_accuracy, isExplore):
-    determine_model_accuracy("trainWithTraining_validateWithValidation", X_train, Y_train, X_validation, Y_validation,
+                       param_accuracy, isExplore, fold_label):
+    determine_model_accuracy(fold_label+"_trainWithTraining_validateWithValidation", X_train, Y_train, X_validation, Y_validation,
                        param_accuracy, isExplore)
-    determine_model_accuracy("trainWithTraining_validateWithTraining", X_train, Y_train, X_train, Y_train,
+    determine_model_accuracy(fold_label+"_trainWithTraining_validateWithTraining", X_train, Y_train, X_train, Y_train,
                        param_accuracy, isExplore)
 
 # DATA
@@ -339,7 +340,7 @@ X_validation_mean_variance_normalized = getRoundedZeroMeanNormalizedVarianceMatr
 
 # PCA
 # n_components=10000 between 0 and min(n_samples, n_features) with svd_solver='full'
-# TODO svd_solver : string {‘auto’, ‘full’, ‘arpack’, ‘randomized’}
+# TODO svd_solver : string {auto, full, arpack, randomized}
 pca = PCA(n_components= pca_columns)  # some examples may be missing (in the test set)
 X_train_pca_mean_variance_normalized = getPcaMatrix(X_train_mean_variance_normalized, pca)
 X_validation_pca_mean_variance_normalized = getPcaMatrix(X_validation_mean_variance_normalized, pca)
@@ -354,11 +355,27 @@ print (X_validation_final.shape, " <= X_validation_final[0]=", X_validation_fina
 
 # RUN
 np.set_printoptions(precision=2)
-param_accuracy = {}
-determine_accuracy(X_train_final, Y_train_final, X_validation_final, Y_validation_final,
-                   param_accuracy, True)
-for accuracy_key in param_accuracy.keys():
-    print("==>", accuracy_key, " == ", param_accuracy[accuracy_key])
+param_report = {}
+
+# CROSS-VALIDATION
+number_of_folds=10
+kf = KFold(n_splits=number_of_folds)
+for train_index, test_index in kf.split(X_train_final):
+    index_key = "X_fold_index=", str(train_index[0]) + "->" + str(train_index[len(train_index)-1])
+    # print("TRAIN:", train_index, "TEST:", test_index)
+    X_train, X_validation = X_train_final[train_index], X_train_final[test_index]
+    Y_train, Y_validation = Y_train_final[train_index], Y_train_final[test_index]
+    param_accuracy = {}
+    determine_accuracy(X_train, Y_train, X_validation, Y_validation, param_accuracy, True, str(index_key))
+    param_report[index_key] = param_accuracy
+
+# REPORT
+for index_key in param_report.keys():
+    param_accuracy = param_report[index_key]
+    for accuracy_key in param_accuracy.keys():
+        print(accuracy_key, "==>", param_accuracy[accuracy_key])
+
+
 
 ## SELECTED PARAMETERS
 # ==> ('trainWithTraining_validateWithValidation', '_c=', 1, '_gamma=', 1e-06)  ==  [0.   0.   0.22 0.6  0.23 0.   0.24]
