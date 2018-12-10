@@ -9,12 +9,6 @@ import sys
 from sklearn.decomposition import PCA
 from sklearn.model_selection import KFold
 
-###
-# -1) 2 digit deecimal
-# 0) accuracy against train set: high/low -> overfit/bias
-# 1) x-validate: maximize use of train set
-# 2) param search in validation set: C, gamma
-# 3) xgradient: Sravan
 
 ## CONFIG
 isLocal = True # false for SageMaker
