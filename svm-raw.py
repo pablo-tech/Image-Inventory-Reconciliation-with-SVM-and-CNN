@@ -378,11 +378,14 @@ def crossValidate(X_train_cross_validation, Y_train_cross_validation, cross_vali
 
 
 # PCA
-pca_solvers = ['auto', 'full', 'arpack', 'randomized']
+def get_pca_solver(isExplore):
+    if(isExplore):
+        return ['auto', 'full', 'arpack', 'randomized']
+    return ['auto', 'full', 'arpack', 'randomized']
 
 # EVALUATE
 param_report = {}
-for pca_solver in pca_solvers:
+for pca_solver in get_pca_solver(isExplore):
     pca_model = PCA(n_components=pca_columns, svd_solver=pca_solver)
     X_train_final, Y_train_final = getFinalMatrices(pca_model)
     crossValidate(X_train_final, Y_train_final, param_report, pca_model)
