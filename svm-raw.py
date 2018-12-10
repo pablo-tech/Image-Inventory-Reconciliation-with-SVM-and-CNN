@@ -392,9 +392,12 @@ def get_pca_solver(isExplore):
 # EVALUATE
 param_report = {}
 for pca_solver in get_pca_solver(isExplore):
-    pca_model = PCA(n_components=pca_columns, svd_solver=pca_solver)
-    X_train_final, Y_train_final = getFinalMatrices(pca_model)
-    crossValidate(X_train_final, Y_train_final, param_report, pca_model)
+    try:
+        pca_model = PCA(n_components=pca_columns, svd_solver=pca_solver)
+        X_train_final, Y_train_final = getFinalMatrices(pca_model)
+        crossValidate(X_train_final, Y_train_final, param_report, pca_model)
+    except:
+        print("EVALUATE: unexpected error:", sys.exc_info())
 
 # REPORT
 for index_key in param_report.keys():
