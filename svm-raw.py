@@ -21,7 +21,7 @@ isLocal = True # false for SageMaker
 isPreproces = False # false to build model from pre-processed file
 isExplore = False # true for parameter search, false for explotaition of good params
 # examples
-max_taining_examples = 7  # if Sage 2000, local 35
+max_taining_examples = 7
 if(isLocal==False):
     max_taining_examples = 1000
 if(isExplore==False):
@@ -227,6 +227,7 @@ def accuracy_of_svc(search_case, X_train_matrix, Y_train_matrix, X_validation_ma
             param_string = search_case,"_c=",c_param, "_gamma=",gamma_param
             # print(param_string, "...WILL NOW TRAIN SVM... set_size=", len(Y_train_matrix))
             try:
+                # TODO: class weight
                 clf = svm.SVC(C=c_param, gamma=gamma_param)  # radial kernel
                 clf.fit(X_train_matrix, Y_train_matrix)
                 class_accuracy_percent = validate(param_string, clf, X_validation_matrix, Y_validation_matrix)
@@ -382,6 +383,11 @@ def get_pca_solver(isExplore):
     if(isExplore):
         return ['auto', 'full', 'arpack', 'randomized']
     return ['auto', 'full', 'arpack', 'randomized']
+
+# SVM CLASS WEIGHT
+# wclf = svm.SVC(kernel='linear', class_weight={1: 10})
+
+
 
 # EVALUATE
 param_report = {}
