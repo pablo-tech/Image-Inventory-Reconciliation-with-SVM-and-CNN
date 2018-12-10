@@ -342,36 +342,50 @@ Y_full_validation_set = getMatrixFromFile("counting_train", "Y")
 X_train_mean_variance_normalized = getRoundedZeroMeanNormalizedVarianceMatrix(X_full_train_set)
 X_validation_mean_variance_normalized = getRoundedZeroMeanNormalizedVarianceMatrix(X_full_validation_set)
 
-# PCA
-# n_components=10000 between 0 and min(n_samples, n_features) with svd_solver='full'
-# TODO svd_solver : string {auto, full, arpack, randomized}
-pca = PCA(n_components= pca_columns)  # some examples may be missing (in the test set)
-X_train_pca_mean_variance_normalized = getPcaMatrix(X_train_mean_variance_normalized, pca)
-X_validation_pca_mean_variance_normalized = getPcaMatrix(X_validation_mean_variance_normalized, pca)
 
 # FINAL MATRIX
-X_train_final = X_train_pca_mean_variance_normalized
-Y_train_final = Y_full_train_set
-print (X_train_final.shape, " <= X_train_final[0]=", X_train_final[0])
-X_validation_final = X_validation_pca_mean_variance_normalized
-Y_validation_final = Y_full_validation_set
-print (X_validation_final.shape, " <= X_validation_final[0]=", X_validation_final[0])
+def getFinalMatrices(pca_model):
+    X_train_pca_mean_variance_normalized = getPcaMatrix(X_train_mean_variance_normalized, pca_model)
+    X_validation_pca_mean_variance_normalized = getPcaMatrix(X_validation_mean_variance_normalized, pca_model)
+    X_train_final = X_train_pca_mean_variance_normalized
+    Y_train_final = Y_full_train_set
+    print (X_train_final.shape, " <= X_train_final[0]=", X_train_final[0])
+    X_validation_final = X_validation_pca_mean_variance_normalized
+    Y_validation_final = Y_full_validation_set
+    print (X_validation_final.shape, " <= X_validation_final[0]=", X_validation_final[0])
+    return X_train_final, Y_train_final
 
 ### RUN
 np.set_printoptions(precision=2)
-param_report = {}
 kf = KFold(n_splits=number_of_folds)
 
+# UNBALANCED CLASSES
+# https://scikit-learn.org/stable/auto_examples/svm/plot_separating_hyperplane_unbalanced.html
+
+# PCA CONFIG
+
 # CROSS-VALIDATION
-for train_index, test_index in kf.split(X_train_final):
-    index_key = "X_fold_index_average=", str(np.average(train_index))
-    # index_key = "X_fold_index=", str(train_index[0]) + "->" + str(train_index[len(train_index)-1])
-    # print("TRAIN:", train_index, "TEST:", test_index)
-    X_train, X_validation = X_train_final[train_index], X_train_final[test_index]
-    Y_train, Y_validation = Y_train_final[train_index], Y_train_final[test_index]
-    param_accuracy = {}
-    determine_accuracy(X_train, Y_train, X_validation, Y_validation, param_accuracy, isExplore, str(index_key))
-    param_report[index_key] = param_accuracy
+def crossValidate(X_train_cross_validation, Y_train_cross_validation, cross_validation_report, pca_model_string):
+    for train_index, test_index in kf.split(X_train_cross_validation):
+        index_key = "PCA=",pca_model_string, "_X_fold_index_average=", str(np.average(train_index))
+        # index_key = "X_fold_index=", str(train_index[0]) + "->" + str(train_index[len(train_index)-1])
+        # print("TRAIN:", train_index, "TEST:", test_index)
+        X_train, X_validation = X_train_cross_validation[train_index], X_train_cross_validation[test_index]
+        Y_train, Y_validation = Y_train_cross_validation[train_index], Y_train_cross_validation[test_index]
+        param_accuracy = {}
+        determine_accuracy(X_train, Y_train, X_validation, Y_validation, param_accuracy, isExplore, str(index_key))
+        cross_validation_report[index_key] = param_accuracy
+
+
+# PCA
+pca_solvers = ['auto', 'full', 'arpack', 'randomized']
+
+# EVALUATE
+param_report = {}
+for pca_solver in pca_solvers:
+    pca_model = PCA(n_components=pca_columns, svd_solver=pca_solver)
+    X_train_final, Y_train_final = getFinalMatrices(pca_model)
+    crossValidate(X_train_final, Y_train_final, param_report, pca_model)
 
 # REPORT
 for index_key in param_report.keys():
