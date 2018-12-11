@@ -25,9 +25,10 @@ example_batch_size = 5
 if(isLocal==False):
     example_batch_size = 1000
 number_of_folds=10
-
 # pca
 pca_columns = int(example_batch_size*1)
+# classes
+num_classes_under_study = 6
 # random
 random.seed(229)
 
@@ -154,7 +155,6 @@ def getMatrixFromFile(set_name, in_or_out):
     return full_set
 
 
-
 # PCA
 def getPcaMatrix(design_matrix, pca_model):
     pca_matrix = pca_model.fit_transform(design_matrix)
@@ -185,12 +185,11 @@ def getAccuracy(param_string, trained_model, X_set, Y_set, class_id):
 
 def validate(param_string, trained_model, X_validation, Y_validation):
     # print(param_string, " WILL NOW VALIDATE SVM... set_size=", len(Y_validation))
-    classes_under_study = 6
-    class_accuracy_percent = np.zeros(classes_under_study)
-    class_success_count = np.zeros(classes_under_study)
-    class_count = np.zeros(classes_under_study)
+    class_accuracy_percent = np.zeros(num_classes_under_study)
+    class_success_count = np.zeros(num_classes_under_study)
+    class_count = np.zeros(num_classes_under_study)
 
-    for class_id in range(classes_under_study):
+    for class_id in range(num_classes_under_study):
         class_id_accuracy, class_id_success_count, class_id_count = getAccuracy(param_string, trained_model, X_validation, Y_validation, class_id)
         # print(param_string, " class_id=", class_id, " class_id_accuracy=",class_id_accuracy, " class_id_success_count=",class_id_success_count, " class_id_count=",class_id_count)
         class_accuracy_percent[class_id] = class_id_accuracy
@@ -214,6 +213,29 @@ def validate(param_string, trained_model, X_validation, Y_validation):
 # https://scikit-learn.org/stable/auto_examples/svm/plot_rbf_parameters.html
 # Search for params: SVC
 # https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
+
+# UNBALANCED CLASSES
+# https://scikit-learn.org/stable/auto_examples/svm/plot_separating_hyperplane_unbalanced.html
+# svm.SVC(kernel='linear', class_weight={1: 10})
+# get_class_weights([0,1,0,0,1,0,3], 2)
+# Set the parameter C of class i to class_weight[i]*C
+def get_class_weights(Y_matrix, num_classes):
+    class_counts = np.zeros(num_classes)
+    for y_index in range(len(Y_matrix)):
+        class_id = Y_matrix[y_index]
+        class_counts[class_id] = class_counts[class_id] + 1
+        # print("y_index=",y_index, " class_id=",class_id)
+    overall_high = np.amax(class_counts)
+    # print("overall_high=",overall_high)
+    class_weights = {}
+    for class_id in range(num_classes):
+        try:
+            class_weights[class_id] = overall_high/class_counts[class_id]
+        except:
+            print("overall_high=",overall_high, " class_counts[]", class_counts[class_id])
+    print("class_counts=",class_counts, "class_weights=", class_weights)
+    return class_weights
+
 def accuracy_of_svc(search_case, X_train_matrix, Y_train_matrix, X_validation_matrix, Y_validation_matrix,
                     C_range, gamma_range, accuracy_map):
     for c_param in C_range:
@@ -221,8 +243,7 @@ def accuracy_of_svc(search_case, X_train_matrix, Y_train_matrix, X_validation_ma
             param_string = search_case,"_c=",c_param, "_gamma=",gamma_param
             # print(param_string, "...WILL NOW TRAIN SVM... set_size=", len(Y_train_matrix))
             try:
-                # TODO: class weight
-                clf = svm.SVC(C=c_param, gamma=gamma_param)  # radial kernel
+                clf = svm.SVC(C=c_param, gamma=gamma_param, class_weight=get_class_weights(Y_train_matrix, num_classes_under_study))  # radial kernel
                 clf.fit(X_train_matrix, Y_train_matrix)
                 class_accuracy_percent = validate(param_string, clf, X_validation_matrix, Y_validation_matrix)
             except Exception:
@@ -354,11 +375,6 @@ def getFinalMatrices(pca_model):
 np.set_printoptions(precision=2)
 kf = KFold(n_splits=number_of_folds)
 
-# UNBALANCED CLASSES
-# https://scikit-learn.org/stable/auto_examples/svm/plot_separating_hyperplane_unbalanced.html
-
-# PCA CONFIG
-
 # CROSS-VALIDATION
 def crossValidate(X_train_cross_validation, Y_train_cross_validation, cross_validation_report, pca_model_string):
     for train_index, test_index in kf.split(X_train_cross_validation):
@@ -376,7 +392,7 @@ def crossValidate(X_train_cross_validation, Y_train_cross_validation, cross_vali
 def get_pca_solver(isExplore):
     if(isExplore):
         return ['auto', 'full', 'arpack', 'randomized']
-    return ['auto', 'full', 'arpack', 'randomized']
+    return ['randomized']
 
 # SVM CLASS WEIGHT
 # wclf = svm.SVC(kernel='linear', class_weight={1: 10})
@@ -399,14 +415,7 @@ for index_key in param_report.keys():
     for accuracy_key in param_accuracy.keys():
         print(accuracy_key, "==>", param_accuracy[accuracy_key])
 
-
-
-## SELECTED PARAMETERS
-# ==> ('trainWithTraining_validateWithValidation', '_c=', 1, '_gamma=', 1e-06)  ==  [0.   0.   0.22 0.6  0.23 0.   0.24]
-# ==> ('trainWithTraining_validateWithValidation', '_nu_param=', 1e-06)  ==  [0.32 0.37 0.06 0.01 0.2  0.01 0.11]
-# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l1', '_loss=', 'hinge', '_multi_class=', 'crammer_singer', '_c_param=', 1)  ==  [0.04 0.16 0.19 0.23 0.19 0.19 0.19]
-# ==> ('trainWithTraining_validateWithValidation', '_penalty=', 'l2', '_loss=', 'squared_hinge', '_multi_class=', 'ovr', '_c_param=', 1)  ==  [0.02 0.09 0.17 0.25 0.23 0.18 0.19]
-
+print("DONE!!!")
 
 # PLOT
 # sample_name = "00001"
