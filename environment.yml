@@ -11,4 +11,3 @@ dependencies:
   - pillow
   - scikit-image
   - scipy=1.1.0
-
