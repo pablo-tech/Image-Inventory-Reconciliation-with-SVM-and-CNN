@@ -8,9 +8,14 @@ import skimage.transform
 import sys
 from sklearn.decomposition import PCA
 from sklearn.model_selection import KFold
+from sklearn.metrics import confusion_matrix
+from sklearn.model_selection import cross_val_score
+from sklearn.metrics import accuracy_score
 
 
-## CONFIG
+########
+########  CONFIGURE ENVIRONMENT
+########
 isLocal = True # false for SageMaker
 isPreproces = False # false to build model from pre-processed file
 isExplore = False # true for parameter search, false for explotaition of good params
@@ -19,7 +24,7 @@ max_taining_examples = 7
 if(isLocal==False):
     max_taining_examples = 1000
 if(isExplore==False):
-    max_taining_examples = max_taining_examples*5  # TODO
+    max_taining_examples = max_taining_examples*5  ### fine-tune scale
 # batch
 example_batch_size = 5
 if(isLocal==False):
@@ -33,20 +38,20 @@ num_classes_under_study = 6
 random.seed(229)
 
 
-# PATH
+# PATH TO FILES
 # local
 local_root = ''
 local_images_path = local_root+'data/Images/'
 local_metadata_path = local_root+'data/Metadata/'
 local_processed_path = local_root+'data/Processed/'
 local_summary_path = local_root+''
-# sage
+# SageMaker
 sage_root = '/home/ec2-user/SageMaker/efs/'
 sage_images_path = sage_root+'amazon-bin/bin-images/'
 sage_metadata_path = sage_root+'amazon-bin/metadata/'
 sage_processed_path = sage_root+'processed/'
 sage_summary_path = sage_root
-# env
+# choose path based on environment
 if(isLocal):
     env_images_path = local_images_path
     env_metadata_path = local_metadata_path
@@ -58,7 +63,11 @@ else:
     env_processed_path = sage_processed_path
     env_summary_path = sage_summary_path
 
-# HELPER
+########
+######## HELPER FUNXTIONS
+########
+
+# Resize and Reshape Matrix
 def getRoundedResizedReshapedMatrix(image):
     target_size = 224
     number_colors = 3
@@ -72,6 +81,7 @@ def getRoundedResizedReshapedMatrix(image):
     roundedResizedReshaped = np.around(resizedReshaped, decimals=2)
     return roundedResizedReshaped
 
+# Normalize: zero mean, unit variance
 def getRoundedZeroMeanNormalizedVarianceMatrix(Xmatrix):
     # Mean subtraction: subtracting the mean across every individual feature in the data
     Xmatrix -= np.mean(Xmatrix, axis = 0)
@@ -86,7 +96,7 @@ def getRoundedZeroMeanNormalizedVarianceMatrix(Xmatrix):
     return roundedResizedReshaped
 
 
-# CROSS VALIDATION
+# Cross-validation; build the sub-set
 def getXY(setName, i_begin, i_end):
     X_set = []
     Y_out = []
@@ -115,13 +125,18 @@ def getXY(setName, i_begin, i_end):
     print(setName + " X_set=", X_set.shape, " Y_out=", Y_out.shape)
     return X_set,Y_out
 
+
+########
+########  DATA: PRE-PROCESSING
+########
+
+# File names: where images are located after pre-processing
 def getBatchFileName(set_name, in_or_out, batch_number):
     return env_processed_path+set_name+"."+in_or_out+str(batch_number)
 
-# DATA
+# Save batch of images to disk
 number_of_batches = int(max_taining_examples/example_batch_size)
 if(isPreproces):
-    ## SAVE BATCH TO DISK
     for batch in range(number_of_batches):
         i_begin = batch*example_batch_size
         i_end = i_begin + example_batch_size
@@ -135,9 +150,9 @@ if(isPreproces):
         np.save(getBatchFileName(set_name, "X", batch), X_validation_batch)
         np.save(getBatchFileName(set_name, "Y", batch), Y_validation_batch)
     exit(0)
-# else:
 
-## RECOVER BATHES FROM DISK
+
+# Recover batch of images from disk
 def getMatrixFromFile(set_name, in_or_out):
     full_set = []
     for batch in range(number_of_batches):
@@ -155,69 +170,30 @@ def getMatrixFromFile(set_name, in_or_out):
     return full_set
 
 
-# PCA
+# Principal Component Analysis
 def getPcaMatrix(design_matrix, pca_model):
     pca_matrix = pca_model.fit_transform(design_matrix)
     roundedPcaMatrix = np.around(pca_matrix, decimals=2)
     print("roundedPcaMatrix[0]=", roundedPcaMatrix[0])
     return roundedPcaMatrix
 
-# ACCURACY
-def getAccuracy(param_string, trained_model, X_set, Y_set, class_id):
-    class_total_count = 0
-    class_success_count = 0
-    for i in range(len(Y_set)):
-        x_input = X_set[i]
-        y_actual_output = Y_set[i]
-        if(y_actual_output==class_id):
-            y_predicted_output = trained_model.predict([x_input])
-            # print(param_string, " cross-validation predict=", y_predicted_output, " vs=", y_actual_output)
-            if(y_actual_output==y_predicted_output):
-                class_success_count = class_success_count + 1
-            class_total_count = class_total_count+1
-    class_accuracy = 0
-    try:
-        class_accuracy = float(class_success_count/class_total_count)
-    except:
-        accuracy_error = True
-
-    return class_accuracy, class_success_count, class_total_count
-
-def validate(param_string, trained_model, X_validation, Y_validation):
-    # print(param_string, " WILL NOW VALIDATE SVM... set_size=", len(Y_validation))
-    class_accuracy_percent = np.zeros(num_classes_under_study)
-    class_success_count = np.zeros(num_classes_under_study)
-    class_count = np.zeros(num_classes_under_study)
-
-    for class_id in range(num_classes_under_study):
-        class_id_accuracy, class_id_success_count, class_id_count = getAccuracy(param_string, trained_model, X_validation, Y_validation, class_id)
-        # print(param_string, " class_id=", class_id, " class_id_accuracy=",class_id_accuracy, " class_id_success_count=",class_id_success_count, " class_id_count=",class_id_count)
-        class_accuracy_percent[class_id] = class_id_accuracy
-        class_success_count[class_id] = class_id_success_count
-        class_count[class_id] = class_id_count
-
-    # print(param_string, " validation_total=", len(Y_validation), " split into class_count=", class_count)
-    # print(param_string, " validation_class_accuracy=", class_accuracy_percent)
-    overall_accuracy = np.sum(class_success_count)/len(Y_validation)
-    class_and_overall_accuracy = np.append(class_accuracy_percent, overall_accuracy)
-    print(param_string, " class_and_overall_accuracy=", class_and_overall_accuracy)
-    return class_and_overall_accuracy
+# Accuracy and Confusion Matrix
+def validate_model(param_string, trained_model, X_validation, Y_validation):
+    y_predicted_output = trained_model.predict(X_validation)
+    class_and_overall_accuracy = accuracy_score(Y_validation, y_predicted_output)
+    true_vs_predicted = confusion_matrix(Y_validation, y_predicted_output)
+    print(param_string, "_class_and_overall_accuracy=", class_and_overall_accuracy, "_true_vs_predicted=", true_vs_predicted)
+    return class_and_overall_accuracy, true_vs_predicted
 
 
-# PARAM SEARCH: SVM
-# SVC and NuSVC are similar methods, but accept slightly different sets of parameters and have different mathematical
-# formulations (see section Mathematical formulation). On the other hand, LinearSVC is another implementation of
-# Support Vector Classification for the case of a linear kernel. Note that LinearSVC does not accept keyword kernel,
-# as this is assumed to be linear.
-#
+########
+######## SUPPORT VECTOR MACHINE: parameter search
+########
 # https://scikit-learn.org/stable/auto_examples/svm/plot_rbf_parameters.html
-# Search for params: SVC
 # https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
 
-# UNBALANCED CLASSES
+# Unbalanced Classes: weight
 # https://scikit-learn.org/stable/auto_examples/svm/plot_separating_hyperplane_unbalanced.html
-# svm.SVC(kernel='linear', class_weight={1: 10})
-# get_class_weights([0,1,0,0,1,0,3], 2)
 # Set the parameter C of class i to class_weight[i]*C
 def get_class_weights(Y_matrix, num_classes):
     class_counts = np.zeros(num_classes)
@@ -236,7 +212,8 @@ def get_class_weights(Y_matrix, num_classes):
     print("class_counts=",class_counts, "class_weights=", class_weights)
     return class_weights
 
-def accuracy_of_svc(search_case, X_train_matrix, Y_train_matrix, X_validation_matrix, Y_validation_matrix,
+# svm.SVC: parameter search
+def performance_of_svm_svc(search_case, X_train_matrix, Y_train_matrix, X_validation_matrix, Y_validation_matrix,
                     C_range, gamma_range, accuracy_map):
     for c_param in C_range:
         for gamma_param in gamma_range:
@@ -245,16 +222,16 @@ def accuracy_of_svc(search_case, X_train_matrix, Y_train_matrix, X_validation_ma
             try:
                 clf = svm.SVC(C=c_param, gamma=gamma_param, class_weight=get_class_weights(Y_train_matrix, num_classes_under_study))  # radial kernel
                 clf.fit(X_train_matrix, Y_train_matrix)
-                class_accuracy_percent = validate(param_string, clf, X_validation_matrix, Y_validation_matrix)
+                class_accuracy_percent, true_vs_predicted_confusion_matrix = validate_model(param_string, clf, X_validation_matrix, Y_validation_matrix)
+                accuracy_and_confusion = "_accuracy=", str(class_accuracy_percent) + "_confusion=" + str(true_vs_predicted_confusion_matrix)
+                accuracy_map[param_string] = accuracy_and_confusion
             except Exception:
                 print("Unexpected error:", sys.exc_info())
                 bad = True
                 class_accuracy_percent = 0
-            accuracy_map[param_string] = class_accuracy_percent
-            # print("SAVING_INTO", param_string, " class_accuracy_percent=", class_accuracy_percent)
-    return accuracy_map
+    return
 
-# Search for params: Nu
+# svm.NuSVC: parameter search
 # https://scikit-learn.org/stable/modules/generated/sklearn.svm.NuSVC.html
 def accuracy_of_nu(search_case, X_train_matrix, Y_train_matrix, X_validation_matrix, Y_validation_matrix,
                    nu_range, accuracy_map):
@@ -264,16 +241,17 @@ def accuracy_of_nu(search_case, X_train_matrix, Y_train_matrix, X_validation_mat
         try:
             clf = svm.NuSVC(nu=nu_param)
             clf.fit(X_train_matrix, Y_train_matrix)
-            class_accuracy_percent = validate(param_string, clf, X_validation_matrix, Y_validation_matrix)
+            class_accuracy_percent, true_vs_predicted_confusion_matrix = validate_model(param_string, clf, X_validation_matrix, Y_validation_matrix)
+            accuracy_and_confusion = "_accuracy=", str(class_accuracy_percent) + "_confusion=" + str(true_vs_predicted_confusion_matrix)
+            accuracy_map[param_string] = accuracy_and_confusion
         except Exception:
             print("Unexpected error:", sys.exc_info())
             bad = True
             class_accuracy_percent = 0
         accuracy_map[param_string] = class_accuracy_percent
-        # print("SAVING_INTO", param_string, " class_accuracy_percent=", class_accuracy_percent)
-    return accuracy_map
+    return
 
-# Search for params: Linear
+# svm.Linear: parameter search
 # https://scikit-learn.org/stable/modules/generated/sklearn.svm.LinearSVC.html
 def accuracy_of_linear(search_case, X_train_matrix, Y_train_matrix, X_validation_matrix, Y_validation_matrix,
                        linear_penalty, linear_loss, linear_multiclass_strategy, C_range, accuracy_map):
@@ -286,18 +264,22 @@ def accuracy_of_linear(search_case, X_train_matrix, Y_train_matrix, X_validation
                     try:
                         clf = svm.LinearSVC(penalty=penalty_param, loss=loss_param, multi_class=strategy_param, C=c_param)
                         clf.fit(X_train_matrix, Y_train_matrix)
-                        class_accuracy_percent = validate(param_string, clf, X_validation_matrix, Y_validation_matrix)
+                        class_accuracy_percent, true_vs_predicted_confusion_matrix = validate_model(param_string, clf, X_validation_matrix, Y_validation_matrix)
+                        accuracy_and_confusion = "_accuracy=", str(class_accuracy_percent) + "_confusion=" + str(true_vs_predicted_confusion_matrix)
+                        accuracy_map[param_string] = accuracy_and_confusion # class_accuracy_percent
                     except Exception:
                         print("Unexpected error:", sys.exc_info())
                         bad = True
                         class_accuracy_percent = 0
                     accuracy_map[param_string] = class_accuracy_percent
-                    # print("SAVING_INTO", param_string, " class_accuracy_percent=", class_accuracy_percent)
-    return accuracy_map
+    return
 
 
-## ACCURACY RESULTS
-# SVC
+########
+######## PARAMETERS
+########
+
+# svm.SVC
 def C_range(isExplore):
     if(isExplore):
         return [1, 1e2, 1e3] # 1e3, 1e4, 1e5, 1e6, 1e7, 1e8, 1e9, 1e10, 1e11, 1e12, 1e-9, 1e-8, 1e-7, 1e-6, 1e-5, 1e-4, 1e-3, 1e-2, 1e-1,
@@ -306,12 +288,14 @@ def gamma_range(isExplore):
     if(isExplore):
         return [1e-8, 1e-7, 1e-6]  # 1e-5, 1e-9, 1e-11, 1e-10, 1e-4, 1e-3, 1e-2, 1e-1, 1, 1e1, 1e2, 1e3, 1e4, 1e5, 1e6, 1e7, 1e8, 1e9
     return [1e-7]  # 1e-5, 1e-9, 1e-11, 1e-10, 1e-4, 1e-3, 1e-2, 1e-1, 1, 1e1, 1e2, 1e3, 1e4, 1e5, 1e6, 1e7, 1e8, 1e9
-# Nu
+
+# svm.NuSVC
 def nu_range(isExplore):
     if(isExplore):
         return [1e-6, 1e-5, 1e-4, 1e-3, 0.01] # 1e-9, 1e-8, 1e-7, 1e-6, 1e-5, 0.20, 0.25, 0.05, 0.1, 0.15
     return [1e-6, 1e-5, 1e-4, 1e-3, 0.01] # 1e-9, 1e-8, 1e-7, 1e-6, 1e-5, 0.20, 0.25, 0.05, 0.1, 0.15
-# Linear
+
+# svm.LinearSVC
 def linear_penalty(isExplore):
     if(isExplore):
         return ['l1', 'l2']
@@ -329,9 +313,21 @@ def C_range_explore(isExplore):
         return [1, 1e2, 1e3, 1e4]
     return [1, 1e2, 1e3, 1e4]
 
-def determine_model_accuracy(set_name, X_train, Y_train, X_validation, Y_validation,
+# Principal component analysis
+def get_pca_solver(isExplore):
+    if(isExplore):
+        return ['auto', 'full', 'arpack', 'randomized']
+    return ['randomized']
+
+
+########
+######## CROSS-VALIDATION
+########
+
+# performance
+def determine_model_performance(set_name, X_train, Y_train, X_validation, Y_validation,
                              param_accuracy, isExplore):
-    accuracy_of_svc(set_name, X_train, Y_train, X_validation, Y_validation,
+    performance_of_svm_svc(set_name, X_train, Y_train, X_validation, Y_validation,
                     C_range(isExplore), gamma_range(isExplore), param_accuracy)
     if(isExplore):
         accuracy_of_nu(set_name, X_train, Y_train, X_validation, Y_validation,
@@ -339,27 +335,32 @@ def determine_model_accuracy(set_name, X_train, Y_train, X_validation, Y_validat
         accuracy_of_linear(set_name, X_train, Y_train, X_validation, Y_validation,
                            linear_penalty(isExplore), linear_loss(isExplore), linear_multiclass_strategy(isExplore), C_range(isExplore), param_accuracy)
 
-def determine_accuracy(X_train, Y_train, X_validation, Y_validation,
+# performance: against validation and training sets
+def determine_performance(X_train, Y_train, X_validation, Y_validation,
                        param_accuracy, isExplore, fold_label):
-    determine_model_accuracy(fold_label+"_trainWithTraining_validateWithValidation", X_train, Y_train, X_validation, Y_validation,
+    determine_model_performance(fold_label+"_trainWithTraining_validateWithValidation", X_train, Y_train, X_validation, Y_validation,
                        param_accuracy, isExplore)
     if(isExplore):
-        determine_model_accuracy(fold_label+"_trainWithTraining_validateWithTraining", X_train, Y_train, X_train, Y_train,
+        determine_model_performance(fold_label+"_trainWithTraining_validateWithTraining", X_train, Y_train, X_train, Y_train,
                        param_accuracy, isExplore)
 
-# DATA
-# recover from disk batch
+
+########
+######## DATA: PROCESSING
+########
+
+# Recover from disk batch
 X_full_train_set = getMatrixFromFile("counting_train", "X")
 Y_full_train_set = getMatrixFromFile("counting_train", "Y")
 X_full_validation_set = getMatrixFromFile("counting_val", "X")
 Y_full_validation_set = getMatrixFromFile("counting_train", "Y")
 
-# normalize
+# Normalize
 X_train_mean_variance_normalized = getRoundedZeroMeanNormalizedVarianceMatrix(X_full_train_set)
 X_validation_mean_variance_normalized = getRoundedZeroMeanNormalizedVarianceMatrix(X_full_validation_set)
 
 
-# FINAL MATRIX
+# Final matrix for run
 def getFinalMatrices(pca_model):
     X_train_pca_mean_variance_normalized = getPcaMatrix(X_train_mean_variance_normalized, pca_model)
     X_validation_pca_mean_variance_normalized = getPcaMatrix(X_validation_mean_variance_normalized, pca_model)
@@ -375,7 +376,7 @@ def getFinalMatrices(pca_model):
 np.set_printoptions(precision=2)
 kf = KFold(n_splits=number_of_folds)
 
-# CROSS-VALIDATION
+# cross-validate
 def crossValidate(X_train_cross_validation, Y_train_cross_validation, cross_validation_report, pca_model_string):
     for train_index, test_index in kf.split(X_train_cross_validation):
         index_key = "PCA=",pca_model_string, "_X_fold_index_average=", str(np.average(train_index))
@@ -384,22 +385,14 @@ def crossValidate(X_train_cross_validation, Y_train_cross_validation, cross_vali
         X_train, X_validation = X_train_cross_validation[train_index], X_train_cross_validation[test_index]
         Y_train, Y_validation = Y_train_cross_validation[train_index], Y_train_cross_validation[test_index]
         param_accuracy = {}
-        determine_accuracy(X_train, Y_train, X_validation, Y_validation, param_accuracy, isExplore, str(index_key))
+        determine_performance(X_train, Y_train, X_validation, Y_validation, param_accuracy, isExplore, str(index_key))
         cross_validation_report[index_key] = param_accuracy
-
-
-# PCA
-def get_pca_solver(isExplore):
-    if(isExplore):
-        return ['auto', 'full', 'arpack', 'randomized']
-    return ['randomized']
 
 # SVM CLASS WEIGHT
 # wclf = svm.SVC(kernel='linear', class_weight={1: 10})
 
 
-
-# EVALUATE
+# Evaluate against different principal component analysis options
 param_report = {}
 for pca_solver in get_pca_solver(isExplore):
     try:
@@ -409,7 +402,12 @@ for pca_solver in get_pca_solver(isExplore):
     except:
         print("EVALUATE: unexpected error:", sys.exc_info())
 
-# REPORT
+
+
+########
+######## REPORT
+########
+
 for index_key in param_report.keys():
     param_accuracy = param_report[index_key]
     for accuracy_key in param_accuracy.keys():
@@ -417,7 +415,10 @@ for index_key in param_report.keys():
 
 print("DONE!!!")
 
+########
 # PLOT
+########
+
 # sample_name = "00001"
 # sample_image = imread(images_path+sample_name+".jpg")
 # plt.imshow(sample_image)
