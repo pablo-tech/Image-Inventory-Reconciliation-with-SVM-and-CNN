@@ -8,11 +8,6 @@ http://cs229.stanford.edu/projects.html
 - Nutchapol 005976992
 - Pablo Bertorello 04530473
 
-# Code
-- Sravan Sripada - "sravan" directory consists of all the code for CNN
-- Pablo Bertorello - 
-- Nutch
-
 # Environment
 
 ```
