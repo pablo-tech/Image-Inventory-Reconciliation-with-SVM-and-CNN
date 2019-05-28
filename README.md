@@ -1,9 +1,9 @@
 # Amazon Inventory Reconciliation using AI
 ### Category: Computer Vision
 ### Team Members: 
-- Pablo Bertorello 
-- Sravan Sripada 
-- Nutchapol Dendumrongsup
+- Pablo Bertorello, Computer Science, Stanford University
+- Sravan Sripada, Computer Science, Stanford University
+- Nutchapol Dendumrongsup, Computational and Mathematical Engineering, Stanford University
 
 ### Summary
 ![picture](img/ProjectSummary.png)
