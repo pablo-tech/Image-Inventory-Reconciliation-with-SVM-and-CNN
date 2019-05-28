@@ -1,5 +1,5 @@
 # Amazon Inventory Reconciliation using AI
-## Category: Computer Vision
+### Category: Computer Vision
 ### Team Members: 
 - Pablo Bertorello 
 - Sravan Sripada 
